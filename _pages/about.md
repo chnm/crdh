@@ -50,6 +50,8 @@ Submissions should not currently be under consideration by or already published 
 
 [Kalani Craig](http://www.kalanicraig.com/), Indiana University, Bloomington
 
+[Jo Guldi](http://www.joguldi.com/), Southern Methodist University
+
 [Zoe LeBlanc](https://zoeleblanc.com), Princeton University
 
 [Crystal Moten](https://www.crystalmoten.com/), National Museum of American History
