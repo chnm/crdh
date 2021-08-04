@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Ruby Requirement
-ruby '2.7.2'
+ruby '3.0.2'
 
 # Gem Requirements
 group :jekyll_plugins do
@@ -10,3 +10,5 @@ group :jekyll_plugins do
 	gem 'jekyll-paginate'
 	gem 'jekyll-figure'
 end
+
+gem "webrick", "~> 1.7"
