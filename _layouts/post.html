@@ -13,11 +13,11 @@ layout: default
                 {% if page.authors.size == 1 %}
                 <a href="{{ author.url }}">{{author.first }} {{ author.last }}</a>
                 <a href="https://orcid.org/{{ author.orcid }}"><img class="orcid-logo" alt="ORCID ID"
-                        src="{{ site.baseurl }}/assets/img/orcid.svg"></a>
+                        src="{{ site.url }}/assets/img/orcid.svg"></a>
                 {% elsif page.authors.size == 2 %}
                 <a href="{{ author.url }}">{{author.first }} {{ author.last }}</a>
                 <a href="https://orcid.org/{{ author.orcid }}"><img class="orcid-logo" alt="ORCID ID"
-                        src="{{ site.baseurl }}/assets/img/orcid.svg"></a>
+                        src="{{ site.url }}/assets/img/orcid.svg"></a>
                 {% if author_index == 1 %} and
                 {% endif %}
                 {% elsif page.authors.size >= 2 %}
@@ -25,7 +25,7 @@ layout: default
                 <a href="{{ author.url }}">{{author.first }}
                     {{ author.last }}</a>
                 <a href="https://orcid.org/{{ author.orcid }}"><img class="orcid-logo" alt="ORCID ID"
-                        src="{{ site.baseurl }}/assets/img/orcid.svg"></a>
+                        src="{{ site.url }}/assets/img/orcid.svg"></a>
                 {% if author_index == page.authors.size %}{% elsif author_index_two == page.authors.size %},
                 and {% else %},{% endif %}
                 {% endif %}
