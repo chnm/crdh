@@ -18,3 +18,12 @@
 .essay-header .author {
   font-size: 28px;
 }
+
+.orcid-logo {
+  width: 16px !important;
+  height: 16px !important;
+  margin-top: 0rem !important;
+  margin-left: -6px !important;
+  margin-right: -8px !important;
+  vertical-align: top !important;
+}
