@@ -41,6 +41,9 @@ layout: default
                         {% endif %}
                         {% endfor %}
                     </span>
+                    <span class="published">Published: <time
+                            datetime="{{ essay.date | date: '%Y-%m-%d' }}">{{ essay.date | date: "%-d %B %Y" }}</time></span>
+                    <span class="doi">DOI: <a href="{{ essay.doi }}">{{ essay.doi }}</a></span>
                     {% if essay.abstract %}
                     <button class="button secondary small" type="button"
                         data-toggle="abstract-{{ essay_index }}">Abstract</button>

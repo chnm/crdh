@@ -3,3 +3,14 @@
   margin-bottom: 1.25rem;
   display: inline-block;
 }
+
+.essay .author,
+.essay .published,
+.essay .doi {
+  display: block;
+}
+
+.essay .author {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
