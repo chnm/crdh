@@ -4,6 +4,7 @@ subtitle: "Segregation, Clustering, and Residential Behaviours of Migrant Commun
 doi: "https://doi.org/10.31835/crdh.2018.05"
 volume-number: 1
 year: 2018
+date: 2018-08-27
 authors:
 - last: Perry
   first: James

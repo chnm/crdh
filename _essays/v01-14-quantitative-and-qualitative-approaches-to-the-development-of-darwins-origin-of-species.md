@@ -3,6 +3,7 @@ title: "Quantitative and Qualitative Approaches to the Development of Darwin’s
 doi: "https://doi.org/10.31835/crdh.2018.14"
 volume-number: 1
 year: 2018
+date: 2018-08-27
 authors:
 - last: Murdock
   first: Jaimie

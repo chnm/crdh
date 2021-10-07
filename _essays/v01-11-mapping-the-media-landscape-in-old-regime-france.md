@@ -4,6 +4,7 @@ subtitle: "Citation Practices and Social Reading in the Affiches, 1770–1788"
 doi: "https://doi.org/10.31835/crdh.2018.11"
 volume-number: 1
 year: 2018
+date: 2018-08-27
 authors:
 - last: Bond
   first: Elizabeth Andrews 

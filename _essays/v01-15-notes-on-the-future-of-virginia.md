@@ -4,6 +4,7 @@ subtitle: "Visualizing a 40-Year Conversation on Race and Slavery in the Corresp
 doi: "https://doi.org/10.31835/crdh.2018.15"
 volume-number: 1
 year: 2018
+date: 2018-08-27
 authors:
 - last: French
   first: Scot

@@ -5,6 +5,7 @@ History of Medicine"
 doi: "https://doi.org/10.31835/crdh.2018.12"
 volume-number: 1
 year: 2018
+date: 2018-08-27
 authors:
 - last: Ewing
   first: E. Thomas

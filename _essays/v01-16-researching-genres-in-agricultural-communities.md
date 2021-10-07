@@ -4,6 +4,7 @@ subtitle: "The Role of the Farm Record Book"
 doi: "https://doi.org/10.31835/crdh.2018.16"
 volume-number: 1
 year: 2018
+date: 2018-08-27
 authors:
 - last: Galbreath
   first: Marcy L.

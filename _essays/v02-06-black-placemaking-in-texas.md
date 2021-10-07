@@ -4,6 +4,7 @@ subtitle: "Sonic and Social Histories of Newton and Jasper County Freedom Coloni
 doi: "https://doi.org/10.31835/crdh.2019.06"
 volume-number: 2
 year: 2019
+date: 2019-08-23
 authors:
 - last: Roberts
   first: Andrea

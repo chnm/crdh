@@ -4,6 +4,7 @@ subtitle: "Dialect and the Construction of Southern Identity in the Ex-Slave Nar
 doi: "https://doi.org/10.31835/crdh.2019.14"
 volume-number: 2
 year: 2019
+date: 2019-08-23
 authors:
 - last: Tilton
   first: Lauren

@@ -4,6 +4,7 @@ subtitle: "American Indian Earthwork and Burial Site Activism in the Midwest, 19
 doi: "https://doi.org/10.31835/crdh.2018.03"
 volume-number: 1
 year: 2018
+date: 2018-08-27
 authors:
 - last: Wise
   first: Mary

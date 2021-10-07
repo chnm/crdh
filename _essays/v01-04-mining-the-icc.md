@@ -4,6 +4,7 @@ subtitle: "Macroanalysis of the Indian Claims Commission"
 doi: "https://doi.org/10.31835/crdh.2018.04"
 volume-number: 1
 year: 2018
+date: 2018-08-27
 authors:
 - last: Jones
   first: Peter Carr

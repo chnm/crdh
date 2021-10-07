@@ -4,6 +4,7 @@ subtitle: "Racial Terror in Virginia, 1877-1927"
 doi: "https://doi.org/10.31835/crdh.2019.04"
 volume-number: 2
 year: 2019
+date: 2019-08-23
 authors:
 - last: De Fazio
   first: Gianluca

@@ -4,6 +4,7 @@ subtitle: "Berkeley's Rainbow Sign and the Secret History of the Black Arts Move
 doi: "https://doi.org/10.31835/crdh.2019.13"
 volume-number: 2
 year: 2019
+date: 2019-08-23
 authors:
 - last: Rissacher
   first: Tessa
