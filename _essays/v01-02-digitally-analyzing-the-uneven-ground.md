@@ -2,7 +2,6 @@
 title: "Digitally Analyzing the Uneven Ground"
 subtitle: "Language Borrowing Among Indian Treaties"
 doi: "https://doi.org/10.31835/crdh.2018.02"
-category: "2018"
 volume-number: 1
 year: 2018
 authors:

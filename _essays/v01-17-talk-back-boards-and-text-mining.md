@@ -2,7 +2,6 @@
 title: "Talk-Back Boards and Text Mining"
 subtitle: "New Digital Approaches in Museum Visitor Studies"
 doi: "https://doi.org/10.31835/crdh.2018.17"
-category: "2018"
 volume-number: 1
 year: 2018
 authors:

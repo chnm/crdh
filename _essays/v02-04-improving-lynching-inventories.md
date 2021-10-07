@@ -2,7 +2,6 @@
 title: "Improving Lynching Inventories with Local Newspapers"
 subtitle: "Racial Terror in Virginia, 1877-1927"
 doi: "https://doi.org/10.31835/crdh.2019.04"
-category: "2019"
 volume-number: 2
 year: 2019
 authors:

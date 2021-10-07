@@ -2,7 +2,6 @@
 title: "A Bridge Between Two Worlds"
 subtitle: "The Political and Economic Geography of SNCC's Friends Network"
 doi: "https://doi.org/10.31835/crdh.2020.01"
-category: "2020"
 volume-number: 3
 year: 2020
 authors:

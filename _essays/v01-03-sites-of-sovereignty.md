@@ -2,7 +2,6 @@
 title: "Sites of Sovereignty"
 subtitle: "American Indian Earthwork and Burial Site Activism in the Midwest, 1917–1968"
 doi: "https://doi.org/10.31835/crdh.2018.03"
-category: "2018"
 volume-number: 1
 year: 2018
 authors:

@@ -2,7 +2,6 @@
 title: "A Tale of Three Valleys"
 subtitle: "Text Mining, Spatial Analysis, and the Contested Geographies of Colorado and New Mexico’s San Luis Valley"
 doi: "https://doi.org/10.31835/crdh.2020.06"
-category: "2020"
 volume-number: 3
 year: 2020
 authors:

@@ -2,7 +2,6 @@
 title: "Dance Touring and Embodied Data"
 subtitle: "Some Approaches to Katherine Dunham’s Movement on the Move"
 doi: "https://doi.org/10.31835/crdh.2019.12"
-category: "2019"
 volume-number: 2
 year: 2019
 authors:

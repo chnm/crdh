@@ -3,7 +3,6 @@ title: "“The Two Diseases Are So Utterly Dissimilar”"
 subtitle: "Using Digital Humanities Tools to Advance Scholarship in the Global
 History of Medicine"
 doi: "https://doi.org/10.31835/crdh.2018.12"
-category: "2018"
 volume-number: 1
 year: 2018
 authors:
