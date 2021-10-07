@@ -4,7 +4,7 @@ layout: default
 
 <div class="grid-container">
     <div class="grid-x">
-        <div class="large-9 columns" id="article-list">
+        <div class="large-9 columns larger-order-1 medium-order-2" id="article-list">
             {% assign current_essays = site.essays %}
             {% assign essays_grouped = current_essays | group_by:"year" %}
 
@@ -53,7 +53,7 @@ layout: default
             {% endfor %}
             {% endfor %}
         </div>
-        <aside class="large-3 large-offset-0 columns" id="volume-list">
+        <aside class="large-3 large-offset-0 columns large-order-2 medium-order-1" id="volume-list">
             <h4>About CRDH</h4>
             <p><em>Current Research in Digital History</em> is ...
         </aside>
