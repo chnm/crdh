@@ -4,5 +4,11 @@
       "path": "."
     }
   ],
-  "settings": {}
+  "settings": {
+    "files.exclude": {
+      "_site": true,
+      ".jekyll-cache": true,
+      ".jekyll-metadata": true
+    }
+  }
 }
