@@ -8,10 +8,10 @@ This site is built using Jekyll (which has Ruby dependencies manged by bundler),
 
 Follow these steps to install the necessary software.
 
-1. Install current versions of Node and Ruby for your platform. Current versions used for this site are Ruby 2.6.0 and Node 11.6.0.
+1. Install current version of Ruby for your platform. This repository is generally kept up to date with the version of Ruby provided by Homebrew. You can see the Ruby version in the `Gemfile`.
 2. Install bundler with `gem install bundler`.
 3. Install Jeykll and its dependencies with `bundle install`.
-4. Install the Node dependencies with `npm install`.
+4. \[OPTIONAL\] Install the Node dependencies with `npm install`.
 
-Once everything is installed, you should be able to preview the site by running `gulp`. Look at the output for the local URL. You can build the site to be deployed with `gulp build`. The output will be in the `_site` file.
+Once everything is installed, you should be able to preview the site locally by running `make preview`.
 
