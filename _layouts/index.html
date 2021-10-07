@@ -9,7 +9,7 @@ layout: default
             {% assign essays_grouped = current_essays | group_by:"year" %}
 
             {% for year in essays_grouped reversed %}
-            <h2>Volume {{ year.name | minus: 2017 }} (published in {{ year.name }}) </h2>
+            <h2>Volume {{ year.name | minus: 2017 }} ({{ year.name }}) </h2>
             {% for essay in year.items reversed %}
             {% assign essay_index = year.name |  append: "-" | append: forloop.index %}
             <div class="essay clearfix media-object stack-for-small">

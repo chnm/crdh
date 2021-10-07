@@ -1,0 +1,5 @@
+#article-list hr + h2 {
+  margin-top: 4rem;
+  margin-bottom: 1.25rem;
+  display: inline-block;
+}
