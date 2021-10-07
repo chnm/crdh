@@ -4,6 +4,12 @@
   display: inline-block;
 }
 
+#article-list hr {
+  width: 95%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .essay .author,
 .essay .published,
 .essay .doi {
