@@ -18,11 +18,12 @@
     <meta name="citation_author" content="{{ author.last }}, {{ author.first }}">
     {% endfor %}
     <meta name="citation_publication_date" content="{{ page.year }}">
+    <meta name="citation_online_date" content="{{ page.date }}">
     <meta name="citation_journal_title" content="Current Research in Digital History">
     <meta name="citation_journal_abbrev" content="CRDH">
     <meta name="citation_issn" content="2637-5923">
     <meta name="citation_volume" content="{{ page.volume-number }}">
-    <meta name="citation_abstract" content="{{ page.abstract | strip_html }}">
+    <meta name="citation_abstract" content="{{ page.abstract | strip_html | xml_escape }}">
     <meta name="citation_doi" content="{{ page.doi }}">
     {% endif %}
     <title>{% if page.title %}{{ page.title }} &ndash; {% endif %}{{ site.title }}</title>
