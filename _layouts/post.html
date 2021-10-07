@@ -3,7 +3,9 @@ layout: default
 ---
 
 <main class="grid-x">
+
     <article class="essay large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 cell">
+
         <header class="essay-header">
             <span class="author">
                 {% for author in page.authors %}
@@ -11,10 +13,13 @@ layout: default
                 {% if page.authors.size == 1 %}
                 <a href="{{ author.url }}">{{author.first }} {{ author.last }}</a>
                 {% elsif page.authors.size == 2 %}
-                <a href="{{ author.url }}">{{author.first }} {{ author.last }}</a>{% if author_index == 1 %} and {% endif %}
+                <a href="{{ author.url }}">{{author.first }} {{ author.last }}</a>{% if author_index == 1 %} and
+                {% endif %}
                 {% elsif page.authors.size >= 2 %}
                 {% assign author_index_two = author_index | plus: 1 %}
-                <a href="{{ author.url }}">{{author.first }} {{ author.last }}</a>{% if author_index == page.authors.size %}{% elsif author_index_two == page.authors.size %}, and {% else %},{% endif %}
+                <a href="{{ author.url }}">{{author.first }}
+                    {{ author.last }}</a>{% if author_index == page.authors.size %}{% elsif author_index_two == page.authors.size %},
+                and {% else %},{% endif %}
                 {% endif %}
                 {% endfor %}
             </span>
@@ -24,8 +29,14 @@ layout: default
                 <br><small>{{ page.subtitle }}</small>
                 {% endif %}
             </h2>
-            <span class="meta">from <a href="{{site.url}}/volume/{{ page.category }}/">volume {{ page.volume-number }} ({{ page.category }})</a>, <a href="{{ page.doi }}">{{ page.doi }}</a></span>
+            <span class="meta">
+                Volume: {{ page.volume-number }} ({{ page.year }})<br>
+                Published: <time
+                    datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%-d %B %Y" }}</time><br>
+                DOI: <a href="{{ page.doi }}">{{ page.doi }}</a>
+            </span>
         </header>
+
         <section class="abstract callout">
             <h3>Abstract</h3>
             <div class="abstract-contents">
@@ -41,13 +52,13 @@ layout: default
         <h3 id="appendix">Appendix</h3>
         {% endif %}
         <ul>
-        {% for item in page.appendix %}
+            {% for item in page.appendix %}
             {% if item.file %}
             <li><a href="{{ site.appendices }}/{{ item.file }}" download>{{ item.name }}</a></li>
             {% else %}
             <li><a href="{{ item.url }}">{{ item.name }}</a></li>
             {% endif %}
-        {% endfor %}
+            {% endfor %}
         </ul>
         {% endif %}
         <hr>
@@ -57,15 +68,18 @@ layout: default
         <h3 id="author">Author</h3>
         {% endif %}
         <p>
-        {% for author in page.authors %}
+            {% for author in page.authors %}
             {% assign author_name = author.first | append: ' ' | append: author.last %}
             {% if author.url.size > 0 %}
-                <a href="{{ author.url }}">{{ author_name }}</a>,
+            <a href="{{ author.url }}">{{ author_name }}</a>,
             {% else %}
-                {{ author_name }},
+            {{ author_name }},
             {% endif %}
-            {{ author.affiliation }}, <a href="mailto: {{ author.email }}">{{ author.email }}</a>, <a href="http://orcid.org/{{ author.orcid }}"><img src="{{ site.url }}/assets/img/orcid-logo.png" alt="ORC ID logo" class="orcid">{{ author.orcid }}</a>{% if forloop.index != page.authors.size %};{% endif %}
-        {% endfor %}
+            {{ author.affiliation }}, <a href="mailto: {{ author.email }}">{{ author.email }}</a>, <a
+                href="http://orcid.org/{{ author.orcid }}"><img src="{{ site.url }}/assets/img/orcid-logo.png"
+                    alt="ORC ID logo"
+                    class="orcid">{{ author.orcid }}</a>{% if forloop.index != page.authors.size %};{% endif %}
+            {% endfor %}
         </p>
     </article>
 </main>
