@@ -8,7 +8,7 @@ date: 2019-08-23
 authors:
 - last: Rissacher
   first: Tessa
-  email:
+  email: thetessalady87@gmail.com
   affiliation: "Department of English, University of California, Berkeley"
   orcid: 0000-0002-7351-1085
   url: ""
