@@ -168,10 +168,6 @@ neighborhood, and complement sources like city directories and tax
 records. For example, hardware merchant James Biscoe placed the same
 advertisement in the *Advertiser* for months in 1819-1820 (figure 6).
 
-{% figure caption: "Figure 6. An advertisement placed for the fugitive Harry Moshier, _American Commercial and Daily Advertiser_, December 1, 1820." %}
-![]({{site.url}}/assets/img/v04/rubin/figure6.png)
-{% endfigure %}
-
 > 100 Dollars Reward
 >
 > NEGRO HARRY, who calls himself Harry Moshier, left his employer on
@@ -188,6 +184,10 @@ advertisement in the *Advertiser* for months in 1819-1820 (figure 6).
 > state and secured so that I get him again.
 >
 > JAMES BISCOE 186 ½ Market st.[^7]
+
+{% figure caption: "Figure 6. An advertisement placed for the fugitive Harry Moshier, _American Commercial and Daily Advertiser_, December 1, 1820." %}
+![]({{site.url}}/assets/img/v04/rubin/figure6.png)
+{% endfigure %}
 
 This brief document gives us a sense of the world in which Moshier lived
 and worked as a blacksmith.[^8] His various owners or employers
@@ -325,6 +325,16 @@ their way in the world, leaving few traces behind. They faced a constant
 threat from a social, legal, and economic system designed to control
 them. By recovering and highlighting their lives and work, even to a
 limited degree, we remind users that their lives mattered.
+
+---
+
+### Bibliography
+
+TK
+
+---
+
+### Notes
 
 [^1]: There is a rich literature on the lives of white, free black, and
     enslaved Baltimoreans. This project draws most heavily on the work
