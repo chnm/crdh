@@ -84,8 +84,8 @@ layout: default
             {{ author_name }},
             {% endif %}
             {{ author.affiliation }}, <a href="mailto: {{ author.email }}">{{ author.email }}</a>, <a
-                href="http://orcid.org/{{ author.orcid }}"><img src="{{ site.url }}/assets/img/orcid-logo.png"
-                    alt="ORC ID logo"
+                href="http://orcid.org/{{ author.orcid }}"><img src="{{ site.url }}/assets/img/orcid.svg"
+                    style="width:16px; height: 16px;" alt="ORC ID logo"
                     class="orcid">{{ author.orcid }}</a>{% if forloop.index != page.authors.size %};{% endif %}
             {% endfor %}
         </p>
