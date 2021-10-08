@@ -14,7 +14,7 @@ authors:
   url: "https://annesarahrubin.com/"
 abstract: |
     TK
-preview: "/assets/img/v03/swisher/preview.png"
+preview: "/assets/img/v04/rubin/preview.png"
 ---
 
 
