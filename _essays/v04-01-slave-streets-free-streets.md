@@ -28,7 +28,7 @@ landscape in which approximately 4,300 enslaved and 10,300 free African
 Americans lived and worked. Using the existing project *Visualizing
 Early Baltimore* as a base, *Slave Streets, Free Streets* allows users
 to see the way that slavery was enmeshed in the world of early
-Baltimore. It reminds us of the degree to which racial slavery and
+Baltimore (figure 1). It reminds us of the degree to which racial slavery and
 nascent capitalism spun a web from which people struggled to extricate
 themselves and their families. It allows us to put faces and names to
 the largely anonymous ordinary people of the past. Finally, we are also
@@ -57,7 +57,7 @@ more flour than their counterparts in any other American city, and the
 city's wealth and banking interests helped to make it into a British
 target during the War of 1812. Baltimoreans also had access to a wide
 range of imported luxury goods---wines and sherries, olive oil and
-coffee, silver and textiles. But all of Baltimore's wealth could not
+coffee, silver and textiles (figure 2). But all of Baltimore's wealth could not
 ensure adequate sanitation or housing for the thousands of indigent
 people who filled its back alleys and wharves.
 
@@ -68,7 +68,7 @@ people who filled its back alleys and wharves.
 
 Baltimore was unusual among cities of the time in that its population of
 free blacks was twice that of the enslaved workers who toiled in the
-city. This situation was a direct consequence of both Maryland\'s
+city. This situation was a direct consequence of both Maryland's
 location on the literal border between slavery and freedom and the
 late-eighteenth century shift by many Maryland farmers from tobacco to
 less labor-intensive cereal crops. As a result of this, Marylanders also
@@ -91,7 +91,7 @@ narratives help to make visible relationships of power and class,
 showing the degree to which social and economic worlds were bounded or
 fluid. The maps are *visualizations,* rather than simply
 *illustrations*. That is, the argument or story is driven by the visual
-aspects we highlight and interpret, rather than by only text.[^3]
+aspects we highlight and interpret, rather than by only text (figure 3).[^3]
 
 {% figure caption: "Figure 3. Fells Point in Baltimore. Green buildings are associated with free black residents; blue buildings housed enslaved workers; red buildings are associated with fugitive slaves; orange buildings are sites associated with the slave trade." %}
 ![Fells Point in Baltimore]({{site.url}}/assets/img/v04/rubin/figure3.png)
@@ -104,7 +104,7 @@ and whites, free and enslaved. We spatially demonstrate this experience
 in several ways. First, in dot-density maps we show that Baltimore's
 1820 population (by ward) was relatively integrated, in vivid contrast
 with the so-called "black butterfly" configuration of racial, social,
-and economic segregation revealed in more recent maps of the city.
+and economic segregation revealed in more recent maps of the city (figure 4; cf. figure 5).
 
 {% figure caption: "Figure 4. Dot density map showing 1820 population by ward.  Each dot represents one person; they are randomly spaced within each ward's boundaries. In some cases ward boundaries were shrunken to incorporate only residential areas, not open land. The dots are randomly spaced within the wards, and their boundaries can be seen via the different densities." %}
 ![Dot density map showing 1820 population by ward]({{site.url}}/assets/img/v04/rubin/figure4.jpg)
@@ -153,8 +153,8 @@ of state, as opposed to the more dominant local trade. However, many of
 the participants in the local buying and selling of enslaved men, women,
 and children are obscured by the very nature and language of the
 advertisements. 156 ads for sale or hiring simply asked that interested
-parties \"enquire\" at the *American Commercial and Daily Advertiser*
-office, which was located at 4 Harrison Street. The *Advertiser*\'s
+parties "enquire" at the *American Commercial and Daily Advertiser*
+office, which was located at 4 Harrison Street. The *Advertiser*'s
 staff presumably was not conducting the transactions, but rather
 connecting buyers, sellers, and employers, leaving us with no records of
 these interpersonal transactions.[^6]
@@ -175,7 +175,7 @@ advertisement in the *Advertiser* for months in 1819-1820 (figure 6).
 > 100 Dollars Reward
 >
 > NEGRO HARRY, who calls himself Harry Moshier, left his employer on
-> Saturday evening the 31^st^ ult. and has not been seen or heard of
+> Saturday evening the 31st ult. and has not been seen or heard of
 > since---Harry is a blacksmith by trade, about 27 years of age, 5 feet
 > 6 or 7 inches high, strong built, broad faced, with rather a sharp
 > chin, dark complexion---has a down sullen look when spoken to---within
@@ -191,12 +191,12 @@ advertisement in the *Advertiser* for months in 1819-1820 (figure 6).
 
 This brief document gives us a sense of the world in which Moshier lived
 and worked as a blacksmith.[^8] His various owners or employers
-(Biscoe\'s language is unclear) ran their businesses in Old Town at the
+(Biscoe's language is unclear) ran their businesses in Old Town at the
 center of the city, often within a few blocks of each other. Biscoe, who
-was Moshier\'s current owner, owned a hardware store on Market (or
-Baltimore) street, the city\'s main commercial thoroughfare. Dutton
+was Moshier's current owner, owned a hardware store on Market (or
+Baltimore) street, the city's main commercial thoroughfare (figure 7). Dutton
 Richards was a blacksmith with forges on Stillhouse Street, between Duke
-and Granby. Richard Chenowith was described as a \"patent ploughmaker,\"
+and Granby. Richard Chenowith was described as a "patent ploughmaker,"
 with his shop located appropriately on Ploughman Street, which ran
 between the Falls and Granby street. Chenowith must have run a
 substantial enterprise, since his 1820 census entry indicated that his
@@ -211,25 +211,21 @@ shops in Old Town.[^9]
 ![Harry Moshier's neighborhood landscape]({{site.url}}/assets/img/v04/rubin/figure7.png)
 {% endfigure %}
 
-But of course there is much we don\'t know. Was Moshier hired out to
+But of course there is much we don't know. Was Moshier hired out to
 these various shops? Or did he cycle through various owners? The former
 seems more likely, since all of these white men moved in and out of
 slaveownership, as was typical for Baltimore artisans. It's unclear who
 actually owned Moshier. The 1818 tax records for Baltimore which listed
-enslaved workers by name and age don\'t have a perfect match, although
+enslaved workers by name and age don't have a perfect match, although
 suggestively Richard Chenowith did own a twenty-year-old Harry. He
-can\'t be found directly in the census for 1820 or 1830. Given that he
+can't be found directly in the census for 1820 or 1830. Given that he
 might have been hiding in the city, we can assume he had a network of
-friends or relatives. But we see him only through Biscoe\'s eyes.
+friends or relatives. But we see him only through Biscoe's eyes.
 
 A story that reveals more about free black networks and entrepreneurship
 can be drawn from an advertisement that ran in the *American and
 Commercial Daily Advertiser* in the summer of 1815 (seen on August 1,
 1815 and September 1, 1815):
-
-{% figure caption: "Figure 8. Advertisement placed for James Commodore, _American and Commercial Daily Advertiser_, August 1, 1815" %}
-![Advertisement placed for James Commodore]({{site.url}}/assets/img/v04/rubin/figure8.png)
-{% endfigure %}
 
 > Fifty Dollars Reward.
 >
@@ -242,13 +238,17 @@ Commercial Daily Advertiser* in the summer of 1815 (seen on August 1,
 > he no doubt will be concealed. Whoever will apprehend said negro, and
 > secure him in any jail in the state of Marykland, so that I get him
 > again, or delivers him to me, the subscriber living adjoning
-> Carroll\'s Manor, shall receive 25 doillars if taken in this state and
+> Carroll's Manor, shall receive 25 doillars if taken in this state and
 > if out of the state the above reward with all reasonable expences paid
 > for.
 >
 > Andrew Anderson,
 >
 > Anne Arundel Co. Md. on the Fredricktown turnpike road. July 28.
+
+{% figure caption: "Figure 8. Advertisement placed for James Commodore, _American and Commercial Daily Advertiser_, August 1, 1815" %}
+![Advertisement placed for James Commodore]({{site.url}}/assets/img/v04/rubin/figure8.png)
+{% endfigure %}
 
 Baltimore newspapers frequently ran advertisements placed by slave
 owners from all over Maryland and Virginia. That Andrew Anderson
@@ -295,7 +295,7 @@ one operated an oyster house. The white residents seemed to be of a
 slightly higher economic status, with the 13 men and eight women in
 artisanal or maritime occupations.[^13]
 
-It\'s not surprising that the free black women of Strawberry Alley
+It's not surprising that the free black women of Strawberry Alley
 worked as either laundresses or in food services. These were two common
 occupations, both of which provided women with a measure of independence
 and control over their time. Laundress was a job almost exclusively held
@@ -306,7 +306,7 @@ while she worked.[^14]
 We can find the names of the household heads who lived on Strawberry
 Alley much more easily than we can place them on our visualization,
 however. One of the challenges that we face as we try to map individuals
-is the imprecision of early nineteenth-century addresses. No city in the
+is the imprecision of early nineteenth-century addresses (figure 9). No city in the
 United States had standardized house numbers before 1828, and Baltimore
 did not standardize until the 1840s.[^15] Often we have only north or
 south of a given block as our only guide; the tax records often included
@@ -320,7 +320,7 @@ We have placed people in our visualization as accurately as possible.
 But for the people we cannot place, we are considering putting them on
 the street itself. We may not know exactly where they lived, but we know
 that they moved up and down Strawberry Alley, from home to work, to shop
-and socialize. Early Baltimore\'s black residents struggled to make
+and socialize. Early Baltimore's black residents struggled to make
 their way in the world, leaving few traces behind. They faced a constant
 threat from a social, legal, and economic system designed to control
 them. By recovering and highlighting their lives and work, even to a
@@ -347,7 +347,7 @@ limited degree, we remind users that their lives mattered.
     University Press, 2017); Adam Malka, *The Men of Mobtown: Policing
     Baltimore in the Age of Slavery and Emancipation*, Justice, Power,
     and Politics (University of North Carolina Press, 2018). Ralph
-    Clayton\'s work with primary sources is significant as well, but
+    Clayton's work with primary sources is significant as well, but
     generally focused on the years after 1820. Ralph Clayton, *Black
     Baltimore:  1820-1870* (Bowie, MD: Heritage Books, Inc., 1987);
     Ralph Clayton, *Cash for Blood : The Baltimore to New Orleans
@@ -374,7 +374,7 @@ limited degree, we remind users that their lives mattered.
     multiple times. The year 1816 also featured one advertisement for a
     lost African American child, which is not counted in our totals.
 
-[^6]: Baltimore City\'s official chattel records, which would have
+[^6]: Baltimore City's official chattel records, which would have
     included slave sales, were destroyed many years ago; only random
     records have survived. See Whitman, *The Price of Freedom,* 208-209.
 
@@ -393,20 +393,14 @@ limited degree, we remind users that their lives mattered.
     project, *Freedom on the Move* is building a national, searchable
     database of ads. <https://freedomonthemove.org>
 
-[^9]: Samuel Jackson, *The Baltimore Directory, Corrected up to June,
-    1819*, Variation: Early American Imprints.; Second Series ; No.
-    47067. (Baltimore \[Md.\]: Printed by Richard J. Matchett, 1819);
-    Noreen J. Goodson and Donna Tyler Hollie, *Through the Tax
-    Assessor's Eyes: Enslaved People, Free Blacks and Slaveholders in
-    Early Nineteenth Century Baltimore* (Clearfield, 2017); 1820 United
-    States Census, Baltimore City, MD.
+[^9]: Samuel Jackson, *The Baltimore Directory, Corrected up to June, 1819*, Variation: Early American Imprints.; Second Series ; No.  47067. (Baltimore \[Md.\]: Printed by Richard J. Matchett, 1819); Noreen J. Goodson and Donna Tyler Hollie, *Through the Tax Assessor's Eyes: Enslaved People, Free Blacks and Slaveholders in Early Nineteenth Century Baltimore* (Clearfield, 2017); 1820 United States Census, Baltimore City, MD.
 
 [^10]: Viola Franziska Müller, "Runaway Slaves in Antebellum Baltimore:
     An Urban Form of Marronage?," *International Review of Social
     History* 65, no. S28 (April 2020): 169--95,
     <https://doi.org/10.1017/S0020859020000115>.
 
-[^11]: Hanson appears as Phillip Henson in the 1819 City Directory.  Samuel Jackson, *The Baltimore Directory, Corrected up to June, 1819*, Variation: Early American Imprints.; Second Series ; No.  47067. (Baltimore \[Md.\]: Printed by Richard J. Matchett, 1819); Noreen J. Goodson and Donna Tyler Hollie, *Through the Tax Assessor's Eyes: Enslaved People, Free Blacks and Slaveholders in Early Nineteenth Century Baltimore* (Clearfield, 2017); 1820 United States Census, Baltimore City, MD.
+[^11]: Hanson appears as Phillip Henson in the 1819 City Directory.  Samuel Jackson, *The Baltimore Directory, Corrected up to June, 1819*, Variation: Early American Imprints.; Second Series ; No. 47067. (Baltimore \[Md.\]: Printed by Richard J. Matchett, 1819); Noreen J. Goodson and Donna Tyler Hollie, *Through the Tax Assessor's Eyes: Enslaved People, Free Blacks and Slaveholders in Early Nineteenth Century Baltimore* (Clearfield, 2017); 1820 United States Census, Baltimore City, MD.
 
 [^12]: Baltimore had three sets of ward boundaries between 1815 and
     1820: they changed in 1817 and again in 1818. The Baltimore city
