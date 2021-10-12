@@ -330,7 +330,57 @@ limited degree, we remind users that their lives mattered.
 
 ### Bibliography
 
-TK
+#### Primary Sources
+
+*The American and Commercial Daily Advertiser* (Baltimore), 1815-1820.
+
+Goodson, Noreen J., and Donna Tyler Hollie. *Through the Tax Assessor’s Eyes: Enslaved People, Free Blacks and Slaveholders in Early Nineteenth Century Baltimore*. Clearfield, 2017.
+
+Jackson, Samuel. *The Baltimore Directory, corrected up to June 1819*. Baltimore, printed by Richard J. Matchett, 1819.
+
+Keenan, C. (Charles). *The Baltimore Directory for 1822 & ’23 : Together with the Eastern and Western Precincts, Never before Included : A Correct Account of Removals, New Firms, and Other Useful Information*. Baltimore : Printed by R.J. Matchett, 1822. 
+
+Maryland. Baltimore City. 1820 U.S. census, population schedule. Washington, D.C.: National Archives and Records Administration.
+
+Matchett, Edward. *The Baltimore Directory and Register, for the Year 1816 : Containing the Names, Residence and Occupation of the Citizens ... Also a Correct List of the Courts ...* Baltimore [Md.] : Printed & sold at the Wanderer Office, 1816. 
+
+#### Secondary Sources
+
+Arnold, Joseph L. *History of Baltimore, 1729--1920*, 2015. http://contentdm.ad.umbc.edu/cdm/ref/collection/p16629coll20/id/1044.
+
+Bodenhamer, David J, John Corrigan, and Trevor M Harris. *Deep Maps and Spatial Narratives*. Indiana University Press, 2015.
+
+Clayton, Ralph. *Black Baltimore: 1820--1870*. Bowie, MD: Heritage Books, 1987.
+
+Clayton, Ralph. *Cash for Blood : The Baltimore to New Orleans Domestic Slave Trade*. Heritage Books, 2002.
+
+Crenson, Matthew A. *Baltimore : A Political History*. Johns Hopkins University Press, 2017.
+
+Diemer, Andrew. *The Politics of Black Citizenship Free African Americans in the Mid-Atlantic Borderland, 1817--1863*. University of Georgia Press, 2016.
+
+Evans, May Garretson. "Poe in Amity Street." *Maryland Historical Magazine* 36, no. 4 (December 1941): 363--80.
+
+Fields, Barbara Jeanne. *Slavery and Freedom on the Middle Ground : Maryland during the Nineteenth Century*. Yale University Press, 1985.
+
+Franklin, John Hope, and Loren Schweninger. *Runaway Slaves : Rebels on the Plantation*. Oxford University Press, 2000. 
+
+Hayward, Mary Ellen. *Baltimore's Alley Houses : Homes for Working People since the 1780s*. Johns Hopkins University Press, 2008.
+
+Hunter, Tera. *Bound in Wedlock: Slave and Free Black Marriage in the Nineteenth Century*. Belknap Press of Harvard University Press, 2017.
+
+Jones, Martha S. *Birthright Citizens : A History of Race and Rights in Antebellum America*. Cambridge University Press, 2018.
+
+Malka, Adam. *The Men of Mobtown: Policing Baltimore in the Age of Slavery and Emancipation*. University of North Carolina Press, 2018.
+
+Viola Franziska Müller, "Runaway Slaves in Antebellum Baltimore: An Urban Form of Marronage?," *International Review of Social History* 65, no. S28 (April 2020): 169--95, <https://doi.org/10.1017/S0020859020000115>.
+
+Phillips, Christopher. *Freedom's Port : The African American Community of Baltimore, 1790--1860*. University of Illinois Press, 1997. 
+
+Rockman, Seth. *Scraping by : Wage Labor, Slavery, and Survival in Early Baltimore*. Johns Hopkins University Press, 2009.
+
+Saunt, Claudio. "Mapping Space, Power, and Social  Life." *Social Text*, 20 (December 2015): 147–51, <https://doi.org/10.1215/01642472-3315850>
+
+Whitman, T. Stephen. *The Price of Freedom : Slavery and Manumission in Baltimore and Early National Maryland*. University Press of Kentucky, 1997.
 
 ---
 
