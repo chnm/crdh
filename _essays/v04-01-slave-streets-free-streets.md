@@ -229,16 +229,16 @@ Commercial Daily Advertiser* in the summer of 1815 (seen on August 1,
 
 > Fifty Dollars Reward.
 >
-> Ranaway from the subscriber, on the 10^th^ inst. a negro man named
+> Ranaway from the subscriber, on the 10th inst. a negro man named
 > Jim, but often called James Commodore, more usually Bill: 26 years of
 > age, about 5 feet 1 or 2 inches high, thick and strong made, of a
 > black complexion: he has a small scar on his forehead, has an old
 > look, and talks very hoarse. Jim has a brother living in Baltimore,
 > named Philip Hanson, a bright mulatto, who follows brick making, where
 > he no doubt will be concealed. Whoever will apprehend said negro, and
-> secure him in any jail in the state of Marykland, so that I get him
+> secure him in any jail in the state of Maryland, so that I get him
 > again, or delivers him to me, the subscriber living adjoning
-> Carroll's Manor, shall receive 25 doillars if taken in this state and
+> Carroll's Manor, shall receive 25 dollars if taken in this state and
 > if out of the state the above reward with all reasonable expences paid
 > for.
 >
@@ -283,7 +283,7 @@ Fells Point, is a powerful example.
 As the home to much of Baltimore's maritime industry, Fells Point was
 lined with wharves and shipyards, its streets filled with artisans like
 carpenters and caulkers, sail makers and riggers. According to city
-directories and tax records, the Strawberry Alley (now known as Dallas
+directories and tax records, Strawberry Alley (now known as Dallas
 Street) was home to 46 free blacks, 21 whites, and 1 enslaved worker.
 These numbers represent a fraction of Strawberry Alley's actual
 residents, since the records only listed heads of households, but we can
@@ -441,7 +441,7 @@ Whitman, T. Stephen. *The Price of Freedom : Slavery and Manumission in Baltim
 [^7]: The ad first appears in our sample on December 1, 1819, and
     reappears on January 1, 1820, February 1, 1830, and May 1, 1820. It
     would have likely run every day at least through February. The
-    31^st^ ult. is probably a reference to October 31, 1819. Had that
+    31st ult. is probably a reference to October 31, 1819. Had that
     been the day that Harry Moshier escaped, James Biscoe would not have
     been able to place an ad in the November 1 edition of the paper.
 
@@ -453,7 +453,7 @@ Whitman, T. Stephen. *The Price of Freedom : Slavery and Manumission in Baltim
     project, *Freedom on the Move* is building a national, searchable
     database of ads. <https://freedomonthemove.org>
 
-[^9]: Samuel Jackson, *The Baltimore Directory, Corrected up to June, 1819*, Variation: Early American Imprints.; Second Series ; No.  47067. (Baltimore \[Md.\]: Printed by Richard J. Matchett, 1819); Noreen J. Goodson and Donna Tyler Hollie, *Through the Tax Assessor's Eyes: Enslaved People, Free Blacks and Slaveholders in Early Nineteenth Century Baltimore* (Clearfield, 2017); 1820 United States Census, Baltimore City, MD.
+[^9]: Samuel Jackson, *The Baltimore Directory*; Noreen J. Goodson and Donna Tyler Hollie, *Through the Tax Assessor's Eyes*; 1820 United States Census, Baltimore City, MD.
 
 [^10]: Viola Franziska Müller, "Runaway Slaves in Antebellum Baltimore:
     An Urban Form of Marronage?," *International Review of Social
@@ -463,22 +463,11 @@ Whitman, T. Stephen. *The Price of Freedom : Slavery and Manumission in Baltim
 [^11]: Hanson appears as Phillip Henson in the 1819 City Directory.  Samuel Jackson, *The Baltimore Directory, Corrected up to June, 1819*, Variation: Early American Imprints.; Second Series ; No. 47067. (Baltimore \[Md.\]: Printed by Richard J. Matchett, 1819); Noreen J. Goodson and Donna Tyler Hollie, *Through the Tax Assessor's Eyes: Enslaved People, Free Blacks and Slaveholders in Early Nineteenth Century Baltimore* (Clearfield, 2017); 1820 United States Census, Baltimore City, MD.
 
 [^12]: Baltimore had three sets of ward boundaries between 1815 and
-    1820: they changed in 1817 and again in 1818. The Baltimore city
-    archives has made helpful overlays of ward boundaries on Google
+    1820: they changed in 1817 and again in 1818. The Baltimore City
+    Archives has made helpful overlays of ward boundaries on Google
     Maps: <https://msa.maryland.gov/bca/wards/>.
 
-[^13]: Information on residents of Strawberry Alley drawn from Mary
-    Ellen Hayward, *Baltimore's Alley Houses : Homes for Working People
-    since the 1780s*, Creating the North American Landscape (Johns
-    Hopkins University Press, 2008); Noreen J. Goodson and Donna Tyler
-    Hollie, *Through the Tax Assessor's Eyes: Enslaved People, Free
-    Blacks and Slaveholders in Early Nineteenth Century Baltimore*
-    (Clearfield, 2017); Edward Matchett, *The Baltimore Directory and
-    Register, for the Year 1816 : Containing the Names, Residence and
-    Occupation of the Citizens \... Also a Correct List of the Courts
-    \...* (Baltimore \[Md.\] : Printed & sold at the Wanderer Office,
-    1816 ; Samuel Jackson, compiler. *The Baltimore Directory, corrected
-    up to June 1819*. Baltimore, printed by Richard J. Matchett.
+[^13]: Information on residents of Strawberry Alley drawn from Mary Ellen Hayward, *Baltimore's Alley Houses *; Noreen J. Goodson and Donna Tyler Hollie, *Through the Tax Assessor's Eyes*; Edward Matchett, *The Baltimore Directory*.
 
 [^14]: The 1816 city directory listed only whites; it had no entries for
     laundresses. The 1819 city directory included African Americans, and
