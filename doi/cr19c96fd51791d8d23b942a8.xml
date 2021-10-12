@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch version="4.4.2" xmlns="http://www.crossref.org/schema/4.4.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1" xsi:schemaLocation="http://www.crossref.org/schema/4.4.2 http://www.crossref.org/schema/deposit/crossref4.4.2.xsd">
+<head>
+<doi_batch_id>19c96fd51791d8d23b942a8</doi_batch_id>
+<timestamp>20211012103233864</timestamp>
+<depositor>
+  <depositor_name>rrch:rrch</depositor_name> 
+  <email_address>lincoln@lincolnmullen.com</email_address>
+</depositor>
+<registrant>WEB-FORM</registrant> 
+</head>
+<body>
+<journal>
+<journal_metadata>   <full_title>Current Research in Digital History</full_title>   <abbrev_title>CRDH</abbrev_title>   <issn media_type='electronic'>26375923</issn>   <doi_data>     <doi>10.31835/crdh</doi>     <resource>https://crdh.rrchnm.org/</resource>   </doi_data> </journal_metadata> <journal_issue>  <publication_date media_type='online'>     <year>2021</year>   </publication_date>   <journal_volume>     <volume>4</volume>   </journal_volume> </journal_issue><!-- ============== --> <journal_article publication_type='full_text'>   <titles>     <title>Slave Streets, Free Streets: Visualizing the Landscape of Early Baltimore</title>   </titles>   <contributors>    <person_name sequence='first' contributor_role='author'>      <given_name>Anne Sarah</given_name>      <surname>Rubin</surname>      <ORCID>https://orcid.org/0000-0002-3608-343X</ORCID>    </person_name>  </contributors>    <jats:abstract xml:lang='en'>         <jats:p>This article explores some of the possibilities and challenges of reconstructing the physical world of Early Republic Baltimore. Drawing on *Visualizing Early Baltimore*, a detailed visualization of Baltimore city following the war of 1812, &quot;Slave Streets, Free Streets&quot; asks readers to think about where the city's free blacks and enslaved workers lived and worked, and how space could be both integrated and segregated. Our research shows that blacks and whites lived in close proximity, but not necessarily in the same kinds of housing or on the same streets. Mapping also shows that the actual buying and selling of individuals, in the absence of a centralized market, took place all over the city, making it literally impossible for residents, both black and white, to avoid. This article illuminates the lives of ordinary people even as it acknowledges the limits of our ability to recreate the past.</jats:p>     </jats:abstract>  <publication_date media_type='online'>     <month>10</month>     <day>13</day>     <year>2021</year>   </publication_date>   <doi_data>     <doi>10.31835/crdh.2021.01</doi>     <resource>https://crdh.rrchnm.org/essays/v04-01-slave-streets-free-streets/</resource>   </doi_data> </journal_article>
+</journal>
+</body>
+</doi_batch>
