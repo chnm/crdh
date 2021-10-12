@@ -13,7 +13,7 @@ authors:
   orcid: 0000-0002-3608-343X
   url: "https://annesarahrubin.com/"
 abstract: |
-    TK
+    This article explores some of the possibilities and challenges of reconstructing the physical world of Early Republic Baltimore. Drawing on *Visualizing Early Baltimore*, a detailed visualization of Baltimore city following the war of 1812, "Slave Streets, Free Streets" asks readers to think about where the city's free blacks and enslaved workers lived and worked, and how space could be both integrated and segregated. Our research shows that blacks and whites lived in close proximity, but not necessarily in the same kinds of housing or on the same streets. Mapping also shows that the actual buying and selling of individuals, in the absence of a centralized market, took place all over the city, making it literally impossible for residents, both black and white, to avoid. This article illuminates the lives of ordinary people even as it acknowledges the limits of our ability to recreate the past.  
 preview: "/assets/img/v04/rubin/preview.png"
 ---
 
