@@ -2,9 +2,9 @@
 title: "Mapping Mobility"
 subtitle: "Class and Spatial Mobility in the Wall Street Workforce, 1890–1914"
 doi: "https://doi.org/10.31835/crdh.2018.06"
-category: "2018"
 volume-number: 1
 year: 2018
+date: 2018-08-27
 authors:
 - last: Pertilla
   first: Atiba

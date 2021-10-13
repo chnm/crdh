@@ -2,9 +2,9 @@
 title: "Digitally Mapping Commercial Currents"
 subtitle: "Maritime Mobility, Vessel Technology, and U.S. Colonization of Puget Sound, 1851–1861"
 doi: "https://doi.org/10.31835/crdh.2020.03"
-category: "2020"
 volume-number: 3
 year: 2020
+date: 2020-10-28
 authors:
 - last: Fraga
   first: Sean

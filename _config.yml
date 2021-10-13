@@ -1,8 +1,8 @@
 # Site settings
-language:               "en"
-title:                  "Current Research in Digital History"
-description:            "Hosted by the Roy Rosenzweig Center for History and New Media, Current Research in Digital History is an open-access, peer-reviewed, online publication. Its primary aim is to encourage and publish scholarship in digital history that offers discipline-specific arguments and interpretations."
-google-verification:    ""
+language: "en"
+title: "Current Research in Digital History"
+description: "Hosted by the Roy Rosenzweig Center for History and New Media, Current Research in Digital History is an open-access, peer-reviewed, online publication. Its primary aim is to encourage and publish scholarship in digital history that offers discipline-specific arguments and interpretations."
+google-verification: ""
 
 collections:
   essays:
@@ -43,23 +43,19 @@ exclude:
 # Plugins
 
 # Conversion
-incremental:      true
+incremental: true
 
 # Serving
 # url:            ""
 # baseurl:        "" # does not include hostname
 
 # Outputting
-permalink:        "/blog/:year/:title/"
+permalink: "/blog/:year/:title/"
 
-compress_html:
-  ignore:
-    envs: [development]
-
-highlighter:      rouge
+highlighter: rouge
 
 # CRDH
 
-appendices:       "http://crdh.rrchnm.org/appendices"
-current_volume:   "2020"
-current_number:   "3"
+appendices: "http://crdh.rrchnm.org/appendices"
+current_volume: "2020"
+current_number: "3"

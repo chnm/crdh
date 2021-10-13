@@ -1,9 +1,9 @@
 ---
 title: "Networks of Piety and Slavery among Late Eighteenth-Century Rural Maryland Catholics"
 doi: "https://doi.org/10.31835/crdh.2019.09"
-category: "2019"
 volume-number: 2
 year: 2019
+date: 2019-08-23
 authors:
 - last: Bohlmann
   first: Rachel

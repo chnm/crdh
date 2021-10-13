@@ -2,9 +2,9 @@
 title: "What’s on History?"
 subtitle: "Tuning In to Conspiracies, Capitalism, and Masculinity"
 doi: "https://doi.org/10.31835/crdh.2020.02"
-category: "2020"
 volume-number: 3
 year: 2020
+date: 2020-10-28
 authors:
 - last: Catalano
   first: Joshua

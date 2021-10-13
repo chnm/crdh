@@ -2,9 +2,9 @@
 title: "Labor and Business at Congressional Hearings, 1877–1990"
 subtitle: "Unequal Power and the Significance of Elections"
 doi: "https://doi.org/10.31835/crdh.2019.07"
-category: "2019"
 volume-number: 2
 year: 2019
+date: 2019-08-23
 authors:
 - last: Hulden
   first: Vilja

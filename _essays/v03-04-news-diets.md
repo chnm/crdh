@@ -2,9 +2,9 @@
 title: "News Diets"
 subtitle: "Main Courses and Side Dishes"
 doi: "https://doi.org/10.31835/crdh.2020.04"
-category: "2020"
 volume-number: 3
 year: 2020
+date: 2020-10-28
 authors:
 - last: Hulden
   first: Vilja

@@ -2,13 +2,13 @@
 title: "“For the Love of People”"
 subtitle: "Berkeley's Rainbow Sign and the Secret History of the Black Arts Movement"
 doi: "https://doi.org/10.31835/crdh.2019.13"
-category: "2019"
 volume-number: 2
 year: 2019
+date: 2019-08-23
 authors:
 - last: Rissacher
   first: Tessa
-  email:
+  email: thetessalady87@gmail.com
   affiliation: "Department of English, University of California, Berkeley"
   orcid: 0000-0002-7351-1085
   url: ""

@@ -4,58 +4,68 @@ layout: default
 
 <div class="grid-container">
     <div class="grid-x">
-        <div class="large-9 columns" id="article-list">
-            <h2>Current Issue: Volume {{ site.current_number}} ({{ site.current_volume }})</h2>
-            {% assign current_essays = site.essays | where:'category',site.current_volume %}
-            {% for essay in current_essays %}
-              {% assign essay_index = forloop.index %}
-              <div class="essay clearfix media-object stack-for-small">
-                  <div class="media-object-section">
-                      <div class="thumbnail">
-                          <a href="{{ site.url }}{{ essay.url }}">
+        <div class="large-9 columns larger-order-1 medium-order-2" id="article-list">
+            {% assign current_essays = site.essays %}
+            {% assign essays_grouped = current_essays | group_by:"year" %}
+
+            {% for year in essays_grouped reversed %}
+            <h2>Volume {{ year.name | minus: 2017 }} ({{ year.name }}) </h2>
+            {% for essay in year.items reversed %}
+            {% assign essay_index = year.name |  append: "-" | append: forloop.index %}
+            <div class="essay clearfix media-object stack-for-small">
+                <div class="media-object-section">
+                    <div class="thumbnail">
+                        <a href="{{ site.url }}{{ essay.url }}">
                             <img src="{{site.url}}{{ essay.preview }}" alt="Preview image for {{ essay.title }}">
-                          </a>
-                      </div>
-                  </div>
-                  <div class="media-object-section">
-                      {% if essay.subtitle %}
-                      <h3><a href="{{ site.url }}{{ essay.url }}">{{ essay.title }}: {{ essay.subtitle }}</a></h3>
-                      {% else %}
-                      <h3><a href="{{site.url }}{{ essay.url }}">{{ essay.title }}</a></h3>
-                      {% endif %}
-                      <span class="author">
-                      {% for author in essay.authors %}
-                      {% assign author_index = forloop.index %}
-                      {% if essay.authors.size == 1 %}
-                      {{author.first }} {{ author.last }}
-                      {% elsif essay.authors.size == 2 %}
-                      {{author.first }} {{ author.last }}{% if author_index == 1 %} and {% endif %}
-                      {% elsif essay.authors.size >= 2 %}
-                      {% assign author_index_two = author_index | plus: 1 %}
-                      {{author.first }} {{ author.last }}{% if author_index == essay.authors.size %}{% elsif author_index_two == essay.authors.size %}, and {% else %},{% endif %}
-                      {% endif %}
-                      {% endfor %}
-                      </span>
-                      {% if essay.abstract %}
-                      <button class="button secondary small" type="button" data-toggle="abstract-{{ essay_index }}">Abstract</button>
-                      <div class="abstract" id="abstract-{{ essay_index }}" data-toggler data-animate="fade-in fade-out">{{ essay.abstract }}</div>
-                      {% endif %}
-                  </div>
-              </div>
-              <hr>
+                        </a>
+                    </div>
+                </div>
+                <div class="media-object-section">
+                    {% if essay.subtitle %}
+                    <h3><a href="{{ site.url }}{{ essay.url }}">{{ essay.title }}: {{ essay.subtitle }}</a></h3>
+                    {% else %}
+                    <h3><a href="{{site.url }}{{ essay.url }}">{{ essay.title }}</a></h3>
+                    {% endif %}
+                    <span class="author">
+                        {% for author in essay.authors %}
+                        {% assign author_index = forloop.index %}
+                        {% if essay.authors.size == 1 %}
+                        {{author.first }} {{ author.last }}
+                        {% elsif essay.authors.size == 2 %}
+                        {{author.first }} {{ author.last }}{% if author_index == 1 %} and {% endif %}
+                        {% elsif essay.authors.size >= 2 %}
+                        {% assign author_index_two = author_index | plus: 1 %}
+                        {{author.first }}
+                        {{ author.last }}{% if author_index == essay.authors.size %}{% elsif author_index_two == essay.authors.size %},
+                        and {% else %},{% endif %}
+                        {% endif %}
+                        {% endfor %}
+                    </span>
+                    <span class="published">Published: <time
+                            datetime="{{ essay.date | date: '%Y-%m-%d' }}">{{ essay.date | date: "%-d %B %Y" }}</time></span>
+                    <span class="doi">DOI: <a href="{{ essay.doi }}">{{ essay.doi }}</a></span>
+                    {% if essay.abstract %}
+                    <button class="button secondary small" type="button"
+                        data-toggle="abstract-{{ essay_index }}">Abstract</button>
+                    <div class="abstract" id="abstract-{{ essay_index }}" data-toggler data-animate="fade-in fade-out">
+                        {{ essay.abstract }}</div>
+                    {% endif %}
+                </div>
+            </div>
+            <hr>
+            {% endfor %}
             {% endfor %}
         </div>
-        <aside class="large-2 large-offset-1 columns" id="volume-list">
-            <h4>All Volumes</h4>
-            {% for volume in site.data.volumes %}
-            <div class="volume">
-                <span class="volume-number">{{ forloop.index }}</span>
-                <a href="{{ site.url }}/volume/{{ volume.title }}/">
-                <img src="{{ site.url }}/assets/img/{{ volume.img_dir }}/cover-bw.jpg" alt="Cover for Volume {{ volume.volume }} {{ volume.title }}">
-                <img src="{{ site.url }}/assets/img/{{ volume.img_dir }}/cover-color.jpg" alt="Cover for Volume {{ volume.volume }} {{ volume.title }}">
-                </a>
-            </div>
-            {% endfor %}
+        <aside class="large-3 large-offset-0 columns large-order-2 medium-order-1" id="volume-list">
+            <h4>About CRDH</h4>
+            <p>
+                <em>Current Research in Digital History</em>
+                is an open-access, peer-reviewed publication of the <a href="https://rrchnm.org/"></a>Roy Rosenzweig
+                Center for History and New
+                Media</a>. It publishes scholarship in digital history that offers discipline-specific arguments and
+                interpretations. Articles are published on a rolling basis as they are received and peer reviewed.
+                Follow the <a href="{{ site.url }}/articles.xml">articles feed</a> to be notified of new articles.
+            </p>
         </aside>
     </div>
 </div>

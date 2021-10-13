@@ -3,9 +3,9 @@ title: "Growing Strong"
 subtitle: "The Institutional Expansion of Knowledge in the Early
 Republic"
 doi: "https://doi.org/10.31835/crdh.2018.13"
-category: "2018"
 volume-number: 1
 year: 2018
+date: 2018-08-27
 authors:
 - last: Oberle III
   first: George D.

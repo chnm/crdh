@@ -1,9 +1,9 @@
 ---
 title: "Mapping Black Ecologies"
 doi: "https://doi.org/10.31835/crdh.2019.05"
-category: "2019"
 volume-number: 2
 year: 2019
+date: 2019-08-23
 authors:
 - last: Roane
   first: J.T.

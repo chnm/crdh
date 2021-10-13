@@ -2,9 +2,9 @@
 title: "Century of Black Mormons"
 subtitle: "A Preliminary Interpretation of the Data"
 doi: "https://doi.org/10.31835/crdh.2019.03"
-category: "2019"
 volume-number: 2
 year: 2019
+date: 2019-08-23
 authors:
 - last: Reeve
   first: W. Paul
