@@ -1,6 +1,5 @@
 ---
 title: "Visualizing Generational Change in Early Modern Law Dissertations"
-subtitle: ""
 doi: "https://doi.org/10.31835/crdh.2022.01"
 volume-number: 5
 year: 2022
@@ -13,7 +12,7 @@ authors:
   orcid: 0000-0001-5089-0089
   url: "https://lucascholz.com/"
 abstract: |
-  In the seventeenth century, German jurisprudence saw important thematic and methodological shifts. This article employs a novel visualization approach to ask whether these changes can be attributed to specific age cohorts or whether they were adopted across generations. Interrogating the metadata of over 20,000 legal dissertations defended at German universities, it visualizes relative frequencies of title keywords and decomposes them by the dissertation supervisors' age at the time of publication. The increasing use of bilingual titles that combined Latin and the German vernacular can be attributed to younger age cohorts who entered the profession after the end of the Thirty Years' War, nuancing explanations of shifts in early modern academic language as primarily driven by the intention and initiative of eminent individuals. In contrast, the sudden drop in mentions of *controversia* in the 1610s was a much broader and swifter cross-generational shift, possibly indicating a shared desire to avoid association with the increasingly established genre of confessional polemics. Finally, the late emergence of dissertation titles mentioning territory suggests that one of the most consequential legal-political concepts of the century faced more academic inertia than assumed and adds to our knowledge of the connection between career motives and subject choice.
+  In the seventeenth century, German jurisprudence saw important thematic and methodological shifts. This article employs a novel visualization approach to ask whether these changes can be attributed to specific age cohorts or whether they were adopted across generations. Interrogating the metadata of over 20,000 legal dissertations defended at German universities, it visualizes relative frequencies of title keywords and decomposes them by the dissertation supervisors' age at the time of publication. The increasing use of bilingual titles that combined Latin and the German vernacular can be attributed to younger age cohorts who entered the profession after the end of the Thirty Years' War, nuancing explanations of shifts in early modern academic language as primarily driven by the intention and initiative of eminent individuals. In contrast, the sudden drop in mentions of <em>controversia</em> in the 1610s was a much broader and swifter cross-generational shift, possibly indicating a shared desire to avoid association with the increasingly established genre of confessional polemics. Finally, the late emergence of dissertation titles mentioning territory suggests that one of the most consequential legal-political concepts of the century faced more academic inertia than assumed and adds to our knowledge of the connection between career motives and subject choice.
 appendix:
 - name: README
   file: scholz-v05/README.txt
@@ -45,7 +44,7 @@ matters, distant reading approaches have allowed historians to reveal
 long-term changes that remain hidden because of their sheer scale.[^3]
 Recent studies were able to highlight, for example, an increasingly
 specialized and topical engagement with imperial law,[^4] declining
-interest in civil law in the seventeenth century,[^5], or a turn from
+interest in civil law in the seventeenth century,[^5] or a turn from
 dialogic to more single-voiced, monographic forms of writing and
 reasoning. One limitation of these studies, my own included, is that
 their graphics often aggregate the data in ways that make it difficult
@@ -112,10 +111,10 @@ Examples include Andrew Piper's *Enumerations*[^7] which sheds light on
 the relationship between female authorship and gendered characterization
 or Richard Jean So's study on cultural redlining which examines the role
 of race in American post-war fiction.[^8] Some polemicists have argued
-that cultural analytics' preference for "dimorphic traits"[^9] like
+that cultural analytics' preference for "dimorphic traits" like
 male/female or black/white and "time-variance arguments" has more to do
 with a technical imperative to reduce complex data to second-order
-classifications than with (literary) history. The claim is controversial
+classifications than with (literary) history.[^9] The claim is controversial
 and in the case of age cohorts, inconsistent with a long vein of
 scholarship.
 
@@ -163,9 +162,9 @@ characterizes the short-term, micro-historical, agency-oriented
 perspectives dear to close reading, *longue durée* perspectives, as
 Braudel once put it, unfold in a "slowed time, sometimes almost at the
 limits of movement."[^15] Where distant reading requires scholars "to
-find meaning in small changes and slow processes,"[^16] the study of age
+find meaning in small changes and slow processes," the study of age
 cohorts offers ways of organizing and interpreting a particularly
-abstract kind of digital evidence in new ways.
+abstract kind of digital evidence in new ways.[^16]
 
 At the same time, it is worth noting that historical scholarship on
 generations has not always been uncontroversial. Historians and social
@@ -180,8 +179,8 @@ on concrete groups or specific academic disciplines.[^18] Indeed, one of
 the pioneers in this field, Karl Mannheim argued that in contrast to the
 natural sciences where it was more difficult to observe generational
 patterns, literature and the humanities were especially prone "to
-promote the emergence of new entelechies,"[^19] i.e. specifically
-generational worldviews.
+promote the emergence of new entelechies," i.e. specifically
+generational worldviews.[^19]
 
 Early modern dissertations are a particularly promising corpus from this
 perspective, because they were authored by members of institutionally
@@ -351,7 +350,7 @@ affectation of more courtly, gallant, and conciliatory tones.[^39]
 ![A line graph entitled "Mentions of controversia by Year" with year on the x-axis and the moving average percetage on the y-axis. Blue line on a white background.]({{site.url}}/assets/img/v05/scholz/figure4.png)
 {% endfigure %}
 
-{% figure caption: "Figure 5 The early and rapidly declining framing of dissertation titles featuring the scholastic keyword *controversia* indicate a turn away from dialogic and antagonistic forms of argumentation across all age cohorts, pointing to a cultural shift that was more widespread and swifter than others. Percentage of dissertation titles mentioning *controvers* and number of dissertations by age cohort. Excluded: reprints, duplicates, entries with fewer than two authors, entries without praeses birth date. Data source: *Verzeichnis der im deutschen Sprachraum erschienenen Drucke des 17. Jahrhunderts* (2020)." %}
+{% figure caption: "Figure 5 The early and rapidly declining framing of dissertation titles featuring the scholastic keyword *controversia* indicate a turn away from dialogic and antagonistic forms of argumentation across all age cohorts, pointing to a cultural shift that was more widespread and swifter than others. Percentage of dissertation titles mentioning *controvers* and number of dissertations by age cohort. Excluded: reprints, duplicates, entries with fewer than two authors, entries without *praeses* birth date. Data source: *Verzeichnis der im deutschen Sprachraum erschienenen Drucke des 17. Jahrhunderts* (2020)." %}
 ![A dot density graph entitled "Mentions of controversia by Age Cohort and Year" with year on the x-axis and the age of praeses on the y-axis. Green, yellow and black dots on a white background.]({{site.url}}/assets/img/v05/scholz/figure5.png)
 {% endfigure %}
 
@@ -391,7 +390,7 @@ a collective move to what one could term "methodological irenicism."
 That trend suggests that irenical dispositions may have had a much wider
 traction in jurisprudence than previously assumed.[^44]
 
-## Territory
+### Territory
 
 In addition to the linguistic and methodological developments discussed
 so far, early modern law dissertations also indicate shifts in jurists'
@@ -411,7 +410,7 @@ bundle of diverse (regalian) rights and prerogatives---from
 safe-conduct to mining---but as the comprehensive dominion over a
 territory.[^46] The Peace of Westphalia codified the concept as *ius territorii et superioritatis*.
 
-{% figure caption: "Figure 6. The relatively late appearance of dissertation titles mentioning "territory" among a particularly young cohort of scholars in the aftermath of the Thirty Years' War speaks to the expanding career prospects for young lawyers in the administrations of the Imperial Estates. Percentage of dissertation titles mentioning *territo* and number of dissertations by age cohort. Excluded: reprints, duplicates, entries with fewer than two authors, entries without *praeses* birth date. Data source: *Verzeichnis der im deutschen Sprachraum erschienenen Drucke des 17. Jahrhunderts* (2020). " %}
+{% figure caption: "Figure 6. The relatively late appearance of dissertation titles mentioning “territory” among a particularly young cohort of scholars in the aftermath of the Thirty Years' War speaks to the expanding career prospects for young lawyers in the administrations of the Imperial Estates. Percentage of dissertation titles mentioning *territo* and number of dissertations by age cohort. Excluded: reprints, duplicates, entries with fewer than two authors, entries without *praeses* birth date. Data source: *Verzeichnis der im deutschen Sprachraum erschienenen Drucke des 17. Jahrhunderts* (2020). " %}
 ![A dot density graph entitled "Mentions of territorium by Age Cohort and Year" with year on the x-axis and the age of praeses on the y-axis. Green, yellow and black dots on a white background.]({{site.url}}/assets/img/v05/scholz/figure6.png)
 {% endfigure %}
 
