@@ -3,21 +3,16 @@ title: "Visualizing Generational Change in Early Modern Law Dissertations"
 doi: "https://doi.org/10.31835/crdh.2022.01"
 volume-number: 5
 year: 2022
-date: 2022-04-18
+date: 2022-05-02
 authors:
 - last: Scholz
   first: Luca
   email: luca.scholz@manchester.ac.uk
-  affiliation: "Department of Art History and Cultural Practices, University of Manchester"
+  affiliation: "School of Arts, Languages, and Cultures, University of Manchester"
   orcid: 0000-0001-5089-0089
   url: "https://lucascholz.com/"
 abstract: |
-  In the seventeenth century, German jurisprudence saw important thematic and methodological shifts. This article employs a novel visualization approach to ask whether these changes can be attributed to specific age cohorts or whether they were adopted across generations. Interrogating the metadata of over 20,000 legal dissertations defended at German universities, it visualizes relative frequencies of title keywords and decomposes them by the dissertation supervisors' age at the time of publication. The increasing use of bilingual titles that combined Latin and the German vernacular can be attributed to younger age cohorts who entered the profession after the end of the Thirty Years' War, nuancing explanations of shifts in early modern academic language as primarily driven by the intention and initiative of eminent individuals. In contrast, the sudden drop in mentions of <em>controversia</em> in the 1610s was a much broader and swifter cross-generational shift, possibly indicating a shared desire to avoid association with the increasingly established genre of confessional polemics. Finally, the late emergence of dissertation titles mentioning territory suggests that one of the most consequential legal-political concepts of the century faced more academic inertia than assumed and adds to our knowledge of the connection between career motives and subject choice.
-appendix:
-- name: README
-  file: scholz-v05/README.txt
-- name: Data archive
-  file: scholz-v05/scholz-data.zip
+  In the seventeenth century, German jurisprudence saw important thematic and methodological shifts. This article employs a distinctive visualization approach to examine whether these changes can be attributed to specific age cohorts or whether they were adopted across generations. Interrogating the metadata of over 20,000 legal dissertations defended at German universities, it visualizes relative frequencies of title keywords and decomposes them by the dissertation supervisors' age at the time of publication. The increasing use of bilingual titles that combined Latin and the German vernacular can be attributed to younger age cohorts who entered the profession after the end of the Thirty Years' War, nuancing explanations of shifts in early modern academic language as primarily driven by the intention and initiative of eminent individuals. In contrast, the sudden drop in mentions of <em>controversia</em> in the 1610s was a much broader and swifter cross-generational shift, possibly indicating a shared desire to avoid association with the increasingly established genre of confessional polemics. Finally, the late emergence of dissertation titles mentioning territory suggests that one of the most consequential legal-political concepts of the century faced more academic inertia than assumed and adds to our knowledge of the connection between career motives and subject choice.
 preview: "/assets/img/v05/scholz/preview.png"
 ---
 
@@ -87,7 +82,7 @@ to Open Library data, differentiated two ideal types of changing
 vocabulary use: words that appear across all age groups simultaneously
 and words that are introduced (and maintained) by young generations.
 Changes that cut across age cohorts follow a vertical pattern: in figure
-5, for example, scholars of all age cohorts published significantly
+5, for example, scholars of all age cohorts began publishing significantly
 fewer dissertations framed as *controversia* within the range of a few
 years. In contrast, more diagonal patterns, such as the ones in figures
 3 and 6, indicate vocabulary use that was specific to particular age
@@ -176,7 +171,7 @@ than "banalities, tautologies, and unsubstantial speculation."[^17] More
 successful than works characterized by sweeping generalizations and
 argumentative overreach were studies of more modest scope which focused
 on concrete groups or specific academic disciplines.[^18] Indeed, one of
-the pioneers in this field, Karl Mannheim argued that in contrast to the
+the pioneers in this field, Karl Mannheim, argued that in contrast to the
 natural sciences where it was more difficult to observe generational
 patterns, literature and the humanities were especially prone "to
 promote the emergence of new entelechies," i.e. specifically
@@ -242,7 +237,7 @@ with a surge during the Thirty Years' War, when the average age of a
 *praeses* increased sharply and never returned to the pre-war levels.
 Figure 2 suggests that the majority of dissertations were supervised by
 *praesides* in their late twenties, thirties, and forties. Very young
-*praesides* were not usually professors, but scholars who recently
+*praesides* were not usually professors, but scholars who had recently
 earned their doctorate and were allowed exceptionally to preside over a
 disputation to further their careers.[^28] From the age of 45 and
 upward, the number of *praesides* decreased steadily, although some
@@ -266,8 +261,7 @@ early modern observers derided these bilingual titles as a fashion, but
 among mid- and late seventeenth-century jurists the increasing use of
 the German vernacular was a sustained and widespread trend.[^33] There
 has been growing scholarly interest in the use of German language in
-universities, but the nature of this process and its causes are not
-fully understood.[^34]
+universities, but the nature of this process and its causes are still open to debate.[^34]
 
 {% figure caption: "Figure 3. The gradually increasing use of the German vernacular in the dissertation's titles in the 1660s was driven mostly by scholars in their thirties and forties while older scholars were more reluctant to compromise the linguistic uniformity of this almost entirely Latin genre. Percentage of German keywords (*der, das, germanice, oder, von, vom, vulg*) and number of dissertations by age cohort. Excluded: reprints, duplicates, entries with fewer than two authors, entries without *praeses* birth date. Data source: *Verzeichnis der im deutschen Sprachraum erschienenen Drucke des 17. Jahrhunderts* (2020). " %}
 ![A dot density graph entitled "Use of German by Age Cohort and Year" with year on the x-axis and the age of praeses on the y-axis. Green, yellow and black dots on a white background.]({{site.url}}/assets/img/v05/scholz/figure3.png)
@@ -293,7 +287,7 @@ scholarship, centered primarily on discussions around language use in
 theological and philosophical dissertations, has suggested two principal
 reasons for which scholars preferred German: an enlightened desire to
 reach a broader, non-academic public (including women) and discontent
-about the disputants' poor Latin, resulting in disputants devoting more
+about the disputants' poor Latin, arguably resulting in disputants devoting more
 energy to the form of their writing than its content.[^35] This graphic
 suggests that, among jurists, the preference for the German vernacular
 was also a matter of demographics: the early increase of bilingual
@@ -319,7 +313,7 @@ while some members of this cohort---such as Ernst Friedrich Schröter
 (born 1621), Heinrich Linck (born 1642) or Johann Volkmar Bechmann (born
 1624)---published more bilingual titles than others, this was not a
 development driven by individual scholars. The graphic thus cautions
-against a top-down reading of this development. Rather than being the
+against a top-down reading of this trend. Rather than being the
 merit of one or a few eminent individuals, the gradual rise of the
 German vernacular in late seventeenth-century titles appears to reflect
 a shift in preferences that was shared across large numbers of scholars
@@ -346,7 +340,7 @@ antagonistic forms of reasoning also resonated with wider shifts in
 seventeenth-century academic culture, which saw an increasing
 affectation of more courtly, gallant, and conciliatory tones.[^39]
 
-{% figure caption: "Figure 4. In the early decades of the seventeenth century, the proportion of dissertations framed as *controversia* declined significantly, indicating a waning of dialogic and antagonistic forms of reasoning and a desire to avoid association with confessional controversy. Annual percentage of dissertations mentioning *controvers* (ten-year moving average). Excluded: reprints, duplicates, entries with fewer than two authors, entries without *praeses* birth date. Data source: *Verzeichnis der im deutschen Sprachraum erschienenen Drucke des 17. Jahrhunderts* (2020)." %}
+{% figure caption: "Figure 4. In the early decades of the seventeenth century, the proportion of dissertations framed as *controversia* declined significantly, indicating a waning of dialogic and antagonistic forms of reasoning and possibly a desire to avoid association with confessional controversy. Annual percentage of dissertations mentioning *controvers* (ten-year moving average). Excluded: reprints, duplicates, entries with fewer than two authors, entries without *praeses* birth date. Data source: *Verzeichnis der im deutschen Sprachraum erschienenen Drucke des 17. Jahrhunderts* (2020)." %}
 ![A line graph entitled "Mentions of controversia by Year" with year on the x-axis and the moving average percetage on the y-axis. Blue line on a white background.]({{site.url}}/assets/img/v05/scholz/figure4.png)
 {% endfigure %}
 
@@ -420,8 +414,8 @@ published in the first half of the century, it shows that territory only
 began to appear regularly in dissertation titles from the 1660s onward.
 Most of these texts discussed territorial superiority, but they also
 include dissertations on transit rights, servitudes, and different
-aspects of inter-polity relations.[^47] Questions concerning territorial
-rights had also been discussed in dissertations that did not mention the
+aspects of inter-polity relations.[^47] Of course, questions concerning territorial
+rights had long been discussed in dissertations that did not mention the
 word in their title. However, territory's late appearance in the
 dissertation titles is surprising, given that the concept had already
 played a key role in the legal-philosophical literature of the sixteenth
