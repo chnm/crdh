@@ -467,8 +467,7 @@ younger scholars.
 
 ### Conclusion
 
-The charts presented in this article employed a novel visualization
-technique to examine whether linguistic, methodological, and thematic
+The charts presented in this article employed a series of Lexis diagrams to examine whether linguistic, methodological, and thematic
 shifts in the titles of catalogued early modern legal dissertations were
 specific to certain age cohorts or whether they were adopted across
 generations.
