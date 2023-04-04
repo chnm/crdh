@@ -15,7 +15,10 @@ env:
 
 jobs:
   build:
-
+    
+    permissions:
+      packages: write
+    
     runs-on: ubuntu-latest
 
     steps:
