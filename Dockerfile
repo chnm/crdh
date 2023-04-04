@@ -1,16 +1,14 @@
 FROM ruby:3.1.2 as build-stage
 
-ARG baseurl
-ENV BASE_URL $baseurl
-ARG addargs
-ENV ADD_ARGS $addargs
+ARG configfile
+ENV CONFIG_FILE $configfile
 
 WORKDIR /app
 ADD . .
 
 RUN gem install bundler
 RUN bundle install
-RUN bundle exec jekyll build --baseurl "${BASE_URL}" ${ADD_ARGS} --config _config.yml
+RUN bundle exec jekyll build --config _config.yml,${CONFIG_FILE}
 
 
 FROM ghcr.io/chnm/systems/ansible:main as final-stage
