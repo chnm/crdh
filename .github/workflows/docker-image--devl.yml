@@ -28,6 +28,8 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=raw,value=devl
   
       - name: Build and push backend
         uses: docker/build-push-action@v3
