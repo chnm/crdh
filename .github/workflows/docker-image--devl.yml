@@ -41,3 +41,30 @@ jobs:
           platforms: linux/amd64
           build-args: |
             configfile=_config-dev.yml
+
+      - name: Extract build artifact from docker image
+        uses: shrink/actions-docker-extract@v2
+        id: extract
+        with:
+          image: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          path: /app/_site/
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v2
+        with:
+          path: ${{ steps.extract.outputs.destination }}
+          name: dist
+
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+
+      - uses: actions/checkout@master
+
+      - uses: actions/download-artifact@master
+        with:
+          name: dist
+          path: /tmp/crdh
+                            
+      - run: ls -ltr /tmp
