@@ -46,7 +46,7 @@ jobs:
         uses: shrink/actions-docker-extract@v2
         id: extract
         with:
-          image: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          image: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:devl
           path: /app/_site/
 
       - name: Upload build artifact
