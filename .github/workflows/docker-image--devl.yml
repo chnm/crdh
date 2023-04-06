@@ -1,5 +1,4 @@
 name: Docker Image CI for crdh (development)
-
 on:
   push:
     branches: [ "feature/**" ]
