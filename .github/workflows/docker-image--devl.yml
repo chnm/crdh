@@ -55,16 +55,22 @@ jobs:
           path: ${{ steps.extract.outputs.destination }}
           name: dist
 
-  deploy:
-    runs-on: self-hosted
+  test:
+    uses: chnm/systems/.github/workflows/deploy-build-artifact.yml@feature/reusable-workflows
+    with:
+      target-host: self-hosted
+      build-artifact: dist
+      
+  #deploy:
+    #runs-on: self-hosted
 
-    steps:
+    #steps:
 
-      - uses: actions/checkout@master
+      #- uses: actions/checkout@master
 
-      - uses: actions/download-artifact@master
-        with:
-          name: dist
+      #- uses: actions/download-artifact@master
+        #with:
+          #name: dist
           path: /tmp/crdh
                             
       - run: ls -ltr /tmp
