@@ -61,16 +61,6 @@ jobs:
       target-host: self-hosted
       build-artifact: dist
       
-  #deploy:
-    #runs-on: self-hosted
-
-    #steps:
-
-      #- uses: actions/checkout@master
-
-      #- uses: actions/download-artifact@master
-        #with:
-          #name: dist
-          path: /tmp/crdh
+tmp/crdh
                             
       - run: ls -ltr /tmp
