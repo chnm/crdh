@@ -56,9 +56,3 @@ jobs:
         with:
           path: ${{ steps.extract.outputs.destination }}
           name: dist
-
-  test2:
-    uses: chnm/systems/.github/workflows/deploy-build-artifact.yml@feature/reusable-workflows
-    with:
-      target-host: self-hosted
-      build-artifact: dist
