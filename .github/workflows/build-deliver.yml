@@ -47,7 +47,7 @@ jobs:
             configfile=_config-production.yml
 
       - name: Build and push backend (devl)
-        if: github.ref == 'refs/heads/preview' || startsWith(github.ref, 'refs/heads/feature')
+        if: github.ref == 'refs/heads/preview'
         uses: docker/build-push-action@v3
         with:
           context: .
@@ -56,3 +56,12 @@ jobs:
           platforms: linux/amd64
           build-args: |
             configfile=_config-dev.yml
+
+      - name: Build and push backend (local)
+        if: startsWith(github.ref, 'refs/heads/feature')
+        uses: docker/build-push-action@v3
+        with:
+          context: .
+          push: true
+          tags: latest
+          platforms: linux/amd64
