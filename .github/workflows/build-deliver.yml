@@ -35,20 +35,13 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: ${{ env.REGISTRY }}
   
-      - name: Extract Docker metadata
-        id: meta
-        uses: docker/metadata-action@v4
-        with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
-  
       - name: Build and push backend (prod)
         if: github.ref == 'refs/heads/main'
         uses: docker/build-push-action@v3
         with:
           context: .
           push: true
-          tags:  ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+          tags: latest
           platforms: linux/amd64
           build-args: |
             configfile=_config-production.yml
@@ -59,8 +52,7 @@ jobs:
         with:
           context: .
           push: true
-          tags:  ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+          tags: latest
           platforms: linux/amd64
           build-args: |
             configfile=_config-dev.yml
