@@ -9,3 +9,7 @@ ADD . .
 RUN gem install bundler
 RUN bundle install
 RUN bundle exec jekyll build --config _config.yml,${CONFIG_FILE}
+
+FROM nginx:1.23-alpine
+
+COPY --from=build-stage /app/_site/ /usr/share/nginx/html

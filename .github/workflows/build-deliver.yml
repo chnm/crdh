@@ -1,18 +1,28 @@
-name: Docker Image CI for crdh (development)
+name: Build and Deliver
+
 on:
   push:
-    branches: [ "feature/**" ]
+    branches:
+      - "main"
+      - "preview"
+      - "feature/**"
+
+  pull_request:
+    branches: [ "main" ]
+    types:
+      - ready_for_review
+      - review_requested
 
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
-  test:
-    uses: chnm/systems/.github/workflows/release.yml@feature/actions-test
-
-  build:
-
+  build-and-deliver:
+    
+    permissions:
+      packages: write
+    
     runs-on: ubuntu-latest
 
     steps:
@@ -30,10 +40,21 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
-          tags: |
-            type=raw,value=devl
   
-      - name: Build and push backend
+      - name: Build and push backend (prod)
+        if: github.ref == 'refs/heads/main'
+        uses: docker/build-push-action@v3
+        with:
+          context: .
+          push: true
+          tags:  ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          platforms: linux/amd64
+          build-args: |
+            configfile=_config-production.yml
+
+      - name: Build and push backend (devl)
+        if: github.ref == 'refs/heads/preview' || startsWith(github.ref, 'refs/heads/feature')
         uses: docker/build-push-action@v3
         with:
           context: .
@@ -43,16 +64,3 @@ jobs:
           platforms: linux/amd64
           build-args: |
             configfile=_config-dev.yml
-
-      - name: Extract build artifact from docker image
-        uses: shrink/actions-docker-extract@v2
-        id: extract
-        with:
-          image: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:devl
-          path: /app/_site/
-
-      - name: Upload build artifact
-        uses: actions/upload-artifact@v2
-        with:
-          path: ${{ steps.extract.outputs.destination }}
-          name: dist
