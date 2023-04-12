@@ -73,8 +73,9 @@ jobs:
           path: /usr/share/nginx/html/
 
       - run: |
-          tar czvf dist.tar.gz -C ${{ steps.extract.outputs.destination }} .
-          ls -la
+          ls -l ${{ steps.extract.outputs.destination }}
+          tar czvf dist.tar.gz -C ${{ steps.extract.outputs.destination }}/html .
+          ls -l
           
       - name: Upload build artifact
         uses: actions/upload-artifact@v2
