@@ -15,7 +15,6 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
 
 jobs:
   build-and-deliver:
@@ -70,16 +69,46 @@ jobs:
         uses: shrink/actions-docker-extract@v2
         id: extract
         with:
-          image: "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest"
-          path: /app/_site/
+          image: "${{ env.REGISTRY }}/${{ github.repository }}:latest"
+          path: /usr/share/nginx/html/
 
+      - run: |
+          pwd
+          echo "${{ steps.extract.outputs.destination }}"
+          ls -l
+          
       - name: Upload build artifact
         uses: actions/upload-artifact@v2
         with:
           path: ${{ steps.extract.outputs.destination }}
           name: dist
 
-
+  release:
+    if: false
+    needs: build-and-deliver
+    uses: chnm/.github/.github/workflows/create-release.yml@feature/initial-reusable-workflows
+    with:
+      github-run-id: "${{ github.run_id }}"
+      github-workflow: "${{ github.workflow }}"
+      github-workflow-ref: "${{ github.workflow_ref }}"
+      github-workflow-sha: "${{ github.workflow_sha }}"
+      github-workspace: "${{ github.workspace }}"
+      github-repository: "${{ github.repository }}"
+      github-repository-owner: "${{ github.repository_owner }}"
+      github-repository-name: "${{ github.event.repository.name }}"
+      github-repository-url: "${{ github.repository-url }}"
+      github-action-ref: "${{ github.action_ref }}"
+      github-event-name: "${{ github.event_name }}"
+      github-actor: "${{ github.actor }}"
+      github-triggering-actor: "${{ github.triggering_actor }}"
+      github-base-ref: "${{ github.base_ref }}"
+      github-ref-name: "${{ github.ref_name }}"
+      github-ref-type: "${{ github.ref_type }}"
+      github-ref: "${{ github.ref }}"
+      github-sha: "${{ github.sha }}"
+      build-artifact-name: "dist"
+      release-artifact-tarball-filename: "dist.tar.gz"
+      release-tag-name-type: "iso"
 
 
 
