@@ -75,12 +75,14 @@ jobs:
       - run: |
           pwd
           echo "${{ steps.extract.outputs.destination }}"
-          ls -l
+          ls -l ${{ steps.extract.outputs.destination }}
+          tar czvf -C ${{ steps.extract.outputs.destination }} dist.tar.gz .
+          ls -la
           
       - name: Upload build artifact
         uses: actions/upload-artifact@v2
         with:
-          path: ${{ steps.extract.outputs.destination }}
+          path: ./dist.tar.gz
           name: dist
 
   release:
