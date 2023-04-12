@@ -83,7 +83,6 @@ jobs:
           name: dist
 
   release:
-    if: false
     needs: build-and-deliver
     uses: chnm/.github/.github/workflows/create-release.yml@feature/initial-reusable-workflows
     with:
