@@ -8,7 +8,7 @@ ADD . .
 
 RUN gem install bundler
 RUN bundle install
-RUN bundle exec jekyll build --config _config.yml,${CONFIG_FILE}
+RUN bundle exec jekyll build --destination ./_site --config _config.yml,${CONFIG_FILE}
 
 FROM nginx:1.23-alpine
 
