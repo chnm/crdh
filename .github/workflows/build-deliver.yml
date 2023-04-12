@@ -73,10 +73,7 @@ jobs:
           path: /usr/share/nginx/html/
 
       - run: |
-          pwd
-          echo "${{ steps.extract.outputs.destination }}"
-          ls -l ${{ steps.extract.outputs.destination }}
-          tar czvf -C ${{ steps.extract.outputs.destination }} dist.tar.gz .
+          tar czvf dist.tar.gz -C ${{ steps.extract.outputs.destination }} .
           ls -la
           
       - name: Upload build artifact
