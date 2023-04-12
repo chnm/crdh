@@ -65,3 +65,28 @@ jobs:
           push: true
           tags: "${{ env.REGISTRY }}/${{ github.repository }}:latest"
           platforms: linux/amd64
+
+      - name: Extract build artifact from docker image
+        uses: shrink/actions-docker-extract@v2
+        id: extract
+        with:
+          image: "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest"
+          path: /app/_site/
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v2
+        with:
+          path: ${{ steps.extract.outputs.destination }}
+          name: dist
+
+
+
+
+
+
+
+
+
+
+
+
