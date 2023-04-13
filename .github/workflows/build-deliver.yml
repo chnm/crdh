@@ -117,7 +117,7 @@ jobs:
         env:
           MSG_MINIMAL: true
           SLACK_COLOR: '#c32a26'
-          SLACK_MESSAGE: '```${{ github.repository }}```'
+          SLACK_MESSAGE: '```${{ github.repository }}\n${{ github.ref }}\n${{ github.workflow_ref }}```'
           SLACK_TITLE: 'Ready to Deploy :rocket:'
           SLACK_USERNAME: rrchnm-systems
           SLACK_WEBHOOK: ${{ secrets.SLACK_SYSTEMS_WEBHOOK }}
