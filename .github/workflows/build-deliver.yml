@@ -109,19 +109,6 @@ jobs:
       release-artifact-tarball-filename: "dist.tar.gz"
       release-tag-name-type: "iso"
 
-  notify:
-    #needs: release
-    name: Slack Notification
-    runs-on: ubuntu-latest
-    steps:
-      - uses: rtCamp/action-slack-notify@v2.2.0
-        env:
-          MSG_MINIMAL: true
-          SLACK_COLOR: '#c32a26'
-          SLACK_MESSAGE: "```${{ github.repository }}\n${{ github.ref }}\n${{ github.workflow_ref }}```"
-          SLACK_TITLE: 'Ready to Deploy :rocket:'
-          SLACK_USERNAME: rrchnm-systems
-          SLACK_WEBHOOK: ${{ secrets.SLACK_SYSTEMS_WEBHOOK }}
 
 
 
