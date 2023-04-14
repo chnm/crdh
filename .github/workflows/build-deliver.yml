@@ -20,20 +20,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
   
-      - name: Login to GitHub Container Registry
-        uses: docker/login-action@v2
-        with:
-          username: ${{ github.repository_owner }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-          registry: ${{ env.REGISTRY }}
-  
       - name: Build Docker Image (prod)
         if: github.ref == 'refs/heads/main'
         uses: docker/build-push-action@v4
         with:
           context: .
           push: false
-          tags: "${{ env.IMAGE_NAME }}:build"
+          tags: "${{ env.IMAGE_NAME }}:latest"
           platforms: linux/amd64
           build-args: |
             configfile=_config-production.yml
@@ -44,36 +37,41 @@ jobs:
         with:
           context: .
           push: false
-          tags: "${{ env.IMAGE_NAME }}:build"
+          tags: "${{ env.IMAGE_NAME }}:latest"
           platforms: linux/amd64
           build-args: |
             configfile=_config-dev.yml
-
-      - name: Build and Push Docker Image for Local Dev
-        uses: docker/build-push-action@v4
-        with:
-          context: .
-          push: false
-          tags: "${{ env.IMAGE_NAME }}:latest"
-          platforms: linux/amd64
 
       - name: Extract build artifact from docker image with build tag
         uses: shrink/actions-docker-extract@v2
         id: extract
         with:
-          image: "${{ env.IMAGE_NAME }}:build"
+          image: "${{ env.IMAGE_NAME }}:latest"
           path: /usr/share/nginx/html/
 
-      - run: |
-          ls -l ${{ steps.extract.outputs.destination }}
-          tar czvf dist.tar.gz -C ${{ steps.extract.outputs.destination }}/html .
-          ls -l
+      - name: Archive build artifact
+        run: tar czvf dist.tar.gz -C ${{ steps.extract.outputs.destination }}/html .
           
       - name: Upload build artifact
         uses: actions/upload-artifact@v2
         with:
           path: ./dist.tar.gz
           name: dist
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v2
+        with:
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: ${{ env.REGISTRY }}
+
+      - name: Build and Push Docker Image for Local Dev
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          push: true
+          tags: "${{ env.IMAGE_NAME }}:latest"
+          platforms: linux/amd64
 
   release:
     needs: build
