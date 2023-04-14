@@ -19,17 +19,21 @@ jobs:
     
     steps:
       - uses: actions/checkout@v3
-  
-      - name: Build Docker Image (prod)
-        if: github.ref == 'refs/heads/main'
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v2
+        with:
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: ${{ env.REGISTRY }}
+
+      - name: Build and Push Docker Image for Local Dev
         uses: docker/build-push-action@v4
         with:
           context: .
-          push: false
+          push: true
           tags: "${{ env.IMAGE_NAME }}:latest"
           platforms: linux/amd64
-          build-args: |
-            configfile=_config-production.yml
 
       - name: Build Docker Image(devl)
         if: github.ref == 'refs/heads/preview'
@@ -41,6 +45,17 @@ jobs:
           platforms: linux/amd64
           build-args: |
             configfile=_config-dev.yml
+  
+      - name: Build Docker Image (prod)
+        if: github.ref == 'refs/heads/main'
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          push: false
+          tags: "${{ env.IMAGE_NAME }}:latest"
+          platforms: linux/amd64
+          build-args: |
+            configfile=_config-production.yml
 
       - name: Extract build artifact from docker image
         uses: shrink/actions-docker-extract@v2
@@ -57,21 +72,6 @@ jobs:
         with:
           path: ./dist.tar.gz
           name: dist
-
-      - name: Login to GitHub Container Registry
-        uses: docker/login-action@v2
-        with:
-          username: ${{ github.repository_owner }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-          registry: ${{ env.REGISTRY }}
-
-      - name: Build and Push Docker Image for Local Dev
-        uses: docker/build-push-action@v4
-        with:
-          context: .
-          push: true
-          tags: "${{ env.IMAGE_NAME }}:latest"
-          platforms: linux/amd64
 
   release:
     needs: build
