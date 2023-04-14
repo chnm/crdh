@@ -42,7 +42,7 @@ jobs:
           build-args: |
             configfile=_config-dev.yml
 
-      - name: Extract build artifact from docker image with build tag
+      - name: Extract build artifact from docker image
         uses: shrink/actions-docker-extract@v2
         id: extract
         with:
