@@ -1,4 +1,4 @@
-name: Build and Deliver
+name: Build & Publish
 
 on:
   push:
@@ -99,17 +99,4 @@ jobs:
       build-artifact-name: "dist"
       release-artifact-tarball-filename: "dist.tar.gz"
       release-tag-name-type: "iso"
-
-  deploy:
-    needs: release
-    if: false
-    runs-on: ubuntu-latest # self-hosted
-    steps:
-      - run: echo "TODO"
-
-
-
-
-
-
 
