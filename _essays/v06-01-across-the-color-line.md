@@ -4,7 +4,7 @@ subtitle: "Using Text Networks to Examine Black and White US Soldiers’ Views o
 doi: "https://doi.org/10.31835/crdh.2023.01"
 volume-number: 6
 year: 2023
-date: 2023-03-10
+date: 2023-05-17
 authors:
 - last: Gitre
   first: Edward J.K.
@@ -30,7 +30,7 @@ authors:
   orcid: 0000-0002-4947-6320
   url: "https://www.linkedin.com/in/gizemkorkmaz"
 abstract: |
-  "Across the Color Line" is part of a larger digital project <a href="https://americansoldierww2.org/">The American Soldier in World War II</a>. The project is making accessible sixty-five thousand pages of uncensored handwritten commentaries composed by US service members, along with quantitative datasets produced by a novel interdisciplinary US Army research branch. This small organization of leading psychologists and social scientists was tasked with analyzing and reporting on soldier morale, including the rank-and-file effects of segregation and relations between the races. This article showcases initial findings derived from a cross-sectional survey of Black and White soldiers administered in February and March of 1943, only months before race rebellions in Detroit, Los Angeles, Harlem, and elsewhere over the country's maintenance of Jim Crow while the US and its allies were at war to save democracy. Text correlation networks reveal in striking visual detail the effects of segregation on the experiences, habits, and opinions of both White and Black US citizen-soldiers, individually and collectively. Network-based visualizations are particularly effective at revealing the inverted epistemology of American racial thought and of W.E.B. Du Bois's popular portrayal of Black America's "double consciousness," or "twoness."
+  "Across the Color Line" is part of a larger digital project <a href="https://americansoldierww2.org/">The American Soldier in World War II</a>. The project has made accessible sixty-five thousand pages of uncensored handwritten commentaries composed by US service members, along with quantitative datasets produced by a novel interdisciplinary US Army research branch. This small organization of leading psychologists and social scientists was tasked with analyzing and reporting on soldier morale, including the rank-and-file effects of segregation and relations between the races. This article showcases initial findings derived from a cross-sectional survey of Black and White soldiers administered in February and March of 1943, only months before race rebellions erupted in Detroit, Los Angeles, Harlem, and elsewhere over the country's maintenance of Jim Crow while the US and its allies were at war to save democracy. Text correlation networks reveal in striking visual detail the effects of segregation on the experiences, habits, and opinions of both White and Black US citizen-soldiers, individually and collectively. Network-based visualizations are particularly effective at revealing the inverted epistemology of American racial thought and of W.E.B. Du Bois's popular characterization of Black America's "double consciousness," or "twoness."
 preview: "/assets/img/v06/gitre/preview.png"
 ---
 
@@ -39,9 +39,7 @@ possession of unambiguous data from "attitude surveys" it had been
 conducting with service members indicating that racial friction could
 well spill over from occasional conflict into open rebellion and
 anarchic violence. Just gathering opinion data related to race had been
-fraught. The army's survey program did not even include Black soldiers
-when it was inaugurated the day after Pearl Harbor in December 1941, and
-their inclusion only followed the application of sustained pressure from
+fraught. The army's survey program did not even include Black soldiers in the first survey administered the day after Pearl Harbor in December 1941. Their inclusion only followed the application of sustained pressure from
 Black leaders. Even then, the psychologists and social scientists
 conducting research for the military wanted assurances that they would
 be "sufficiently protected against possible repercussions." The phrasing
@@ -58,7 +56,7 @@ research unit, as a directive from the under secretary of war.
 
 The army's second attitude survey, administered in May and June of 1942,
 did ask members of the 28<sup>th</sup> Infantry Division at Camp Livingston,
-Louisiana; the 2<sup>nd</sup> Armored Division at Ft. Benning, Georgia; and 4<sup>th</sup>
+Louisiana; the 2<sup>nd</sup> Armored Division at Fort Benning, Georgia; and 4<sup>th</sup>
 Motorized Division at Camp Gordon, Georgia, for their opinions about
 integrating post exchanges (PXs), recreation halls, and movies. Yet only
 White soldiers were queried. The data confirmed what researchers had
@@ -148,7 +146,7 @@ comprehensive. Surveyors selected units located throughout the
 continental US with the intention of creating a pool of respondents
 representing a cross-section of the entire army. After arriving at a
 designated army post, a local survey team used a standardized
-procedure, calling every nth man from a selected unit until a
+procedure, calling every *n*th man from a selected unit until a
 representative sample size was reached, which was usually one out of
 every nine or ten service members from the unit. Researchers wanted, for
 this particular survey, to create regional balance as well. For outfits
@@ -157,11 +155,11 @@ to be Northern men and the other half Southern. Finally, they wanted an
 inclusive distribution of education levels and of aptitude based on Army
 General Classification Test (AGCT) scores. The total White sample
 consisted of 4,793 EM from 71 outfits in 4 Air Force and 6 Ground and
-Services installations. The Black sample was composed of 7,434 EM from 5
-Air Force and 13 Ground and Services Force installations. It included a
+Service Force installations. The Black sample was composed of 7,434 EM from 5
+Air Force and 13 Ground and Service Force installations. It included a
 3,000-person subsample intended as the cross section of all Black EM.
 
-{% figure caption: "Figure 2: This graph shows how the army created a sampling scheme for Survey 32 that mirrored the geographic distribution of Black and White enlisted men. Most enlistees hailed from the most-populous states, although Texas is over-represented in both the White and Black samples (according to the 1940 US Census, Texas had less than half the population of New York, 6.41 vs 13.48 million). Within the S32N sample, 957 respondents indicated no state of residency, defined as their residence for the previous 5 years as a civilian, or no data is available. Within the S32W, only 194 indicated no state of residency, or no data is available." %}![Bar graph entitled "Geographic Distribution of Black and White Survey 32 Samples." Count is on the x-axis. State is on the y-axis. Yellow bars on the left and blue bars on the right show the number of respondents from each state. Large amounts of white respondents came from the states of Texas, New York, Illinois, Pennsylvania, Ohio and Louisiana. Large numbers of black respondents came from the states of Texas, New York, Illinois, Pennsylvania, Ohio, Michigan, California, Oklahoma, Indiana and Massachusetts. Very few respondents of either race came from Oregon, Rhode Island and Montana.]({{site.url}}/assets/img/v06/gitre/figure2.png)
+{% figure caption: "Figure 2: This graph shows how the army created a sampling scheme for Survey 32 that mirrored the geographic distribution of Black and White enlisted men. Most enlistees hailed from the most-populous states, although Texas is over-represented in both the White and Black samples (according to the 1940 US Census, Texas had less than half the population of New York, 6.41 vs 13.48 million). Within the S32N sample, 957 respondents indicated no state of residency, defined as their residence for the previous 5 years as a civilian, or no data is available. Within the S32W sample, only 194 indicated no state of residency, or no data is available." %}![Bar graph entitled "Geographic Distribution of Black and White Survey 32 Samples." Count is on the x-axis. State is on the y-axis. Yellow bars on the left and blue bars on the right show the number of respondents from each state. Large amounts of white respondents came from the states of Texas, New York, Illinois, Pennsylvania, Ohio and Louisiana. Large numbers of black respondents came from the states of Texas, New York, Illinois, Pennsylvania, Ohio, Michigan, California, Oklahoma, Indiana and Massachusetts. Very few respondents of either race came from Oregon, Rhode Island and Montana.]({{site.url}}/assets/img/v06/gitre/figure2.png)
 {% endfigure %}
 
 While executing this survey as well as the others it administered, the
@@ -299,7 +297,7 @@ illustrative of the integral relationship of Whiteness, status, and
 resource distribution. The table in figure 5 offers a more detailed look
 at the word communities found in figure 4.
 
-{% figure caption: "Figure 4: These two graphs depict the word associations in responses from Black (left) and White (right) enlistees. Note the contrast in the two networks' volumes. The Black response network contains 306 nodes, 1292 edges, and 9 communites while the white response network contains 162 nodes, 781 edges, and 8 communities. As evidenced by the higher number of nodes (words) and communities within the Black text networks, when provided the opportunity to speak their mind and to do so without fear of reprisal or censure, soldiers of color appeared to have more to air in comparison to their White comrades. Not only did Black GIs have more to write, but they also covered a broader range of topics. Their White peers discussed a narrower range of interests, and within that more-constricted range, more frequently shared similar sentiments with their fellow White enlistees. This has resulted in a higher degree of conceptual overlap than is visible in the Black text network. In our graphs, we recorded previously stemmed words to improve interpretability." %}![Network visualization entitled “Survey 32 Community Response Networks.” It shows two networks graphs side by side. The network on the left shows groupings or “communities” of the most frequently used words listed in S32N responses from black enlisted men. The largest grouping has blue nodes and includes words such as white, fight, negro, country, color, race, and equal. Other groups of nodes are shown in red, yellow, bronze, green, chartreuse, orange and teal. The network graph on the right shows groupings or “communities” of the most frequently used words listed in S32W responses from white enlisted men. The largest grouping in the graph has yellow nodes and includes words such as army, service, combat, job, physical, branch, duty and give. Other groups of nodes are shown in green, chartreuse, teal, red, blue and orange.]({{site.url}}/assets/img/v06/gitre/figure4.png)
+{% figure caption: "Figure 4: These two graphs depict the word associations in responses from Black (left) and White (right) enlistees. Note the contrast in the two networks' volumes. The Black response network contains 306 nodes, 1292 edges, and 9 communites while the White response network contains 162 nodes, 781 edges, and 8 communities. As evidenced by the higher number of nodes (words) and communities within the Black text networks, when provided the opportunity to speak their mind and to do so without fear of reprisal or censure, soldiers of color appeared to have more to air in comparison to their White comrades. Not only did Black GIs have more to write, but they also covered a broader range of topics. Their White peers discussed a narrower range of interests, and within that more-constricted range, more frequently shared similar sentiments with their fellow White enlistees. This has resulted in a higher degree of conceptual overlap than is visible in the Black text network. In our graphs, we recorded previously stemmed words to improve interpretability." %}![Network visualization entitled “Survey 32 Community Response Networks.” It shows two networks graphs side by side. The network on the left shows groupings or “communities” of the most frequently used words listed in S32N responses from black enlisted men. The largest grouping has blue nodes and includes words such as white, fight, negro, country, color, race, and equal. Other groups of nodes are shown in red, yellow, bronze, green, chartreuse, orange and teal. The network graph on the right shows groupings or “communities” of the most frequently used words listed in S32W responses from white enlisted men. The largest grouping in the graph has yellow nodes and includes words such as army, service, combat, job, physical, branch, duty and give. Other groups of nodes are shown in green, chartreuse, teal, red, blue and orange.]({{site.url}}/assets/img/v06/gitre/figure4.png)
 {% endfigure %}
 
 #### Communities in the Response Networks, Ordered by Size
@@ -369,13 +367,13 @@ remarks---an example of which is shown in figure 7.
 |---|---|---|---|
 
 <figure>
-<figcaption> Figure 6. This table lists the top words mentioned by Black (left) and White (right) soldiers, ordered by frequency. This table elucidates the difference between each group's focus on racial inequality and focus on promotion within the military. Of course, soldiers did utter many of the same words, such as “america,” “army” and “war”. America was one of the most common words mentioned by soldiers of both racial groups, but this term is notably absent from our networks because it had very low correlations with other terms in our graphs.</figcaption>
+<figcaption> Figure 6. This table lists the top words mentioned by Black (left) and White (right) soldiers, ordered by frequency. This table elucidates the difference between each group's focus on racial inequality and focus on promotion within the military. Of course, soldiers did utter many of the same words, such as “america,” “army” and “war.” America was one of the most common words mentioned by soldiers of both racial groups, but this term is notably absent from our networks because it had very low correlations with other terms in our graphs.</figcaption>
 </figure>
 
 {% figure caption: "Figure 7: Many verbatims such as [this one](https://americansoldierww2.org/surveys/a/S32N.Q78.F.20739577) evidence the dialectics of identity of Black Americans in, and out of, uniform. Personal and social Black selfhood is conspicuously articulated vis-à-vis a structurally privileged White identity: “After these questionaires \[sic\] are read what action will be taken to better our army conditions? ... \[W\]e wear the same uniform, draw the same pay & is \[sic\] fighting for the same cause. I ask if you cut us do we not bleed as the\[y\] do, do we too not shed tears, sweat & die as the do for the same cause? Then why are we treated as an inferior race, our inteligence \[sic\] & education ranks on the same level as any white mans, sometimes even higher. United we stand Devided \[sic\] we fall, & we are a divided country, racial discrimination & yet dark hands buy bonds & mold bullets the black and white alike use. Let their \[sic\] be a change, light in this dark nation. Lets unite as one against our common <u>enymy</u> \[sic\] <u>the NATZIS</u> \[sic\]”" %}![Image of a scanned document. The document contains a handwritten response to S32N survey question 78 which reads "Use the space provided to write any other comments you have about any part of this questionnaire." The response says: "After these questionaires are read what action will be taken to better our army conditions? In regards to seperate PX's [Post Exchanges] & service clubs, a white soldier can get away with entering our P.X.s [Post Exchanges] and service clubs & event have intercourse with our women. Enter one of theirs or have an intercours with a white woman & immediatly their theres is cry of blood retaliation, even in the theaters. They go so far as to have separate windows to buy tickets & a restricted area to sit in. Yet we wear the same uniform, draw the same pay & is fighting for the same cause. I ask if you cut us do we not bleed as the do, do we too not shed tears, sweat & die as the do for the same cause? Then why are we treated as an inferior race, our inteligence & education ranks on the same level as any white mans, sometimes even higher. United we stand Devided we fall, & we are a divided  country. racial discrimination & yet dark hands buy bonds & mold bullets the black and white alike use. let their be a change, light in this dark nation. lets unite as one against our common enymy [enemy] the NATZIS.”]({{site.url}}/assets/img/v06/gitre/figure7.jpg)
 {% endfigure %}
 
-White as well as Black samples had been primed by survey questions to
+White as well as Black enlistees had been primed by survey questions to
 reflect on race in the armed forces and the possibility of integrating
 certain facilities. Yet in their free responses, White soldiers
 mentioned their counterparts' race less frequently, and their own race
@@ -416,7 +414,7 @@ also how they might elevate their status, principally by becoming a
 non-commissioned officer.
 
 {% figure caption: "Figure 8: Multilayer network of Black and White combined text responses. In Gephi, we used a combination of Fruchterman-Reingold and Force Atlas 2 layouts to automate where the nodes were situated. (See Fruchterman and Reingold, “Graph Drawing by
-Force‐directed Placement” and Jacomy et al., “ForceAtlas2.”). The combined multilayered co-occurrence network includes 334 nodes and 1903 edges. As before, nodes represent words, edges signify correlations between those words, and node size corresponds to the number of connections a word has to other terms in the graph (i.e., its degree centrality). Orange ties represent words written by White soldiers, and blue ties by Black soldiers. This approach allowed us to more directly compare how words and the communities they fall into correlate to the respondent's racial group. The average word count of open-ended responses for Black EM was 73.04 words and for White EM 56.71 words, accounting for the dominance of blue edges." %}![Network visualization entitled “Combined Black and White Co-Occurrence Test Response Network.” This network shows the most frequently used words from Survey 32. Words are shown on nodes and the edges represent the correlations between words. Blue edges represent words written by black respondents while orange edges represent words represented by white respondents. The nodes are sized based on the number of connections a word has to other terms. The bottom and left side of the graph is more dense with blue edges, while the top and right side has more orange edges. The largest nodes include words like negro, white, solider, war, fight, country, south, office, army, and home.]({{site.url}}/assets/img/v06/gitre/figure8.png)
+Force‐directed Placement” and Jacomy et al., “ForceAtlas2.”) The combined multilayered co-occurrence network includes 334 nodes and 1903 edges. As before, nodes represent words, edges signify correlations between those words, and node size corresponds to the number of connections a word has to other terms in the graph (i.e., its degree centrality). Orange ties represent words written by White soldiers, and blue ties by Black soldiers. This approach allowed us to more directly compare how words and the communities they fall into correlate to the respondent's racial group. The average word count of open-ended responses for Black EM was 73.04 words and for White EM 56.71 words, accounting for the dominance of blue edges." %}![Network visualization entitled “Combined Black and White Co-Occurrence Test Response Network.” This network shows the most frequently used words from Survey 32. Words are shown on nodes and the edges represent the correlations between words. Blue edges represent words written by black respondents while orange edges represent words represented by white respondents. The nodes are sized based on the number of connections a word has to other terms. The bottom and left side of the graph is more dense with blue edges, while the top and right side has more orange edges. The largest nodes include words like negro, white, solider, war, fight, country, south, office, army, and home.]({{site.url}}/assets/img/v06/gitre/figure8.png)
 {% endfigure %}
 
 The graph's bifurcation corroborated our initial analysis, but the
@@ -449,7 +447,7 @@ saw in our close reading of S32N verbatims a great desire among Black
 soldiers that they be led by officers of their own race. Many wanted to
 become noncommissioned officers themselves and pled with the army that
 officers be selected not according to race but ability (see *ability* to
-the bottom right of *officer* in figure 9's S32Ngraph). As the White GIs
+the bottom right of *officer* in figure 9's S32N graph). As the White GIs
 understood that officers were gatekeepers to the military's social and
 material resources, so, too, did Black enlistees. The more-attenuated
 chartreuse community of the Black EM network in figure 9 speaks to their
@@ -481,7 +479,7 @@ characterizations of "the humanities" for recognition of marginalized
 peoples, and *their* "full humanity."[^17] The Black press has long been
 recognized as a vital primary source base for bringing forth the full
 humanity of Black Americans, especially during World War II by
-publishing the personal accounts of individual servicemembers and
+publishing the personal accounts of individual service members and
 documenting the prevalence of violence and prejudice against Black
 citizen-soldiers and war workers. The large-scale digitization of
 historical newspapers such as the *Chicago Defender* and *Pittsburgh
@@ -492,7 +490,7 @@ The unstructured survey responses from Black and White soldiers in
 Survey 32 complement these newspaper accounts of anti-Black racism. A
 number of Black GIs' survey questionnaires voiced support for the
 "Double Victory" campaign championed by WWII Black editors and the
-NAACP, which called for victory against fascism abroad as well as white
+NAACP, which called for victory against fascism abroad as well as White
 supremacy at home. The survey responses the army collected demonstrate
 just how extensively the campaign was adopted among the rank-and-file.
 Yet, the transcribed verbatims illuminate a far broader and at points
@@ -560,7 +558,7 @@ Dwyer, Owen J., and John Paul Jones III. "White Socio-spatial Epistemology." *So
 
 Fruchterman, Thomas M., and Edward M. Reingold. "Graph Drawing by Force‐directed Placement." *Software: Practice and Experience* 21, no. 11 (1991): 1129--64. <https://doi.org/10.1002/spe.4380211102>.
 
-Gallon, Kimberly. "Making a Case for the Black Digital Humanities." In *Debates in the Digital Humanities 2016*, edited by Matthew K. Gold and Lauren F. Klein. Minneapolis: University of Minnesota Press, 2014. <https://doi.org/10.5749/9781452963761>.
+Gallon, Kimberly. "Making a Case for the Black Digital Humanities." In *Debates in the Digital Humanities 2016*, edited by Matthew K. Gold and Lauren F. Klein. Minneapolis: University of Minnesota Press, 2016. <https://doi.org/10.5749/9781452963761>.
 
 Gallon, Kimberly. *Pleasure in the News: African American Readership and Sexuality in the Black Press*. Urbana: University of Illinois Press, 2020. <https://doi.org/10.5406/j.ctv1220rp4>.
 
@@ -604,7 +602,7 @@ Phillips, Kimberley L. *War! What Is It Good For? Black Freedom Struggles and th
 
 Polk, Khary Oronde. *Contagions of Empire: Scientific Racism, Sexuality, and Black Military Workers Abroad, 1898--1948*. Chapel Hill: University of North Carolina Press, 2020.
 
-Ray, Victor. "A Theory of Racialized Organizations," *American Sociological Review* 84, no. 1 (2019): 26--53. <https://doi.org/10.1177/0003122418822335>.
+Ray, Victor. "A Theory of Racialized Organizations." *American Sociological Review* 84, no. 1 (2019): 26--53. <https://doi.org/10.1177/0003122418822335>.
 
 Ray, Victor. "Critical Diversity in the US Military: From Diversity to Racialized Organizations." In *Challenging the Status Quo: Diversity, Democracy, and Equality in the 21st Century*, edited by David G. Embrick, Sharon M. Collins, and Michelle S. Dodson, 287--300. New York: Brill, 2019. <https://doi.org/10.1163/9789004291225>.
 
