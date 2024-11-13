@@ -52,19 +52,13 @@ Submissions should not currently be under consideration by or already published 
 
 [Jo Guldi](http://www.joguldi.com/), Emory University
 
-[Zoe LeBlanc](https://zoeleblanc.com), Princeton University
+[Zoe LeBlanc](https://zoeleblanc.com), University of Illinois, Urbana-Champaign
 
-[Crystal Moten](https://www.crystalmoten.com/), National Museum of American History
+[Crystal Moten](https://www.crystalmoten.com/), Obama Presidential Center Museum 
 
 [Robert Nelson](https://directory.richmond.edu/bios/rnelson2/), University of Richmond
 
 [Anelise Hanson Shrout](http://www.anelisehshrout.com/), Bates College
-
-### Site Design
-
-[Ken Albers](https://rrchnm.org/author/ken-albers/), Roy Rosenzweig Center for History and New Media
-
-[Kim Nguyen](http://kimisgold.com/), Roy Rosenzweig Center for History and New Media
 
 ### Contact Information
 
