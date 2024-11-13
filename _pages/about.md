@@ -62,7 +62,7 @@ Submissions should not currently be under consideration by or already published 
 
 ### Contact Information
 
-To contact the editors, please write to [lincoln+crdh@lincolnmullen.com](mailto:lincoln+crdh@lincolnmullen.com).
+To contact the editors, please write to Lincoln Mullen <[lmullen@gmu.edu](mailto:lmullen@gmu.edu)> and Stephen Robertson <[srober30@gmu.edu](mailto:srober30@gmu.edu)>.
 
 Roy Rosenzweig Center for History and New Media<br>
 George Mason University<br>
