@@ -68,7 +68,7 @@ jobs:
         run: tar czvf dist.tar.gz -C ${{ steps.extract.outputs.destination }}/html .
           
       - name: Upload build artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           path: ./dist.tar.gz
           name: dist
