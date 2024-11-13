@@ -20,10 +20,10 @@ scholarship:
 ### Journal Policies
 
 **Peer Review**:
-Two rounds of peer review gives academic standing to these short works. Given that these are brief articles about work in progress, we are committed to a fast peer review and publication schedule. Submissions are first reviewed by members of the editorial board. Accepted submissions will be returned with written reviews. After revisions are made in response to these inital reviews, a revised copy of the submission is sent to a second reviewer, who will provide a second written review. Both sets of reviews should be taken into consideration when authors prepare the final version of their article for publication. 
+Two rounds of peer review gives academic standing to these short works. Submissions are first reviewed by a member of the editorial board. Accepted submissions will be returned with written reviews. After revisions are made in response to these inital reviews, a revised copy of the submission is sent to a second reviewer, who will provide a second written review. Both sets of reviews should be taken into consideration when authors prepare the final version of their article for publication. 
 
 **Rolling Publication**:
-Articles are published individually on a rolling basis, when they are ready for publication, instead of being published as a set of articles once a year.
+Articles are published individually on a rolling basis, when they are ready for publication. 
 
 **Open Access**:
 This journal is open access. Users may read, download, copy, distribute, print, search, or link to the full text of these articles. This journal does not charge article processing fees or submission fees. We do not provide download statistics, but authors can find how their work is being cited in sources such as Google Scholar. 
