@@ -62,7 +62,7 @@ Submissions should not currently be under consideration by or already published 
 
 [Zoe LeBlanc](https://zoeleblanc.com), University of Illinois, Urbana-Champaign
 
-[Crystal Moten](https://www.crystalmoten.com/), Obama Presidential Museum
+[Crystal Moten](https://www.crystalmoten.com/), Obama Presidential Center Museum
 
 [Robert Nelson](https://directory.richmond.edu/bios/rnelson2/), University of Richmond
 
