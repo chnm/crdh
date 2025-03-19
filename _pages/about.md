@@ -44,6 +44,8 @@ Submissions should not currently be under consideration by or already published 
 
 ### Editorial Assistants
 
+[Hannah LeComte](https://historyarthistory.gmu.edu/people/hlecomte), George Mason University
+
 [Annabelle Spencer](http://annabellespencer.org), George Mason University
 
 ### Editorial Board
