@@ -48,7 +48,7 @@ Submissions should not currently be under consideration by or already published 
 
 ### Editorial Assistants
 
-[Paige Magoto](https://paigemagoto.com), Roy Rosenzweig Center for History and New Media
+[Annabelle Spencer](http://annabellespencer.org), George Mason University
 
 ### Editorial Board
 
