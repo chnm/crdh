@@ -7,6 +7,10 @@ on:
       - "main"
       - "preview"
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
 jobs:
   jekyll-build-release-deploy:
     uses: chnm/.github/.github/workflows/jekyll--build-release-deploy.yml@main
