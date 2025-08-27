@@ -40,7 +40,7 @@ Submissions should not currently be under consideration by or already published 
 
 [Lincoln A. Mullen](https://lincolnmullen.com/), Roy Rosenzweig Center for History and New Media
 
-[Greta Swain](http://gretaswain.org/), Southern Methodist University
+[Greta Swain](http://gretaswain.org/), University of North Texas
 
 ### Editorial Assistants
 
