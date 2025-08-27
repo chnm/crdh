@@ -52,7 +52,7 @@ Submissions should not currently be under consideration by or already published 
 
 [Sharon Block](https://www.faculty.uci.edu/profile.cfm?faculty_id=5301), University of California, Irvine
 
-[Kalani Craig](http://www.kalanicraig.com/), Indiana University, Bloomington
+[Kalani Craig](http://www.kalanicraig.com/), University of Illinois, Urbana-Champaign
 
 [Jo Guldi](http://www.joguldi.com/), Emory University
 
