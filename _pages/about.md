@@ -42,6 +42,10 @@ Submissions should not currently be under consideration by or already published 
 
 [Greta Swain](http://gretaswain.org/), Southern Methodist University
 
+### Editorial Assistants
+
+[Paige Magoto](https://paigemagoto.com), Roy Rosenzweig Center for History and New Media
+
 ### Editorial Board
 
 [Cameron Blevins](http://www.cameronblevins.org), University of Colorado, Denver
