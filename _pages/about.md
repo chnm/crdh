@@ -60,12 +60,6 @@ Submissions should not currently be under consideration by or already published 
 
 [Anelise Hanson Shrout](http://www.anelisehshrout.com/), Bates College
 
-### Site Design
-
-[Ken Albers](https://rrchnm.org/author/ken-albers/), Roy Rosenzweig Center for History and New Media
-
-[Kim Nguyen](http://kimisgold.com/), Roy Rosenzweig Center for History and New Media
-
 ### Contact Information
 
 To contact the editors, please write to [lincoln+crdh@lincolnmullen.com](mailto:lincoln+crdh@lincolnmullen.com).
