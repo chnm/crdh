@@ -40,7 +40,11 @@ Submissions should not currently be under consideration by or already published 
 
 [Lincoln A. Mullen](https://lincolnmullen.com/), Roy Rosenzweig Center for History and New Media
 
-[Greta Swain](http://gretaswain.org/), Southern Methodist University
+[Greta Swain](http://gretaswain.org/), University of North Texas
+
+### Editorial Assistants
+
+[Paige Magoto](https://paigemagoto.com), Roy Rosenzweig Center for History and New Media
 
 ### Editorial Board
 
@@ -48,23 +52,17 @@ Submissions should not currently be under consideration by or already published 
 
 [Sharon Block](https://www.faculty.uci.edu/profile.cfm?faculty_id=5301), University of California, Irvine
 
-[Kalani Craig](http://www.kalanicraig.com/), Indiana University, Bloomington
+[Kalani Craig](http://www.kalanicraig.com/), University of Illinois, Urbana-Champaign
 
 [Jo Guldi](http://www.joguldi.com/), Emory University
 
-[Zoe LeBlanc](https://zoeleblanc.com), Princeton University
+[Zoe LeBlanc](https://zoeleblanc.com), University of Illinois, Urbana-Champaign
 
-[Crystal Moten](https://www.crystalmoten.com/), National Museum of American History
+[Crystal Moten](https://www.crystalmoten.com/), Obama Presidential Museum
 
 [Robert Nelson](https://directory.richmond.edu/bios/rnelson2/), University of Richmond
 
 [Anelise Hanson Shrout](http://www.anelisehshrout.com/), Bates College
-
-### Site Design
-
-[Ken Albers](https://rrchnm.org/author/ken-albers/), Roy Rosenzweig Center for History and New Media
-
-[Kim Nguyen](http://kimisgold.com/), Roy Rosenzweig Center for History and New Media
 
 ### Contact Information
 
