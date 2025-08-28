@@ -3,7 +3,7 @@ title: "Visualising Art on the Threshold in the Palazzo Medici, Florence"
 doi: "https://doi.org/10.31835/crdh.2025.TK"
 volume-number: 7
 year: 2025
-date: 2025-TK-TK
+date: 2025-08-28
 authors:
 - last: McGee
   first: Anna
