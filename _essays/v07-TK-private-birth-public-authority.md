@@ -4,7 +4,7 @@ subtitle: "Topic changes from the sixteenth to the eighteenth century in German 
 doi: "https://doi.org/10.31835/crdh.2024.TK"
 volume-number: 7
 year: 2025
-date: 2025-14-01TK
+date: 2025-01-14
 authors:
 - last: Käfer
   first: Natacha Klein
