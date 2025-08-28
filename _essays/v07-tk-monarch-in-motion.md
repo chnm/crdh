@@ -3,11 +3,11 @@ title: "A Monarch in Motion: Mapping the King's Private Correspondence"
 doi: "https://doi.org/10.31835/crdh.2025.TK"
 volume-number: 7
 year: 2025
-date: 2025-TK-TK
+date: 2025-08-28
 authors:
 - last: Maekelberg
   first: Sanne
-  email: "TK"
+  email: "sma@teol.ku.dk"
   affiliation: "Center for Privacy Studies"
   orcid: https://orcid.org/0000-0002-5369-0960
 
