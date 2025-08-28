@@ -9,7 +9,7 @@ date: 2025-01-14
 authors:
 - last: Romein
   first: Annemieke 
-  email: TK
+  email: c.a.romein@utwente.nl
   affiliation: "Department of History, University of Maryland, Baltimore County"
   orcid: 0000-0003-3682-0126
   url: "TK"
