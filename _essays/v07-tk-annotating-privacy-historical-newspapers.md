@@ -1,5 +1,5 @@
 ---
-title: "Annotating "Privacy" for Semi-Supervised Event Extraction in Historical Newspapers"
+title: Annotating "Privacy" for Semi-Supervised Event Extraction in Historical Newspapers
 doi: "https://doi.org/10.31835/crdh.2025.TK"
 volume-number: 7
 year: 2025
