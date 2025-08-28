@@ -3,11 +3,11 @@ title: "Annotating "Privacy" for Semi-Supervised Event Extraction in Historical 
 doi: "https://doi.org/10.31835/crdh.2025.TK"
 volume-number: 7
 year: 2025
-date: 2025-TK-TK
+date: 2025-08-28
 authors:
 - last: da Silva Perez
   first: Natália
-  email: "TK"
+  email: "dasilvaperez@eshcc.eur.nl"
   affiliation: "Erasmus University Rotterdam"
   orcid: https://orcid.org/0000-0003-3723-5682
   url: "https://silvaperez.github.io/"
