@@ -5,7 +5,7 @@ subtitle: "HTR, KWS and Fuzzy Searches within Police Ordinances"
 doi: "https://doi.org/10.31835/crdh.2024.TK"
 volume-number: 7
 year: 2025
-date: 2025-14-01
+date: 2025-01-14
 authors:
 - last: Romein
   first: Annemieke 
