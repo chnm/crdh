@@ -1,5 +1,5 @@
 ---
-title: "A Digital Reconstruction of Privacy in the Royal Apartments? Network Theory and the 1585 court ordinance of Henri III of France" [^1]
+title: "A Digital Reconstruction of Privacy in the Royal Apartments? Network Theory and the 1585 court ordinance of Henri III of France [^1]"
 doi: "https://doi.org/10.31835/crdh.2024.TK"
 volume-number: 7
 year: 2025
@@ -347,19 +347,14 @@ Thurley, Simon. *The Royal Palaces of Tudor England: Architecture and Court Life
 
 [^29]: "Depuis que Sa Majesté aura faict dire qu'elle est éveillée
     iusques à ce qu'elle soit retirée dans son
-
     cabinet pour s'aller coucher, les princes, cardinaux, seigneurs et
     gentilhommes pourront demeurer
-
     aux chambres de Sa Majesté s'ils veullent, ausquelles il est permis
     d'entrer depuis que Sa Majesté a
-
     faict demander son espée et sa cappe le matin, excepté depuis
     qu'elle se sera retirée l'après-dinée en
-
     son cabinet, iusques à deux heures après midy, que alors nul ne
     demeurera en la chambre royalle,
-
     oultre les valets de chambre couchant en icelle, huissiers de
     ladicte chambre royalle et valetz de chambre qui seront en leur
     jour, que les princes, ducs, officiers de la couronne, grand maistre
