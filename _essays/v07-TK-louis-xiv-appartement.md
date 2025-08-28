@@ -4,7 +4,7 @@ subtitle: "A preliminary outline of the *Appartement du Roi*'s iconography"
 doi: "https://doi.org/10.31835/crdh.2025.TK"
 volume-number: 7
 year: 2025
-date: 2025-14-01
+date: 2025-01-14
 authors:
 - last: Gigone
   first: Fabio
