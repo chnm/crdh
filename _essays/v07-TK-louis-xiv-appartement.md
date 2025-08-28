@@ -12,7 +12,8 @@ authors:
   affiliation: "The Institute for the History and Theory of Architecture"
   orcid: 0000-0001-9286-6335
   url: "TK"
-abstract: | "TK"
+abstract: |
+  "TK"
 preview: "/assets/img/v07/romein/preview.pngTK"
 ---
 In this article, I adopted a digital humanities approach to study Louis XIV's painting collection, exploring the location of iconographic themes in the private and public spaces inhabited by the French king in Versailles. For that, I researched and classified the paintings belonging to the *Cabinet des Tableaux* of the king, which were collected in Versailles after 1671, when the first part of the *Cabinet* was established in the palace. The painting collection ---that constituted a fraction of his and the Crown's general art collection--- was so extensive that only the plain citation of all the *œuvres*' titles would take more than 5000 words. Moreover, the consistency of the collection at the times of Louis XIV reached a complexity that its formation's assessment has required the study of specific temporal and physical segments. The paintings are scattered, their location often changed, and the written sources about them, though plentiful, are sometimes contradictory. A digital humanities approach can aid in relating images to written documents and vice-versa, which can help us visualize relationships between these different historical sources, especially relationships that have not yet been considered. Moreover, such relations can also be interrogated as a meta-source that can help validate the historical macro perspective alongside the micro-analysis.
