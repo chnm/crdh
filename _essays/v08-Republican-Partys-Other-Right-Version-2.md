@@ -6,7 +6,7 @@ year: 2025
 date: 2025-09-04
 authors:
 - last: Buck
-  first: Brandon
+  first: Brandan
   email: TK
   affiliation: "Cato Institute"
   orcid: Tk
