@@ -9,7 +9,7 @@ authors:
   first: Brandan
   email: bbuck@cato.org
   affiliation: "Cato Institute"
-  orcid: Tk
+  orcid: https://orcid.org/0009-0006-7741-9071
   url: "https://brandanpbuck.com"
 abstract: |
  TK.
