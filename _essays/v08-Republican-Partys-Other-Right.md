@@ -7,7 +7,7 @@ date: 2025-09-04
 authors:
 - last: Buck
   first: Brandan
-  email: TK
+  email: bbuck@cato.org
   affiliation: "Cato Institute"
   orcid: Tk
   url: "https://brandanpbuck.com"
