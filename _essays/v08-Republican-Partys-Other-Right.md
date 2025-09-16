@@ -44,12 +44,10 @@ If we facet the voting statistics by the party wings that comprise the two major
 
 {% figure caption: "Figure 2: This figure depicts congressional voting trends on military and foreign policy for the two major political parties, the Republicans and Democrats and their internal wings, from 1935 to 1979. The x-axis depicts the congress, the y-axis the voting average of each cohort: support, opposition, and noncommitment. The data is faceted by party and by the three wings of each party, center, left, and right. Of the two major parties, the Republicans were the most transformed by U.S. involvement in World War II. However, their right flank changed the least of all six political components within Congress. The Republican Right would remain split on U.S. foreign policy until the escalation of Vietnam" %}![Line Graph entitled Voitng Patterns of U.S. Congress on Cold War Policy By Party and Wing, 74th to 95th Congresses (1935-1979) Average Vote Percentage Per Congress is on the y axis. Congress is on the x axis. These graphs are split first, into Democrat and Republican. Democrat and Republican are then split again into Center, Left and Right. Yellow, red and green lines represent three different facets of the graph which are labeled as support, opposition, and noncommitted.]({{site.url}}/assets/img/v08/buck/Figure2.png)
 {% endfigure %}
-
 Centering on just the Republican Party and faceting the data between its wings and the types of foreign policy votes, a picture of turmoil and division emerges. Left-wing and centrist Republicans, in the wake of WWII, except for a minor blip during the Korean War, supported all three facets of the emerging Cold War order: military policy, diplomatic policy, and foreign aid spending. The Republican Right, however, displayed unique voting behavior. It supported higher defense spending on the eve of the Korean War while maintaining a complicated relationship with diplomatic policy and a strident and indeed increasing opposition to foreign aid throughout the early Cold War (Figure 3). 
 
 {% figure caption: "Figure 3 depicts congressional voting trends on military and foreign policy within the Republican party from 1935 to 1979. The x-axis represents the Congress, and the y-axis is the voting average of each cohort: support, opposition, and noncommitment. The data is faceted by wings of the party, center / left and right. The data is also faceted by bill type, foreign aid, diplomatic, and military policy. Republican opposition to defense policy peaked with the end of World War II but faded in subsequent congresses. Despite these concessions, the Republican Right maintained a tepid relationship with diplomatic policy generally and foreign aid spending particularly." %}![Line Graph entitled Voitng Patterns of U.S. Congress on Cold War Policy By Party and Wing, 74th to 95th Congresses (1935-1979) Average Vote Percentage Per Congress is on the y axis. Congress is on the x axis. These graphs are split first, into Democrat and Republican. Democrat and Republican are then split again into Foreign Aid, Diplomatic Policy and Military Policy. Yellow, red and green lines represent three different facets of the graph which are labeled as support, opposition, and noncommitted.]({{site.url}}/assets/img/v08/buck/Figure3.png)
 {% endfigure %}
-
 Right-wing resistance to defense spending and appropriations fell slightly in the wake of WWII and then dramatically on the eve of the Korean War as once strident right-wing antimilitarists departed Congress or came to recognize a need for elevated defense spending for nuclear deterrence. To resurrect a model of Fortress America from the eve of American entry into WWII, the Old Right advocated for a model of defense spending strictly tailored to hemispheric deterrence. The former president turned conservative political fixer, Herbert Hoover, captured this mood when he advised “arming to the teeth” coupled with a “policy of watchful waiting,” as he had on the eve of WWII.[^6] Such a view was not unusual, as conservative criticism of a permanent overseas military garrison remained a norm within Congress and segments of the conservative media.[^7] Despite this conceptual difference regarding the purpose of military policy, only nineteen right-wing Republicans, fourteen Representatives, and five Senators tallied an opposition percentage above 50% on floor votes related to military affairs during the Cold War.[^8]
 
 Despite an evolution in regard to defense spending, the Republican right’s stance on diplomatic policy remained inconsistent throughout the early Cold War. It would not be until the 95th Congress (1977-1979) that support would dependably outpace opposition. In the preceding Congresses, the Republican Right’s stance on diplomatic policy was highly contextual, often related to the nature of the legislation, its impacts on American sovereignty or the growth of executive authority. Of note was the conservative Republican reaction to the Eisenhower Doctrine of 1957, which made the U.S. the dominant power player within the Middle East. One of the doctrine’s opponents, H.R. Gross, argued on the House floor that the legislation “will be the longest single step yet taken toward centralization of government and rule of the Republic by executive decree.”[^9] While the doctrine's legislative form, H.J.R 117, passed, it drew 28 Republican dissenting votes in the House and four in the Senate from the party's right flank. Throughout the early Cold War, the Republican Right attempted to curb executive power, opposed U.S. involvement in multilateral and supranational organizations and supported some bilateral diplomatic initiatives that conserved American unilateralism and sovereignty.
@@ -115,7 +113,6 @@ While the foreign policy worldview of the Republican Right changed comparatively
   </tbody>
 </table>
 {% endfigure %}
-
 This transformation was the starkest in the Republican Senate delegation, which was known in the years before WWII as a hotbed of "isolationism." Republican Senators, such as William Borah (ID), Gerald Nye (ND), and "Mr. Republican" himself, Robert A. Taft of Ohio, served as roadblocks to American foreign policy in the country's senior chamber. While a few left DC via the ballot box, like Nye, or converted to interventionism like Arthur Vandenberg of Michigan, eight Republicans with noninterventionist voting records died in office during the critical years of the early Cold War (1945-1957). All eight who left office via the morgue occupied influential committee positions associated with military policy and diplomacy, and only one was ultimately replaced by a like-minded noninterventionist.[^11]
 
 Intraparty struggle between moderate and conservative Republicans over filling these vacancies rapidly transformed the voting habits of the party's Senate delegation. Such was the case with Nebraska's Senate seat vacated by Hugh Butler in 1954. Butler had served in the Senate since 1941 and was a reliable no-vote on American foreign policy through WWII and into the Cold War, voting in opposition 65% of the time. The conservative wing of the Nebraska GOP favored former Representative Howard Buffett as Butler’s replacement. Buffett, like Butler, was a reliable voice of opposition to the emerging Cold War order and had in his two stints in Congress from 1943 until 1953 voted in the opposition 62%, opposing everything from defense spending to the draft to American involvement in the Korean War.[^12]
@@ -128,7 +125,6 @@ Given the longevity of Republican noninterventionist thinking within the House, 
 
 {% figure caption: "Figure 5 depicts the generational trends of congressional voting of senators and congressional representatives who served in Congress between 1934 and 1992. Each dot represents a congressional member. The x-axis depicts when they were born, and the y-axis depicts their oppositional average on foreign and military policy during their careers—the graphic highlights four pivotal generational thresholds: 1880, 1900, 1927, and 1945. The data is faceted by party, Democrats on the left and Republicans on the right, and colorized by wing. On average, older Republicans, particularly those on the right, displayed higher levels of foreign policy opposition during their congressional careers. Democrats, generally speaking, indicated the opposite generational trend." %}![Relational scatter plot entitled Generational divide on Foreign Policy of Congressional Politicians By Party, Wing, and Birth Year" Cold War Opposition Percentage is on the y axis. Born is on the x axis.]({{site.url}}/assets/img/v08/buck/Figure5.png)
 {% endfigure %}
-
 If they were born in 1880 or earlier, representatives would have been old enough to have fought in the Spanish-American War and participated in the subsequent American occupation of the Philippines. Intense debate about the American empire outside the Western hemisphere would likely have informed their foreign policy worldview. Many right-wing noninterventionists cited the U.S. occupation of the Philippines as a moment where the American (small r) republican experiment went astray.[^19]  
 
 If they were born on or before 1900, representatives would have been old enough to have fought in the Great War. Their foreign policy consciousness undoubtedly would have been formed by this U.S. intervention into European affairs and the sacrifice of American blood and treasure. Also, the intense debates that preceded American entry into the war and the resistance to the Wilsonian vision of an assertive America on the world’s stage would have shaped their perceptions of foreign policy.[^20] 
@@ -143,7 +139,6 @@ Generational trends manifested themselves in the elimination of sectionalism in 
 
 {% figure caption: "Figure 6 depicts party and sectional voting trends on U.S. foreign and military policy within Congress from 1935 until 1992.  The x-axis depicts the Congress, and the y-axis represents the average opposition percentage. The data is faceted by party: Democrats on the left and Republicans on the right. The data is colorized by regional cohort. By the end of the Cold War and the collapse of the Soviet Union, levels of opposition between the parties and among their respective sectional cohorts disappeared, so much so that by the 102nd Congress (1991-1993), neither party nor sectional cohort averaged opposition over 25%." %}![Line Graph entitled Congressional Voting Patterns on Defense and Foreign Policy By Party and region, 74th to 102nd COngresses (1935-1992) Average opposition Percentage Per Congress is on the y axis. Congress is on the x axis. These graphs are split first, into Democrat and Republican. the Lines are depicted in colors representing different regions; Midwest (red), North (yellow), Rockies (green), South (blue green), Southwest (blue), West (pink).]({{site.url}}/assets/img/v08/buck/Figure6.png)
 {% endfigure %}
-
 The Democrats followed a similar trajectory and cohered after a crescendo of sectional difference in the 99th Congress. However, during the 102nd Congress (1991-1993), with the collapse of the Soviet Union, both parties and their sectional components twisted into a narrow Overton Window, creating an unprecedented level of sectional and partisan homogeneity. This uniformity would inform American foreign policy after the Cold War as the U.S. government embraced global hegemony. That is until the pain of twenty years of war, followed by renewed great power competition in recent years, inspired a new generation of conservatives (and progressives) to challenge these recent yet rigid orthodoxies.
 
 ---
@@ -177,40 +172,76 @@ The Democrats followed a similar trajectory and cohered after a crescendo of sec
 
 ---
 
-###Bibliography
+### Bibliography
 Buchanan, Patrick J. A Republic, Not an Empire: Reclaiming America’s Destiny. Washington, DC: Regnery Pub., 1999.
-“Congress at a Glance: Major Party Ideology.” Voteview: Congressional Roll-Call Votes Database. Jeffrey B. Lewis, Keith Poole, Howard Rosenthal, Adam Boche, Aaron Rudkin, and Luke Sonnet, 2021. https://voteview.com/.
+
+“Congress at a Glance: Major Party Ideology.” Voteview: Congressional Roll-Call Votes Database. Jeffrey B. Lewis, Keith Poole, 
+
+Howard Rosenthal, Adam Boche, Aaron Rudkin, and Luke Sonnet, 2021. https://voteview.com/.
+
 “Congress Cuts Defense Funds $1.8 Billion.” In CQ Almanac 1963, 19th ed., 141–46. Washington, DC: Congressional Quarterly, 1964. http://library.cqpress.com.mutex.gmu.edu/cqalmanac/cqal63-1316714.
+
 Craig, Campbell, and Fredrik Logevall. America’s Cold War: The Politics of Insecurity. Cambridge, MA: Belknap Press of Harvard University Press, 2009.
+
 Doenecke, Justus D. Not to the Swift: The Old Isolationists in the Cold War Era. Cranbury, NJ: Associated University Presses, 1979.
+
 Dueck, Colin. Hard Line: The Republican Party and U.S. Foreign Policy Since World War II. Princeton, NJ: Princeton University Press, 2010.
+
 Fellers, Bonner. “Military Assistance Program.” Human Events, 27 July 1949, Vol. VI, No. 30. In Bonner Fellers Correspondence 1940–1950, Box 57, Herbert Hoover Post Presidential, Herbert Hoover Presidential Library, West Branch, Iowa.
+
 Garrett, Garet. Ex America: The 50th Anniversary of The People’s Pottage. Caldwell, ID: Caxton Press, 2004.
+
 Gottfried, Paul. Conservatism in America: Making Sense of the American Right. New York: Palgrave Macmillan, 2007.
+
 Gross, H.R. “Foreign Aid: A Form of Glorified Blackmail.” 87th Cong., 1st sess. Congressional Record 107, pt. 7 (1961): 8574.
+
 Gross, H.R. Speaking on H.J. Res. 117. 85th Cong., 1st sess. Congressional Record 103, pt. 1 (1957): 1308.
+
 Halberstam, David. The Best and the Brightest. New York: Ballantine Books, 1969.
+
 Hemmer, Nicole. Messengers of the Right: Conservative Media and the Transformation of American Politics. Philadelphia: University of Pennsylvania Press, 2016.
+
 Herbert Hoover to Felix Morley, 18 Dec. 1952. Herbert Hoover Folder, Box 1, Felix Morley Papers, Herbert Hoover Presidential Library, West Branch, Iowa.
+
 Hopkins, Daniel J. The Increasingly United States: How and Why American Political Behavior Nationalized. Chicago: University of Chicago Press, 2018.
+
 Horowitz, David A. Beyond Left and Right: Insurgency and the Establishment. Urbana: University of Illinois Press, 1997.
+
 Katznelson, Ira. Fear Itself. New York: W.W. Norton & Company, 2013.
+
 Kauffman, Bill. *Ain’t My America. New York: Metropolitan Books, 2008.
+
 — America First!: Its History, Culture, and Politics. Amherst, NY: Prometheus Books, 1995.
+
 Koistinen, Paul A.C. State of War: The Political Economy of American Warfare. Lawrence: University Press of Kansas, 2012.
+
 Lemelin, Bernard. “A Fiery and Unbated Supporter of Post-War Isolationism: Journalist John T. Flynn and ‘American Foreign Policy, 1945–60.’” Canadian Review of American Studies 49, no. 3 (Winter 2019): 271–301.
+
 Milkis, Sidney M. The President and the Parties: The Transformation of the American Party System Since the New Deal. New York: Oxford University Press, 1993.
+
 Mills, David W. Cold War in a Cold Land. Norman: University of Oklahoma Press, 2015.
+
 Mutual Security Act. H.R. 5710. 83rd Cong., 1st sess. Congressional Record 99, pt. 5 (1953): 6891–6903.
+
 Nash, George H. The Conservative Intellectual Movement in America Since 1945. Wilmington, DE: ISI Books, 2006.
+
 Nichols, Christopher McKnight. Promise and Peril: America at the Dawn of a Global Age. Cambridge, MA: Harvard University Press, 2011.
+
 Poole, Keith T., and Howard Rosenthal. Ideology & Congress. Oxford: Routledge, 2007.
+
 Raimondo, Justin. Reclaiming the American Right: The Lost Legacy of the Conservative Movement. Wilmington, DE: ISI Books, 2008.
 Richman, Sheldon. “New Deal Nemesis: The ‘Old Right’ Jeffersonians.” The Independent Review 1, no. 2 (1996): 201–48.
+
 Rothbard, Murray N. The Betrayal of the American Right. Auburn, AL: Ludwig von Mises Institute, 2007.
+
 Stromberg, Joseph R. “Imperialism, Noninterventionism, and Revolution: Opponents of the Modern American Empire.” The Independent Review 11, no. 1 (2006): 79–113.
+
 Thomas, Clarke. “Course of State GOP May Be Changing: Butler Death May Bring Moderate to Fore.” Sunday Journal and Star, July 4, 1954.
+
 Trubowitz, Peter. Defining the National Interest: Conflict and Change in American Foreign Policy. Chicago: University of Chicago Press, 1998.
+
 Walldorf, C. William, Jr. To Shape Our World for Good: Master Narratives and Regime Change in U.S. Foreign Policy. Ithaca: Cornell University Press, 2019.
+
 Westad, Odd Arne. The Global Cold War. New York: Cambridge University Press, 2007.
+
 Wiltz, John Edward. “The Nye Committee Revisited.” *The Historian* 23, no. 2 (February 1961): 211–33.
