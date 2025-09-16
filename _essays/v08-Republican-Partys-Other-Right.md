@@ -5,8 +5,8 @@ volume-number: 8
 year: 2025
 date: 2025-09-04
 authors:
-- last: Buck P.
-  first: Brandan
+- last: Buck
+  first: Brandan P.
   email: bbuck@cato.org
   affiliation: "Cato Institute"
   orcid: https://orcid.org/0009-0006-7741-9071
