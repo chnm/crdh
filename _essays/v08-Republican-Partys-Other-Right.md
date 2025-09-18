@@ -214,6 +214,10 @@ Trubowitz, Peter. Defining the National Interest: Conflict and Change in America
 
 Walldorf, C. William, Jr. To Shape Our World for Good: Master Narratives and Regime Change in U.S. Foreign Policy. Ithaca: Cornell University Press, 2019.
 
+Westad, Odd Arne. The Global Cold War. New York: Cambridge University Press, 2007.
+
+Wiltz, John Edward. “The Nye Committee Revisited.” *The Historian* 23, no. 2 (February 1961): 211–33.
+
 ---
 
 ### Notes
@@ -242,8 +246,3 @@ Walldorf, C. William, Jr. To Shape Our World for Good: Master Narratives and Reg
 [^23]: See: Katznelson, Ira Fear Itself (New York: W.W. Norton & Company, 2013), Mills, David W. Cold War in a Cold Land (Norman: University of Oklahoma Press, 2015), Trubowitz, Peter Defining the National Interest: Conflict and Change in American Foreign Policy (Chicago: University of Chicago Press 1998)
 [^24]: For this article, Midwestern states are defined as Illinois, Nebraska, Minnesota, Ohio, Indiana, Michigan, South Dakota, Missouri, North Dakota, and Kansas. Western states include California, Montana, Oklahoma, Nevada, Idaho, Texas, New Mexico, Wyoming, Oregon, and Alaska. Northern states: New York, New Hampshire, Pennsylvania, Vermont, Connecticut, Massachusetts, New Jersey, and Rhode Island. The South is defined as Alabama, South Carolina, West Virginia, Mississippi, Kentucky, Virginia, North Carolina, and Louisiana. Since the District of Columbia does not possess voting representation in Congress, it is not included in this analysis.   
 [^25]: For more on the nationalization of American politics see Hopkins, Daniel J. The Increasingly United States: How and Why American Political Behavior Nationalized (Chicago: The University of Chicago Press, 2018), and Milkis, Sidney M. The President and the Parties: The Transformation of the American Party System Since the New Deal (New York: Oxford University Press, 1993).
-
-
-Westad, Odd Arne. The Global Cold War. New York: Cambridge University Press, 2007.
-
-Wiltz, John Edward. “The Nye Committee Revisited.” *The Historian* 23, no. 2 (February 1961): 211–33.
