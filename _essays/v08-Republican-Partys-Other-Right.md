@@ -147,6 +147,7 @@ The Democrats followed a similar trajectory and cohered after a crescendo of sec
 ### Editorial Note
 
 Editorial board member Zoe LeBlanc assumed the role of editor for this article in order to avoid any conflict of interest given that the author was a graduate student at RRCHNM at the time of submission.
+
 ---
 
 ### Bibliography
