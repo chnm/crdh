@@ -143,6 +143,11 @@ Generational trends manifested themselves in the elimination of sectionalism in 
 The Democrats followed a similar trajectory and cohered after a crescendo of sectional difference in the 99th Congress. However, during the 102nd Congress (1991-1993), with the collapse of the Soviet Union, both parties and their sectional components twisted into a narrow Overton Window, creating an unprecedented level of sectional and partisan homogeneity. This uniformity would inform American foreign policy after the Cold War as the U.S. government embraced global hegemony. That is until the pain of twenty years of war, followed by renewed great power competition in recent years, inspired a new generation of conservatives (and progressives) to challenge these recent yet rigid orthodoxies.
 
 ---
+### Editorial Note
+
+Editorial board member Zoe LeBlanc assumed the role of editor for this article in order to avoid any conflict of interest given that the author was a graduate student at RRCHNM at the time of submission.
+
+---
 
 ### Bibliography
 Buchanan, Patrick J. A Republic, Not an Empire: Reclaiming America’s Destiny. Washington, DC: Regnery Pub., 1999.
