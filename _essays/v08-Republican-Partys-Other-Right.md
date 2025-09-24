@@ -17,6 +17,11 @@ abstract: |
 preview: "/assets/img/v08/buck/preview.png"
 ---
 
+### Editorial Note
+
+Editorial board member Zoe LeBlanc assumed the role of editor for this article in order to avoid any conflict of interest given that the author was a graduate student at RRCHNM at the time of submission.
+
+---
 Veteran Representative H.R. Gross felt confident in the spring of 1961, having just secured a seventh term representing the Hawkeye state's 3rd Congressional district through a decisive victory in the 1960 general election. Known for his reputation as a budget hawk, Gross was also an ardent critic of U.S. government intervention in world affairs. From his earliest days in Congress, Gross had been an ardent detractor of foreign aid and a vocal opponent of the Korean War. An equal opportunity curmudgeon, Gross opposed U.S. support for Tito's communist regime in Yugoslavia and Franco's falangist regime in Spain. He similarly opposed aid to the ailing European empires, especially Great Britain, against whom he held a grudge formed from his days on the Western Front during World War I. 
 
 Speaking at the Manion Forum, a prominent conservative radio program in March 1961, Gross assailed the now adolescent Cold War order and pointed to his campaign victory as evidence that significant dissent remained on the political right. He criticized U.S. Cold War policy, noting that "[w]e have given economic and military aid to dictators who then used this aid to suppress their own people in the name of anti-communism" and argued that such efforts failed to fashion "a world that is peaceful, prosperous, or free.” [^1]
@@ -142,11 +147,6 @@ Generational trends manifested themselves in the elimination of sectionalism in 
 {% endfigure %}
 The Democrats followed a similar trajectory and cohered after a crescendo of sectional difference in the 99th Congress. However, during the 102nd Congress (1991-1993), with the collapse of the Soviet Union, both parties and their sectional components twisted into a narrow Overton Window, creating an unprecedented level of sectional and partisan homogeneity. This uniformity would inform American foreign policy after the Cold War as the U.S. government embraced global hegemony. That is until the pain of twenty years of war, followed by renewed great power competition in recent years, inspired a new generation of conservatives (and progressives) to challenge these recent yet rigid orthodoxies.
 
-
----
-### Editorial Note
-
-Editorial board member Zoe LeBlanc assumed the role of editor for this article in order to avoid any conflict of interest given that the author was a graduate student at RRCHNM at the time of submission.
 
 ---
 
