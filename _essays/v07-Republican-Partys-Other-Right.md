@@ -1,6 +1,6 @@
 ---
 title: "The Republican Party’s Other Right: A Computational History of the Old Right’s Noninterventionism and their Decline within the GOP, 1934-1992"
-doi: "TK"
+doi: "https://doi.org/10.31835/crdh.2025.01"
 volume-number: 7
 year: 2025
 date: 2025-09-04
