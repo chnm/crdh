@@ -156,17 +156,17 @@ Buchanan, Patrick J. *A Republic, Not an Empire: Reclaiming America’s Destiny.
 
 “Congress Cuts Defense Funds $1.8 Billion.” In *CQ Almanac 1963*, 19th ed., 141–46. Washington, DC: Congressional Quarterly, 1964. http://library.cqpress.com.mutex.gmu.edu/cqalmanac/cqal63-1316714.
 
-Craig, Campbell, and Fredrik Logevall. *America’s Cold War: The Politics of Insecurity.* Cambridge, MA: Belknap Press of Harvard University Press, 2009.
+Craig, Campbell, and Fredrik Logevall. *America’s Cold War: The Politics of Insecurity*. Cambridge, MA: Belknap Press of Harvard University Press, 2009.
 
-Doenecke, Justus D. *Not to the Swift: The Old Isolationists in the Cold War Era.* Cranbury, NJ: Associated University Presses, 1979.
+Doenecke, Justus D. *Not to the Swift: The Old Isolationists in the Cold War Era*. Cranbury, NJ: Associated University Presses, 1979.
 
-Dueck, Colin. *Hard Line: The Republican Party and U.S. Foreign Policy Since World War II.* Princeton, NJ: Princeton University Press, 2010.
+Dueck, Colin. *Hard Line: The Republican Party and U.S. Foreign Policy Since World War II*. Princeton, NJ: Princeton University Press, 2010.
 
 Fellers, Bonner. “Military Assistance Program.” *Human Events*, 27 July 1949, Vol. VI, No. 30. In Bonner Fellers Correspondence 1940–1950, Box 57, Herbert Hoover Post Presidential, Herbert Hoover Presidential Library, West Branch, Iowa.
 
-Garrett, Garet. *Ex America: The 50th Anniversary of The People’s Pottage.* Caldwell, ID: Caxton Press, 2004.
+Garrett, Garet. *Ex America: The 50th Anniversary of The People’s Pottage*. Caldwell, ID: Caxton Press, 2004.
 
-Gottfried, Paul. *Conservatism in America: Making Sense of the American Right.* New York: Palgrave Macmillan, 2007.
+Gottfried, Paul. *Conservatism in America: Making Sense of the American Right*. New York: Palgrave Macmillan, 2007.
 
 Gross, H.R. “Foreign Aid: A Form of Glorified Blackmail.” 87th Cong., 1st sess. *Congressional Record* 107, pt. 7 (1961): 8574.
 
@@ -188,7 +188,7 @@ Kauffman, Bill. *Ain’t My America*. New York: Metropolitan Books, 2008.
 
 — *America First!: Its History, Culture, and Politics*. Amherst, NY: Prometheus Books, 1995.
 
-Koistinen, Paul A.C. *State of War: The Political Economy of American Warfare*. Lawrence: University Press of Kansas, 2012.
+Koistinen, Paul A. C. *State of War: The Political Economy of American Warfare*. Lawrence: University Press of Kansas, 2012.
 
 Lemelin, Bernard. “A Fiery and Unbated Supporter of Post-War Isolationism: Journalist John T. Flynn and ‘American Foreign Policy, 1945–60.’” *Canadian Review of American Studies* 49, no. 3 (Winter 2019): 271–301.
 
