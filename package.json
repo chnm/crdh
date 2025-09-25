@@ -33,7 +33,7 @@
     "gulp-if": "^2.0.0",
     "gulp-load-plugins": "^1.5.0",
     "gulp-notify": "^2.2.0",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^6.0.1",
     "gulp-sourcemaps": "^2.2.0",
     "gulp-uglify": "^2.0.0",
     "js-yaml": "^3.5.4",
