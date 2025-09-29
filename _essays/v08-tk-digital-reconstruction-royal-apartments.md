@@ -68,6 +68,7 @@ relations. The dataset was imported to the open-source network analysis and visu
 
 {% figure caption: "Fig. 2: Abstract scheme of the final network." %}
 ![A diagram with circles that depict the spaces inbetween the king and other people of the castle dividing the spaces up into 4 distinct areas and 5 others. Lables of king, spaces 1-5 and C 1-5.]({{site.url}}/assets/img/v08/Fraikin/figure2.png)
+{% endfigure %}
 
 1)  *Spatial Network of the Royal Apartment*
 
