@@ -236,7 +236,124 @@ To transfer this data to the network, an edge list was created of the directed r
 ![triangular network with multiple circles and arrows depicting where the king oved through various spaces]({{site.url}}/assets/img/v08/Fraikin/figure5.png)
 {% endfigure %}
 
-TK INSERT TABLE TK
+{% figure caption: "Table 2: Temporal statements of a 'typical' Monday at court according to the 1585 court ordinance." %}
+<table>
+  <thead>
+    <tr>
+      <th>Temporal statement</th>
+      <th>Time</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>5 am</td>
+      <td>The doors of the king's lodgings are opened</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>5 am</td>
+      <td>The king wakes up</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td></td>
+      <td>The king has made known he had woken up</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td></td>
+      <td>The king asks for his wine</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td></td>
+      <td>The king's wine enters the 'cabinet'</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td></td>
+      <td>The king asks for his cloak and sword</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>6 am</td>
+      <td>The king goes to Mass</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>10 am</td>
+      <td>The king has dinner</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td></td>
+      <td>The king holds a regular audience</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td></td>
+      <td>The king retires after audience</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>2 pm</td>
+      <td>The king visits the Queen-Mother</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>3 pm</td>
+      <td>The king goes hunting</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>4 pm</td>
+      <td>The king goes to Vespers</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>6 pm</td>
+      <td>The king has supper</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>7 pm</td>
+      <td>The king goes to the Queen-Mother</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>8 pm</td>
+      <td>The king retires to go to sleep</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td></td>
+      <td>The king removes his cloak and sword and is given his nightdress</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td></td>
+      <td>The king goes to his cabinet</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td></td>
+      <td>The king removes his shoes</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td></td>
+      <td>The king retires into the cabinet to go to sleep</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>10 pm</td>
+      <td>The king's lodgings are closed</td>
+    </tr>
+  </tbody>
+</table>
+{% endfigure %}
 
 From the network and the King's schedule, three interesting insights emerge. First, according to the number of temporal statements, the space used most often by the king was his cabinet. Second, he did not actively use the *antichambre* and *chambre d'audience*, meaning that he only passed through them but did not stand in them. Third, apart from his own apartment, the King also spent considerable time in both the Queen Mother's and, to a smaller degree, the Queen's apartment.[^28]
 
