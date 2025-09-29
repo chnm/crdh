@@ -1,3 +1,4 @@
+<img width="468" height="35" alt="image" src="https://github.com/user-attachments/assets/20094502-39f1-47e7-8211-d3a1f017ac1c" />
 ---
 title: "A Digital Reconstruction of Privacy in the Royal Apartments? Network Theory and the 1585 court ordinance of Henri III of France" [^1]
 doi: "https://doi.org/10.31835/crdh.2024.TK"
@@ -12,7 +13,8 @@ authors:
   orcid: https://orcid.org/0000-0001-7960-7443
   url: "TK"
 abstract: |
-    TK
+    Although the early modern French royal court was known for its relative accessibility to the monarch and his spaces, this accessibility has often been misinterpreted as a limited or even nonexistent privacy. King Henri III (1551-1589), in particular, envisioned a monarchy heightened by distance and sought to regulate such distance through court ordinances. This article examines Henri III's 1585 court ordinance and applies network theory and access diagrams to reconstruct the spatiality of privacy within the French royal apartment. In addition to the usefulness of the applied method, the article demonstrates how Henri negotiated a balance between his personal need for privacy and the court’s expectation of access.
+
 preview: "/assets/img/v07/fraikin/preview.png"
 ---
 
@@ -28,13 +30,17 @@ In the 1990s, network theory found its way to the field of archaeology in, among
 
 Access analysis developed from the gamma analysis introduced by Hillier and Hanson in their book *The Social Logic of Space* (1984). This technique was used to investigate the relationship between spatial order and society by looking at the patterns of relations between inhabitants and strangers as reflected in the use of interior space through patterns created by boundaries and entrances.[^8] Hillier and Hanson argued that spatial organization is a function of the form of social structure. While this argument was critically received, their technique of visualizing the relation between enclosed spaces through their connection to each other by passageways in a diagram was appropriated in access diagrams.[^9]
 
-The application of access diagrams is beneficial in deepening the
+The application of access diagrams (Fig. 1) is beneficial in deepening the
 understanding of a building's spatial layout and creating awareness of the different degrees of accessibility. However several complications have limited the technique's adoption in archaeology and architectural history. First, access diagrams require a complete dataset on the exact structure of the building, including all the enclosed spaces and their partitions. To make an access diagram, one either needs to depart from a
 still extant and "complete" building or base oneself on plans and
 descriptions. Unfortunately, it is only in specific cases that this
 information sufficiently exists. Another constraint of access analysis,
 as was formulated by Hanneke Ronnes, is that its application is time
 consuming and "not very straightforward."[^10]
+
+{% figure caption: "Fig. 1: Access diagram made of a partial plan of the Louvre Castle, see fig. 3. In green the location of the royal apartment." %}
+![Access diagram with various rectangles and circles with lines connecting them depicting a digital reconstruction of Lourve Castle]({{site.url}}/assets/img/v07/Fraikin/figure1.png)
+{% endfigure %}
 
 Despite these constraints, in cases where enough information is
 available to reconstruct a building's spatial layout, access analysis is a valuable technique. It represents the first step toward a better understanding of accessibility. Nevertheless, to reconstruct a building's accessibility in detail and formulate the spatiality of privacy, access diagrams alone are not enough. From their structure, access diagrams imply that privacy is always gradually obtained following the progression of spaces. In other words, they imply that with every space one enters "deeper" into a residence, the degree of accessibility and privacy changes accordingly. Actual accessibility and privacy, however, do not necessarily have to follow the progression of enclosed spaces and can also take place abruptly. An "undeep" or shallow space can be equally private as or even more private than a "deep" space depending on the measures of accessibility at play.[^11]
@@ -54,15 +60,18 @@ Through the translation of this data into a network, (1) an abstract reconstruct
 ### Method
 
 A three-step method was used to create the network to achieve the
-above-described objectives. The dataset consists of two types of objects: spaces and persons. It also consists of two types of connections: undirected space to space and directed person to space
+above-described objectives (Fig. 2). The dataset consists of two types of objects: spaces and persons. It also consists of two types of connections: undirected space to space and directed person to space
 relations. The dataset was imported to the open-source network analysis and visualization software Gephi, in which the network and the various visualizations were created.[^18]
+
+{% figure caption: "Fig. 2: Abstract scheme of the final network." %}
+![A diagram with circles that depict the spaces inbetween the king and other people of the castle dividing the spaces up into 4 distinct areas and 5 others. Lables of king, spaces 1-5 and C 1-5.]({{site.url}}/assets/img/v07/Fraikin/figure2.png)
 
 1)  *Spatial Network of the Royal Apartment*
 
 The first step is to create a network of connections between the
-different relevant spaces at the French court in 1585. These connections can be established by following the technique of access diagrams, where the enclosed spaces are represented as nodes, and the passageways between them are represented as edges. Since the method of access analysis usually departs their network from archeological remains or contemporary plans, I in this case, was able to choose to base the network on a contemporary ground plan of the royal apartment. Because Henri III was known to have resided most often in his Paris residence, the choice for Androuet du Cerceau's plan of the royal apartment in the Louvre from 1576 seems sensible (fig. 1).[^19]
+different relevant spaces at the French court in 1585. These connections can be established by following the technique of access diagrams, where the enclosed spaces are represented as nodes, and the passageways between them are represented as edges. Since the method of access analysis usually departs their network from archeological remains or contemporary plans, I in this case, was able to choose to base the network on a contemporary ground plan of the royal apartment. Because Henri III was known to have resided most often in his Paris residence, the choice for Androuet du Cerceau's plan of the royal apartment in the Louvre from 1576 seems sensible (Fig. 3).[^19]
 
-{% figure caption: "Figure 1. TK" %}
+{% figure caption: "Fig. 3: Engraving from Le premier volume des plus excellents Bastiments de France by Jacques I Androuet du Cerceau, showing the plan of the first and second storeys of the west part of the Louvre Palace, 1576." %}
 ![TK]({{site.url}}/assets/img/v07/Fraikin/figure1.png)
 {% endfigure %}
 
@@ -74,10 +83,10 @@ From the second half of the sixteenth century, court ordinances started to make 
 
 In addition to her chamber, the Queen would also have a hall (*salle*), antechamber (*antichambre*), and a large cabinet. In turn, the Queen Mother's apartment consisted of the same spaces as the Queen's but did not have the requirement to be directly connected to that of the King. Ideally, it would, however, be situated on the same floor. Since both the Queen and the Queen Mother were provided with a hall, the King's apartment probably included a similar space.
 
-The different spaces (nodes) are connected based on the sequence and connections described in the ordinance to create the spatial network. The relation between the rooms is represented by undirect edges, indicating a two-way relationship between them (fig. 2).
+The different spaces (nodes) are connected based on the sequence and connections described in the ordinance to create the spatial network. The relation between the rooms is represented by undirect edges, indicating a two-way relationship between them (Fig. 4).
 
-{% figure caption: "Figure 2. TK" %}
-![TK]({{site.url}}/assets/img/v07/Fraikin/figure2.png)
+{% figure caption: "Fig. 4: Spatial network of the king's apartment." %}
+![4 circles titled Antechamber, Chambre d'Estat, Chambre d'Audience, Chambre royalle, and Cambinet]({{site.url}}/assets/img/v07/Fraikin/figure4.png)
 {% endfigure %}
 
 2)  *Reconstructing the King's activities and whereabouts*
@@ -88,10 +97,10 @@ At 5 a.m., Henri's lodgings were unlocked, and the King would wake up in the Que
 chamber. At 3 p.m., the visit ended, and the King went out to hunt,
 which was followed by Vespers, also known as evening prayer. At 6 p.m., the King enjoyed his *soupper* (evening meal) in the Queen Mother's hall and an hour of relaxation in the Queen Mother's apartment. At 8 p.m., Henri retired to his apartment, where the evening ritual or retiring ceremony known as the *coucher* took place. At 10 p.m., the King's apartment was locked until 5 a.m. the following day.
 
-To transfer this data to the network, an edge list was created of the directed relationship between the King\'s person and the used spaces. To include the temporality of these connections, temporal statements were defined and added to the edge list in the form of time sets which indicate the exact moment(s) that the space was in use by the King (Appendix 2). In the network visualization of the entire day, the thickness of the edges represents the number of temporal statements for which the King used this space (Fig. 3).
+To transfer this data to the network, an edge list was created of the directed relationship between the King\'s person and the used spaces. To include the temporality of these connections, temporal statements were defined and added to the edge list in the form of time sets which indicate the exact moment(s) that the space was in use by the King (Appendix 2). In the network visualization of the entire day, the thickness of the edges represents the number of temporal statements for which the King used this space (Fig. 5).
 
-{% figure caption: "Figure 3. TK" %}
-![TK]({{site.url}}/assets/img/v07/Fraikin/figure3.png)
+{% figure caption: "Fig. 5: Network representing the king's whereabouts during a 'regular' Monday at court." %}
+![triangular network with multiple circles and arrows depicting where the king oved through various spaces]({{site.url}}/assets/img/v07/Fraikin/figure5.png)
 {% endfigure %}
 
 From the network and the King's schedule, three interesting insights emerge. First, according to the number of temporal statements, the space used most often by the king was his cabinet. Second, he did not actively use the *antichambre* and *chambre d'audience*, meaning that he only passed through them but did not stand in them. Third, apart from his own apartment, the King also spent considerable time in both the Queen Mother's and, to a smaller degree, the Queen's apartment.[^24]
@@ -102,10 +111,10 @@ The degree of accessibility of the royal apartments was reconstructed following 
 
 With the addition of the presence of (types of) courtiers in the spaces of the royal apartment, it has become possible to define the varying degrees of accessibility of these spaces with the use of in-degree centrality. In-degree is a count of the number of ties or edges directed to a node, which is the number of (types of) courtiers present in a space. A higher in-degree count corresponds to a higher degree of accessibility of the room.[^25]
 
-This number can be calculated separately or combined for the different temporal statements, thus representing the degree of accessibility based on the courtiers' presence over the entire day (table 1). By changing the node size to match the in-degree, this degree of accessibility can also be visualized (fig. 4). From the representation of the entire day, it becomes clear that the *chambre d'audience* followed by the *chambre royalle* and *chambre d'Estat* were the most used---and therefore probably most accessible---spaces in the King's apartment.
+This number can be calculated separately or combined for the different temporal statements, thus representing the degree of accessibility based on the courtiers' presence over the entire day (table 1). By changing the node size to match the in-degree, this degree of accessibility can also be visualized (fig. 6). From the representation of the entire day, it becomes clear that the *chambre d'audience* followed by the *chambre royalle* and *chambre d'Estat* were the most used---and therefore probably most accessible---spaces in the King's apartment.
 
-{% figure caption: "Figure 4. TK" %}
-![TK]({{site.url}}/assets/img/v07/Fraikin/figure4.png)
+{% figure caption: "Fig. 6: Network of courtiers’ accessibility to the royal apartments. Nodes are scaled based on the weighted in-degree count." %}
+![TK]({{site.url}}/assets/img/v07/Fraikin/figure6.png)
 {% endfigure %}
 
 The King's *antichambre* seems less accessible for courtiers, but one needs to be careful with this interpretation. The ordonnance clearly states that to reach the 'deeper' rooms, such as the *chambre d'estat* and *chambre d'audience*, one must first pass through the king's *antichambre*.[^26] Because courtiers would not stand in this room for a period of time, the graph does not accurately represent its accessibility. The same is the case for the *salle*, for which a high degree of accessibility can be deduced from the ordinance itself but not from the network representation.[^27] Unfortunately, it is impossible to
@@ -113,10 +122,10 @@ overcome this inaccuracy by simply adding to the network the different in-degree
 
 ### The Spatiality of Privacy in the Royal Apartments
 
-By combining the data of both the courtiers' movements and those of the King in one network (fig. 5), it is possible to make an abstract reconstruction of the spatiality of privacy at the court of Henri III. From the combined data concerning the entire day, it is clear that while, based on the courtiers' movements, the *chambre d'Estat*, *chambre d'audience,* and *chambre royalle* know a high degree of accessibility---and could therefore be called a particularly public space of the royal apartment---the King on the contrary barely uses these spaces himself. Instead, he spends most of his time in his cabinet and the apartment of the Queen Mother. In turn, these spaces know a minimal degree of accessibility.
+By combining the data of both the courtiers' movements and those of the King in one network (Fig. 7), it is possible to make an abstract reconstruction of the spatiality of privacy at the court of Henri III. From the combined data concerning the entire day, it is clear that while, based on the courtiers' movements, the *chambre d'Estat*, *chambre d'audience,* and *chambre royalle* know a high degree of accessibility---and could therefore be called a particularly public space of the royal apartment---the King on the contrary barely uses these spaces himself. Instead, he spends most of his time in his cabinet and the apartment of the Queen Mother. In turn, these spaces know a minimal degree of accessibility.
 
-{% figure caption: "Figure 5. TK" %}
-![TK]({{site.url}}/assets/img/v07/Fraikin/figure5.png)
+{% figure caption: "Fig. 7: Network combining the king's and courtiers' movements used to reconstruct the spatiality of privacy. Nodes are scaled based on weighted in-degree count. Blue lines indicate the king’s whereabouts." %}
+![TK]({{site.url}}/assets/img/v07/Fraikin/figure7.png)
 {% endfigure %}
 
 From this network, it is possible to better understand the spatiality of privacy in the royal apartment. The network visualizes how a high number of courtiers had access to the *antichambre*, *chambre d'Estat*, *chambre d'audience* and *chambre royalle*. While a high degree of accessibility can be witnessed for four cases, their accessibility does gradually decrease according to the "deepness" of the space in question.However, the significant difference in accessibility between the
@@ -134,10 +143,14 @@ The importance of temporality on the degree of accessibility is already clear fr
 From 5 a.m., some courtiers were allowed entrance to the King's
 apartment. Until Henri had officially announced he was awake, their
 presence was restricted to the *chambre d'Estat* and *chambre
-d'audience* (see time slices 1-2). The spatial boundary of privacy then thus lay between the *chambre d'audience* and *chambre royalle.* After officially announcing the King's awakening, other courtiers were able to enter the rooms of the King's apartment in different steps (time slices 3-5). It is then that more courtiers were allowed to enter the *chambre royalle* and that the spatial boundary of privacy switched to the entrance of the cabinet. This movement was reversed during the retiring ceremony at night (time slices 16-19).
+d'audience* (see time slices 1-2, Fig. 8). The spatial boundary of privacy then thus lay between the *chambre d'audience* and *chambre royalle.* After officially announcing the King's awakening, other courtiers were able to enter the rooms of the King's apartment in different steps (time slices 3-5, Fig. 8). It is then that more courtiers were allowed to enter the *chambre royalle* and that the spatial boundary of privacy switched to the entrance of the cabinet. This movement was reversed during the retiring ceremony at night (time slices 16-19, Fig. 8).
 
-When Henri left his apartment to go to Mass until he retired for the night in his cabinet, the same accessibility is observed as when the King entered the *chambre royalle* in the morning to ask for his cloak and sword (time slice 6).[^29] The big difference, however, is that during this time, the King himself was not present in the apartment. The only exception is when he returned from his public dinner and audience in the hall and retires to his apartment at 2 p.m. (temporal statement 10). Then access to the King's apartment becomes much stricter and only a select group of courtiers is allowed entrance to the *chambre royalle*
-(time slice 10)*.*
+When Henri left his apartment to go to Mass until he retired for the night in his cabinet, the same accessibility is observed as when the King entered the *chambre royalle* in the morning to ask for his cloak and sword (time slice 6, Fig. 8).[^29] The big difference, however, is that during this time, the King himself was not present in the apartment. The only exception is when he returned from his public dinner and audience in the hall and retires to his apartment at 2 p.m. (temporal statement 10). Then access to the King's apartment becomes much stricter and only a select group of courtiers is allowed entrance to the *chambre royalle*
+(time slice 10, Fig. 8)*.*
+
+{% figure caption: "Fig. 8: Time Slices of network." %}
+![TK]({{site.url}}/assets/img/v07/Fraikin/figure8.png)
+{% endfigure %}
 
 The comparison of these time slices demonstrates the effect of
 temporality on the degree of accessibility in the King's apartment.
