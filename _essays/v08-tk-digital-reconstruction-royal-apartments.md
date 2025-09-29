@@ -1,5 +1,5 @@
 ---
-title: "A Digital Reconstruction of Privacy in the Royal Apartments? Network Theory and the 1585 court ordinance of Henri III of France" [^1]
+title: "A Digital Reconstruction of Privacy in the Royal Apartments? Network Theory and the 1585 court ordinance of Henri III of France"
 doi: "https://doi.org/10.31835/crdh.2024.TK"
 volume-number: 8
 year: 2025
@@ -17,9 +17,13 @@ abstract: |
 preview: "/assets/img/v08/fraikin/preview.png"
 ---
 
-In 1530 Francis I, King of France from 1515 to 1547, claimed that "in no other Christian monarchy existed a greater conglutination, bond, and conjunction of true love than between the Kings of France and their subjects."[^2] As we learn from King Louis XIV (1638-1715), this bond of true love expressed itself in the subject's easy and free access to the prince.[^3] While the French monarchy prided itself on its public character and (relatively) high accessibility, this pride has sometimes mistakenly been understood as a limited or non-existing presence of privacy at the French court.
+In 1530 Francis I, King of France from 1515 to 1547, claimed that "in no other Christian monarchy existed a greater conglutination, bond, and conjunction of true love than between the Kings of France and their subjects."[^1] [^2] As we learn from King Louis XIV (1638-1715), this bond of true love expressed itself in the subject's easy and free access to the prince.[^3] While the French monarchy prided itself on its public character and (relatively) high accessibility, this pride has sometimes mistakenly been understood as a limited or non-existing presence of privacy at the French court.[^4]
 
-While privacy remains a slippery concept, Orlin defined personal privacy as taking many forms, including interiority, atomization, spatial control, intimacy, urban anonymity, secrecy, withholding, and solitude.[^4] In architectural history, it has been argued that the increased room specialization found in early modern castles and country houses resulted from a growing need for privacy.[^5] While Orlin contests this idea, she nevertheless agrees that privacy can relate to the concept of spatiality.[^6] The spatiality of privacy, in turn, often follows the recognition of a public versus a private sphere.[^7]
+While privacy remains a slippery concept, Orlin defined personal privacy as taking many forms, including interiority, atomization, spatial control, intimacy, urban anonymity, secrecy, withholding, and solitude.[^5] In architectural history, it has been argued that the increased room specialization found in early modern castles and country houses resulted from a growing need for privacy.[^6] While Orlin contests this idea, she nevertheless agrees that privacy can relate to the concept of spatiality.[^7] The spatiality of privacy, in turn, often follows the recognition of a public versus a private sphere.[^8]
+
+NEW INFO HEADER TK
+The French court was indeed known for the relatively high accessibility of the king’s ‘personal’ spaces, as vocalized by Michele Soriano in 1562. [^9]  A letter written by Henri III’s mother Catherine de’ Medici (1519-1589) in 1576 nevertheless also makes clear that during the reign of Charles IX (1550-1574) and Henri III (1551-1589), the fine line between desired access and disorder had been crossed. [^10]  Henri III was therefore encouraged to return to the time-honored ways of his father Henri II (1519-1559) and grandfather Francis I, where one could assume a more organized familiarité was present. Henri III seems to have agreed with his mother about the existing chaos, but different from her wish and the courtiers' expectations to return to the previously employed accessibility, Henri III ‘dreamed of a monarchy magnified by distance (and) of an inaccessible sovereign. [^11] 
+NEW INFO FOOTER TK
 
 Using network theory and the 1585 court ordinance of Henri III of France (1551-1589), this article reconstructs and measures the spatiality of privacy at the French court. Most of all, this article demonstrates how network theory can overcome some limitations of access diagrams by integrating additional source material, like court ordinances, and with this, reach a better understanding of accessibility and the spatiality of privacy at court.
 
@@ -27,7 +31,7 @@ Using network theory and the 1585 court ordinance of Henri III of France (1551-1
 
 In the 1990s, network theory found its way to the field of archaeology in, among others, the form of access diagrams. Where network theory studies graphs as representations or relations of objects in the form of nodes or vertices and edges, access analysis uses this theory to represent the configurational relations between spatial elements and their connectivity.
 
-Access analysis developed from the gamma analysis introduced by Hillier and Hanson in their book *The Social Logic of Space* (1984). This technique was used to investigate the relationship between spatial order and society by looking at the patterns of relations between inhabitants and strangers as reflected in the use of interior space through patterns created by boundaries and entrances.[^8] Hillier and Hanson argued that spatial organization is a function of the form of social structure. While this argument was critically received, their technique of visualizing the relation between enclosed spaces through their connection to each other by passageways in a diagram was appropriated in access diagrams.[^9]
+Access analysis developed from the gamma analysis introduced by Hillier and Hanson in their book *The Social Logic of Space* (1984). This technique was used to investigate the relationship between spatial order and society by looking at the patterns of relations between inhabitants and strangers as reflected in the use of interior space through patterns created by boundaries and entrances.[^12] Hillier and Hanson argued that spatial organization is a function of the form of social structure. While this argument was critically received, their technique of visualizing the relation between enclosed spaces through their connection to each other by passageways in a diagram was appropriated in access diagrams.[^13]
 
 The application of access diagrams (Fig. 1) is beneficial in deepening the
 understanding of a building's spatial layout and creating awareness of the different degrees of accessibility. However several complications have limited the technique's adoption in archaeology and architectural history. First, access diagrams require a complete dataset on the exact structure of the building, including all the enclosed spaces and their partitions. To make an access diagram, one either needs to depart from a
@@ -35,23 +39,23 @@ still extant and "complete" building or base oneself on plans and
 descriptions. Unfortunately, it is only in specific cases that this
 information sufficiently exists. Another constraint of access analysis,
 as was formulated by Hanneke Ronnes, is that its application is time
-consuming and "not very straightforward."[^10]
+consuming and "not very straightforward."[^14]
 
 {% figure caption: "Fig. 1: Access diagram made of a partial plan of the Louvre Castle, see fig. 3. In green the location of the royal apartment." %}
 ![Access diagram with various rectangles and circles with lines connecting them depicting a digital reconstruction of Lourve Castle]({{site.url}}/assets/img/v08/Fraikin/figure1.png)
 {% endfigure %}
 
 Despite these constraints, in cases where enough information is
-available to reconstruct a building's spatial layout, access analysis is a valuable technique. It represents the first step toward a better understanding of accessibility. Nevertheless, to reconstruct a building's accessibility in detail and formulate the spatiality of privacy, access diagrams alone are not enough. From their structure, access diagrams imply that privacy is always gradually obtained following the progression of spaces. In other words, they imply that with every space one enters "deeper" into a residence, the degree of accessibility and privacy changes accordingly. Actual accessibility and privacy, however, do not necessarily have to follow the progression of enclosed spaces and can also take place abruptly. An "undeep" or shallow space can be equally private as or even more private than a "deep" space depending on the measures of accessibility at play.[^11]
+available to reconstruct a building's spatial layout, access analysis is a valuable technique. It represents the first step toward a better understanding of accessibility. Nevertheless, to reconstruct a building's accessibility in detail and formulate the spatiality of privacy, access diagrams alone are not enough. From their structure, access diagrams imply that privacy is always gradually obtained following the progression of spaces. In other words, they imply that with every space one enters "deeper" into a residence, the degree of accessibility and privacy changes accordingly. Actual accessibility and privacy, however, do not necessarily have to follow the progression of enclosed spaces and can also take place abruptly. An "undeep" or shallow space can be equally private as or even more private than a "deep" space depending on the measures of accessibility at play.[^15]
 
-Furthermore, access diagrams only represent a static representation of accessibility. In reality, the degree of accessibility of a particular space or a set of rooms can change depending on the time of day, the inhabitant, or the company.[^12] Thus, in order to reach an informed notion of the spatiality of privacy at a particular residence, one needs to account for these variables by including additional source material. In this article, I demonstrate how court ordinances can serve this purpose.
+Furthermore, access diagrams only represent a static representation of accessibility. In reality, the degree of accessibility of a particular space or a set of rooms can change depending on the time of day, the inhabitant, or the company.[^16] Thus, in order to reach an informed notion of the spatiality of privacy at a particular residence, one needs to account for these variables by including additional source material. In this article, I demonstrate how court ordinances can serve this purpose.
 
 ### Regulating Court Life
 
-Notwithstanding the relatively easy accessibility of the French court, it was from the reign of Henri II (1519-1559) at the latest---and further elaborated under Henri III---that an increasing proportion of court life became regulated through court ordinances.[^13] This article focuses on the *Règlement general de 1585* of Henri III, which belongs to a group of three independent court regulations issued in 1574, 1578, and 1585.[^14] Their goal was to *remettre l'ordre et police* at the court of Henri III of France.
+Notwithstanding the relatively easy accessibility of the French court, it was from the reign of Henri II (1519-1559) at the latest---and further elaborated under Henri III---that an increasing proportion of court life became regulated through court ordinances.[^17] This article focuses on the *Règlement general de 1585* of Henri III, which belongs to a group of three independent court regulations issued in 1574, 1578, and 1585.[^18] Their goal was to *remettre l'ordre et police* at the court of Henri III of France.
 
-According to Werner Paravicini, court ordinances can be defined as "regulations issued by a nobleman or ruler determining (1) the offices in the household, (2) who is to hold these offices, (3) the payment provided, (4) what has to be done and (5) how this needs to be done.[^15] However, most court ordinances only contain a selection of the above-described elements and deal with normative provisions for the household in general and not a specific person or residence.[^16] Since they deal with normative provisions, one has to realize that these documents do not necessarily reflect reality. Instead, they should be seen as an idealized description or aspired situation. Despite their
-limitations and pitfalls, court ordinances nevertheless provide court historians with valuable insights into social structures, ceremonies, rules of conduct, and spatial distributions of the court, which can rarely be obtained from other sources.[^17] For the reconstruction of the spatiality of privacy at the French court, the 1585 *ordonnance* is specifically helpful, as it provides us with information on the ideal structure of the royal apartments, the King's activities and whereabouts
+According to Werner Paravicini, court ordinances can be defined as "regulations issued by a nobleman or ruler determining (1) the offices in the household, (2) who is to hold these offices, (3) the payment provided, (4) what has to be done and (5) how this needs to be done.[^19] However, most court ordinances only contain a selection of the above-described elements and deal with normative provisions for the household in general and not a specific person or residence.[^20] Since they deal with normative provisions, one has to realize that these documents do not necessarily reflect reality. Instead, they should be seen as an idealized description or aspired situation. Despite their
+limitations and pitfalls, court ordinances nevertheless provide court historians with valuable insights into social structures, ceremonies, rules of conduct, and spatial distributions of the court, which can rarely be obtained from other sources.[^21] For the reconstruction of the spatiality of privacy at the French court, the 1585 *ordonnance* is specifically helpful, as it provides us with information on the ideal structure of the royal apartments, the King's activities and whereabouts
 during the day, as well as the space specific conditions and rules of conducts that needed to be followed by the courtiers.
 
 Through the translation of this data into a network, (1) an abstract reconstruction of the King's use of space during the day was made, (2) degree of accessibility of the royal apartments based on the courtiers'whereabouts was visualized, and (3) the King's use of these spaces to their degree of accessibility was compared to define the spatiality of privacy present at the French court as was envisioned by the King himself in 1585.
@@ -221,72 +225,50 @@ Thurley, Simon. *The Royal Palaces of Tudor England: Architecture and Court Life
 
 ### Notes
 
-[^1]: This article is the result of my research within the PALAMUSTO
-    European Training Network. This project has received funding from
-    the European Union's Horizon 2020 research and innovation program
-    under the Marie Sklodowska-Curie grant agreement No. 861426. This
-    article reflects only the author's views, and the Agency is not
-    responsible for any use that may be made of the information it
-    contains.
+[^1]: This article is the result of my research within the PALAMUSTOEuropean Training Network. This project has received funding fromthe European Union's Horizon 2020 research and innovation programunder the Marie Sklodowska-Curie grant agreement No. 861426. Thisarticle reflects only the author's views, and the Agency is notresponsible for any use that may be made of the information itcontains.
 
 [^2]: Chatenet, "Henri III et 'l'ordre de la cour,'" 133
 
-[^3]: Louis XIV stated in his *Mémoires* the following: "Il y a des
-    nations où la majesté des rois consiste\... à ne point de laisser
-    voir; et cela peut avoir ses raisons parmi les esprits accoutumés à
-    la souvitude, qu\'on ne gouverne que par la crainte et la terreur.
-    Mais ce n\'est pas le génie de nos Français, et \... s\'il y a
-    quelque caractère singulier dans cette monarchie, c\'est l\'accès
-    libre et facile des sujets au prince." Cited by Benoist,
-    *Versailles,* 29.
+[^3]: Louis XIV stated in his *Mémoires* the following: "Il y a desnations où la majesté des rois consiste\... à ne point de laisservoir; et cela peut avoir ses raisons parmi les esprits accoutumés àla souvitude, qu\'on ne gouverne que par la crainte et la terreur.Mais ce n\'est pas le génie de nos Français, et \... s\'il y aquelque caractère singulier dans cette monarchie, c\'est l\'accèslibre et facile des sujets au prince." Cited by Benoist,*Versailles,* 29.
 
-[^4]: Orlin, *Locating Privacy,* 1.
+[^4]: Neville Williams, in comparing the royal English court with the French royal court states that ‘Unlike France, where the Valois and Bourbon kings lived out almost their whole lives before their courtiers’ gaze, public and private spheres in the English palaces were clearly demarcated.’ See: Williams, The Tudors, 108.
+    
+[^5]: Orlin, *Locating Privacy,* 1.
 
-[^5]: See among others: Girouard, *Life in English Country House,* 11;
-    Friedman, *House and Household,* 179; Thurley, *Royal Palaces,* 37.
+[^6]: See among others: Girouard, *Life in English Country House,* 11; Friedman, *House and Household,* 179; Thurley, *Royal Palaces,* 37.
 
-[^6]: Orlin, *Locating Privacy,* 108-111
+[^7]: Orlin, *Locating Privacy,* 108-111
 
-[^7]: Arendt, *The Human Condition,* 1958.
+[^8]: Arendt, *The Human Condition,* 1958.
 
-[^8]: Hillier and Hanson, *Social Logic of Space.* See also Foster,
-    "Analysis of Spatial Patterns in Buildings," 40.
+[^9]: 1562, Michele Soriano, published by Alberi 1839-1863, IV, p. 123-124: ‘(…) it arises that the king of France is so domestic with his subjects that he has them all as companions and no one is ever excluded from his presence, so much so that even the lackeys, very vile people, have the audacity to want to enter the king’s intimate chamber.’
 
-[^9]: Examples of the application of access diagrams in archaeology are:
-    Fairclough, "Meaningful constructions"; Foster, "Analysis of Spatial
-    Patterns in Buildings"; Sherlock, "Changing Perceptions."
+[^10]: Paris, Archives Nationales, KK 544, fol. 1r-7r. The dating of this letter is debated, however, I have chosen to follow the dating provided by J. H. Mariéjol in: Mariéjol, Catherine de Médicis, 270.
 
-[^10]: Ronnes, "Archeology of the Noble House," 144. What the author
-    actually means with "not straightforward" is not explained, but is
-    probably related to the knowledge and tools required to construct an
-    access diagram.
+[^11]: Chatenet, Cour de France au XVIe siècle, 136.
 
-[^11]: The original theory of Hillier and Hanson included a metrical
-    analysis, in which the "depth" of a particular space was measured.
-    Deep spaces are "spaces which are reached from the entrance only by
-    passing through a relatively large number of other spaces on the
-    way" and are generally considered to be more "private" than
-    "shallow" or "undeep" spaces. See Sherlock, "Changing Perceptions,"
-    241.
+[^12]: Hillier and Hanson, *Social Logic of Space.* See also Foster, "Analysis of Spatial Patterns in Buildings," 40.
 
-[^12]: Ronnes, "Archeology of the Noble House," 143.
+[^13]: Examples of the application of access diagrams in archaeology are: Fairclough, "Meaningful constructions"; Foster, "Analysis of Spatial Patterns in Buildings"; Sherlock, "Changing Perceptions."
 
-[^13]: Chaline, "Kingdoms of France and Navarre," 88.
+[^14]: Ronnes, "Archeology of the Noble House," 144. What the authoractually means with "not straightforward" is not explained, but isprobably related to the knowledge and tools required to construct anaccess diagram.
 
-[^14]: For the purpose of this article, I used the transcriptions
-    provided by the Centre de recherche du château de Versailles as part
-    of the project "L'étiquette à la cour: textes normatifs et usages"
-    (2014-2016),
-    <https://chateauversailles-recherche.fr/francais/ressources-documentaires/corpus-electroniques/corpus-raisonnes/l-etiquette-a-la-cour-de-france/reglements-de-la-maison-du-roi.html>.
-    For the original document: Paris, Archives nationales, KK 544 fol.
-    55r -- 141r. For more about Henri III's court ordinances, see:
-    Chatenet, "Henri III et 'L'ordre de la cour'".
+[^15]: The original theory of Hillier and Hanson included a metricalanalysis, in which the "depth" of a particular space was measured.Deep spaces are "spaces which are reached from the entrance only bypassing through a relatively large number of other spaces on theway" and are generally considered to be more "private" than"shallow" or "undeep" spaces. See Sherlock, "Changing Perceptions,"241.
 
-[^15]: Paravicini, "Europäische Hofordnungen," 14.
+[^16]: Ronnes, "Archeology of the Noble House," 143.
 
-[^16]: Paravicini, "Europäische Hofordnungen," 17.
+[^17]: Chaline, "Kingdoms of France and Navarre," 88.
 
-[^17]: De Jonge, "Hofordnungen als Quellen," 176.
+[^18]: For the purpose of this article, I used the transcriptions provided by the Centre de recherche du château de Versailles as part of the project "L'étiquette à la cour: textes normatifs et usages" (2014-2016),<https://chateauversailles-recherche.fr/francais/ressources-documentaires/corpus-electroniques/corpus-raisonnes/l-etiquette-a-la-cour-de-france/reglements-de-la-maison-du-roi.html>. For the original document: Paris, Archives nationales, KK 544 fol. 55r -- 141r. For more about Henri III's court ordinances, see: Chatenet, "Henri III et 'L'ordre de la cour'".
+
+[^19]: Paravicini, "Europäische Hofordnungen," 14.
+
+[^20]: Paravicini, "Europäische Hofordnungen," 17.
+
+[^21]: De Jonge, "Hofordnungen als Quellen," 176.
+
+[Break for still editing]
+
 
 [^18]: See: Bastian, Heymann, and Jacomy, "Gephi." See also:
     https://gephi.org/
