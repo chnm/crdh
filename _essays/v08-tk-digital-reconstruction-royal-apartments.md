@@ -21,13 +21,13 @@ In 1530 Francis I, King of France from 1515 to 1547, claimed that "in no other C
 
 While privacy remains a slippery concept, Orlin defined personal privacy as taking many forms, including interiority, atomization, spatial control, intimacy, urban anonymity, secrecy, withholding, and solitude.[^5] In architectural history, it has been argued that the increased room specialization found in early modern castles and country houses resulted from a growing need for privacy.[^6] While Orlin contests this idea, she nevertheless agrees that privacy can relate to the concept of spatiality.[^7] The spatiality of privacy, in turn, often follows the recognition of a public versus a private sphere.[^8]
 
-NEW INFO HEADER TK
+**NEW INFO HEADER TK**
 The French court was indeed known for the relatively high accessibility of the king’s ‘personal’ spaces, as vocalized by Michele Soriano in 1562. [^9]  A letter written by Henri III’s mother Catherine de’ Medici (1519-1589) in 1576 nevertheless also makes clear that during the reign of Charles IX (1550-1574) and Henri III (1551-1589), the fine line between desired access and disorder had been crossed. [^10]  Henri III was therefore encouraged to return to the time-honored ways of his father Henri II (1519-1559) and grandfather Francis I, where one could assume a more organized familiarité was present. Henri III seems to have agreed with his mother about the existing chaos, but different from her wish and the courtiers' expectations to return to the previously employed accessibility, Henri III ‘dreamed of a monarchy magnified by distance (and) of an inaccessible sovereign. [^11] 
-NEW INFO FOOTER TK
+**NEW INFO FOOTER TK**
 
 Using network theory and the 1585 court ordinance of Henri III of France (1551-1589), this article reconstructs and measures the spatiality of privacy at the French court. Most of all, this article demonstrates how network theory can overcome some limitations of access diagrams by integrating additional source material, like court ordinances, and with this, reach a better understanding of accessibility and the spatiality of privacy at court.
 
-# Access Analysis
+### Access Analysis
 
 In the 1990s, network theory found its way to the field of archaeology in, among others, the form of access diagrams. Where network theory studies graphs as representations or relations of objects in the form of nodes or vertices and edges, access analysis uses this theory to represent the configurational relations between spatial elements and their connectivity.
 
@@ -76,7 +76,7 @@ The first step is to create a network of connections between the
 different relevant spaces at the French court in 1585. These connections can be established by following the technique of access diagrams, where the enclosed spaces are represented as nodes, and the passageways between them are represented as edges. Since the method of access analysis usually departs their network from archeological remains or contemporary plans, I in this case, was able to choose to base the network on a contemporary ground plan of the royal apartment. Because Henri III was known to have resided most often in his Paris residence, the choice for Androuet du Cerceau's plan of the royal apartment in the Louvre from 1576 seems sensible (Fig. 3).[^23]
 
 {% figure caption: "Fig. 3: Engraving from Le premier volume des plus excellents Bastiments de France by Jacques I Androuet du Cerceau, showing the plan of the first and second storeys of the west part of the Louvre Palace, 1576." %}
-![TK]({{site.url}}/assets/img/v08/Fraikin/figure1.png)
+![Hand engraved image of the Lourve]({{site.url}}/assets/img/v08/Fraikin/figure1.png)
 {% endfigure %}
 
 This plan, however, predates the 1585 ordinance. From contemporary
