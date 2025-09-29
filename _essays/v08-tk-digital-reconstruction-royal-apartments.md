@@ -369,7 +369,54 @@ This number can be calculated separately or combined for the different temporal 
 ![TK]({{site.url}}/assets/img/v08/Fraikin/figure6.png)
 {% endfigure %}
 
-TK INSERT TABLE 3 TK
+{% figure caption: "Table 3: Degree of Accessibility calculated with the weighted in-degree count of separate rooms during the entire day." %}
+<table>
+  <thead>
+    <tr>
+      <th>Space</th>
+      <th>Weighted In-Degree</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>King's Chambre d'Audience</td>
+      <td>309</td>
+    </tr>
+    <tr>
+      <td>King's Chambre Royalle</td>
+      <td>288</td>
+    </tr>
+    <tr>
+      <td>King's Chambre d'Estat</td>
+      <td>232</td>
+    </tr>
+    <tr>
+      <td>Queen-Mother's Antichambre</td>
+      <td>77</td>
+    </tr>
+    <tr>
+      <td>King's Cabinet</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <td>King's Antichambre</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <td>King's Salle</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>Queen-Mother's Cabinet</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>Queen-Mother's Salle</td>
+      <td>14</td>
+    </tr>
+  </tbody>
+</table>
+{% endfigure %}
 
 The King's *antichambre* seems less accessible for courtiers, but one needs to be careful with this interpretation. The ordonnance clearly states that to reach the 'deeper' rooms, such as the *chambre d'estat* and *chambre d'audience*, one must first pass through the king's *antichambre*.[^31] Because courtiers would not stand in this room for a period of time, the graph does not accurately represent its accessibility. The same is the case for the *salle*, for which a high degree of accessibility can be deduced from the ordinance itself but not from the network representation.[^32] Unfortunately, it is impossible to overcome this inaccuracy by simply adding to the network the different in-degree counts together to represent this "passing through" spaces by courtiers.
 
