@@ -512,13 +512,9 @@ Sherlock, Rory. "Changing Perceptions: Spatial Analysis and the Study of the Iri
 
 Thurley, Simon. *The Royal Palaces of Tudor England: Architecture and Court Life, 1460-1547.* Yale University Press, 1993.
 
-***The dataset of the network, including node and edge tables, will be provided later.***
+Williams, Neville. ‘The Tudors. Three contrasts in personality’. in *The Courts of Europe: politics, patronage, and royalty 1400-1800*, edited by A.G. Dickens, 147-168. London: Thames and Hudson, 1977.
 
--   *Ordonnance_1585_Dataset.csv*
-
--   *NetworkOrdonnance1585_nodes.csv*
-
--   *NetworkOrdonannce1585_edges.csv*
+The dataset of the network, including node and edge tables, is available upon publication in Zenodo. (Once Proof is sent, request these items to then add)
 
 ### Notes
 
