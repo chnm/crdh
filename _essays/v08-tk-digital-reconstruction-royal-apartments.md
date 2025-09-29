@@ -146,14 +146,14 @@ while it is true that in France, the King's apartment was, for the most part, a 
 
 Thus far, this network has reconstructed the spatiality of privacy in the course of an ideal Monday at the court of Henri III of France. However, the effect of temporality on the degree of accessibility and the spatiality of privacy cannot be ignored. Since the King's activities changed during the week, it is possible that accessibility and privacy changed accordingly. Comparing the different days of the week is out of scope for this article, but by including the temporal statements in the network, the data for different times of the day can be compared.
 
-The importance of temporality on the degree of accessibility is already clear from the 1585 ordinance. It is, for instance, stated that between 10 p.m. and 5 a.m., the King's apartment was closed off for all courtiers, except for the *valet de chambre* who was sleeping in the King's chamber.[^28] Thus, at that time, the earlier defined spatial boundary was not situated between the *chambre royalle* and the cabinet, but instead lay at the entrance of the King's apartment.
+The importance of temporality on the degree of accessibility is already clear from the 1585 ordinance. It is, for instance, stated that between 10 p.m. and 5 a.m., the King's apartment was closed off for all courtiers, except for the *valet de chambre* who was sleeping in the King's chamber.[^33] Thus, at that time, the earlier defined spatial boundary was not situated between the *chambre royalle* and the cabinet, but instead lay at the entrance of the King's apartment.
 
 From 5 a.m., some courtiers were allowed entrance to the King's
 apartment. Until Henri had officially announced he was awake, their
 presence was restricted to the *chambre d'Estat* and *chambre
 d'audience* (see time slices 1-2, Fig. 8). The spatial boundary of privacy then thus lay between the *chambre d'audience* and *chambre royalle.* After officially announcing the King's awakening, other courtiers were able to enter the rooms of the King's apartment in different steps (time slices 3-5, Fig. 8). It is then that more courtiers were allowed to enter the *chambre royalle* and that the spatial boundary of privacy switched to the entrance of the cabinet. This movement was reversed during the retiring ceremony at night (time slices 16-19, Fig. 8).
 
-When Henri left his apartment to go to Mass until he retired for the night in his cabinet, the same accessibility is observed as when the King entered the *chambre royalle* in the morning to ask for his cloak and sword (time slice 6, Fig. 8).[^29] The big difference, however, is that during this time, the King himself was not present in the apartment. The only exception is when he returned from his public dinner and audience in the hall and retires to his apartment at 2 p.m. (temporal statement 10). Then access to the King's apartment becomes much stricter and only a select group of courtiers is allowed entrance to the *chambre royalle*
+When Henri left his apartment to go to Mass until he retired for the night in his cabinet, the same accessibility is observed as when the King entered the *chambre royalle* in the morning to ask for his cloak and sword (time slice 6, Fig. 8).[^34] The big difference, however, is that during this time, the King himself was not present in the apartment. The only exception is when he returned from his public dinner and audience in the hall and retires to his apartment at 2 p.m. (temporal statement 10). Then access to the King's apartment becomes much stricter and only a select group of courtiers is allowed entrance to the *chambre royalle*
 (time slice 10, Fig. 8)*.*
 
 {% figure caption: "Fig. 8: Time Slices of network." %}
@@ -296,38 +296,6 @@ BREAK
 
 [^32]: The high degree of accesibility can be deduced from the following: "Et en la salle, depuis le matin que l'on sera entré au logis de Sa Majesté jusques au soir que les portes dudict logis se fermeront, touttes sortes personnes y pouront entrer, \[...\], " \[fol. 132r\].
 
-[^28]: "Que ledict cappitaine qui sera en quartier assiste tous les
-    soirs à la closture des portes du logis de Sa Majesté que se fera
-    précisément à dix heures, soit en esté ou en hiver, après toutefois
-    avoir faict trois crys l'un après l'aultre par la cour pour advertir
-    un chacun de se retirer, sans que pour qui ce soit, si Sa Majesté ne
-    le commande, elle soit tenue ouverte plus tard, ny ne s'ouvrira
-    après ladicte heure. Il se trouverra aussy le matin à l'ouverture de
-    ladicte porte, qui se fera à cinq heures du matni ou plus tost sy Sa
-    Majesté est esveillé, et nul n'y entrera auparavant." \[fol. 97
-    r-v\]
+[^33]: "Que ledict cappitaine qui sera en quartier assiste tous les soirs à la closture des portes du logis de Sa Majesté que se fera précisément à dix heures, soit en esté ou en hiver, après toutefois avoir faict trois crys l'un après l'aultre par la cour pour advertir un chacun de se retirer, sans que pour qui ce soit, si Sa Majesté ne le commande, elle soit tenue ouverte plus tard, ny ne s'ouvrira après ladicte heure. Il se trouverra aussy le matin à l'ouverture de ladicte porte, qui se fera à cinq heures du matni ou plus tost sy Sa Majesté est esveillé, et nul n'y entrera auparavant." \[fol. 97 r-v\]
 
-[^29]: "Depuis que Sa Majesté aura faict dire qu'elle est éveillée
-    iusques à ce qu'elle soit retirée dans son
-
-    cabinet pour s'aller coucher, les princes, cardinaux, seigneurs et
-    gentilhommes pourront demeurer
-
-    aux chambres de Sa Majesté s'ils veullent, ausquelles il est permis
-    d'entrer depuis que Sa Majesté a
-
-    faict demander son espée et sa cappe le matin, excepté depuis
-    qu'elle se sera retirée l'après-dinée en
-
-    son cabinet, iusques à deux heures après midy, que alors nul ne
-    demeurera en la chambre royalle,
-
-    oultre les valets de chambre couchant en icelle, huissiers de
-    ladicte chambre royalle et valetz de chambre qui seront en leur
-    jour, que les princes, ducs, officiers de la couronne, grand maistre
-    de l'artillerie, ceulx des affaires de Sa Majesté, le cappitaine des
-    gardes servant le quartier, le premier escuier, le grand maistre des
-    cérémonies ou en son absence celuy qui tiendra son lieu s'ilz
-    veullent et aussy les neuf gentilhommes de la chambre qui
-    particullièrement seront en leur iour de service, et les cinq
-    gentilhommes ordinaires du roy en semaine. " \[fol. 137v -- 138r\]
+[^34]: "Depuis que Sa Majesté aura faict dire qu'elle est éveillée iusques à ce qu'elle soit retirée dans soncabinet pour s'aller coucher, les princes, cardinaux, seigneurs etgentilhommes pourront demeureraux chambres de Sa Majesté s'ils veullent, ausquelles il est permisd'entrer depuis que Sa Majesté afaict demander son espée et sa cappe le matin, excepté depuisqu'elle se sera retirée l'après-dinée enson cabinet, iusques à deux heures après midy, que alors nul nedemeurera en la chambre royalle,oultre les valets de chambre couchant en icelle, huissiers deladicte chambre royalle et valetz de chambre qui seront en leurjour, que les princes, ducs, officiers de la couronne, grand maistrede l'artillerie, ceulx des affaires de Sa Majesté, le cappitaine desgardes servant le quartier, le premier escuier, le grand maistre descérémonies ou en son absence celuy qui tiendra son lieu s'ilzveullent et aussy les neuf gentilhommes de la chambre quiparticullièrement seront en leur iour de service, et les cinqgentilhommes ordinaires du roy en semaine. " \[fol. 137v -- 138r\]
