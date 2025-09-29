@@ -97,7 +97,134 @@ The different spaces (nodes) are connected based on the sequence and connections
 
 A second step is reconstructing the King's activities and whereabouts and incorporating this data into the spatial network. The 1585 ordinance provides extensive, but not always clear, information on the King's activities and whereabouts during the week. Depending on the day of the week, Henri's activities would change.(Table 1) [^26] For this article, I decided to only reconstruct the King's activities for a "regular" Monday at court.
 
-TK INSERT TABLE 1 TK
+{% figure caption: "Table 1: Scheme of the king’s week according to the 1585 court ordinance." %}
+<table>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Sunday</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+      <th>Saturday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5am</td>
+      <td>The king wakes up</td>
+      <td>The king wakes up</td>
+      <td>The king wakes up</td>
+      <td>The king wakes up</td>
+      <td>The king wakes up</td>
+      <td>The king wakes up</td>
+      <td>The king wakes up</td>
+    </tr>
+    <tr>
+      <td>6am</td>
+      <td>Mass</td>
+      <td>Mass</td>
+      <td>Mass</td>
+      <td>Mass</td>
+      <td>Mass</td>
+      <td>Mass</td>
+      <td>Mass</td>
+    </tr>
+    <tr>
+      <td>10am</td>
+      <td>Dinner</td>
+      <td>Dinner</td>
+      <td>Dinner</td>
+      <td>Dinner</td>
+      <td>Dinner</td>
+      <td>Dinner</td>
+      <td>Dinner</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Council d'Estat de Sa Majesté</td>
+      <td>Audience</td>
+      <td>Audience for princes, cardinals, lords, etc.</td>
+      <td>Regular Audience</td>
+      <td>Audience for princes, cardinals, lords, etc.</td>
+      <td></td>
+      <td>Petitions</td>
+    </tr>
+    <tr>
+      <td>2pm</td>
+      <td>The king retires</td>
+      <td>The king retires</td>
+      <td>The king retires</td>
+      <td>The king retires</td>
+      <td>The king retires</td>
+      <td>The king retires</td>
+      <td>The king retires</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>The king visits the Queen-Mother</td>
+      <td>The king visits the Queen-Mother</td>
+      <td>The king visits the Queen-Mother</td>
+      <td>The king visits the Queen-Mother</td>
+      <td>The king visits the Queen-Mother</td>
+      <td></td>
+      <td>The king visits the Queen-Mother</td>
+    </tr>
+    <tr>
+      <td>3pm</td>
+      <td>The king plays 'jeu de mail'</td>
+      <td>The king goes hunting</td>
+      <td>The king goes horseriding</td>
+      <td>The king goes for a walk</td>
+      <td>The king plays 'jeu de mail'</td>
+      <td></td>
+      <td>The king goes for a walk</td>
+    </tr>
+    <tr>
+      <td>4pm</td>
+      <td>Vespers</td>
+      <td>Vespers</td>
+      <td>Vespers</td>
+      <td>Vespers</td>
+      <td>Vespers</td>
+      <td>Vespers</td>
+      <td>Vespers</td>
+    </tr>
+    <tr>
+      <td>6pm</td>
+      <td>Soupper</td>
+      <td>Soupper</td>
+      <td>Soupper</td>
+      <td>Soupper</td>
+      <td>Soupper</td>
+      <td>Soupper</td>
+      <td>Soupper</td>
+    </tr>
+    <tr>
+      <td>7pm</td>
+      <td>The king holds a ball</td>
+      <td>The king visits the Queen-Mother</td>
+      <td>The king visits the Queen-Mother</td>
+      <td>The king visits the Queen-Mother</td>
+      <td>The king holds a ball</td>
+      <td>The king visits the Queen-Mother</td>
+      <td>The king visits the Queen-Mother</td>
+    </tr>
+    <tr>
+      <td>8pm</td>
+      <td></td>
+      <td>The king retires to go to sleep</td>
+      <td>The king retires to go to sleep</td>
+      <td>The king retires to go to sleep</td>
+      <td></td>
+      <td>The king retires to go to sleep</td>
+      <td>The king retires to go to sleep</td>
+    </tr>
+  </tbody>
+</table>
+{% endfigure %}
 
 At 5 a.m., Henri's lodgings were unlocked, and the King would wake up in the Queen's chamber, assuming that they spent the night together. The King's morning ritual, also known as the lever, started from that moment.[^27] It consisted of several steps: the King officially announcing he was awake, getting dressed in his cabinet, asking for his wine, entering the *chambre royalle,* and lastly, asking for his cloak and sword. At 6 a.m., the King heard Mass followed by his *disner* or midday meal in the King's hall at ca. 10 a.m. After this meal, the King remained in the hall and seated at the table sheltered by a barrier held a 'regular audience'. Afterward, he retired into his cabinet for amoment of solitude, and at 2 p.m., he visited the Queen Mother in her
 chamber. At 3 p.m., the visit ended, and the King went out to hunt,
