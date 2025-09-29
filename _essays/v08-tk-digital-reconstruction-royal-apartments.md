@@ -64,7 +64,7 @@ Through the translation of this data into a network, (1) an abstract reconstruct
 
 A three-step method was used to create the network to achieve the
 above-described objectives (Fig. 2). The dataset consists of two types of objects: spaces and persons. It also consists of two types of connections: undirected space to space and directed person to space
-relations. The dataset was imported to the open-source network analysis and visualization software Gephi, in which the network and the various visualizations were created.[^18]
+relations. The dataset was imported to the open-source network analysis and visualization software Gephi, in which the network and the various visualizations were created.[^22]
 
 {% figure caption: "Fig. 2: Abstract scheme of the final network." %}
 ![A diagram with circles that depict the spaces inbetween the king and other people of the castle dividing the spaces up into 4 distinct areas and 5 others. Lables of king, spaces 1-5 and C 1-5.]({{site.url}}/assets/img/v08/Fraikin/figure2.png)
@@ -72,7 +72,7 @@ relations. The dataset was imported to the open-source network analysis and visu
 1)  *Spatial Network of the Royal Apartment*
 
 The first step is to create a network of connections between the
-different relevant spaces at the French court in 1585. These connections can be established by following the technique of access diagrams, where the enclosed spaces are represented as nodes, and the passageways between them are represented as edges. Since the method of access analysis usually departs their network from archeological remains or contemporary plans, I in this case, was able to choose to base the network on a contemporary ground plan of the royal apartment. Because Henri III was known to have resided most often in his Paris residence, the choice for Androuet du Cerceau's plan of the royal apartment in the Louvre from 1576 seems sensible (Fig. 3).[^19]
+different relevant spaces at the French court in 1585. These connections can be established by following the technique of access diagrams, where the enclosed spaces are represented as nodes, and the passageways between them are represented as edges. Since the method of access analysis usually departs their network from archeological remains or contemporary plans, I in this case, was able to choose to base the network on a contemporary ground plan of the royal apartment. Because Henri III was known to have resided most often in his Paris residence, the choice for Androuet du Cerceau's plan of the royal apartment in the Louvre from 1576 seems sensible (Fig. 3).[^23]
 
 {% figure caption: "Fig. 3: Engraving from Le premier volume des plus excellents Bastiments de France by Jacques I Androuet du Cerceau, showing the plan of the first and second storeys of the west part of the Louvre Palace, 1576." %}
 ![TK]({{site.url}}/assets/img/v08/Fraikin/figure1.png)
@@ -80,7 +80,7 @@ different relevant spaces at the French court in 1585. These connections can be 
 
 This plan, however, predates the 1585 ordinance. From contemporary
 descriptions, we furthermore learn that in connection to his newly
-established court regulations, Henri III had started to transform the spatial layout of his residences accordingly.[^20] The situation recorded by Androuet du Cerceau for the Louvre in 1576 was no longer in place in 1585.[^21] It is for this reason that instead of basing the spatial network on an existing ground plan, I decided to depart from the spatial layout as described in the ordinance itself.
+established court regulations, Henri III had started to transform the spatial layout of his residences accordingly.[^24] The situation recorded by Androuet du Cerceau for the Louvre in 1576 was no longer in place in 1585.[^25] It is for this reason that instead of basing the spatial network on an existing ground plan, I decided to depart from the spatial layout as described in the ordinance itself.
 
 From the second half of the sixteenth century, court ordinances started to make increasing provisions for the spatial requirements of the ruler's lodgings, as was also the case for the 1585 ordinance. When it comes to the spaces required for his apartment, the King ordained that, if permitted by the architecture of the residence, his apartment needed to consist of at least five rooms: antechamber, state chamber (*chambre d'Estat*), audience chamber (*chambre d'audience*), chamber (*chambre royalle*), and at least one cabinet. Furthermore, the apartment needed to be laid out as much as possible on the same floor. Preferably the Queen's chamber was directly accessible from the King's cabinet. As stated in the ordinance, both Majesties would spend the night together in this first space.
 
@@ -94,34 +94,39 @@ The different spaces (nodes) are connected based on the sequence and connections
 
 2)  *Reconstructing the King's activities and whereabouts*
 
-A second step is reconstructing the King's activities and whereabouts and incorporating this data into the spatial network. The 1585 ordinance provides extensive, but not always clear, information on the King's activities and whereabouts during the week. Depending on the day of the week, Henri's activities would change.[^22] For this article, I decided to only reconstruct the King's activities for a "regular" Monday at court.
+A second step is reconstructing the King's activities and whereabouts and incorporating this data into the spatial network. The 1585 ordinance provides extensive, but not always clear, information on the King's activities and whereabouts during the week. Depending on the day of the week, Henri's activities would change.(Table 1) [^26] For this article, I decided to only reconstruct the King's activities for a "regular" Monday at court.
 
-At 5 a.m., Henri's lodgings were unlocked, and the King would wake up in the Queen's chamber, assuming that they spent the night together. The King's morning ritual, also known as the lever, started from that moment.[^23] It consisted of several steps: the King officially announcing he was awake, getting dressed in his cabinet, asking for his wine, entering the *chambre royalle,* and lastly, asking for his cloak and sword. At 6 a.m., the King heard Mass followed by his *disner* or midday meal in the King's hall at ca. 10 a.m. After this meal, the King remained in the hall and seated at the table sheltered by a barrier held a 'regular audience'. Afterward, he retired into his cabinet for amoment of solitude, and at 2 p.m., he visited the Queen Mother in her
+TK INSERT TABLE 1 TK
+
+At 5 a.m., Henri's lodgings were unlocked, and the King would wake up in the Queen's chamber, assuming that they spent the night together. The King's morning ritual, also known as the lever, started from that moment.[^27] It consisted of several steps: the King officially announcing he was awake, getting dressed in his cabinet, asking for his wine, entering the *chambre royalle,* and lastly, asking for his cloak and sword. At 6 a.m., the King heard Mass followed by his *disner* or midday meal in the King's hall at ca. 10 a.m. After this meal, the King remained in the hall and seated at the table sheltered by a barrier held a 'regular audience'. Afterward, he retired into his cabinet for amoment of solitude, and at 2 p.m., he visited the Queen Mother in her
 chamber. At 3 p.m., the visit ended, and the King went out to hunt,
 which was followed by Vespers, also known as evening prayer. At 6 p.m., the King enjoyed his *soupper* (evening meal) in the Queen Mother's hall and an hour of relaxation in the Queen Mother's apartment. At 8 p.m., Henri retired to his apartment, where the evening ritual or retiring ceremony known as the *coucher* took place. At 10 p.m., the King's apartment was locked until 5 a.m. the following day.
 
-To transfer this data to the network, an edge list was created of the directed relationship between the King\'s person and the used spaces. To include the temporality of these connections, temporal statements were defined and added to the edge list in the form of time sets which indicate the exact moment(s) that the space was in use by the King (Appendix 2). In the network visualization of the entire day, the thickness of the edges represents the number of temporal statements for which the King used this space (Fig. 5).
+To transfer this data to the network, an edge list was created of the directed relationship between the King\'s person and the used spaces. To include the temporality of these connections, temporal statements were defined and added to the edge list in the form of time sets which indicate the exact moment(s) that the space was in use by the King (Table 2). In the network visualization of the entire day, the thickness of the edges represents the number of temporal statements for which the King used this space (Fig. 5).
 
 {% figure caption: "Fig. 5: Network representing the king's whereabouts during a 'regular' Monday at court." %}
 ![triangular network with multiple circles and arrows depicting where the king oved through various spaces]({{site.url}}/assets/img/v08/Fraikin/figure5.png)
 {% endfigure %}
 
-From the network and the King's schedule, three interesting insights emerge. First, according to the number of temporal statements, the space used most often by the king was his cabinet. Second, he did not actively use the *antichambre* and *chambre d'audience*, meaning that he only passed through them but did not stand in them. Third, apart from his own apartment, the King also spent considerable time in both the Queen Mother's and, to a smaller degree, the Queen's apartment.[^24]
+TK INSERT TABLE TK
+
+From the network and the King's schedule, three interesting insights emerge. First, according to the number of temporal statements, the space used most often by the king was his cabinet. Second, he did not actively use the *antichambre* and *chambre d'audience*, meaning that he only passed through them but did not stand in them. Third, apart from his own apartment, the King also spent considerable time in both the Queen Mother's and, to a smaller degree, the Queen's apartment.[^28]
 
 3)  *Reconstructing the courtiers' access to the royal apartments*
 
-The degree of accessibility of the royal apartments was reconstructed following the rules of access stipulated for courtiers, an approach similar to step 2. An edge list was created by listing the different people or groups defined in the ordinance and when this person or group was allowed or required to be somewhere. Again, the edge list consists of directed person to space connections with timestamps indicating the temporal dimension of the relationship. Because it turned out to be impossible to define for all the cases of how many persons a particular group of courtiers existed of, they are treated in the network as one single person/group.
+The degree of accessibility of the royal apartments was reconstructed following the rules of access stipulated for courtiers, an approach similar to step 2. An edge list was created by listing the different people or groups defined in the ordinance and when this person or group was allowed or required to be somewhere. Again, the edge list consists of directed person to space connections with timestamps indicating the temporal dimension of the relationship. The court ordinance sometimes refers to groups of courtiers having access to a space without specifying the number of people this group was part of. I have tried to overcome this shortcoming by taking their number from the ‘Officiers domestiques de la Maison du roi Henri III (1575-1589)’, which among others lists the number of people employed in the year 1585.[^29] This source, for example, allows us to identify the ‘ceux de la musicque de la chambre’ as consisting of 9 people 
 
-With the addition of the presence of (types of) courtiers in the spaces of the royal apartment, it has become possible to define the varying degrees of accessibility of these spaces with the use of in-degree centrality. In-degree is a count of the number of ties or edges directed to a node, which is the number of (types of) courtiers present in a space. A higher in-degree count corresponds to a higher degree of accessibility of the room.[^25]
+With the addition of the presence of (types of) courtiers in the spaces of the royal apartment, it has become possible to define the varying degrees of accessibility of these spaces with the use of in-degree centrality. In-degree is a count of the number of ties or edges directed to a node, which is the number of (types of) courtiers present in a space. A higher in-degree count corresponds to a higher degree of accessibility of the room.[^30]
 
-This number can be calculated separately or combined for the different temporal statements, thus representing the degree of accessibility based on the courtiers' presence over the entire day (table 1). By changing the node size to match the in-degree, this degree of accessibility can also be visualized (fig. 6). From the representation of the entire day, it becomes clear that the *chambre d'audience* followed by the *chambre royalle* and *chambre d'Estat* were the most used---and therefore probably most accessible---spaces in the King's apartment.
+This number can be calculated separately or combined for the different temporal statements, thus representing the degree of accessibility based on the courtiers' presence over the entire day (Table 3). By changing the node size to match the in-degree, this degree of accessibility can also be visualized (fig. 6). From the representation of the entire day, it becomes clear that the *chambre d'audience* followed by the *chambre royalle* and *chambre d'Estat* were the most used---and therefore probably most accessible---spaces in the King's apartment.
 
 {% figure caption: "Fig. 6: Network of courtiers’ accessibility to the royal apartments. Nodes are scaled based on the weighted in-degree count." %}
 ![TK]({{site.url}}/assets/img/v08/Fraikin/figure6.png)
 {% endfigure %}
 
-The King's *antichambre* seems less accessible for courtiers, but one needs to be careful with this interpretation. The ordonnance clearly states that to reach the 'deeper' rooms, such as the *chambre d'estat* and *chambre d'audience*, one must first pass through the king's *antichambre*.[^26] Because courtiers would not stand in this room for a period of time, the graph does not accurately represent its accessibility. The same is the case for the *salle*, for which a high degree of accessibility can be deduced from the ordinance itself but not from the network representation.[^27] Unfortunately, it is impossible to
-overcome this inaccuracy by simply adding to the network the different in-degree counts together to represent this "passing through" spaces by courtiers. It is, however, possible to account for this variable in a table where, from the total of 132 courtiers in the dataset, are listed the number of those who were allowed to enter or pass through a particular space (table 2).
+TK INSERT TABLE 3 TK
+
+The King's *antichambre* seems less accessible for courtiers, but one needs to be careful with this interpretation. The ordonnance clearly states that to reach the 'deeper' rooms, such as the *chambre d'estat* and *chambre d'audience*, one must first pass through the king's *antichambre*.[^31] Because courtiers would not stand in this room for a period of time, the graph does not accurately represent its accessibility. The same is the case for the *salle*, for which a high degree of accessibility can be deduced from the ordinance itself but not from the network representation.[^32] Unfortunately, it is impossible to overcome this inaccuracy by simply adding to the network the different in-degree counts together to represent this "passing through" spaces by courtiers.
 
 ### The Spatiality of Privacy in the Royal Apartments
 
@@ -267,58 +272,29 @@ Thurley, Simon. *The Royal Palaces of Tudor England: Architecture and Court Life
 
 [^21]: De Jonge, "Hofordnungen als Quellen," 176.
 
-[Break for still editing]
+[^22]: See: Bastian, Heymann, and Jacomy, "Gephi." See also: https://gephi.org/
 
+[^23]: Chatenet, *Cour de France au XVIe siècle,* 37.
 
-[^18]: See: Bastian, Heymann, and Jacomy, "Gephi." See also:
-    https://gephi.org/
+[^24]: Chatenet, *Cour de France au XVIe siècle,* 182.
 
-[^19]: Chatenet, *Cour de France au XVIe siècle,* 37.
+[^25]: Chatenet, *Cour de France au XVIe siècle,* 182.
 
-[^20]: Chatenet, *Cour de France au XVIe siècle,* 182.
+[^26]: Table 1
 
-[^21]: Chatenet, *Cour de France au XVIe siècle,* 182.
+[^27]: It was quite common in the early modern period for rulers andother noblemen to be assisted by responsible courtiers after wakingup and while dressing. Nevertheless, at most European courts thiswas not a 'public' events where other courtiers were allowed toenter the rulers chamber and witness the dressing ritual takingplace. As we learn from the letter of Catherine de' Medici to herson Charles IX, this public aspect of the rising ritual whereprinces, lords, captains, knight of the order, gentlemen of thechamber, gentleman servants and the *maître d'hôtel* were allowed tojoin the King in his chamber while he was putting on his shirt, wasin place in the time of Henri II of France. During the reign ofLouis XIV this rising ritual was even more formalised and dividedbetween a *Grand Lever* and *Petit Lever.* For the letter ofCatherine de' Medici to Charles IX of France see: Paris, ArchivesNationales, KK 544 fol. 1r-7r; or:<https://chateauversailles-recherche.fr/francais/ressources-documentaires/corpus-electroniques/corpus-raisonnes/l-etiquette-a-la-cour-de-france/reglements-de-la-maison-du-roi.html>.For more about the ceremony of the *lever* at the sixteenth-centuryFrench court see Chatenet, *Cour de France au XVIe siècle,* 114-5.
 
-[^22]: See appendix 1.
+[^24]: The 1585 court ordinance does not provide detailed information on the Queen and Queen Mother's whereabouts during the day, except for when they concern the King. 
 
-[^23]: It was quite common in the early modern period for rulers and
-    other noblemen to be assisted by responsible courtiers after waking
-    up and while dressing. Nevertheless, at most European courts this
-    was not a 'public' events where other courtiers were allowed to
-    enter the rulers chamber and witness the dressing ritual taking
-    place. As we learn from the letter of Catherine de' Medici to her
-    son Charles IX, this public aspect of the rising ritual where
-    princes, lords, captains, knight of the order, gentlemen of the
-    chamber, gentleman servants and the *maître d'hôtel* were allowed to
-    join the King in his chamber while he was putting on his shirt, was
-    in place in the time of Henri II of France. During the reign of
-    Louis XIV this rising ritual was even more formalised and divided
-    between a *Grand Lever* and *Petit Lever.* For the letter of
-    Catherine de' Medici to Charles IX of France see: Paris, Archives
-    Nationales, KK 544 fol. 1r-7r; or:
-    <https://chateauversailles-recherche.fr/francais/ressources-documentaires/corpus-electroniques/corpus-raisonnes/l-etiquette-a-la-cour-de-france/reglements-de-la-maison-du-roi.html>.
-    For more about the ceremony of the *lever* at the sixteenth-century
-    French court see Chatenet, *Cour de France au XVIe siècle,* 114-5.
+[^29]: BnF, Ms. Fr. 7854, Officiers des maisons des roys, reynes, etc. depuis Saint Louis jusqu’à Louis XIV, III, 167v.
 
-[^24]: The 1585 court ordinance does not provide detailed information on
-    the Queen and Queen Mother's whereabouts during the day, except for
-    when they concern the King.
+[^30]: Note that because we are not sure about the exact number of courtiers, we can only say something about the degree of accessibility based on the different groups of courtiers that were allowed to enter the space. It however does not give us a count of the exact number of people present in the space.
 
-[^25]: Note that because we are not sure about the exact number of
-    courtiers, we can only say something about the degree of
-    accessibility based on the different groups of courtiers that were
-    allowed to enter the space. It however does not give us a count of
-    the exact number of people present in the space.
+BREAK
 
-[^26]: "Tous lesquels passeront pour entrer dans ladicte chambre
-    d'audience par la salle, antichambre et chambre d'Estat de Sa
-    Majesté" to reach the *chambre d'audience* \[Fol. 130v\].
+[^31]: "Tous lesquels passeront pour entrer dans ladicte chambre d'audience par la salle, antichambre et chambre d'Estat de Sa Majesté" to reach the *chambre d'audience* \[Fol. 130v\].
 
-[^27]: The high degree of accesibility can be deduced from the
-    following: "Et en la salle, depuis le matin que l'on sera entré au
-    logis de Sa Majesté jusques au soir que les portes dudict logis se
-    fermeront, touttes sortes personnes y pouront entrer, \[...\], "
-    \[fol. 132r\].
+[^32]: The high degree of accesibility can be deduced from the following: "Et en la salle, depuis le matin que l'on sera entré au logis de Sa Majesté jusques au soir que les portes dudict logis se fermeront, touttes sortes personnes y pouront entrer, \[...\], " \[fol. 132r\].
 
 [^28]: "Que ledict cappitaine qui sera en quartier assiste tous les
     soirs à la closture des portes du logis de Sa Majesté que se fera
