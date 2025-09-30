@@ -1,4 +1,4 @@
----
+<img width="471" height="648" alt="image" src="https://github.com/user-attachments/assets/48d3d263-71f1-4371-8c79-46aad6a5a229" />---
 title: "Louis XIV's taste as a private matter"
 subtitle: "A preliminary outline of the *Appartement du Roi*'s iconography"
 doi: "https://doi.org/10.31835/crdh.2025.TK"
@@ -17,13 +17,39 @@ abstract: |
 preview: "/assets/img/v08/romein/preview.pngTK"
 ---
 
-In this article, I adopted a digital humanities approach to study Louis XIV's painting collection, exploring the location of iconographic themes in the private and public spaces inhabited by the French king in Versailles. For that, I researched and classified the paintings belonging to the *Cabinet des Tableaux* of the king, which were collected in Versailles after 1671, when the first part of the *Cabinet* was established in the palace. The painting collection ---that constituted a fraction of his and the Crown's general art collection--- was so extensive that only the plain citation of all the *œuvres*' titles would take more than 5000 words. Moreover, the consistency of the collection at the times of Louis XIV reached a complexity that its formation's assessment has required the study of specific temporal and physical segments. The paintings are scattered, their location often changed, and the written sources about them, though plentiful, are sometimes contradictory. A digital humanities approach can aid in relating images to written documents and vice-versa, which can help us visualize relationships between these different historical sources, especially relationships that have not yet been considered. Moreover, such relations can also be interrogated as a meta-source that can help validate the historical macro perspective alongside the micro-analysis.
+It is the object of analysis that imposes one or more methods from time to time; it is the result of the analysis that decides on the fruitfulness of the chosen method or methods. When we affirm the need for infinite analysis, this is precisely what we are referring to: the possibility of calling everything into question using analytical reagents of different composition. [^1][^2]
+
+
+### Introduction
+
+The flamboyant and kaleidoscopic character of Louis XIV appears to continually defy the historian’s need to identify a specific characteristic, a recurring attitude, or an unexpected posture useful for organising the multitude of objects and artworks collected or commissioned by him according to one or more familiar thought patterns. In short, the extreme abundance and intrinsic dissonance of the material world surrounding him do not aid in discerning the taste of the Sun King. This assertion might appear anachronistic upon rigorous analysis. The word goût, or gusto in Italian, until the end of the 16th century, signified a spiritual refinement practice through which the devout could have a more intimate connection with the Christian God. [^3]  It was in the early succeeding century that the religious meaning of goût crossed into secular semantics, becoming a distinguishing feature of the amateur, someone capable of recognising the value of a work of art. [^4] 
+
+Simultaneously, taste was not the only parameter contributing to the formation of the grand 17th century collections in the hands of princes, nobles, and wealthy persons, often comprised of hundreds of works. The inherent logic of an increasingly growing art market should be contextualised on a case-by-case basis in its geographic and cultural implications. In most cases, this would lead to determining their origin and development based on political or personal prestige rather than the mere use of paintings as decorative objects for wall surfaces.[^5] 
+
+Claiming that works of art in the 17th century were acquired or commissioned for pure pleasure or artistic interest is, therefore, a hypothesis that lacks eminent historiographic value. Its confirmation would require disciplinary means external to art history.
+However, the very excess of sources related to the life of Louis XIV[^6] —those that initially seemed to prevent us from accessing a possible interpretative key—could guide us toward uncharted terrain that may prove fertile for understanding his taste.[^7]
+First of all, to obviate the problem that the very form of inquiry raises, I will define as taste the gap between a cultural and a pragmatic-functional choice. 
+This definition does not rely on scientific bases, nor does it claim disciplinary validity. Its utility lies simply in considering works of art —i.e., Louis XIV’s painting collection— for their nature as painted surfaces rather than for those attributes that make an artwork a unique and unrepeatable object, like the symbolic, economic, and emotional value. In short, the proposed method of inquiry regards Louis XIV’s collection as a single homogeneous source, rather than as a group of objects with diverse historical, cultural, and economic qualities.
+
+This simplification also facilitates the analysis of the relationship between the work of art and its context. If the artworks are considered solely from their iconographic nature, which is thus measurable, the same treatment is applied to Versailles, their architectural context. Therefore, Louis XIV’s taste is not analysed through the social, symbolic, and ceremonial connotations implied by the spaces of the château.
+
+Nonetheless, Versailles, as the context of Louis’s painting collection, was meaningful for several reasons. The first is that Versailles partly emerged as the destination of the Cabinet des Tableaux. Even before the palace emerged as the permanent residence of the court (1682), it became the destination for most of Louis’s personal and the Crown’s collections from the end of 1671. [^8] 
+
+The second is that Versailles was not always and everywhere an art gallery but a residence with varying degrees of accessibility and, therefore, privacy. The art collection moved —quite literally, given its mutability— between antechambers, chambers, salons, cabinets, and bed-rooms, all accessible to Louis, and in which he himself authorised access to a select number of individuals.[^9] 
+
+The third is a corollary of the first two. By moving the Cabinet des Tableaux to Versailles and controlling its degree of privacy —which marked spaces from nearly entirely public to inaccessible— each change in the placement of an individual painting within a Versailles room takes on a different value. In some cases, those in which the choice deviates from cultural or pragmatic necessity, these changes, I argue, can define the monarch’s taste.
+
+To detect these changes in the arrangement of paintings at Versailles —in some cases limited to a few items— by Louis XIV, I adopted a digital humanity approach. For that, I have identified and classified the paintings belonging to the Cabinet des Tableaux of the king, which were collected in Versailles after 1671, when the first part of the Cabinet was established in the palace.
+
+The painting collection —that constituted a fraction of his and the Crown’s general art collection— was so extensive that only the plain citation of all the œuvres’ titles would take more than 5000 words. Moreover, the consistency of the collection at the times of Louis reached a complexity that its formation’s assessment has required the study of specific temporal and physical segments.[^10] The paintings were scattered, their location often changed, and the written sources about them, though plentiful, are sometimes contradictory. A digital humanities approach can aid in relating images to written documents and vice-versa, which can help us visualise relationships between these different historical sources, especially relationships that have not yet been considered. Moreover, such relations can also be interrogated as a meta-source that can help validate the historical macro perspective alongside the micro-analysis. 
+
+Louis XIV’s collection was formed from the initial collection of Francis I, and grew successively through a succession of bulk purchases or requisitions from other collectors, on the one hand; on the other, through commissions to artists contemporary with him and predominantly French.[^11] Therefore, digital humanities tools can unveil potential relationships between the items’s historical attributes (provenance, period of production and acquisition, author’s school, size, iconography, etc.) to local features (position and movements within Versailles, juxtaposition to other paintings, degree of privacy of the room, etc.).
 
 ### From texts to images
 
-The primary sources are mainly the inventories compiled by the *peintres du roi*: the anonymous *Mémoire des tableaux qui sont posés dans les appartements du château de Versailles. Du premier novembre 1695*[^1]; André Félibien's *Tableaux du Cabinet du Roy*[^2]*;* Charles Le Brun's *Inventaire des Tableaux du Cabinet du Roy* of 1683[^3] (**Fig. 1**); Jean-Aimar Piganiol de La Force's three editions of his *Nouvelle description des chateaux et parcs de Versailles et de Marly* from 1701, 1707, and 1717 [^4]; and the *Inventaire des tableaux du Roy* compiled by Nicolas Bailly from 1709 and 1710[^5]. Additionally, I benefitted from Mathieu Lett's study in which he first commenced the data systematisation of the collection in the *petit appartement*[^6].
+The primary sources are mainly the inventories compiled by the *peintres du roi*: the anonymous *Mémoire des tableaux qui sont posés dans les appartements du château de Versailles. Du premier novembre 1695*[^12]; André Félibien's *Tableaux du Cabinet du Roy*[13]*;* Charles Le Brun's *Inventaire des Tableaux du Cabinet du Roy* of 1683[^14] (**Fig. 1**); Jean-Aimar Piganiol de La Force's three editions of his *Nouvelle description des chateaux et parcs de Versailles et de Marly* from 1701, 1707, and 1717 [^15]; and the *Inventaire des tableaux du Roy* compiled by Nicolas Bailly from 1709 and 1710[^16]. Additionally, I benefitted from Mathieu Lett's study in which he first commenced the data systematisation of the collection in the *petit appartement*[^17].
 
-{% figure caption: "Figure 1 TK." %}
+{% figure caption: "Figure 1: L'inventaire Le Brun" %}
 !({{site.url}}/assets/img/v08/gigone/figure1.png)
 {% endfigure %}
 
@@ -218,27 +244,44 @@ North-Holland, 1975.
 
 ### Endnotes
 
-[^1]: The document A.N., O^1^1964^7^.18 of the Archives Nationales has
-    been firstly published in Stéphane Castelluccio, *Les collections
-    royales d[']{dir="rtl"}objets d[']{dir="rtl"}art: de François Ier à
-    la Révolution* (Paris: Éditions de l[']{dir="rtl"}Amateur, 2002):
-    Annexe 3.
+[^1]: Tafuri, Manfredo. “Sklovskij, Benjamin e la teoria dello «spostamento».” *Figure. Teoria e Critica dell’Arte* 1, no. 1 (1982): 38–51. My translation. 
 
-[^2]: Félibien, *Tableaux du Cabinet du Roy.*.
+[^2]: This paper is part of a research funded by the Centre for Privacy Studies, Danish National Research Foundation (DNRF138). 
 
-[^3]: Le Brun, 'Inventaire des Tableaux du Cabinet du Roy'.
+[^3]: Aceti de’ Porti, Serafino. *Opere spirituali, alla christiana perfettione, vtiliss. & necessarie. Del r.p. don Serafino da Fermo can. reg. lat. & predicatore feruentissimo. Nuouamente con somma diligentia riuiste, & da infiniti errori purgate, & alla sua primiera integrita, con molte aggionte, restituite: come nella seguente*. Piacenza: Francesco Conti, 1570.
 
-[^4]: Piganiol de La Force, *Nouvelle description des chateaux et parcs
-    de Versailles et de Marly:*;Piganiol de La Force, *Nouvelle
-    Description Des Chasteaux et Parcs de Versailles et de Marly;*
-    Piganiol de La Force, *Nouvelle description des châteaux et parcs de
-    Versailles et de Marly* .
+[^4]: Taylor, Paul. “The Birth of the Amateur.” *Nuncius / Museo Galileo*, no. 3 (2016): 499–522. For the specific French case, see Fumaroli, Marc. “Rome 1630: entrée un scéne du spectateur.” In *Roma 1630: il trionfo del pennello*, edited by Olivier Bonfait, 53–82. Milano: Electa, 1994.
 
-[^5]: Bailly, *Inventaire des tableaux du Roy rédigé en 1709 et 1710 par
-    Nicolas Bailly*.
+[^5]: Schnapper, Antoine. “The King of France as Collector in the Seventeenth Century.” *The Journal of Interdisciplinary History* 17, no. 1 (1986): 185–202.
 
-[^6]: Lett, 'Les tableaux du Petit Appartement de Louis XIV à Versailles
-    (1684-1715)', 97--123.
+[^6]: Burke, Peter. *The Fabrication of Louis XIV*. New Haven: Yale University Press, 1992.
+
+[^7]: While the nature and composition of Europe’s great art collections has been the subject of various scientific research, understanding their purpose and function is a matter of debate and does not necessarily imply an unequivocal answer. For a discussion on this subject in the French context see: Schnapper, Antoine. *Le géant, la licorne et la tulipe collections et collectionneurs dans la France du XVIIe siècle*. Paris: Flammarion, 1988.
+
+[^8]: Brejon de Lavergnée, Arnauld. “Le cabinet du roi.” *Connaissance des arts* 433 (1988): 52–63.
+
+[^9]: Hulftegger, Adeline. “Notes sur la formation des collections de peintures de Louis XIV: (l’ entrée dans le Cabinet du Roi des tableaux provenant de Jabach, Mazarin, Fouquet etc. ...).” *Bulletin de la Société de l’Histoire de l’Art Français*, 1955, 124–34.
+
+[^10]: Brejon de Lavergnée, Arnauld. *L’inventaire Le Brun de 1683: la collection des tableaux de Louis XIV*. Paris: RMN, 1987.
+
+[^11]: Schnapper, Antoine. “Préface.” In *L’inventaire Le Brun de 1683: la collection des tableaux de Louis XIV*, by Arnauld Brejon de Lavergnée, 5–10. Paris: RMN, 1987.
+
+[^12]: The document A.N., O119647.18 of the Archives Nationales has been firstly published in Stéphane Castelluccio, *Les collections royales d’objets d’art: de François Ier à la Révolution* (Paris: Éditions de l’Amateur, 2002): Annexe 3.
+
+[^13]: André Félibien, *Tableaux du Cabinet du Roy. Statues et bustes antiques des Maisons royales*, vol. 1 (Paris: Impr. royale, 1677).
+
+[^14]: Charles Le Brun, ‘Inventaire des Tableaux du Cabinet du Roy’ (Paris, 1683), O/1/1964-8, Archives Nationales. 
+Arnauld Brejon de Lavergnée, *L’inventaire Le Brun de 1683: la collection des tableaux de Louis XIV* (Paris: RMN, 1987).
+
+[^15]: Jean-Aimar Piganiol de La Force, *Nouvelle description des chateaux et parcs de Versailles et de Marly: contenant une explication historique de toutes les peintures, tableaux, statues, vases & ornamens qui s’y voient ; leurs dimensions ; & les noms de peintres, & des sculpteurs qui les on faits. Avec les plans de ces deux maisons royalles*. (Paris: Chez Florentin & Pierre Delaulne, 1701).
+Jean-Aimar Piganiol de La Force, *Nouvelle Description Des Chasteaux et Parcs de Versailles et de Marly: Contenant Une Explication Historique de Toutes Les Peintures, Tableaux, Statues, Vases et Ornemensqui s’y Voyent: Enrichie de Plusieurs Figures En Taille Douce*, Seconde Edition (Paris: Florentin Delaulne, 1707).
+Jean-Aimar Piganiol de La Force, *Nouvelle description des châteaux et parcs de Versailles et de Marly (Paris: Chez Florentin Delaulne*, 1717).
+
+[^16]: Nicolas Bailly, *Inventaire des tableaux du Roy rédigé en 1709 et 1710 par Nicolas Bailly*, ed. Fernand Engerand (Paris: Ernest Leroux, 1899).
+
+[^17]: Mathieu Lett, ‘Les tableaux du Petit Appartement de Louis XIV à Versailles (1684-1715)’, in *Louis XIV, l’image et le mythe*, ed. Mathieu Da Vinha, Alexandre Maral, and Nicolas Milovanovic, Collection Histoire: Aulica (Rennes : Versailles: Presses universitaires de Rennes ; Centre de recherche du château de Versailles, 2014), 97–123.
+
+
 
 [^7]: The image portraits the exhibition "Tell me of Louis" held at Capo
     Space in Rome between November 2019 and January 2020. The exhibition
