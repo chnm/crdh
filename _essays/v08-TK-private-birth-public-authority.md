@@ -109,9 +109,9 @@ Topic modeling can be a wonderful tool to explore discourse changes across time,
 
 [^12]: The selected texts were *Hebammen-Schul Oder gründlicher Unterricht* (1715) by Johann Georg Sommer, *Kurtze, jedoch hinlängliche und gründliche Anweisung christlicher Hebammen* (1735) by Barbara Widenmann, *Neues Hebammen-Licht* (1740) by Hendrik van Deventer, *Erklärte Anatomie für Hebammen: samt derselben Nutzanwendung zur Praxis* (1752) by Georg Friedrich Gutermann, *Hebammen-Catechismus: hauptsächlich zum Gebrauch für Wundärzte und Hebammen auf dem Lande* (1778) by Leonhard Jakob Katzenberger, *Selbstbelehrung für Hebammen* (1797) by Johann Heinrich Jördens, and the ordinances *Verneuerte und vermehrte Brandenburgische Hebammen-Ordnung* (1743), published by Christoph Messerer, and *Ordnung für die Hebammen in München* (1791).
 
-[^13]: You can see the standard German stopword list here: https://github.com/mimno/Mallet/blob/master/stoplists/de.txt
+[^13]: You can see the standard German stopword list here: <https://github.com/mimno/Mallet/blob/master/stoplists/de.txt>
 
-[^14]: You can see the Fraktur stopword list here: https://github.com/nkkafer/FrakturStopwords/blob/main/stopwords_fraktur.txt
+[^14]: You can see the Fraktur stopword list here: <https://github.com/nkkafer/FrakturStopwords/blob/main/stopwords_fraktur.txt>
 
 [^15]: Hobby, *The Birth of Mankind*, 2. 
 
@@ -127,7 +127,7 @@ Topic modeling can be a wonderful tool to explore discourse changes across time,
 
 [^21]: Wesiner, "The Midwives of South Germany", 83. 
 
-[^22]: https://dsl.richmond.edu/dispatch, accessed on December 13, 2021.
+[^22]: "Mining the Dispatch," <https://dsl.richmond.edu/dispatch>, accessed on December 13, 2021.
 
 ### Bibliography
 
@@ -171,18 +171,18 @@ Widenman, Barbara. *Kurtze, Jedoch Hinlängliche Und Gründliche Anweisung Chris
 
 Amberg, Silke. *Hebammenordnungen in deutschen Städten um 1500*. Norderstedt: GRIN Verlag, 2010.
 
-Baldassarri, Fabrizio, ed. *Plants in 16th and 17th Century: Botany between Medicine and Science*. Berlin; Boston: De Gruyter, 2023. https://doi.org/10.1515/9783110739930-202.
+Baldassarri, Fabrizio, ed. *Plants in 16th and 17th Century: Botany between Medicine and Science*. Berlin; Boston: De Gruyter, 2023. <https://doi.org/10.1515/9783110739930-202>
 
 Green, Monica H. "The Sources of Eucharius Rösslin's 'Rosegarden for Pregnant Women and Midwives' (1513)." *Medical History* 53, no. 2 (April 2009): 167–92.
 
 Hobby, Elaine, ed. *The Birth of Mankind: Otherwise Named, The Woman's Book*. Literary and Scientific Cultures of Early Modernity. Farnham, England: Ashgate, 2009.
 
-Jones, Edgar. "Google Books as a General Research Collection." *Library Resources & Technical Services* 54, no. 2 (April 1, 2010): 77–89. https://doi.org/10.5860/lrts.54n2.77.
+Jones, Edgar. "Google Books as a General Research Collection." *Library Resources & Technical Services* 54, no. 2 (April 1, 2010): 77–89. <https://doi.org/10.5860/lrts.54n2.77>.
 
 Kruse, Britta-Juliane. *Verborgene Heilkünste: Geschichte der Frauenmedizin im Spätmittelalter*. Quellen und Forschungen zur Literatur- und Kulturgeschichte 5. Berlin; New York: W. de Gruyter, 1996.
 
 Springmann, Uwe, and et al. "Ground Truth for Training OCR Engines on Historical Documents in German Fraktur and Early Modern Latin." *JLCL* 33, no. 1 (2018): 1–19.
 
-Vetulani, Zygmunt, Patrick Paroubek, and Marek Kubis, eds. *Human Language Technology. Challenges for Computer Science and Linguistics: 8th Language and Technology Conference, LTC 2017, Poznań, Poland, November 17–19, 2017, Revised Selected Papers*. Vol. 12598. Lecture Notes in Computer Science. Cham: Springer International Publishing, 2020. https://doi.org/10.1007/978-3-030-66527-2.
+Vetulani, Zygmunt, Patrick Paroubek, and Marek Kubis, eds. *Human Language Technology. Challenges for Computer Science and Linguistics: 8th Language and Technology Conference, LTC 2017, Poznań, Poland, November 17–19, 2017, Revised Selected Papers*. Vol. 12598. Lecture Notes in Computer Science. Cham: Springer International Publishing, 2020. <https://doi.org/10.1007/978-3-030-66527-2>.
 
 Wiesner, Merry E. "The midwives of south Germany and the public/private dichotomy." In *The Art of Midwifery: Early Modern Midwives in Europe*, edited by Hilary Marland, 77–94. London; New York: Routledge, 1993.
