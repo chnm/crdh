@@ -1,4 +1,4 @@
-<img width="471" height="648" alt="image" src="https://github.com/user-attachments/assets/7b79adb7-3b46-4abb-86f2-a9d17ccd9650" /><img width="471" height="648" alt="image" src="https://github.com/user-attachments/assets/48d3d263-71f1-4371-8c79-46aad6a5a229" />---
+---
 title: "Louis XIV's taste as a private matter"
 subtitle: "A preliminary outline of the *Appartement du Roi*'s iconography"
 doi: "https://doi.org/10.31835/crdh.2025.TK"
