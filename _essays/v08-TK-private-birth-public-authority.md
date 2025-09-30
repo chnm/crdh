@@ -68,7 +68,7 @@ TK ADDED SECTION TK
 
 One of the main turns on the topics can be found in group 1. Grouped there are topics like class (klasse) and lehrnerinnen (‘learner’ in the feminine), which might indicate the increasing pressure for midwives to engage in anatomical lessons. This prominence of education terms could be influenced by the book Hebammen-Schul Oder gründlicher Unterricht (“Midwives’ School or Most Thorough Lesson”) and its use of educational analogies. By looking at the text composition, however, group 2 is not significantly represented for that particular text.
 
-TK SECTION ADDED 
+TK SECTION ADDED TK
 In fact, when locating those clusters, they point mostly towards the selected eighteenth-century ordinances. Although Klasse can be related to education, the term has multiple meanings. In this case, looking closer at the corpus, the ‘class’ does not refer to the learning environment, but it is a division of the different ‘classes’ of pregnant women that the midwives would treat and how much they were allowed to charge each of the groups. As midwifery became more and more professionalized, the monetization of the practice also became more institutionalized.
 TK SECTION ADDED TK
 
