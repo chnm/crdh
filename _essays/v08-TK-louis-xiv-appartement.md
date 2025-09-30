@@ -1,4 +1,4 @@
-<img width="471" height="648" alt="image" src="https://github.com/user-attachments/assets/48d3d263-71f1-4371-8c79-46aad6a5a229" />---
+<img width="471" height="648" alt="image" src="https://github.com/user-attachments/assets/7b79adb7-3b46-4abb-86f2-a9d17ccd9650" /><img width="471" height="648" alt="image" src="https://github.com/user-attachments/assets/48d3d263-71f1-4371-8c79-46aad6a5a229" />---
 title: "Louis XIV's taste as a private matter"
 subtitle: "A preliminary outline of the *Appartement du Roi*'s iconography"
 doi: "https://doi.org/10.31835/crdh.2025.TK"
@@ -132,117 +132,106 @@ Despite the apparent similarity of these three iconographic categories in terms 
 
 Clearly, the elevation of 1654 as the year of clear separation does not add any argument per se about the assessment of the individual paintings, that would require a specific historical study. However, it can offer a good sense of the iconographic preferences and Louis's personal influence on creating his collection. More interesting is to argue whether the second Jabach sale in 1671 can stand as a clear demarcation in the paintings' production in relation to ---thought, historically, not only--- the presence of the Sun King on the market.[^26] It emerges that Biblical iconography was acquired through works mainly produced in a previous time (182 versus 22). The bulk of the Biblical iconography was produced by Italian artists (140 paintings), completed by 27 paintings by French artists and 15 by German and Flemish painters. At the same time, Society, Civilisation, Culture was a much more contemporary artistic interest, counting 78 works already on the market, versus 110 produced while Louis XIV was expanding his collection (**Fig. 10**).[^27] There is a correlation between the king's iconographic interest in works categorized under Iconclass 4 and the contemporary artistic offer. This analysis, taking into account the authorial origin of the works, shows how the Sun King ---as an artistic--- patron favoured the French school representatives.[^28] This evidence foregrounds the Italian hegemony on the painting until the middle seventeenth century and, at the same time, the loss of interest in such iconography within the French king's court.
 
-{% figure caption: "Fig. 10: Paings before 1671." %}
+{% figure caption: "Fig. 10: Paintings before 1671." %}
 !({{site.url}}/assets/img/v08/gigone/figure10.jpeg)
 {% endfigure %}
 
 Similarly, examining the Mythological iconography, a shift occurred between 1654 and 1671. While there is a parity before the coronation (97% of Iconclass 9 produced before 1654 versus 95% afterward), the second Jabach sale represented the achievement of the French cultural supremacy that benefitted from the mythological formulas imported from Italy.
 
-Considering the paintings produced before 1671, the collection listed 49 items produced by 23 French painters; on the Italian side, there were 53 works by 22 artists. After 1671, the French school added 77 more (from 20 painters) versus only one artwork coming from the Italian Peninsula. This discrepancy occurred because, in 1671, the effects of Colbert[']{dir="rtl"}s co-opting of the *Académie* for the promotion of the French artists caused the almost complete replacement of the private commissions, thus determining a long-lasting influence on the iconography.
+Considering the paintings produced before 1671, the collection listed 49 items produced by 23 French painters; on the Italian side, there were 53 works by 22 artists. After 1671, the French school added 77 more (from 20 painters) versus only one artwork coming from the Italian Peninsula. This discrepancy occurred because, in 1671, the effects of Colbert's co-opting of the *Académie* for the promotion of the French artists caused the almost complete replacement of the private commissions, thus determining a long-lasting influence on the iconography.[^29]
 
 The balance attained before 1671 was achieved mainly through the strong presence of two artists that, differently, encountered the taste of the king: Francesco Albani and Nicolas Poussin.
 
 ### The *Appartement du Roi*
 
-Taking a closer look at the *Appartement du Roi* in Versailles it becomes clear that Louis' taste aligns with European tendencies. The 218 paintings present in his apartment were produced by an array of 73 artists: 42 Italians, 13 French, 7 Anonymous, 6 Flemish, 2 Germans, 2 Walloons, and 2 Dutch. The apparent supremacy of the Italian school was, nonetheless, levelled by the proportion in surface coverage. While considering the absolute numbers, Italians were the 57% of the total compared to the 18% of Frenchmen, the area covered saw a gap between them of only 12% (54% versus 42%) (**Fig. 11**).
+Looking at the time span of Louis XIV’s reign in relation to the presence of artists by nationality, it seems no coincidence that his interest in art collections and his promotion of French artists through the *Académies* corresponds to a steady growth of the latter (**Fig. 11**).[^30]
 
-{% figure caption: "Figure 11 TK." %}
-!({{site.url}}/assets/img/v08/gigone/figure11.png)
+{% figure caption: "Fig. 11: Artists." %}
+!({{site.url}}/assets/img/v08/gigone/figure10.jpeg)
 {% endfigure %}
 
-Moreover, looking at the general tendencies, the only countries ---related to the French artistic context--- increasing the engagement of the painters with the market were the Habsburg and Germanic area. While the Germans painters[^17] occupied a limited position in terms of number or physical appearance, the French school's rising position in the European context was the effect of the Bourbon's artistic promotion commenced under Louis XIII (and supported by cardinal Richelieu). The emblematic missions of Paul Fréart de Chantelou in Italy (1640 and 1643) meant to discover and import Italian masterpieces to the French homeland (and to bring home painters like Nicolas Poussin) were just the tip of the iceberg of the cultural struggle which, soon, would see the French culture prevailing.
+The emblematic missions of Paul Fréart de Chantelou in Italy (1640 and 1643) meant to discover and import Italian masterpieces to the French homeland (and to bring home painters like Nicolas Poussin) were just the tip of the iceberg of the cultural struggle which, soon, would see the French culture prevailing. [^31]
+
+This cultural context is reflected on the Appartement du Roi’s composition. The 241 paintings present in his apartment were produced by an array of 76 artists: 51 Italians, 13 French, 11 Flemish, and 1 German. The apparent supremacy of the Italian school was, nonetheless, levelled by the proportion in surface coverage. While considering the absolute numbers, Italian artists were the 64% of the total compared to the 23% of Frenchmen, the area covered saw a gap between them of only 27% (62% versus 35%) (**Fig. 12**).
+
+
+{% figure caption: "Fig. 12: Number-Area by School." %}
+!({{site.url}}/assets/img/v08/gigone/figure12.jpeg)
+{% endfigure %}
+
+While the Germans painters occupied a limited position in terms of number or physical appearance, the French school’s rising position in the European context was the effect of the Bourbon’s artistic promotion commenced under Louis XIII (and supported by cardinal Richelieu).[^32]
 
 The Dutch school saw a dramatic fall in numbers from the emergence of Louis XIV's influence. The *Cabinet des Tableaux* in Versailles recorded a Dutch and Walloon presence with a total of only eight paintings, covering barely 2,3% of the total surface. Moreover, examining the bold Italian presence, it appears that among the 42 Italian painters, only four were contemporaries of Louis XIV: Guercino (1591-1666), Pier Francesco Mola (1612-1666), Carlo Maratta (1625-1713), and Giovanni Andrea Sirani (1610-1670). Exception made for Guercino, they were not even among the most renowned artists of the Peninsula. Linking this common consideration to the evident decrease of the Italian representatives, it appears that Louis's notorious attention for Italian art, often mentioned in historiography, was directed towards a pure collecting of pieces from the past. Conversely, the French counterpart ---counting 13 painters--- included ten of the king's contemporaries. This was the sign that Louis surrounded himself with the emergent or established living national artists, whose career was boosted by the establishment of the *Académie*. This evidence also emerged from the overlap of the work production timeframe referred to the complete collection of 931 artworks present in Versailles.
 
-How should we then describe Louis XIV's taste and iconographic preferences whilst exploring the *Cabinet des* *Tableaux*  through the tight linkage to the most secluded spaces of the *Appartement du Roi*? Considering only the 218 paintings (23% of the total) detected from the above-mentioned sources displayed from the *Salle des Gardes* to the *Cabinet des Medailles*, the iconography balance among the 9 Iconclass categories is very different from the entire corpus of paintings **(Fig. 12)**. While in the entirety of Versailles, Ic. 4, 7, and 9 coexist in a similar material and numerical presence, Louis XIV prioritized Biblical iconography for his most secluded rooms, representing between 45 and 51% of the selected collection. The reasons are, as often happens, not attributable to a univocal fact or cause. The strong presence of paintings of the sixteenth and early seventeenth century on the market at the time of the king's acquisitions could explain the prevalence of Religious, and specifically, Biblical iconography. Looking at the *morceau de réception* required as acceptance at the *Académie* in its early times, the landscapes, still life, and the mythological scenes did not completely replace the traditional formulas[^18]. Yet, the predominance of Italian artists (148 Italians versus 57 French) from a previous epoch in relation to Louis's collection is clear; within this research path, it does not define a cause, but it is part of the inquiry itself.
+How should we then describe Louis XIV’s taste and iconographic preferences whilst exploring the *Cabinet des Tableaux* through the tight linkage to the most secluded spaces of the *Appartement du Roi*? Considering only the 241 paintings (26% of the total) detected from the above-mentioned sources displayed from the *Salle des Gardes* to the *Cabinet des Medailles*, the iconography balance among the 9 Iconclass classes is very different from the entire corpus of paintings. 
 
-{% figure caption: "Figure 12 TK." %}
-!({{site.url}}/assets/img/v08/gigone/figure12.png)
+While in the entirety of Versailles, Ic. 1, 3, 5, 6, and 9 coexist in a similar material and numerical presence, in his personal collection, Louis XIV gave emphasis to the Biblical iconography that was represented by the 43,1% (versus only 22,0% in the entire collection), at the expenses of iconographies of Nature (2,9% vs 13,0%), and Society, Civilisation, Culture (8,3% vs 20,3%) (**Fig. 13**). The prevalence of biblical iconography is even more pronounced if one considers its size in terms of area of coverage of biblical paintings: in this case the Appartement’s share rises to 46.3% against 18.8% for the entire collection. (**Fig. 14**).
+
+{% figure caption: "Fig. 13: Versailles vs Appartement du Roi Iconography." %}
+!({{site.url}}/assets/img/v08/gigone/figure13.jpeg)
 {% endfigure %}
+
+{% figure caption: "Fig. 14: Versailles vs Appartement du Roi AREA by Iconography." %}
+!({{site.url}}/assets/img/v08/gigone/figure14.jpeg)
+{% endfigure %}
+
+The reasons are, as often happens, not attributable to a univocal fact or cause. The strong presence of paintings of the 16th and early 17th century on the market at the time of the king’s acquisitions could explain the prevalence of religious, and specifically, Biblical iconography. Looking at the *morceau de réception* required as acceptance at the *Académie* in its early times, the landscapes, still life, and the mythological scenes did not completely replace the traditional formulas. [^33] Yet, the predominance of Italian artists (155 Italians versus 63 French) from a previous epoch in relation to Louis’s collection is clear; within this research path, it does not define a cause, but it is part of the inquiry itself.
+
+However, it cannot be excluded that the predominant presence of Biblical iconography in the *Appartement du Roi* is the result of a choice related to Louis XIV’s taste. And that this choice would reveal an aspect of the monarch’s private condition, which, although influenced by general cultural conditions, operates outside of a merely decorative use of the pictorial surface. 
 
 ### Conclusions
 
 In conclusion, the ongoing study's main goal was to determine the emergence of the taste in Louis XIV's adoption of a specific iconography as evidence of the privacy's inception within the *Appartement du Roi* in Versailles.
 
-The paper has shown a correlation between the architecture of the *Appartement du Roi* and the corresponding section of the *Cabinet des Tableaux*: moreover, the two formed an indissoluble entity that established the conditions for the development of the royal taste. The digital approach offered a critical methodology to define and quantify the object of the realm of taste for a painting collection. By assessing a significant number of data points that, in their entirety, ascertain the value of a broader perspective of investigation without neglecting the closer analysis.
+The paper showed how the Appartement, given its status as an expression of the king’s private sphere, was the place where his taste most conspicuously emerged.
+Moreover, the king’s taste was determined by indissoluble link between the Appartement and the corresponding section of the Cabinet des Tableaux.
+Finally, the digital approach offered a critical methodology to define and quantify the object of the realm of taste for a painting collection. By assessing a significant number of data points that, in their entirety, ascertain the value of a broader perspective of investigation without neglecting the closer analysis.
 
-___
+---
 
 ### Bibliography
 
 #### Primary Sources
->
-> Anonymous. 'Mémoire des tableaux qui sont posés dans les appartements
-> du château de Versailles. Du premier novembre 1695', 1 November 1695.
-> O/1/1964/7.18. Archives Nationales.
->
-> Bailly, Nicolas. *Inventaire des tableaux du Roy rédigé en 1709 et
-> 1710 par Nicolas Bailly*. Edited by Fernand Engerand. Ernest Leroux,
-> 1899.
->
-> Félibien, André. *Tableaux du Cabinet du Roy. Statues et bustes
-> antiques des Maisons royales*. Vol. 1. Paris: Impr. royale, 1677.
->
-> Le Brun, Charles. 'Inventaire des Tableaux du Cabinet du Roy'. Paris,
-> 1683. O/1/1964-8. Archives Nationales.
->
-> Piganiol de La Force, Jean-Aimar. *Nouvelle Description* *Des
-> Chasteaux et Parcs de Versailles et de Marly: Contenant Une
-> Explication Historique de Toutes Les Peintures, Tableaux, Statues,
-> Vases et Ornemensqui s'y Voyent: Enrichie de Plusieurs Figures En
-> Taille Douce*. Seconde Edition. Florentin Delaulne, 1707.
->
-> ---------. *Nouvelle description des châteaux et parcs de Versailles
-> et de Marly*. Paris: Chez Florentin Delaulne, 1717.
->
-> ---------. *Nouvelle description des chateaux et parcs de Versailles
-> et de Marly: contenant une explication historique de toutes les
-> peintures, tableaux, statues, vases & ornamens qui s'y voient* *;
-> leurs dimensions* *; & les noms de peintres, & des sculpteurs qui les
-> on faits. Avec les plans de ces deux maisons royalles.* Chez Florentin
-> & Pierre Delaulne, 1701.
->
-> #### Secondary Sources
->
-> Brejon de Lavergnée, Arnauld. *L'inventaire Le Brun de 1683: la
-> collection des tableaux de Louis XIV*. RMN, 1987.
->
-> Castelluccio, Stéphane. *Les collections royales d'objets d'art: de
-> François Ier à la Révolution*. Éditions de l'Amateur, 2002.
->
-> Chennevières, Philippe de, Eugène Daudet, and Anatole de Montaiglon.
-> 'Sujets des morceaux de réception des membres de l'ancienne Académie
-> de peinture, sculpture et gravure, 1648 à 1793, recueillis par m.
-> Duvivier, de l'École impériale des beaux-arts, d'après les registres
-> de cette académie, avec l'indication de l'emplacement actuel d'un
-> certain nombre de ces ouvrages'. *Archives de l'art français* 22
-> (1852): 353--91.
->
-> Couprie, L. D. 'Iconclass: An Iconographic Classification System'.
-> *Art Librarian Journal*, no. Summer (1983): 32--49.
->
-> Hulftegger, Adeline. 'Notes sur la formation des collections de
-> peintures de Louis XIV: (l' entrée dans le Cabinet du Roi des tableaux
-> provenant de Jabach, Mazarin, Fouquet etc. \...)'. *Bulletin de la
-> Société de l'Histoire de l'Art Français*, 1955, 124--34.
->
-> Krén, Emil, and Dániel Marx. 'Web Gallery of Art'. Accessed 23
-> November 2021.
-> [[https://www.wga.hu/index1.html]{.underline}](https://www.wga.hu/index1.html).
->
-> Lett, Mathieu. 'Les tableaux du Petit Appartement de Louis XIV à
-> Versailles (1684-1715)'. In *Louis XIV, l'image et le mythe*, edited
-> by Mathieu Da Vinha, Alexandre Maral, and Nicolas Milovanovic,
-> 97--123. Collection Histoire: Aulica. Rennes : Versailles: Presses
-> universitaires de Rennes ; Centre de recherche du château de
-> Versailles, 2014.
->
-> Moriarty, Michael. *Taste and Ideology in Seventeenth-Century France*.
-> Cambridge Studies in French. Cambridge University Press, 2009.
+
+Anonymous. 'Mémoire des tableaux qui sont posés dans les appartements du château de Versailles. Du premier novembre 1695', 1 November 1695.O/1/1964/7.18. Archives Nationales.
+
+Bailly, Nicolas. *Inventaire des tableaux du Roy rédigé en 1709 et
+1710 par Nicolas Bailly*. Edited by Fernand Engerand. Ernest Leroux,1899.
+
+Félibien, André. *Tableaux du Cabinet du Roy. Statues et bustes antiques des Maisons royales*. Vol. 1. Paris: Impr. royale, 1677.
+
+Le Brun, Charles. 'Inventaire des Tableaux du Cabinet du Roy'. Paris, 1683. O/1/1964-8. Archives Nationales.
+
+Piganiol de La Force, Jean-Aimar. *Nouvelle Description* *Des Chasteaux et Parcs de Versailles et de Marly: Contenant Une Explication Historique de Toutes Les Peintures, Tableaux, Statues, Vases et Ornemensqui s'y Voyent: Enrichie de Plusieurs Figures En Taille Douce*. Seconde Edition. Florentin Delaulne, 1707.
+
+---------. *Nouvelle description des châteaux et parcs de Versailles et de Marly*. Paris: Chez Florentin Delaulne, 1717.
+
+---------. *Nouvelle description des chateaux et parcs de Versailles et de Marly: contenant une explication historique de toutes les peintures, tableaux, statues, vases & ornamens qui s'y voient* *;leurs dimensions* *; & les noms de peintres, & des sculpteurs qui les on faits. Avec les plans de ces deux maisons royalles.* Chez Florentin & Pierre Delaulne, 1701.
+
+#### Secondary Sources
+
+Brejon de Lavergnée, Arnauld. *L'inventaire Le Brun de 1683: la collection des tableaux de Louis XIV*. RMN, 1987.
+
+Castelluccio, Stéphane. *Les collections royales d'objets d'art: de François Ier à la Révolution*. Éditions de l'Amateur, 2002. 
+
+Chennevières, Philippe de, Eugène Daudet, and Anatole de Montaiglon. 'Sujets des morceaux de réception des membres de l'ancienne Académie de peinture, sculpture et gravure, 1648 à 1793, recueillis par m. Duvivier, de l'École impériale des beaux-arts, d'après les registres de cette académie, avec l'indication de l'emplacement actuel d'un certain nombre de ces ouvrages'. *Archives de l'art français* 22 (1852): 353--91.
+
+Couprie, L. D. 'Iconclass: An Iconographic Classification System'. *Art Librarian Journal*, no. Summer (1983): 32--49.
+
+Hulftegger, Adeline. 'Notes sur la formation des collections de peintures de Louis XIV: (l' entrée dans le Cabinet du Roi des tableaux provenant de Jabach, Mazarin, Fouquet etc. \...)'. *Bulletin de la Société de l'Histoire de l'Art Français*, 1955, 124-34.
+
+Krén, Emil, and Dániel Marx. 'Web Gallery of Art'. Accessed 23 November 2021.[[https://www.wga.hu/index1.html]{.underline}](https://www.wga.hu/index1.html).
+
+Lett, Mathieu. 'Les tableaux du Petit Appartement de Louis XIV à Versailles (1684-1715)'. In *Louis XIV, l'image et le mythe*, edited by Mathieu Da Vinha, Alexandre Maral, and Nicolas Milovanovic,97--123. Collection Histoire: Aulica. Rennes : Versailles: Presses universitaires de Rennes ; Centre de recherche du château de Versailles, 2014.
+
+Moriarty, Michael. *Taste and Ideology in Seventeenth-Century France*. Cambridge Studies in French. Cambridge University Press, 2009.
 
 Van De Waal, Hans, L. D. Couprie, E. Tholen, and G. Van
 Caspel-Vellekoop. *Iconclass an Iconographic Classification System*.
 North-Holland, 1975.
+
+Van Caspel-Vellekoop. *Iconclass an Iconographic Classification System*. Amsterdam: North-Holland, 1975.
+
 
 ### Endnotes
 
@@ -295,74 +284,22 @@ Jean-Aimar Piganiol de La Force, *Nouvelle description des châteaux et parcs de
 
 [^23]: I mean any inventory meant to locate the paintings: Le Brun’s *Inventoire* did not have such scope, while Félibien’s *Description sommaire du château de Versailles* published in 1674 did not mention any detailed description of the paintings, hence the first account of the Versailles’s Cabinet des Tableaux that combines a description and a location of the paintings remains the anonymous’ A.N., O119647.18  of November 1695 and published by Castelluccio, followed by Piganiol de La Force’s *Nouvelle description* […].
 
-[^11]: I mean any inventory meant to locate the paintings: Le
-    Brun[']{dir="rtl"}s *Inventoire* did not have such scope, while
-    Félibien[']{dir="rtl"}s *Description sommaire du château de
-    Versailles* published in 1674 did not mention any detailed
-    description of the paintings, hence the first account of the
-    Versailles[']{dir="rtl"}s Cabinet des Tableaux that combines a
-    description and a location of the paintings remains the
-    anonymous[']{dir="rtl"} *A.N., O119647.18* of November 1695 and
-    published by Castelluccio, followed by Piganiol de La
-    Force[']{dir="rtl"}s *Nouvelle description \[...\]*.
+[^24]: The counting and, thus, the analyses, exclude the recessed and ceiling paintings.
 
-[^12]: The counting and, thus, the analyses, exclude the recessed and
-    ceiling paintings.
+[^25]: See note 9 for the list of Iconclass's main classes.
 
-[^13]: See note 9 for the list of Iconclass[']{dir="rtl"}s main classes.
+[^26]: As Brejon de Lavargnée argues, the collection of the 483 paintings of the *Cabinet de Tableaux* recorded within Le Brun's *Inventaire* in 1683 is the evidence of the chronology of the acquisitions pursued by Louis under the aegis of Jean-Baptiste Colbert. The acquisition lots are: Francis I's *ancien fond*;the paintings donated to Louis XIII by the cardinal Richelieu; the first part of Eberhard Jabach's collection (before 1666); a small part of the cardinal Mazarin's collection; the donation of cardinal Flavio Chigi (1664); the collection of the Duc the Richelieu (1665); the donation of the Camillo Francesco Maria Pamphili (1665); the first Jabach sale (1666); eight paintings from Hoursel (1670); the second Jabach sale (1671); the Fouquet sequestration (1671); the acquisition of the collection of the mysterious La Feuille (1671); 52 paintings stocked at the Gobelins; the acquisitions from the merchant Alvarez (1681-1683); finally, other 56 paintings purchased before 1683 and in 1685-1686. The reconstruction of the origin of the collection ---here extremely simplified--- is contained in Le Brun's *Inventoire* is published in Brejon de Lavergnée, Arnauld. *L'inventaire Le Brun de 1683: la collection des tableaux de Louis XIV*. Paris: RMN, 1987. Despite Brejon de Lavargnée declares that: "*L\'étude de la collection des peintures du banquier allemand Eberhard Jabach ---deux cent une pièces,\[...\]--- a toujours été difficile à ent reprendre, carl\'historien ne possède ni les inventaires de ses deux premières collections, ni la liste officielle des tableaux qui furent acquis par le Roi*", this lot, however, clearly marks ---for its chronology, modality, and consistency--- the shift from a natural acquisition due to Louis's royal prerogatives, and the king's direct agency on the art market.
 
-[^14]: As Brejon de Lavargnée argues, the collection of the 483
-    paintings of the *Cabinet de Tableaux* recorded within Le Brun's
-    *Inventaire* in 1683 is the evidence of the chronology of the
-    acquisitions pursued by Louis under the aegis of Jean-Baptiste
-    Colbert. The acquisition lots are: Francis I's *ancien fond*; the
-    paintings donated to Louis XIII by the cardinal Richelieu; the first
-    part of Eberhard Jabach's collection (before 1666); a small part of
-    the cardinal Mazarin's collection; the donation of cardinal Flavio
-    Chigi (1664); the collection of the Duc the Richelieu (1665); the
-    donation of the Camillo Francesco Maria Pamphili (1665); the first
-    Jabach sale (1666); eight paintings from Hoursel (1670); the second
-    Jabach sale (1671); the Fouquet sequestration (1671); the
-    acquisition of the collection of the mysterious La Feuille (1671);
-    52 paintings stocked at the Gobelins; the acquisitions from the
-    merchant Alvarez (1681-1683); finally, other 56 paintings purchased
-    before 1683 and in 1685-1686. The reconstruction of the origin of
-    the collection ---here extremely simplified--- is contained in Le
-    Brun's *Inventoire* is published in Brejon de Lavergnée, Arnauld.
-    *L[']{dir="rtl"}inventaire Le Brun de 1683: la collection des
-    tableaux de Louis XIV*. Paris: RMN, 1987. Despite Brejon de
-    Lavargnée declares that: "*L\'étude de la collection des peintures
-    du banquier allemand Eberhard Jabach ---deux cent une pièces,
-    \[...\]--- a toujours été difficile à ent reprendre, car
-    l\'historien ne possède ni les inventaires de ses deux premières
-    collections, ni la liste officielle des tableaux qui furent acquis
-    par le Roi*", this lot, however, clearly marks ---for its
-    chronology, modality, and consistency--- the shift from a natural
-    acquisition due to Louis's royal prerogatives, and the king's direct
-    agency on the art market.
+[^27]: The disclaimer of such argument is that I'm referring to the minimum production date, whose accuracy is not homogeneous for all the cases (Fig. 3), and whose relation to the general production time latitude might bring to potential different conclusions.
 
-[^15]: The disclaimer of such argument is that I[']{dir="rtl"}m
-    referring to the minimum production date, whose accuracy is not
-    homogeneous for all the cases (Fig. 3), and whose relation to the
-    general production time latitude might bring to potential different
-    conclusions.
+[^28]: The authors of the 110 paintings produced after 1671, and belonging to Ic. 4 are all French: Antoine Dieu, Antoine Monnoyer, Charles Le Brun, Claude Simpol, Etienne Allegrain, François Desportes, Jean Baptiste Monnoyer, Jean Cossiau, Jean Cotelle, Jean-Baptiste Belin De Fontenay, Jean-Baptiste Martin, Joseph Christophle, Joseph Parrocel, Madeleine Boullogne, Nicolas Bertin, Nicolas Spheyman, and Pierre Mignard.
 
-[^16]: The authors of the 110 paintings produced after 1671, and
-    belonging to Ic. 4 are all French: Antoine Dieu, Antoine Monnoyer,
-    Charles Le Brun, Claude Simpol, Etienne Allegrain, François
-    Desportes, Jean Baptiste Monnoyer, Jean Cossiau, Jean Cotelle,
-    Jean-Baptiste Belin De Fontenay, Jean-Baptiste Martin, Joseph
-    Christophle, Joseph Parrocel, Madeleine Boullogne, Nicolas Bertin,
-    Nicolas Spheyman, and Pierre Mignard.
+[^29]: Pevsner, Nikolaus. *Academies of Art: Past and Present*. Cambridge: Cambridge University Press, 1940.
 
-[^17]: Hans Rottenhammer, and the Monogrammist De Brunswick.
+[^30]: The diagram organises chronologically the distribution of the painters by the national school from 1300 to 1900. The labels indicate the school’s year peak and the number of active painters. The source is: Emil Krén and Dániel Marx, ‘Web Gallery of Art’, accessed 16 December 2023, https://www.wga.hu/index1.html. Diagram by the author, 2022.
 
-[^18]: Philippe de Chennevières, Eugène Daudet, and Anatole de
-    Montaiglon, [']{dir="rtl"}Sujets des morceaux de réception des
-    membres de l[']{dir="rtl"}ancienne Académie de peinture, sculpture
-    et gravure, 1648 à 1793, recueillis par m. Duvivier, de l'École
-    impériale des beaux-arts, d[']{dir="rtl"}après les registres de
-    cette académie, avec l[']{dir="rtl"}indication de
-    l[']{dir="rtl"}emplacement actuel d[']{dir="rtl"}un certain nombre
-    de ces ouvrages[']{dir="rtl"}, Archives de l[']{dir="rtl"}art
-    français 22 (1852): 353--91.
+[^31]: The supremacy of French culture over that of Italy is, if not the consequence, the other side of the coin of Louis XIV’s geopolitical ambitions in Europe. From a cultural point of view, one of the political instruments used was the establishment of the *Académies*, which favoured the inclusion of French artists within the propaganda mechanisms advocated by Louis XIV and Colbert, and which weakened the influence of the guilds and, consequently, the professional independence of the artists themselves. For a discussion on this subject see Pevsner, Nikolaus. *Academies of Art: Past and Present*. Cambridge: Cambridge University Press, 1940; and Solinas, Francesco. “«Portare Roma a Parigi», mecenati, artisti ed eruditi nella migrazione culturale.” In *Documentary culture Florence and Rome from Grand-Duke Ferdinand I to Pope Alexander VII*, edited by Elizabeth Cropper, Giovanna Perini, and Francesco Solinas, 227–61. Bologna: Nuova Alfa, 1992.
+
+[^32]: Hans Rottenhammer, and the Monogrammist De Brunswick.
+
+[^33]: Philippe de Chennevières, Eugène Daudet, and Anatole de Montaiglon, 'Sujets des morceaux de réception des membres de l'ancienne Académie de peinture, sculpture et gravure, 1648 à 1793, recueillis par m. Duvivier, de l'École impériale des beaux-arts, d'après les registres de cette académie, avec l'indication de l'emplacement actuel d'un certain nombre de ces ouvrages', Archives de l'art français 22 (1852): 353--91.
