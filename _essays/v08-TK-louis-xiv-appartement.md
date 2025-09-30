@@ -219,7 +219,7 @@ Couprie, L. D. 'Iconclass: An Iconographic Classification System'. *Art Libraria
 
 Hulftegger, Adeline. 'Notes sur la formation des collections de peintures de Louis XIV: (l' entrée dans le Cabinet du Roi des tableaux provenant de Jabach, Mazarin, Fouquet etc. \...)'. *Bulletin de la Société de l'Histoire de l'Art Français*, 1955, 124-34.
 
-Krén, Emil, and Dániel Marx. 'Web Gallery of Art'. Accessed 23 November 2021.[[https://www.wga.hu/index1.html]{.underline}](https://www.wga.hu/index1.html).
+Krén, Emil, and Dániel Marx. 'Web Gallery of Art'. Accessed 23 November 2021.<https://www.wga.hu/index1.html> <https://www.wga.hu/index1.html>
 
 Lett, Mathieu. 'Les tableaux du Petit Appartement de Louis XIV à Versailles (1684-1715)'. In *Louis XIV, l'image et le mythe*, edited by Mathieu Da Vinha, Alexandre Maral, and Nicolas Milovanovic,97--123. Collection Histoire: Aulica. Rennes : Versailles: Presses universitaires de Rennes ; Centre de recherche du château de Versailles, 2014.
 
@@ -271,15 +271,15 @@ Jean-Aimar Piganiol de La Force, *Nouvelle description des châteaux et parcs de
 
 [^17]: Mathieu Lett, ‘Les tableaux du Petit Appartement de Louis XIV à Versailles (1684-1715)’, in *Louis XIV, l’image et le mythe*, ed. Mathieu Da Vinha, Alexandre Maral, and Nicolas Milovanovic, Collection Histoire: Aulica (Rennes : Versailles: Presses universitaires de Rennes ; Centre de recherche du château de Versailles, 2014), 97–123.
 
-[^18]: The image portraits the exhibition "Tell me of Louis" held at Capo Space in Rome between November 2019 and January 2020. The exhibition aimed to visualize from one point of view the entire painting collection of Louis XIV in Versailles. The paintings were scaled down in 1:20, and organized along a 10 meters long strip according to the nine Iconclass categories. Gigone, Design by Office U67 ApS. 'Tell Me of Louis'. Exhibition presented at the Campo Space, rome, 27 Novemebre 2019-27 January 2020. https://www.campo.space/fabio-gigone-tell-me-of-louis. 
+[^18]: The image portraits the exhibition "Tell me of Louis" held at Capo Space in Rome between November 2019 and January 2020. The exhibition aimed to visualize from one point of view the entire painting collection of Louis XIV in Versailles. The paintings were scaled down in 1:20, and organized along a 10 meters long strip according to the nine Iconclass categories. Gigone, Design by Office U67 ApS. 'Tell Me of Louis'. Exhibition presented at the Campo Space, rome, 27 Novemebre 2019-27 January 2020. <https://www.campo.space/fabio-gigone-tell-me-of-louis.> 
 
 [^19]: Iconclass is a library classification conceived for art and iconography by Hans Van De Waal in the 1950s. The Iconclass iconographic attribution system is constantly being implemented and today covers more than 28,000 individual concepts. Van De Waal, Hans. Decimal Index of the Art of the Low Countries. Abridged Edition of the Iconclass System. The Hague: Rijksbureau voor Kunsthistorische Documentatie, 1968.
 
 [^20]: L. D. Couprie, ‘Iconclass: An Iconographic Classification System’, Art Librarian Journal, no. Summer (1983): 32–49.
 
-[^21]: The classes are: Religion and magic (1); Nature (2); Human being (3); Society, civilisation and culture (4); Ideas and abstract concept (5); History (6); Bible (7); Literature (8); Myths and history of classic antiquity (9). Abstract art (0) is, obviously, not present. Hans Van De Waal et al., *Iconclass an Iconographic Classification System* (Amsterdam: North-Holland, 1975).Iconclass has been completely digitalized: 'Iconclass'. Accessed 15 November 2021.http://www.iconclass.org/help/outline. 
+[^21]: The classes are: Religion and magic (1); Nature (2); Human being (3); Society, civilisation and culture (4); Ideas and abstract concept (5); History (6); Bible (7); Literature (8); Myths and history of classic antiquity (9). Abstract art (0) is, obviously, not present. Hans Van De Waal et al., *Iconclass an Iconographic Classification System* (Amsterdam: North-Holland, 1975).Iconclass has been completely digitalized: 'Iconclass'. Accessed 15 November 2021. <http://www.iconclass.org/help/outline.> 
 
-[^22]: <https://test.iconclass.org/71Q63>
+[^22]: "Test Iconoclass", <https://test.iconclass.org/71Q63>
 
 [^23]: I mean any inventory meant to locate the paintings: Le Brun’s *Inventoire* did not have such scope, while Félibien’s *Description sommaire du château de Versailles* published in 1674 did not mention any detailed description of the paintings, hence the first account of the Versailles’s Cabinet des Tableaux that combines a description and a location of the paintings remains the anonymous’ A.N., O119647.18  of November 1695 and published by Castelluccio, followed by Piganiol de La Force’s *Nouvelle description* […].
 
@@ -295,7 +295,7 @@ Jean-Aimar Piganiol de La Force, *Nouvelle description des châteaux et parcs de
 
 [^29]: Pevsner, Nikolaus. *Academies of Art: Past and Present*. Cambridge: Cambridge University Press, 1940.
 
-[^30]: The diagram organises chronologically the distribution of the painters by the national school from 1300 to 1900. The labels indicate the school’s year peak and the number of active painters. The source is: Emil Krén and Dániel Marx, ‘Web Gallery of Art’, accessed 16 December 2023, https://www.wga.hu/index1.html. Diagram by the author, 2022.
+[^30]: The diagram organises chronologically the distribution of the painters by the national school from 1300 to 1900. The labels indicate the school’s year peak and the number of active painters. The source is: Emil Krén and Dániel Marx, ‘Web Gallery of Art’, accessed 16 December 2023, <https://www.wga.hu/index1.html.> Diagram by the author, 2022.
 
 [^31]: The supremacy of French culture over that of Italy is, if not the consequence, the other side of the coin of Louis XIV’s geopolitical ambitions in Europe. From a cultural point of view, one of the political instruments used was the establishment of the *Académies*, which favoured the inclusion of French artists within the propaganda mechanisms advocated by Louis XIV and Colbert, and which weakened the influence of the guilds and, consequently, the professional independence of the artists themselves. For a discussion on this subject see Pevsner, Nikolaus. *Academies of Art: Past and Present*. Cambridge: Cambridge University Press, 1940; and Solinas, Francesco. “«Portare Roma a Parigi», mecenati, artisti ed eruditi nella migrazione culturale.” In *Documentary culture Florence and Rome from Grand-Duke Ferdinand I to Pope Alexander VII*, edited by Elizabeth Cropper, Giovanna Perini, and Francesco Solinas, 227–61. Bologna: Nuova Alfa, 1992.
 
