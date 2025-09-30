@@ -56,13 +56,12 @@ The primary sources are mainly the inventories compiled by the *peintres du roi*
 The written sources allowed the identification of 931 paintings present in Versailles from the palace's establishment as one of the locations of the *Cabinet des Tableaux* in 1671 until Louis XIV died in 1715[^18] **(Fig. 2)**. All the items have been individually assessed by a number of fields, aiming to unveil the individual intrinsic features and relate each element within the general collection's qualities. The data have been organized within a spreadsheet that contains the initial findings, and deploys the derived values, such as the paintings' area, the production date range ---if not already known--- and the iconographic description (**Fig. 3**).
 
 {% figure caption: "Fig. 2: Tell me of Louis - SC." %}
-!({{site.url}}/assets/img/v08/gigone/figure2.jpg)
+!({{site.url}}/assets/img/v08/gigone/figure2.jpeg)
 {% endfigure %}
 
 {% figure caption: "Fig. 3: Iconography Tables." %}
-!({{site.url}}/assets/img/v08/gigone/figure3.jpg)
+!({{site.url}}/assets/img/v08/gigone/figure3a.jpeg)!({{site.url}}/assets/img/v08/gigone/figure3b.jpeg)!({{site.url}}/assets/img/v08/gigone/figure3c.jpeg)
 {% endfigure %}
-TK 3 IMAGES HERE TO BE INCLUDED? HOW DO I DO THAT.
 
 The resulting matrix bears, first, the sources where the items appear. This operation keeps an account of the consistency of the primary references, and it records the eventual discrepancies of location and timing among the different authors. Second, the section of the painting's authorial information reveals the contemporary and historical attributions, and thus sheds light on the taste and motivations expressed within Louis' acquisitions, the artistic school's relevance, and, potentially, on the painting's spatial collocations and the significance of their movement. Third, the spatial location of the paintings ---although for some items the sources only give a generic location, i.e. Versailles--- permits to reconstruct the detailed geography of the positioning and movements of the paintings, especially for those gravitating to the king's private apartments. Fourth, the date framing considers the multiple relations occurring between the author's biographical dates, the painting production (potentially deducted from the latter or indicated in primary or secondary sources) and the date of acquisition (also indicated in the primary sources or inferred from the relation between production date and accounting of possess). These data are enhanced by the information retrieved on the provenance of the paintings within the Crown's collections together with the status of the artwork and its location within the contemporary public domain. Last and most important, the manual attribution ---achieved analysing the painting or guessing from the source's description in the case of lost works--- of the Iconclass codification of all the 931 items. [^19] 
 
@@ -78,7 +77,7 @@ Any iconographic concept is expressed within a chain that locates it according t
 15:7)[^22].
 
 {% figure caption: "Fig. 4: Veronese - Ester et Assuéres." %}
-!({{site.url}}/assets/img/v08/gigone/figure2.jpg)
+!({{site.url}}/assets/img/v08/gigone/figure2.jpeg)
 {% endfigure %}
 
 The use of Iconclass allows the data collection of the *Cabinet des Tableaux* to exhibit the evidence of Louis' taste for a specific iconography in relation to the other data, like time, location within the residence ---whether public or private---, artistic school, size of the painting, or type of commission (acquisition or assignment).
@@ -86,7 +85,7 @@ The use of Iconclass allows the data collection of the *Cabinet des Tableaux* to
 The spreadsheet underwent several reiterations, and it served as entry material for an initial digital process conducted with Python. This programming language made it possible to analyse the cross-relationships between the material and immaterial attributes of the paintings that reveal an attitude of Louis XIV’s personal preference. Therefore, of the many possibilities offered by the cross-checking of the data, I focused on the evidence of Louis’s taste emerging from his conscious selection of paintings operated within his apartments. One example is the relationship that emerged between the nationality/school of the authors, the number of paintings present, and their area (**Fig. 5**).
 
 {% figure caption: "Fig. 5: Painter's Area-Number." %}
-!({{site.url}}/assets/img/v08/gigone/figure2.jpg)
+!({{site.url}}/assets/img/v08/gigone/figure2.jpeg)
 {% endfigure %}
 
 What emerges is the overall greater importance of the Italian school in terms of number of paintings and painting area. At the same time, some cases (Francesco Albani, Domenichino, and Guido Reni above all) show the discrepancy between the average number of items and the painted surface. This occurs due to the traditional smaller size of the works realised in Italy between the late 15th and early 17th century compared to the late 17th century French paintings. Far from being a mere technical specification, this remark must be taken in consideration to evaluate the influence of an iconography in relation to the painting’s reach. A second set of data parsing has been conducted relating the iconographic qualities to the quantitative data, like the number of paintings and the painting coverage by author, or to the production and acquisition’s dates.
