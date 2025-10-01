@@ -13,7 +13,7 @@ authors:
   url: "TK"
 abstract: |
   "The article looks closely at discourses in a corpus of 16th and 18th century books on German midwifery. The historiography is well explained, particularly for a historian who may not be familiar with the exactly conversations in this area of history. The goal of topic modelings is to “explor[e] Wiesner’s notion that developments in the public/private divide are crucial to understanding the professionalization of midwifery and the establishment of obstetrics”. Right now, the article focuses more on the challenges of OCR to text analysis; this is a well traversed area in DH.  Rather, the article would benefit from showing how topic modeling begins to support, expand, complicate, and/or challenge Wiesner’s argument. It seems in the topic analysis section that there are ways that topic modeling supports and expands on Wisner’s  argument. By making those more explicit, the reader will be able to understand how topic modeling expands our understanding of the discourses/themes/topics related to midwifery.   Then, the conclusion could focus on the limits of the analysis and next steps."
-preview: "/assets/img/v08/romeinTK/preview.png"
+preview: "/assets/img/v08/kafer/preview.png"
 ---
 Discourses on midwifery changed gradually but also significantly from
 the sixteenth to the eighteenth century across Europe. In German-speaking territories, texts in the vernacular managed to reach a whole new audience, creating an adjacent market to the Latin learned instructions on pregnancy and childbirth at the turn of the sixteenth century.[^1] Manuals for midwives and instructions to pregnant women spread much wider as printing became more accessible, making the turn to the sixteenth century a heyday of influential midwifery manuals.[^2] As this knowledge circulated broadly, organizing and regulating the practice of midwifery became an increasing concern for the authorities. In response, many German cities began to issue ordinances for the local midwives.[^3] The seventeenth century witnessed the reprint of many of these manuals, as well as the translations of popular guides from different European regions.[^4] In the late seventeenth and early eighteenth century, faculties of medicine embraced the duty of examining midwives at an official level. That meant that new instructional texts were issued, and ordinances in many cases included the need for licenses by medical authorities in order for a midwife to be able to practice.[^5] In her study of southern Germany, Merry E. Wiesner has pointed out that such a shift seems to be connected to the growing public/private split and a consistent "privatization" of women.[^6] This "privatization" meant that the early modern period saw an increase push for women to be relegated to the domestic realm, with a more explicit association of the male as public and the female as private. However, she concludes that midwifery is a point of tension in such discourse. Female midwives worked as a bridge in the public/private distinction: they operated in intimate contact with the pregnant women while having a significant public role. When most women had their responsibilities attached to their households, midwives could even hold office in the principalities. However, the eighteenth-century growth in male midwives broke the female-dominant knowledge domain and demanded closer supervision of their practices, in a way removing their access to public authority. This notion of "privatization" of women and female midwives' exclusion from their position of authority as a process from the sixteenth to the eighteenth century helps us understand how birth went from a social moment with an intimate bond between the birthing person and the practitioner assisting to a more private and medicalized procedure.
@@ -32,7 +32,7 @@ To extract topics from this corpus, I used the MALLET toolkit. The initial attem
 
 ### Sixteenth-century topics
 {% figure caption: "Figure 1." %}
-!({{site.url}}/assets/img/v08/kafer/figure1.png)
+![alt]({{site.url}}/assets/img/v08/kafer/figure1.png)
 {% endfigure %}
 
 The topics of the sixteenth-century corpus reveal patterns of problems with the OCR. The letter 'z' is consistently substituted by the letter g', as in the words for remedy *(Arznei*) appears as *argney*, and root (*Wurzel*) shows up as *wurgel*. Some of the topics are also beginnings or endings of words that have been separated in the pages of the book (like *ges* or *nen*). As such, depending on the corpus and the goal of a particular study, such separated endings could be added to a custom stopword list.
@@ -44,13 +44,13 @@ Body (*leib*), uterus *(bärmütter* -- appearing as *beermåtter*), navel *(nab
 
 ### Eighteenth-century topics
 {% figure caption: "Figure 2." %}
-!({{site.url}}/assets/img/v08/kafer/figure2.png)
+![alt]({{site.url}}/assets/img/v08/kafer/figure2.png)
 {% endfigure %}
 
 There are a lot of parallels between the topics from the sixteenth-century and the eighteenth-century corpora. *Frau/frauen*, *kind/kinder*, *mutter*, *schwangern,* as expected, continue to feature as key topics. Birth (*geburt*) appears also with further specifications, such as time of birth (*geburtszeit*) and afterbirth(*nachgeburt*). We can notice the linguistic change of uterus from *Bärmütter* to *Gebärmütter*, as it is known in modern German.
 
 {% figure caption: "Figure 3." %}
-!({{site.url}}/assets/img/v08/kafer/figure3.png)
+![alt]({{site.url}}/assets/img/v08/kafer/figure3.png)
 {% endfigure %}
 
 There are a lot of parallels between the topics from the sixteenth-century and the eighteenth-century corpora. Frau/frauen, kind/kinder, mutter, schwangern, as expected, continue to feature as key topics. We can notice the linguistic change of uterus from Bärmütter to Gebärmütter, as it is known in modern German.
@@ -62,7 +62,7 @@ One of the main turns on the topics can be found in group 1. Grouped there are t
 In fact, when locating those clusters, they point mostly towards the selected eighteenth-century ordinances. Although Klasse can be related to education, the term has multiple meanings. In this case, looking closer at the corpus, the ‘class’ does not refer to the learning environment, but it is a division of the different ‘classes’ of pregnant women that the midwives would treat and how much they were allowed to charge each of the groups. As midwifery became more and more professionalized, the monetization of the practice also became more institutionalized.
 
 {% figure caption: "Figure 4: Division of patients into classes int he Ordunfür die Hebammen in München (1971), 4." %}
-!({{site.url}}/assets/img/v08/kafer/figure3.png)
+![alt]({{site.url}}/assets/img/v08/kafer/figure3.png)
 {% endfigure %}
 
 Another important topic is urine (*urin*). This could indicate that uroscopy was a
