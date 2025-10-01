@@ -230,7 +230,6 @@ North-Holland, 1975.
 
 Van Caspel-Vellekoop. *Iconclass an Iconographic Classification System*. Amsterdam: North-Holland, 1975.
 
-
 ### Endnotes
 
 [^1]: Tafuri, Manfredo. “Sklovskij, Benjamin e la teoria dello «spostamento».” *Figure. Teoria e Critica dell’Arte* 1, no. 1 (1982): 38–51. My translation. 
@@ -259,12 +258,9 @@ Van Caspel-Vellekoop. *Iconclass an Iconographic Classification System*. Amsterd
 
 [^13]: André Félibien, *Tableaux du Cabinet du Roy. Statues et bustes antiques des Maisons royales*, vol. 1 (Paris: Impr. royale, 1677).
 
-[^14]: Charles Le Brun, ‘Inventaire des Tableaux du Cabinet du Roy’ (Paris, 1683), O/1/1964-8, Archives Nationales. 
-Arnauld Brejon de Lavergnée, *L’inventaire Le Brun de 1683: la collection des tableaux de Louis XIV* (Paris: RMN, 1987).
+[^14]: Charles Le Brun, ‘Inventaire des Tableaux du Cabinet du Roy’ (Paris, 1683), O/1/1964-8, Archives Nationales. Arnauld Brejon de Lavergnée, *L’inventaire Le Brun de 1683: la collection des tableaux de Louis XIV* (Paris: RMN, 1987).
 
-[^15]: Jean-Aimar Piganiol de La Force, *Nouvelle description des chateaux et parcs de Versailles et de Marly: contenant une explication historique de toutes les peintures, tableaux, statues, vases & ornamens qui s’y voient ; leurs dimensions ; & les noms de peintres, & des sculpteurs qui les on faits. Avec les plans de ces deux maisons royalles*. (Paris: Chez Florentin & Pierre Delaulne, 1701).
-Jean-Aimar Piganiol de La Force, *Nouvelle Description Des Chasteaux et Parcs de Versailles et de Marly: Contenant Une Explication Historique de Toutes Les Peintures, Tableaux, Statues, Vases et Ornemensqui s’y Voyent: Enrichie de Plusieurs Figures En Taille Douce*, Seconde Edition (Paris: Florentin Delaulne, 1707).
-Jean-Aimar Piganiol de La Force, *Nouvelle description des châteaux et parcs de Versailles et de Marly (Paris: Chez Florentin Delaulne*, 1717).
+[^15]: Jean-Aimar Piganiol de La Force, *Nouvelle description des chateaux et parcs de Versailles et de Marly: contenant une explication historique de toutes les peintures, tableaux, statues, vases & ornamens qui s’y voient ; leurs dimensions ; & les noms de peintres, & des sculpteurs qui les on faits. Avec les plans de ces deux maisons royalles*. (Paris: Chez Florentin & Pierre Delaulne, 1701). Jean-Aimar Piganiol de La Force, *Nouvelle Description Des Chasteaux et Parcs de Versailles et de Marly: Contenant Une Explication Historique de Toutes Les Peintures, Tableaux, Statues, Vases et Ornemensqui s’y Voyent: Enrichie de Plusieurs Figures En Taille Douce*, Seconde Edition (Paris: Florentin Delaulne, 1707). Jean-Aimar Piganiol de La Force, *Nouvelle description des châteaux et parcs de Versailles et de Marly (Paris: Chez Florentin Delaulne*, 1717).
 
 [^16]: Nicolas Bailly, *Inventaire des tableaux du Roy rédigé en 1709 et 1710 par Nicolas Bailly*, ed. Fernand Engerand (Paris: Ernest Leroux, 1899).
 
