@@ -1,5 +1,5 @@
 ---
-title: "Louis XIV's taste as a private matter: A Preliminary Outline of the *Appartement du Roi*'s Iconography"
+title: "Louis XIV's taste as a private matter: A Preliminary Outline of the Appartement du Roi's Iconography"
 doi: "https://doi.org/10.31835/crdh.2025.TK"
 volume-number: 8
 year: 2025
@@ -59,7 +59,7 @@ The written sources allowed the identification of 931 paintings present in Versa
 {% endfigure %}
 
 {% figure caption: "Fig. 3: Iconography Tables." %}
-![alttext]({{site.url}}/assets/img/v08/gigone/figure3a.jpeg)![alttext]({{site.url}}/assets/img/v08/gigone/figure3b.jpeg)![alttext]({{site.url}}/assets/img/v08/gigone/figure3c.jpeg)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure3a.jpeg)![alttext]({{site.url}}/assets/img/v08/gigone/figure3b.jpeg)
 {% endfigure %}
 
 The resulting matrix bears, first, the sources where the items appear. This operation keeps an account of the consistency of the primary references, and it records the eventual discrepancies of location and timing among the different authors. Second, the section of the painting's authorial information reveals the contemporary and historical attributions, and thus sheds light on the taste and motivations expressed within Louis' acquisitions, the artistic school's relevance, and, potentially, on the painting's spatial collocations and the significance of their movement. Third, the spatial location of the paintings ---although for some items the sources only give a generic location, i.e. Versailles--- permits to reconstruct the detailed geography of the positioning and movements of the paintings, especially for those gravitating to the king's private apartments. Fourth, the date framing considers the multiple relations occurring between the author's biographical dates, the painting production (potentially deducted from the latter or indicated in primary or secondary sources) and the date of acquisition (also indicated in the primary sources or inferred from the relation between production date and accounting of possess). These data are enhanced by the information retrieved on the provenance of the paintings within the Crown's collections together with the status of the artwork and its location within the contemporary public domain. Last and most important, the manual attribution ---achieved analysing the painting or guessing from the source's description in the case of lost works--- of the Iconclass codification of all the 931 items. [^19] 
