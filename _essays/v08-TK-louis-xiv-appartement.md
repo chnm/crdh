@@ -1,6 +1,5 @@
 ---
-title: "Louis XIV's taste as a private matter"
-subtitle: "A preliminary outline of the *Appartement du Roi*'s iconography"
+title: "Louis XIV's taste as a private matter: A Preliminary Outline of the *Appartement du Roi*'s Iconography"
 doi: "https://doi.org/10.31835/crdh.2025.TK"
 volume-number: 8
 year: 2025
@@ -14,7 +13,7 @@ authors:
   url: "TK"
 abstract: |
   The paper explores Louis XIV’s iconographic preferences, arguing that the selection of paintings within his broader Cabinet des Tableaux collection, as well as their arrangement in the Appartement du Roi, reveal a significant aspect of the French king’s private life. The research treats the Sun king’s extensive painting collection —931 works identified from inventories dated between 1671 and 1715— as a homogeneous source, focusing primarily on the iconographic content rather than their artistic value. The spatial context of the Appartement du Roi, is crucial as it housed the Cabinet des Tableaux, where paintings were displayed according to the king’s will. The analysis of the combination between iconography, placement, and movement of paintings within rooms of differing degree of access, allows for a nuanced reading of taste, and, therefore, privacy. The research employs a digital humanities methodology, compiling a detailed spreadsheet of the collection’s attributes, including provenance, production dates, artist nationality, size, and iconography coded through the Iconclass system —a comprehensive iconographic classification tool. By integrating digital analysis with architectural and iconographic study, this paper demonstrates that Louis XIV’s private taste was most conspicuously expressed through a curated biblical iconography within the intimacy of the Appartement du Roi, marking a critical intersection of privacy, power, and personal preference in the art patronage and collecting of the Sun King.
-preview: "/assets/img/v08/romein/preview.pngTK"
+preview: "/assets/img/v08/gigone/preview.jpeg"
 ---
 
 It is the object of analysis that imposes one or more methods from time to time; it is the result of the analysis that decides on the fruitfulness of the chosen method or methods. When we affirm the need for infinite analysis, this is precisely what we are referring to: the possibility of calling everything into question using analytical reagents of different composition. [^1][^2]
@@ -50,17 +49,17 @@ Louis XIV’s collection was formed from the initial collection of Francis I, an
 The primary sources are mainly the inventories compiled by the *peintres du roi*: the anonymous *Mémoire des tableaux qui sont posés dans les appartements du château de Versailles. Du premier novembre 1695*[^12]; André Félibien's *Tableaux du Cabinet du Roy*[13]*;* Charles Le Brun's *Inventaire des Tableaux du Cabinet du Roy* of 1683[^14] (**Fig. 1**); Jean-Aimar Piganiol de La Force's three editions of his *Nouvelle description des chateaux et parcs de Versailles et de Marly* from 1701, 1707, and 1717 [^15]; and the *Inventaire des tableaux du Roy* compiled by Nicolas Bailly from 1709 and 1710[^16]. Additionally, I benefitted from Mathieu Lett's study in which he first commenced the data systematisation of the collection in the *petit appartement*[^17].
 
 {% figure caption: "Fig. 1: L'inventaire Le Brun de 1683" %}
-!({{site.url}}/assets/img/v08/gigone/figure1.jpeg)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure1.jpeg)
 {% endfigure %}
 
 The written sources allowed the identification of 931 paintings present in Versailles from the palace's establishment as one of the locations of the *Cabinet des Tableaux* in 1671 until Louis XIV died in 1715[^18] **(Fig. 2)**. All the items have been individually assessed by a number of fields, aiming to unveil the individual intrinsic features and relate each element within the general collection's qualities. The data have been organized within a spreadsheet that contains the initial findings, and deploys the derived values, such as the paintings' area, the production date range ---if not already known--- and the iconographic description (**Fig. 3**).
 
 {% figure caption: "Fig. 2: Tell me of Louis - SC." %}
-!({{site.url}}/assets/img/v08/gigone/figure2.jpeg)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure2.jpeg)
 {% endfigure %}
 
 {% figure caption: "Fig. 3: Iconography Tables." %}
-!({{site.url}}/assets/img/v08/gigone/figure3a.jpeg)!({{site.url}}/assets/img/v08/gigone/figure3b.jpeg)!({{site.url}}/assets/img/v08/gigone/figure3c.jpeg)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure3a.jpeg)![alttext]({{site.url}}/assets/img/v08/gigone/figure3b.jpeg)![alttext]({{site.url}}/assets/img/v08/gigone/figure3c.jpeg)
 {% endfigure %}
 
 The resulting matrix bears, first, the sources where the items appear. This operation keeps an account of the consistency of the primary references, and it records the eventual discrepancies of location and timing among the different authors. Second, the section of the painting's authorial information reveals the contemporary and historical attributions, and thus sheds light on the taste and motivations expressed within Louis' acquisitions, the artistic school's relevance, and, potentially, on the painting's spatial collocations and the significance of their movement. Third, the spatial location of the paintings ---although for some items the sources only give a generic location, i.e. Versailles--- permits to reconstruct the detailed geography of the positioning and movements of the paintings, especially for those gravitating to the king's private apartments. Fourth, the date framing considers the multiple relations occurring between the author's biographical dates, the painting production (potentially deducted from the latter or indicated in primary or secondary sources) and the date of acquisition (also indicated in the primary sources or inferred from the relation between production date and accounting of possess). These data are enhanced by the information retrieved on the provenance of the paintings within the Crown's collections together with the status of the artwork and its location within the contemporary public domain. Last and most important, the manual attribution ---achieved analysing the painting or guessing from the source's description in the case of lost works--- of the Iconclass codification of all the 931 items. [^19] 
@@ -77,7 +76,7 @@ Any iconographic concept is expressed within a chain that locates it according t
 15:7)[^22].
 
 {% figure caption: "Fig. 4: Veronese - Ester et Assuéres." %}
-!({{site.url}}/assets/img/v08/gigone/figure2.jpeg)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure2.jpeg)
 {% endfigure %}
 
 The use of Iconclass allows the data collection of the *Cabinet des Tableaux* to exhibit the evidence of Louis' taste for a specific iconography in relation to the other data, like time, location within the residence ---whether public or private---, artistic school, size of the painting, or type of commission (acquisition or assignment).
@@ -85,7 +84,7 @@ The use of Iconclass allows the data collection of the *Cabinet des Tableaux* to
 The spreadsheet underwent several reiterations, and it served as entry material for an initial digital process conducted with Python. This programming language made it possible to analyse the cross-relationships between the material and immaterial attributes of the paintings that reveal an attitude of Louis XIV’s personal preference. Therefore, of the many possibilities offered by the cross-checking of the data, I focused on the evidence of Louis’s taste emerging from his conscious selection of paintings operated within his apartments. One example is the relationship that emerged between the nationality/school of the authors, the number of paintings present, and their area (**Fig. 5**).
 
 {% figure caption: "Fig. 5: Painter's Area-Number." %}
-!({{site.url}}/assets/img/v08/gigone/figure2.jpeg)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure2.jpeg)
 {% endfigure %}
 
 What emerges is the overall greater importance of the Italian school in terms of number of paintings and painting area. At the same time, some cases (Francesco Albani, Domenichino, and Guido Reni above all) show the discrepancy between the average number of items and the painted surface. This occurs due to the traditional smaller size of the works realised in Italy between the late 15th and early 17th century compared to the late 17th century French paintings. Far from being a mere technical specification, this remark must be taken in consideration to evaluate the influence of an iconography in relation to the painting’s reach. A second set of data parsing has been conducted relating the iconographic qualities to the quantitative data, like the number of paintings and the painting coverage by author, or to the production and acquisition’s dates.
@@ -97,7 +96,7 @@ The considered rooms are not just those that, traditionally, historiography iden
 The *Appartement du Roi* consisted of 14 rooms forming a sequence that dictated the liturgical approach —hence the proximity— to Louis. This sequence had one main access (the queen’s staircase) and, according to the person’s rank and the reason for the visit, the approach would have ended at the *Salle des Gardes* or, in the best case, at the *Petite Galerie* (**Fig. 6**). Depending on the penetration’s level into the king’s suite, and the frequency of the visits, a certain type of arrangement of paintings —a particular access to Louis’s taste— could therefore be detected. The daily attendees to the king’s *lever* at the *Chambre du Roi*, for example, would hardly miss any change in the display of the collection until the *Salle du Conseil*. However, the rooms they walked through were rarely subject to any transformation. On the contrary, an extraordinary guest — a diplomat or a foreign prince— would have had access to the deepest part of the apartment and would therefore have encountered the most intimate taste of the king. However, due to the exceptionality of the visit, unique guests could not observe changes or deliberate choices in the iconographic display ordained by the king.
 
 {% figure caption: "Fig. 6: JH Mansart, Premier Estage du Chateau de Versailles, 1701." %}
-!({{site.url}}/assets/img/v08/gigone/figure6.jpeg)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure6.jpeg)
 {% endfigure %}
 
 ### Spatial references
@@ -105,7 +104,7 @@ The *Appartement du Roi* consisted of 14 rooms forming a sequence that dictated 
 The source for detecting the spatial distribution of the collection within the *Appartement du Roi* is the *Nouvelle description des chateaux et parcs de Versailles* by Jean-Aimar Piganiol de La Force in his three consecutive editions of 1701, 1707, and 1717 (**Fig. 7**). If the latter is substantially like the one of 1707 ---however bearing some interesting additions--- the first two recorded the substantial apartment's transformation of 1701. It seems plausible that Piganiol visited the royal residences some years before publishing the guide. In the 1701 edition the sequence started at the S*alle des Gardes* and continues with the *Antichambre du Roy*, the *Chambre du Roy* (previously the *Chambre de la Reyne*), the *Grand Salon*, and the *Salle du Conseil*, before introducing the most secluded sequence of rooms. The 1707 and 1717 editions registered the creation of the *Œil-de-Bœuf *(called *Grand Sallon*) as the new *Chambre du Roi's *antechamber (that took the central position of the previous *Grand Sallon*), followed by the enlarged *Salle du Conseil*. The following rooms ---if not for the nomenclature--- did not change in Piganiol's description. The sequence is formed by the *Cabinet du Billard*, the *Vestibule du Petit Escalier*, the *Deuxième Antichambre du Cabinet des Tableaux*, the *Cabinet des Tableaux*, the *Cabinet des Coquilles*, the *Sallon de la Petite Gallerie*, the *Petite Galerie.* The *Cabinet Des Medailles*, due to its unique entrance from the *Salle de l's Abondance,* is described within the *Grand Appartements*. Significantly, Piganiol, contrary to Félibien in his *Tableaux du Cabinet du Roy*, proceeded his literary journey by describing the the king's residence as a sequence ofrooms ---that had already reached their architectural completeness--- characterising these only by the displayed paintings' features. The author was conscious of the artistic and socio-political implications embedded in the arrangement of the *Appartement du Roi*, especially after the transformation of 1701. None of the authors makes explicit reference to the position of the paintings on the walls. Nor can one legitimately assume that the descriptions follow a recurring order, from top to bottom and clockwise, or vice versa.
 
 {% figure caption: "Fig. 7: Piganiol, Nouvelle description des chasteaux et parcs de Versailles et de Marly - 1707" %}
-!({{site.url}}/assets/img/v08/gigone/figure6.jpeg)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure6.jpeg)
 {% endfigure %}
 
 However, it should be considered how the Appartement du Roi consists of a sequence of rooms whose use and access, from the Salle des Gardes to the Cabinet des Medailles, closely express the modern concept of transition between the public and the private. Thus, the display of the collection along this long spatial transition reveals the aforementioned gap between a generic cultural influence in the acquisition or commissioning of paintings, and a merely decorative use of the pictorial apparatus typical of the 17th century. In short, an analysis of the collection in the Appartement du Roi is capable of revealing Louis XIV's taste. 
@@ -120,19 +119,19 @@ The first evidence is quantitative. The 931 paintings forming the collection loc
 The most frequent general iconographies found in Versailles were Biblical (Ic. 2: 204 paintings, 21,9% of the total), Classical Mythology[^25] (Ic. 9: 192 paintings, 20,6%) and Society, Civilisation, Culture (Ic. 4: 189 paintings, 20,3%). The collection also covered the categories of Nature (Ic. 2: 21, 13%), and Religion and Magic (Ic. 1: 114, 12,2%). The first three iconographies shared a similar ratio in terms of covered surface: 25,3%, 24,2%, and 19,2% respectively, for a total of 68,7% of the total paintings' area within the *château*(**Fig. 8**). 
 
 {% figure caption: "Fig. 8: Area and Number of Paintings." %}
-!({{site.url}}/assets/img/v08/gigone/figure8.png)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure8.png)
 {% endfigure %}
 
 Despite the apparent similarity of these three iconographic categories in terms of material presence, the most interesting quality for all the classes stands in their paintings production timeframe ratio. If the Mythological iconography shares an equal number of paintings produced before and after Louis became king in 1654 (97 versus 95), the other classes ---exception made for Abstract Ideas and Concepts that, counting only five items, makes the statistic irrelevant--- are unbalanced towards one or the other period **(Fig. 9)**. 
 
 {% figure caption: "Fig. 9: Numbers before 1654." %}
-!({{site.url}}/assets/img/v08/gigone/figure9.jpeg)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure9.jpeg)
 {% endfigure %}
 
 Clearly, the elevation of 1654 as the year of clear separation does not add any argument per se about the assessment of the individual paintings, that would require a specific historical study. However, it can offer a good sense of the iconographic preferences and Louis's personal influence on creating his collection. More interesting is to argue whether the second Jabach sale in 1671 can stand as a clear demarcation in the paintings' production in relation to ---thought, historically, not only--- the presence of the Sun King on the market.[^26] It emerges that Biblical iconography was acquired through works mainly produced in a previous time (182 versus 22). The bulk of the Biblical iconography was produced by Italian artists (140 paintings), completed by 27 paintings by French artists and 15 by German and Flemish painters. At the same time, Society, Civilisation, Culture was a much more contemporary artistic interest, counting 78 works already on the market, versus 110 produced while Louis XIV was expanding his collection (**Fig. 10**).[^27] There is a correlation between the king's iconographic interest in works categorized under Iconclass 4 and the contemporary artistic offer. This analysis, taking into account the authorial origin of the works, shows how the Sun King ---as an artistic--- patron favoured the French school representatives.[^28] This evidence foregrounds the Italian hegemony on the painting until the middle seventeenth century and, at the same time, the loss of interest in such iconography within the French king's court.
 
 {% figure caption: "Fig. 10: Paintings before 1671." %}
-!({{site.url}}/assets/img/v08/gigone/figure10.jpeg)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure10.jpeg)
 {% endfigure %}
 
 Similarly, examining the Mythological iconography, a shift occurred between 1654 and 1671. While there is a parity before the coronation (97% of Iconclass 9 produced before 1654 versus 95% afterward), the second Jabach sale represented the achievement of the French cultural supremacy that benefitted from the mythological formulas imported from Italy.
@@ -146,7 +145,7 @@ The balance attained before 1671 was achieved mainly through the strong presence
 Looking at the time span of Louis XIV’s reign in relation to the presence of artists by nationality, it seems no coincidence that his interest in art collections and his promotion of French artists through the *Académies* corresponds to a steady growth of the latter (**Fig. 11**).[^30]
 
 {% figure caption: "Fig. 11: Artists." %}
-!({{site.url}}/assets/img/v08/gigone/figure10.jpeg)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure10.jpeg)
 {% endfigure %}
 
 The emblematic missions of Paul Fréart de Chantelou in Italy (1640 and 1643) meant to discover and import Italian masterpieces to the French homeland (and to bring home painters like Nicolas Poussin) were just the tip of the iceberg of the cultural struggle which, soon, would see the French culture prevailing. [^31]
@@ -155,7 +154,7 @@ This cultural context is reflected on the Appartement du Roi’s composition. Th
 
 
 {% figure caption: "Fig. 12: Number-Area by School." %}
-!({{site.url}}/assets/img/v08/gigone/figure12.jpeg)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure12.jpeg)
 {% endfigure %}
 
 While the Germans painters occupied a limited position in terms of number or physical appearance, the French school’s rising position in the European context was the effect of the Bourbon’s artistic promotion commenced under Louis XIII (and supported by cardinal Richelieu).[^32]
@@ -167,11 +166,11 @@ How should we then describe Louis XIV’s taste and iconographic preferences whi
 While in the entirety of Versailles, Ic. 1, 3, 5, 6, and 9 coexist in a similar material and numerical presence, in his personal collection, Louis XIV gave emphasis to the Biblical iconography that was represented by the 43,1% (versus only 22,0% in the entire collection), at the expenses of iconographies of Nature (2,9% vs 13,0%), and Society, Civilisation, Culture (8,3% vs 20,3%) (**Fig. 13**). The prevalence of biblical iconography is even more pronounced if one considers its size in terms of area of coverage of biblical paintings: in this case the Appartement’s share rises to 46.3% against 18.8% for the entire collection. (**Fig. 14**).
 
 {% figure caption: "Fig. 13: Versailles vs Appartement du Roi Iconography." %}
-!({{site.url}}/assets/img/v08/gigone/figure13.jpeg)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure13.jpeg)
 {% endfigure %}
 
 {% figure caption: "Fig. 14: Versailles vs Appartement du Roi AREA by Iconography." %}
-!({{site.url}}/assets/img/v08/gigone/figure14.jpeg)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure14.jpeg)
 {% endfigure %}
 
 The reasons are, as often happens, not attributable to a univocal fact or cause. The strong presence of paintings of the 16th and early 17th century on the market at the time of the king’s acquisitions could explain the prevalence of religious, and specifically, Biblical iconography. Looking at the *morceau de réception* required as acceptance at the *Académie* in its early times, the landscapes, still life, and the mythological scenes did not completely replace the traditional formulas. [^33] Yet, the predominance of Italian artists (155 Italians versus 63 French) from a previous epoch in relation to Louis’s collection is clear; within this research path, it does not define a cause, but it is part of the inquiry itself.
