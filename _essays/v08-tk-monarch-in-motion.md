@@ -58,10 +58,6 @@ and events during his lifetime. In this visualization a bigger dot means that mo
 
 With the aim of reconstructing the network of residences of Christian IV of Denmark in mind, we want to use this visualization to reveal patterns or evolutions in time of the king's use of his residences. By splitting up the dataset into relative periods of time, we can see some interesting transformations (figure 5). With the limited dataset we have very few letters from before 1626, which clearly shows in the earliest maps. There is no discernable focal point, and Christian's mobility spread out over Denmark and the German lands. After Denmark joined the Thirty Year's War, however, we see both an increase in letters and a spreading of Christian's presence towards the south. He spent considerable amounts of time in Wolfenbüttel and Rothenburg. From 1630 onwards, the Danish involvement in the Thirty Year's War ceased, and Christian focused his presence on the Danish lands, with focal points in Jutland as well as Sealand. During the final years of his life, he mostly stayed for long consecutive periods of time in Frederiksborg and Copenhagen (presumably Rosenborg).
 
-{% figure caption: "Figure 5: Visualization of the correspondence split up into relative periods of time. A bigger dot means that more letters were sent from this location during the indicated period."%}!({{site.url}}/assets/img/v08/maekelberg/figure5a.png)!({{site.url}}/assets/img/v08/maekelberg/figure5b.png)!({{site.url}}/assets/img/v08/maekelberg/figure5c.png)!({{site.url}}/assets/img/v08/maekelberg/figure5d.png)!({{site.url}}/assets/img/v08/maekelberg/figure5e.png)!({{site.url}}/assets/img/v08/maekelberg/figure5f.png)
-{% endfigure %}
-
-TK TEST TK
 {% figure caption: "Figure 5: Visualization of the correspondence split up into relative periods of time. A bigger dot means that more letters were sent from this location during the indicated period."%}
 ![alt]({{site.url}}/assets/img/v08/maekelberg/figure5a.png)
 ![alt]({{site.url}}/assets/img/v08/maekelberg/figure5b.png)
@@ -70,7 +66,6 @@ TK TEST TK
 ![alt]({{site.url}}/assets/img/v08/maekelberg/figure5e.png)
 ![alt]({{site.url}}/assets/img/v08/maekelberg/figure5f.png)
 {% endfigure %}
-TK TEST TK 
 
 The digital analysis of Christian IV’s handwritten letters and their associated geographical and temporal data offers a unique window into the Danish king’s travels. Through the visual representation of letter frequencies, we uncover the significance of critical locations in his life, shedding light on the evolving priorities and commitments over time.
 
