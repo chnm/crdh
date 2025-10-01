@@ -76,7 +76,7 @@ Any iconographic concept is expressed within a chain that locates it according t
 15:7)[^22].
 
 {% figure caption: "Fig. 4: Veronese - Ester et Assuéres." %}
-![alttext]({{site.url}}/assets/img/v08/gigone/figure2.jpeg)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure4.jpeg)
 {% endfigure %}
 
 The use of Iconclass allows the data collection of the *Cabinet des Tableaux* to exhibit the evidence of Louis' taste for a specific iconography in relation to the other data, like time, location within the residence ---whether public or private---, artistic school, size of the painting, or type of commission (acquisition or assignment).
@@ -84,7 +84,7 @@ The use of Iconclass allows the data collection of the *Cabinet des Tableaux* to
 The spreadsheet underwent several reiterations, and it served as entry material for an initial digital process conducted with Python. This programming language made it possible to analyse the cross-relationships between the material and immaterial attributes of the paintings that reveal an attitude of Louis XIV’s personal preference. Therefore, of the many possibilities offered by the cross-checking of the data, I focused on the evidence of Louis’s taste emerging from his conscious selection of paintings operated within his apartments. One example is the relationship that emerged between the nationality/school of the authors, the number of paintings present, and their area (**Fig. 5**).
 
 {% figure caption: "Fig. 5: Painter's Area-Number." %}
-![alttext]({{site.url}}/assets/img/v08/gigone/figure2.jpeg)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure5.jpeg)
 {% endfigure %}
 
 What emerges is the overall greater importance of the Italian school in terms of number of paintings and painting area. At the same time, some cases (Francesco Albani, Domenichino, and Guido Reni above all) show the discrepancy between the average number of items and the painted surface. This occurs due to the traditional smaller size of the works realised in Italy between the late 15th and early 17th century compared to the late 17th century French paintings. Far from being a mere technical specification, this remark must be taken in consideration to evaluate the influence of an iconography in relation to the painting’s reach. A second set of data parsing has been conducted relating the iconographic qualities to the quantitative data, like the number of paintings and the painting coverage by author, or to the production and acquisition’s dates.
@@ -104,7 +104,7 @@ The *Appartement du Roi* consisted of 14 rooms forming a sequence that dictated 
 The source for detecting the spatial distribution of the collection within the *Appartement du Roi* is the *Nouvelle description des chateaux et parcs de Versailles* by Jean-Aimar Piganiol de La Force in his three consecutive editions of 1701, 1707, and 1717 (**Fig. 7**). If the latter is substantially like the one of 1707 ---however bearing some interesting additions--- the first two recorded the substantial apartment's transformation of 1701. It seems plausible that Piganiol visited the royal residences some years before publishing the guide. In the 1701 edition the sequence started at the S*alle des Gardes* and continues with the *Antichambre du Roy*, the *Chambre du Roy* (previously the *Chambre de la Reyne*), the *Grand Salon*, and the *Salle du Conseil*, before introducing the most secluded sequence of rooms. The 1707 and 1717 editions registered the creation of the *Œil-de-Bœuf *(called *Grand Sallon*) as the new *Chambre du Roi's *antechamber (that took the central position of the previous *Grand Sallon*), followed by the enlarged *Salle du Conseil*. The following rooms ---if not for the nomenclature--- did not change in Piganiol's description. The sequence is formed by the *Cabinet du Billard*, the *Vestibule du Petit Escalier*, the *Deuxième Antichambre du Cabinet des Tableaux*, the *Cabinet des Tableaux*, the *Cabinet des Coquilles*, the *Sallon de la Petite Gallerie*, the *Petite Galerie.* The *Cabinet Des Medailles*, due to its unique entrance from the *Salle de l's Abondance,* is described within the *Grand Appartements*. Significantly, Piganiol, contrary to Félibien in his *Tableaux du Cabinet du Roy*, proceeded his literary journey by describing the the king's residence as a sequence ofrooms ---that had already reached their architectural completeness--- characterising these only by the displayed paintings' features. The author was conscious of the artistic and socio-political implications embedded in the arrangement of the *Appartement du Roi*, especially after the transformation of 1701. None of the authors makes explicit reference to the position of the paintings on the walls. Nor can one legitimately assume that the descriptions follow a recurring order, from top to bottom and clockwise, or vice versa.
 
 {% figure caption: "Fig. 7: Piganiol, Nouvelle description des chasteaux et parcs de Versailles et de Marly - 1707" %}
-![alttext]({{site.url}}/assets/img/v08/gigone/figure6.jpeg)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure7.jpeg)
 {% endfigure %}
 
 However, it should be considered how the Appartement du Roi consists of a sequence of rooms whose use and access, from the Salle des Gardes to the Cabinet des Medailles, closely express the modern concept of transition between the public and the private. Thus, the display of the collection along this long spatial transition reveals the aforementioned gap between a generic cultural influence in the acquisition or commissioning of paintings, and a merely decorative use of the pictorial apparatus typical of the 17th century. In short, an analysis of the collection in the Appartement du Roi is capable of revealing Louis XIV's taste. 
@@ -145,7 +145,7 @@ The balance attained before 1671 was achieved mainly through the strong presence
 Looking at the time span of Louis XIV’s reign in relation to the presence of artists by nationality, it seems no coincidence that his interest in art collections and his promotion of French artists through the *Académies* corresponds to a steady growth of the latter (**Fig. 11**).[^30]
 
 {% figure caption: "Fig. 11: Artists." %}
-![alttext]({{site.url}}/assets/img/v08/gigone/figure10.jpeg)
+![alttext]({{site.url}}/assets/img/v08/gigone/figure11.jpeg)
 {% endfigure %}
 
 The emblematic missions of Paul Fréart de Chantelou in Italy (1640 and 1643) meant to discover and import Italian masterpieces to the French homeland (and to bring home painters like Nicolas Poussin) were just the tip of the iceberg of the cultural struggle which, soon, would see the French culture prevailing. [^31]
