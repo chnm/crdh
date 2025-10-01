@@ -1,6 +1,5 @@
 ---
-title: "Private Birth, Public Authority"
-subtitle: "Topic changes from the sixteenth to the eighteenth century in German midwifery books"
+title: "Private Birth, Public Authority: Topic Changes from the Sixteenth to the Eighteenth Century in German Midwifery Books"
 doi: "https://doi.org/10.31835/crdh.2024.TK"
 volume-number: 8
 year: 2025
@@ -9,12 +8,12 @@ authors:
 - last: Käfer
   first: Natacha Klein
   email: TK
-  affiliation: "TK"
+  affiliation: "University of Copenhagen"
   orcid: 0000-0002-6766-9943
   url: "TK"
 abstract: |
   "The article looks closely at discourses in a corpus of 16th and 18th century books on German midwifery. The historiography is well explained, particularly for a historian who may not be familiar with the exactly conversations in this area of history. The goal of topic modelings is to “explor[e] Wiesner’s notion that developments in the public/private divide are crucial to understanding the professionalization of midwifery and the establishment of obstetrics”. Right now, the article focuses more on the challenges of OCR to text analysis; this is a well traversed area in DH.  Rather, the article would benefit from showing how topic modeling begins to support, expand, complicate, and/or challenge Wiesner’s argument. It seems in the topic analysis section that there are ways that topic modeling supports and expands on Wisner’s  argument. By making those more explicit, the reader will be able to understand how topic modeling expands our understanding of the discourses/themes/topics related to midwifery.   Then, the conclusion could focus on the limits of the analysis and next steps."
-preview: "/assets/img/v07/romeinTK/preview.png"
+preview: "/assets/img/v08/romeinTK/preview.png"
 ---
 Discourses on midwifery changed gradually but also significantly from
 the sixteenth to the eighteenth century across Europe. In German-speaking territories, texts in the vernacular managed to reach a whole new audience, creating an adjacent market to the Latin learned instructions on pregnancy and childbirth at the turn of the sixteenth century.[^1] Manuals for midwives and instructions to pregnant women spread much wider as printing became more accessible, making the turn to the sixteenth century a heyday of influential midwifery manuals.[^2] As this knowledge circulated broadly, organizing and regulating the practice of midwifery became an increasing concern for the authorities. In response, many German cities began to issue ordinances for the local midwives.[^3] The seventeenth century witnessed the reprint of many of these manuals, as well as the translations of popular guides from different European regions.[^4] In the late seventeenth and early eighteenth century, faculties of medicine embraced the duty of examining midwives at an official level. That meant that new instructional texts were issued, and ordinances in many cases included the need for licenses by medical authorities in order for a midwife to be able to practice.[^5] In her study of southern Germany, Merry E. Wiesner has pointed out that such a shift seems to be connected to the growing public/private split and a consistent "privatization" of women.[^6] This "privatization" meant that the early modern period saw an increase push for women to be relegated to the domestic realm, with a more explicit association of the male as public and the female as private. However, she concludes that midwifery is a point of tension in such discourse. Female midwives worked as a bridge in the public/private distinction: they operated in intimate contact with the pregnant women while having a significant public role. When most women had their responsibilities attached to their households, midwives could even hold office in the principalities. However, the eighteenth-century growth in male midwives broke the female-dominant knowledge domain and demanded closer supervision of their practices, in a way removing their access to public authority. This notion of "privatization" of women and female midwives' exclusion from their position of authority as a process from the sixteenth to the eighteenth century helps us understand how birth went from a social moment with an intimate bond between the birthing person and the practitioner assisting to a more private and medicalized procedure.
@@ -33,7 +32,7 @@ To extract topics from this corpus, I used the MALLET toolkit. The initial attem
 
 ### Sixteenth-century topics
 {% figure caption: "Figure 1." %}
-!({{site.url}}/assets/img/v07/kafer/figure1.png)
+!({{site.url}}/assets/img/v08/kafer/figure1.png)
 {% endfigure %}
 
 The topics of the sixteenth-century corpus reveal patterns of problems with the OCR. The letter 'z' is consistently substituted by the letter g', as in the words for remedy *(Arznei*) appears as *argney*, and root (*Wurzel*) shows up as *wurgel*. Some of the topics are also beginnings or endings of words that have been separated in the pages of the book (like *ges* or *nen*). As such, depending on the corpus and the goal of a particular study, such separated endings could be added to a custom stopword list.
@@ -43,37 +42,27 @@ with the association with the ‘rose garden’ also appearing in translation ac
 
 Body (*leib*), uterus *(bärmütter* -- appearing as *beermåtter*), navel *(nabel*), eyes (*augen*), back (*rucken*) and adjectives like moist (*feucht*), heavy *(schwer*) and warm (*warm*), and pain *(schmerzen --* appearing as *ſchmergen)* indicate key physical aspects in the texts. The topics also highlight medicines such as powders (*pulver*), plasters (*pflaster*), substances like chamomille (*camillen*), leafs (*bletter*), lilies (*lillien*), honey (*honig*), and liquids like water (*wasser*) and milk *(milch*), which occur in the texts as recipe ingredients, but also referring to mother's milk and amniotic fluid. Herbal remedies were an extensive part of midwives’ treatment repertoires. The sixteenth century witnessed a renewed interest in the pharmacological use of plants.  However, these medicines, just like midwifery, had to be used in a controlled manner, removing superstitious folk practices from the use of plants. Rößlin’s Rosengarten also provided a lot of information on the preparation of salves and ointments to alleviate the pregnant person’s pain and ailments. [^16] An intriguing topic is the appearance of *gummi* -- which would normally be translated as rubber. While rubber originated from *Hevea brasiliensis* as we know it today was not a substance used in sixteenth-century German-speaking territories, by reading the sources, it is clear that the texts are referring to different natural latex, such as the ones derived from Asafoetida or *Ferula persica*, which were used as bonding agents for early modern pills. Indeed, following such topics in the corpus indicated that the said gummy substance was extracted from asafoetida –referred to as Teuffels kott in sixteenth-century German. [^17]  Local midwives, usually from a peasant background, would have a harder time coming across asafoetida, which highlights that sixteenth-century midwifery books already aimed at approximating the midwives’ practices to official medicine and apothecary remedies. Situating the herbal medicines used by midwives closer to the practice of the apothecaries rather than their folk use of plants also aligns with Wiesner’s point that, although women could not be excluded from midwifery as they could from other medical practices, they still could be placed under the scrutiny and be subjugated to the knowledge of male scholarship. [^18]
 
-TK DELTED IN NEW COPY TK
-Group 9 concentrated on religious topics, such as God (*gott/gottes*) and cross *(creuß*). As mentioned previously, these themes were common throughout midwifery literature, butas expected, the books on spiritual guidance are the ones containing most of these topics when looking at the text composition statistics.
-
-Comfort seemed to be of particular concern, appearing twice as a topic *bequemer/bequemen*), signaling the care for the pregnant women's conditions. This might suggest personal attention and care between midwives and their clientele. This concern also seems to extend to the circumstances of the pregnancy, given the presence of marital status (*ehestandts*) among the identified topics. These could be seen as little glimpses of the public/private boundaries related to pregnancy and childbirth. However, as this is a control experiment, going back to a closer look at the original sources reveals that, although some of the texts address the role of marriage, the fact that the topic identified was *ehestandts* (conjugated in the genitive) indicates that it was selected due to the book *Ehestandts Artzeney*, which was formatted with the title as a header on every page, becoming a prominent topic for MALLET. This is an important point to keep in mind for larger corpora, as sources that include the title on the header of pages might skew the prominence of certain topics.
-TK DELETED IN NEW COPY TK
-
 ### Eighteenth-century topics
 {% figure caption: "Figure 2." %}
-!({{site.url}}/assets/img/v07/kafer/figure2.png)
+!({{site.url}}/assets/img/v08/kafer/figure2.png)
 {% endfigure %}
 
 There are a lot of parallels between the topics from the sixteenth-century and the eighteenth-century corpora. *Frau/frauen*, *kind/kinder*, *mutter*, *schwangern,* as expected, continue to feature as key topics. Birth (*geburt*) appears also with further specifications, such as time of birth (*geburtszeit*) and afterbirth(*nachgeburt*). We can notice the linguistic change of uterus from *Bärmütter* to *Gebärmütter*, as it is known in modern German.
 
 {% figure caption: "Figure 3." %}
-!({{site.url}}/assets/img/v07/kafer/figure3.png)
+!({{site.url}}/assets/img/v08/kafer/figure3.png)
 {% endfigure %}
 
-TK ADDED SECTION TK
 There are a lot of parallels between the topics from the sixteenth-century and the eighteenth-century corpora. Frau/frauen, kind/kinder, mutter, schwangern, as expected, continue to feature as key topics. We can notice the linguistic change of uterus from Bärmütter to Gebärmütter, as it is known in modern German.
 
 One of the main turns on the ropics can be found in group 1. Grouped there are a lot of parallels between the topics from the sixteenth-century and the eighteenth-century corpora. Frau/frauen, kind/kinder, mutter, schwangern, as expected, continue to feature as key topics. We can notice the linguistic change of uterus from Bärmütter to Gebärmütter, as it is known in modern German.
-TK ADDED SECTION TK
 
 One of the main turns on the topics can be found in group 1. Grouped there are topics like class (klasse) and lehrnerinnen (‘learner’ in the feminine), which might indicate the increasing pressure for midwives to engage in anatomical lessons. This prominence of education terms could be influenced by the book Hebammen-Schul Oder gründlicher Unterricht (“Midwives’ School or Most Thorough Lesson”) and its use of educational analogies. By looking at the text composition, however, group 2 is not significantly represented for that particular text.
 
-TK SECTION ADDED TK
 In fact, when locating those clusters, they point mostly towards the selected eighteenth-century ordinances. Although Klasse can be related to education, the term has multiple meanings. In this case, looking closer at the corpus, the ‘class’ does not refer to the learning environment, but it is a division of the different ‘classes’ of pregnant women that the midwives would treat and how much they were allowed to charge each of the groups. As midwifery became more and more professionalized, the monetization of the practice also became more institutionalized.
-TK SECTION ADDED TK
 
 {% figure caption: "Figure 4: Division of patients into classes int he Ordunfür die Hebammen in München (1971), 4." %}
-!({{site.url}}/assets/img/v07/kafer/figure3.png)
+!({{site.url}}/assets/img/v08/kafer/figure3.png)
 {% endfigure %}
 
 Another important topic is urine (*urin*). This could indicate that uroscopy was a
@@ -183,6 +172,6 @@ Kruse, Britta-Juliane. *Verborgene Heilkünste: Geschichte der Frauenmedizin im 
 
 Springmann, Uwe, and et al. "Ground Truth for Training OCR Engines on Historical Documents in German Fraktur and Early Modern Latin." *JLCL* 33, no. 1 (2018): 1–19.
 
-Vetulani, Zygmunt, Patrick Paroubek, and Marek Kubis, eds. *Human Language Technology. Challenges for Computer Science and Linguistics: 8th Language and Technology Conference, LTC 2017, Poznań, Poland, November 17–19, 2017, Revised Selected Papers*. Vol. 12598. Lecture Notes in Computer Science. Cham: Springer International Publishing, 2020. <https://doi.org/10.1007/978-3-030-66527-2>.
+Vetulani, Zygmunt, Patrick Paroubek, and Marek Kubis, eds. *Human Language Technology. Challenges for Computer Science and Linguistics: 8th Language and Technology Conference, LTC 2017, Poznań, Poland, November 17–19, 2017, Revised Selected Papers*. Vol. 12598. Lecture Notes in Computer Science. Cham: Springer International Publishing, 2020.  <https://doi.org/10.1007/978-3-030-66527-2>.
 
 Wiesner, Merry E. "The midwives of south Germany and the public/private dichotomy." In *The Art of Midwifery: Early Modern Midwives in Europe*, edited by Hilary Marland, 77–94. London; New York: Routledge, 1993.
