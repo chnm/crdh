@@ -16,7 +16,7 @@ abstract: |
   
 preview: "/assets/img/v08/mcgee/preview.png"
 ---
-Filippo Lippi's c.1450-53 lunette-shaped *Annunciation* panel, today in London's National Gallery, was made to be displayed in the Palazzo Medici in Florence, built in the mid-fifteenth century for Cosimo the Elder de' Medici and his family \[figure 1\]. It is now widely agreed that this panel---as well as its pair, depicting *Seven Saints*---originally functioned as a *sovrapporta* (overdoor), positioned at one of the thresholds inside the palazzo.[^1] While significant scholarly attention has been paid to Lippi's iconographic choices in this *Annunciation*,[^2] and theories have been put forward regarding which doorway it crowned,[^3] little has been made of the painting's liminal location and its effect upon viewing experience and possible interpretations. In this paper, I will outline how analysing Lippi's *Annunciation* as a boundary marker, encountered when navigating an elite domestic interior, is advancing understanding not only of the painting itself but also of the relationship between life, space and art inside the Florentine palazzo. With a rudimentary 3D model of the *Annunciation* reinstated as a *sovrapporta*, I will begin to explore the possible use of animated digital simulations as a means of reactivating the role of artworks intended for liminal and/or transitional spaces.
+Filippo Lippi's c.1450-53 lunette-shaped *Annunciation* panel, today in London's National Gallery, was made to be displayed in the Palazzo Medici in Florence, built in the mid-fifteenth century for Cosimo the Elder de' Medici and his family (figure 1). It is now widely agreed that this panel---as well as its pair, depicting *Seven Saints*---originally functioned as a *sovrapporta* (overdoor), positioned at one of the thresholds inside the palazzo.[^1] While significant scholarly attention has been paid to Lippi's iconographic choices in this *Annunciation*,[^2] and theories have been put forward regarding which doorway it crowned,[^3] little has been made of the painting's liminal location and its effect upon viewing experience and possible interpretations. In this paper, I will outline how analysing Lippi's *Annunciation* as a boundary marker, encountered when navigating an elite domestic interior, is advancing understanding not only of the painting itself but also of the relationship between life, space and art inside the Florentine palazzo. With a rudimentary 3D model of the *Annunciation* reinstated as a *sovrapporta*, I will begin to explore the possible use of animated digital simulations as a means of reactivating the role of artworks intended for liminal and/or transitional spaces.
 
 {% figure caption: "Figure 1. Filippo Lippi, *The Annunciation*, c.1450-53. Egg tempera on wood, 68.6 x 152.7cm. The National Gallery, London (NG666).© The National Gallery, London" %}![Filippo Lippi, The Annunciation, Egg tempra on wood.]({{site.url}}/assets/img/v08/mcgee/figure1.png)
 {% endfigure %}
@@ -31,7 +31,7 @@ Walking through the *piano nobile* of the Palazzo Medici's east wing in the fift
 {% figure caption: "Figure 2. Palazzo Medici, floorplan of the *piano nobile*, redrawn from the 1650 plan and with rooms labelled according to the inventory of 1492, as identified by Wolfger Bulst. From Lillie, *Florentine Villas in the Fifteenth Century*, fig. 180." %}![Floorplan of the Piano Nobile with room lables, stairwells, and halways denoted]({{site.url}}/assets/img/v08/mcgee/figure2.png)
 {% endfigure %}
 
-The contemporary viewer approaching the *Annunciation* would have immediately understood the symbolic suitability of this religious subject matter to the painting's threshold positioning. The Annunciation story revolves around boundaries, intact and breached: the Archangel Gabriel physically crossed into the Virgin's inner sanctum to deliver news of her impregnation, while at the same time the Holy Spirit crossed into the Virgin's body. Moreover, the Virgin (or her womb -- the two were usually conflated) was often described using architectural metaphors. Sometimes, she was specifically characterised as a door or gate, whether a "porta clausa" ("closed door")[^10] or "porta coeli"("door \[or gate\] of heaven").[^11] Setting the scene in what appears to be a porch or loggia would have had a compositional as well as symbolic function.[^12] [Such structures are simultaneously open and closed, inside and outside, and thus afford the spectator visual access to the Virgin's private quarters---while still suggesting her cloistered existence.] {.mark}[^13] [For the composition to succeed, her privacy is inevitably performative rather than literal.]{.mark}
+The contemporary viewer approaching the *Annunciation* would have immediately understood the symbolic suitability of this religious subject matter to the painting's threshold positioning. The Annunciation story revolves around boundaries, intact and breached: the Archangel Gabriel physically crossed into the Virgin's inner sanctum to deliver news of her impregnation, while at the same time the Holy Spirit crossed into the Virgin's body. Moreover, the Virgin (or her womb -- the two were usually conflated) was often described using architectural metaphors. Sometimes, she was specifically characterised as a door or gate, whether a "porta clausa" ("closed door")[^10] or "porta coeli"("door \[or gate\] of heaven").[^11] Setting the scene in what appears to be a porch or loggia would have had a compositional as well as symbolic function.[^12] Such structures are simultaneously open and closed, inside and outside, and thus afford the spectator visual access to the Virgin's private quarters---while still suggesting her cloistered existence. [^13] For the composition to succeed, her privacy is inevitably performative rather than literal.
 
 The liminal symbolism of Lippi's *Annunciation* would also have had a local dimension, part of the lived experience of the fifteenth-century viewer. Not only was the Feast of the Annunciation on March 25 celebrated as the entry into the new year in the Florentine calendar, but visual precedents (and their strategic locations) across the city would also have exemplified the subject's liminal associations: the tradition of placing images of the Annunciation next to buildings' (particularly churches') entrances and exits functioned as well-timed pictorial reminders of the Savior's entry into the world for the sake of humanity.[^14] Reassuring and perhaps also admonitory, this message thus greeted worshippers upon entry to a sacred space or was the last thing they saw before re-entering the secular bustle of the street beyond. A fourteenth-century Annunciation fresco next to the exit of the Basilica della Santissima Annunziata was actually believed to be miraculous, spawning many similar artworks across the city and firmly embedding the iconography and this positioning in the popular psyche.[^15]
 
@@ -45,6 +45,14 @@ The model is a simple cuboid structure, a necessarily "blank" interior space giv
 
 {% figure caption: "Figure 3. Dynamic digital model of Lippi's *Annunciation* as an overdoor. Made by author using Autodesk Maya. Image of *Annunciation* (see figure 1) © The National Gallery, London." %}![Dynamic digial model of Lippi's Annunciation.]({{site.url}}/assets/img/v08/mcgee/figure3.gif)
 {% endfigure %}
+
+TK TEST TK
+{% figure caption: "Figure 3. Dynamic digital model of Lippi's *Annunciation* as an overdoor. Made by author using Autodesk Maya. Image of *Annunciation* (see figure 1) © The National Gallery, London." %}
+<img src="{{site.url}}/assets/img/v08/mcgee/figure3.gif" 
+     alt="Dynamic digital model of Lippi's Annunciation" 
+     style="display: block; max-width: 100%;">
+{% endfigure %}
+TK TEST TK
 
 ### Looking Up and Moving Forwards: The Model in Action
 
@@ -96,21 +104,21 @@ Büttner, Frank. "'All\'usanza moderna ridotta': gli interventi dei Riccardi." I
 
 Ciardi Dupré Dal Poggetto, Maria Grazia. "I Dipinti di Palazzo Medici nell'inventario di Simone di Stagio delle Pozze: Problemi di Committenza e di Arredo." In *La Toscana al Tempo Di Lorenzo Il Magnifico: Politica - Economia - Cultura -- Arte*. Vol. 1, 131-162. Convegno di studi promosso dalle Università di Firenze, Pisa e Siena, 1992. Pisa: Pacini Editore, 1996.
 
-Cooper, Donal, Fabrizio Nevola, Chiara Capulli and Luca Brunke. "3D models and locative AR: *Hidden Florence 3D* and experiments in reconstruction." In *Hidden Cities: Urban Space, Geolocated Apps and Public History in Early Modern Europe*, edited by Fabrizio Nevola, David Rosenthal and Nicholas Terpstra. Routledge, 2022. doi.org/10.4324/9781003172000-15.
+Cooper, Donal, Fabrizio Nevola, Chiara Capulli and Luca Brunke. "3D models and locative AR: *Hidden Florence 3D* and experiments in reconstruction." In *Hidden Cities: Urban Space, Geolocated Apps and Public History in Early Modern Europe*, edited by Fabrizio Nevola, David Rosenthal and Nicholas Terpstra. Routledge, 2022. <doi.org/10.4324/9781003172000-15>.
 
 Davies, Martin. "Fra Filippo Lippi's Annunciation and Seven Saints." *Critica d'Arte* 3, no. 8 (January 1950): 356-363.
 
 Didi-Huberman, Georges. *Fra Angelico: dissemblance et figuration*. Flammarion, 2009.
 
-Duits, Rembrandt. "Figured Riches: The Value of Gold Brocades in Fifteenth-Century Florentine Painting." *Journal of the Warburg and Courtauld Institutes* 62 (1999): 60-92. doi.org/10.2307/751383.
+Duits, Rembrandt. "Figured Riches: The Value of Gold Brocades in Fifteenth-Century Florentine Painting." *Journal of the Warburg and Courtauld Institutes* 62 (1999): 60-92. <doi.org/10.2307/751383>.
 
-Edgerton, Samuel. "'How Shall This Be?' Reflections on Filippo Lippi's 'Annunciation' in London." Part II. *Artibus et Historiae* 8, no. 16 (1987): 45-53. doi.org/10.2307/1483299.
+Edgerton, Samuel. "'How Shall This Be?' Reflections on Filippo Lippi's 'Annunciation' in London." Part II. *Artibus et Historiae* 8, no. 16 (1987): 45-53. <doi.org/10.2307/1483299>.
 
-Favro, Diane. "*Se non è vero, è ben trovato* (If Not True, It Is Well Conceived): Digital Immersive Reconstructions of Historical Environments." *Journal of the Society of Architectural Historians* 71, no. 3 (September 2012): 273-277. doi.org/10.1525/jsah.2012.71.3.273.
+Favro, Diane. "*Se non è vero, è ben trovato* (If Not True, It Is Well Conceived): Digital Immersive Reconstructions of Historical Environments." *Journal of the Society of Architectural Historians* 71, no. 3 (September 2012): 273-277. <doi.org/10.1525/jsah.2012.71.3.273>.
 
 Flint, Alisdair. "Building the Virgin's House: The Architecture of the Annunciation in Central and Northern Italy 1400-1500." PhD diss., University of York, 2014.
 
-Gnocchi, Lorenzo. "Le Preferenze Artistiche di Piero di Cosimo de'Medici." *Artibus et Historiae* 9, no. 18 (1988): 41--78. doi.org/10.2307/1483336.
+Gnocchi, Lorenzo. "Le Preferenze Artistiche di Piero di Cosimo de'Medici." *Artibus et Historiae* 9, no. 18 (1988): 41--78. <doi.org/10.2307/1483336>.
 
 Gordon, Dillian. *The Fifteenth Century Italian Paintings*. Vol. 1. London: National Gallery, 2003.
 
@@ -128,11 +136,11 @@ Morolli, Gabriele, Cristina Acidini Luchinat, and Luciano Marchetti, eds. *L\'ar
 
 Morrison, Jo. "Hidden Florence 3D at the National Gallery." Calvium. December 5, 2019. calvium.com/hidden-florence-at-national-gallery-overview/.
 
-Nevola, Fabrizio, Donal Cooper, Chiara Capulli, and Luca Brunke. "Immersive Renaissance Florence: Research-Based 3-D Modeling in Digital Art and Architectural History." *Getty Research Journal,* no. 15 (2022): 203-2. doi.org/10.1086/718884.
+Nevola, Fabrizio, Donal Cooper, Chiara Capulli, and Luca Brunke. "Immersive Renaissance Florence: Research-Based 3-D Modeling in Digital Art and Architectural History." *Getty Research Journal,* no. 15 (2022): 203-2. <doi.org/10.1086/718884>.
 
 Nevola, Fabrizio, Donal Cooper, Chiara Capulli, and Luca Brunke. "Research-based 3D Modelling of Santa Maria degli Innocenti: Recovering a Context for the Quattrocento Altarpieces." In *Common Children and the Common Good: Locating Foundlings in the Early Modern World*, edited by Nicholas Terpstra. Florence: Villa I Tatti and Istituto degli Innocenti, 2022 (forthcoming).
 
-Preyer, Brenda. "Planning for Visitors at Florentine Palaces." *Renaissance Studies* 12, no. 3 (September 1998): 357--74, doi.org/10.1111/j.1477-4658.1998.tb00415.
+Preyer, Brenda. "Planning for Visitors at Florentine Palaces." *Renaissance Studies* 12, no. 3 (September 1998): 357--74, <doi.org/10.1111/j.1477-4658.1998.tb00415>.
 
 Jeffrey Ruda, *Fra Filippo Lippi: Life and Work with a Complete Catalogue*. Phaidon, 1993.
 
@@ -140,7 +148,7 @@ Scudieri, Magnolia. *The Frescoes by Angelico at San Marco.* Giunti for Firenze 
 
 Shearman, John. *Only Connect: Art and the Spectator in the Italian  Renaissance*, A.W. Mellon Lectures in the Fine Arts, 1988. Princeton University Press, 1992.
 
-Steinberg, Leo. "'How Shall This Be?' Reflections on Filippo Lippi's 'Annunciation' in London." Part I. *Artibus et Historiae* 8, no. 16 (1987): 25-44. doi.org/10.2307/1483298.
+Steinberg, Leo. "'How Shall This Be?' Reflections on Filippo Lippi's 'Annunciation' in London." Part I. *Artibus et Historiae* 8, no. 16 (1987): 25-44. <doi.org/10.2307/1483298>.
 
 Vasari, Giorgio. *Le vite de' più eccellenti pittori, scultori e architetti*. Vol. 4. Le Monnier, 1848.
 
