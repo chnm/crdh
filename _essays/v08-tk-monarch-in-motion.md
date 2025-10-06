@@ -41,7 +41,137 @@ The attached metadata allows for a mapping of the place of sending of the letter
 
 While other kings and nobles often used scribes for their correspondence, it was customary for Christian IV to sign letters personally, often adding date and location to the signature.[^10] Since all the letters in the corpus were handwritten and signed by Christian IV, this allows us to place the Danish king at a certain location at a certain point in time, based on his signature. The resulting attribute table (see table 1) shows 568 entries that have both geographical and temporal data attached to them. This analysis is thus based on a subset of the digitized collection. That inevitably means that there are important lacunae in our data, for example the visits to England -- that Christian IV undertook in 1606 and 1616 -- are not represented here.[^11]
 
-{% figure caption: "Table 1. Part of the attribute table showing the metadata availabe for correpondence of Christian IV"%}![TK]({{site.url}}/assets/img/v08/maekelberg/table1.png)
+{% figure caption: "Table 1: Part of the attribute table showing the metadata available for the correspondence of Christian IV." %}
+<table>
+  <tbody>
+    <tr>
+      <td>67</td>
+      <td>Christian 4.</td>
+      <td>Kirsten Munk</td>
+      <td>Haderslev</td>
+      <td>55,250000</td>
+      <td>9,500000</td>
+      <td>1615-08-24</td>
+    </tr>
+    <tr>
+      <td>68</td>
+      <td>Christian 4.</td>
+      <td>Kirsten Munk</td>
+      <td>Wolfenbüttel</td>
+      <td>52,162222</td>
+      <td>10,536944</td>
+      <td>1615-09-01</td>
+    </tr>
+    <tr>
+      <td>69</td>
+      <td>Christian 4.</td>
+      <td>Elisabeth af Braunschweig-Wolfenbüttel</td>
+      <td>Celle</td>
+      <td>52,625556</td>
+      <td>10,082500</td>
+      <td>1615-11-03</td>
+    </tr>
+    <tr>
+      <td>70</td>
+      <td>Christian 4.</td>
+      <td>Kirsten Munk</td>
+      <td>København</td>
+      <td>55,676111</td>
+      <td>12,568889</td>
+      <td>1615-12-14</td>
+    </tr>
+    <tr>
+      <td>71</td>
+      <td>Christian 4.</td>
+      <td>Kirsten Munk</td>
+      <td>Frederiksborg</td>
+      <td>55,935000</td>
+      <td>12,300833</td>
+      <td>1615-12-27</td>
+    </tr>
+    <tr>
+      <td>72</td>
+      <td>Christian 4.</td>
+      <td>Ellen Marsvin</td>
+      <td>Kronborg</td>
+      <td>56,038611</td>
+      <td>12,621944</td>
+      <td>1615-07-10</td>
+    </tr>
+    <tr>
+      <td>73</td>
+      <td>Christian 4.</td>
+      <td>Sivert Pogwisch and Joachimvon Mitzlaff</td>
+      <td>Rotenburg</td>
+      <td>49,377222</td>
+      <td>10,178889</td>
+      <td>1615-12-01</td>
+    </tr>
+    <tr>
+      <td>79</td>
+      <td>Christian 4.</td>
+      <td>Johan Sigismund af Brandenburg</td>
+      <td>Kronborg</td>
+      <td>56,038611</td>
+      <td>12,621944</td>
+      <td>1617-09-07</td>
+    </tr>
+    <tr>
+      <td>85</td>
+      <td>Christian 4.</td>
+      <td>Ellen Marsvin</td>
+      <td>København</td>
+      <td>55,676111</td>
+      <td>12,568889</td>
+      <td>1618-08-15</td>
+    </tr>
+    <tr>
+      <td>90</td>
+      <td>Christian 4.</td>
+      <td>Johan Frederik af Slesvig-Holsten-Gottorp</td>
+      <td>Glückstadt</td>
+      <td>53,788889</td>
+      <td>9,425833</td>
+      <td>1619-09-25</td>
+    </tr>
+    <tr>
+      <td>94</td>
+      <td>Christian 4.</td>
+      <td>Unknown</td>
+      <td>Frederiksborg</td>
+      <td>55,935000</td>
+      <td>12,300833</td>
+      <td>1621-08-31</td>
+    </tr>
+    <tr>
+      <td>95</td>
+      <td>Christian 4.</td>
+      <td>Unknown</td>
+      <td>Frederiksborg</td>
+      <td>55,935000</td>
+      <td>12,300833</td>
+      <td>1621-09-24</td>
+    </tr>
+    <tr>
+      <td>98</td>
+      <td>Christian 4.</td>
+      <td>Unknown</td>
+      <td>København</td>
+      <td>55,676111</td>
+      <td>12,568889</td>
+      <td>1622-02-25</td>
+    </tr>
+    <tr>
+      <td>109</td>
+      <td>Christian 4.</td>
+      <td>Hans Lauritsen and NielsKnudsen</td>
+      <td>Nyborg</td>
+      <td>55,309722</td>
+      <td>10,791667</td>
+      <td>1623-07-01</td>
+    </tr>
+  </tbody>
+</table>
 {% endfigure %}
 
 Through a mapping of this information, we can see that Christian IV
