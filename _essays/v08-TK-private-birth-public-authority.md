@@ -63,7 +63,7 @@ One of the main turns on the topics can be found in group 1. Grouped there are t
 In fact, when locating those clusters, they point mostly towards the selected eighteenth-century ordinances. Although Klasse can be related to education, the term has multiple meanings. In this case, looking closer at the corpus, the ‘class’ does not refer to the learning environment, but it is a division of the different ‘classes’ of pregnant women that the midwives would treat and how much they were allowed to charge each of the groups. As midwifery became more and more professionalized, the monetization of the practice also became more institutionalized.
 
 {% figure caption: "Figure 4: Division of patients into classes int he Ordunfür die Hebammen in München (1971), 4." %}
-![alt]({{site.url}}/assets/img/v08/kafer/figure3.png)
+![alt]({{site.url}}/assets/img/v08/kafer/figure4.png)
 {% endfigure %}
 
 Another important topic is urine (*urin*). This could indicate that uroscopy was a
