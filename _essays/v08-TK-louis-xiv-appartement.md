@@ -118,8 +118,8 @@ The first evidence is quantitative. The 931 paintings forming the collection loc
 
 The most frequent general iconographies found in Versailles were Biblical (Ic. 2: 204 paintings, 21,9% of the total), Classical Mythology[^25] (Ic. 9: 192 paintings, 20,6%) and Society, Civilisation, Culture (Ic. 4: 189 paintings, 20,3%). The collection also covered the categories of Nature (Ic. 2: 21, 13%), and Religion and Magic (Ic. 1: 114, 12,2%). The first three iconographies shared a similar ratio in terms of covered surface: 25,3%, 24,2%, and 19,2% respectively, for a total of 68,7% of the total paintings' area within the *château*(**Fig. 8**). 
 
-{% figure caption: "Fig. 8: Area and Number of Paintings." %}
-![alttext]({{site.url}}/assets/img/v08/gigone/figure8.png)
+{% figure caption: "Fig. 8: Area and Number of Paintings."%}
+![alttext]({{site.url}}/assets/img/v08/gigone/figure8.jpeg)
 {% endfigure %}
 
 Despite the apparent similarity of these three iconographic categories in terms of material presence, the most interesting quality for all the classes stands in their paintings production timeframe ratio. If the Mythological iconography shares an equal number of paintings produced before and after Louis became king in 1654 (97 versus 95), the other classes ---exception made for Abstract Ideas and Concepts that, counting only five items, makes the statistic irrelevant--- are unbalanced towards one or the other period **(Fig. 9)**. 
