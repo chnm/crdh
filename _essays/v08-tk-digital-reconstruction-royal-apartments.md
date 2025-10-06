@@ -76,7 +76,7 @@ The first step is to create a network of connections between the
 different relevant spaces at the French court in 1585. These connections can be established by following the technique of access diagrams, where the enclosed spaces are represented as nodes, and the passageways between them are represented as edges. Since the method of access analysis usually departs their network from archeological remains or contemporary plans, I in this case, was able to choose to base the network on a contemporary ground plan of the royal apartment. Because Henri III was known to have resided most often in his Paris residence, the choice for Androuet du Cerceau's plan of the royal apartment in the Louvre from 1576 seems sensible (Fig. 3).[^23]
 
 {% figure caption: "Fig. 3: Engraving from Le premier volume des plus excellents Bastiments de France by Jacques I Androuet du Cerceau, showing the plan of the first and second storeys of the west part of the Louvre Palace, 1576." %}
-![Hand engraved image of the Lourve]({{site.url}}/assets/img/v08/fraikin/figure1.png)
+![Hand engraved image of the Lourve]({{site.url}}/assets/img/v08/fraikin/figure3.png)
 {% endfigure %}
 
 This plan, however, predates the 1585 ordinance. From contemporary
