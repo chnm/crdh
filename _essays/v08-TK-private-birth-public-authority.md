@@ -7,7 +7,7 @@ date: 2025-01-14
 authors:
 - last: Käfer
   first: Natacha Klein
-  email: TK
+  email: nkk@teol.ku.dk
   affiliation: "University of Copenhagen"
   orcid: 0000-0002-6766-9943
   url: "TK"
