@@ -512,8 +512,6 @@ Thurley, Simon. *The Royal Palaces of Tudor England: Architecture and Court Life
 
 Williams, Neville. ‘The Tudors. Three contrasts in personality’. in *The Courts of Europe: politics, patronage, and royalty 1400-1800*, edited by A.G. Dickens, 147-168. London: Thames and Hudson, 1977.
 
-The dataset of the network, including node and edge tables, is available upon publication in Zenodo. (Once Proof is sent, request these items to then add)
-
 ### Notes
 
 [^1]: This article is the result of my research within the PALAMUSTOEuropean Training Network. This project has received funding fromthe European Union's Horizon 2020 research and innovation programunder the Marie Sklodowska-Curie grant agreement No. 861426. Thisarticle reflects only the author's views, and the Agency is notresponsible for any use that may be made of the information itcontains. The dataset created for this article is available in Zenodo: 10.5281/zenodo.14244039. 
