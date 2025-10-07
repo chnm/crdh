@@ -21,7 +21,6 @@ Filippo Lippi's c.1450-53 lunette-shaped *Annunciation* panel, today in London's
 {% figure caption: "Figure 1. Filippo Lippi, *The Annunciation*, c.1450-53. Egg tempera on wood, 68.6 x 152.7cm. The National Gallery, London (NG666).© The National Gallery, London" %}![Filippo Lippi, The Annunciation, Egg tempra on wood.]({{site.url}}/assets/img/v08/mcgee/figure1.png)
 {% endfigure %}
 
-
 Whether conducting traditional art-historical research or gathering sources for a digital model, it is necessary first to consider what is known---and what is not known---about the original location of the *Annunciation* within the Palazzo Medici. It is likely to have been positioned somewhere in the east wing of the *piano nobile* (the main floor, above the ground floor), as this was the suite of rooms occupied by Piero de' Medici, who is widely held to have commissioned the two Lippi lunettes.[^4] However, the 1492 inventory of the property does not list either painting (probably because they were seen as *arredi fissi*---fixed decor, set into door architraves---rather than enumerable *mobili,* moveable furnishings), so their exact site within the wing is unknown. [^5] By mapping the overdoor artworks that *were* listed in the inventory onto the thresholds marked on an extant floorplan from 1650, the possible sites of the *Annunciation* and its pair can be narrowed down by a process of elimination \[figure 2\].[^6] Yet, however closely we might be able to pinpoint on the floorplan the original positioning of the *sovrapporta*, the architectural and decorative specificities of the painting's surroundings remain unknown: the Palazzo Medici has undergone extensive remodelling in the last five to six hundred years, particularly in the years following the palazzo's purchase by the Riccardi family in 1659, which has entirely transformed much of the *piano nobile*.[^7] Therefore, when discussing the overdoor function of Lippi's *Annunciation* and creating a digital model of its original context, precise reconstruction of the visual environment is not currently a viable aim.[^8] Rather, the study will be advanced by considering the type of embodied viewing experience that might have been possible in this space, and by a close reading of the painting itself.
 
 ### Liminal Contexts: The Architectural and Symbolic Threshold
@@ -45,20 +44,6 @@ The model is a simple cuboid structure, a necessarily "blank" interior space giv
 
 {% figure caption: "Figure 3. Dynamic digital model of Lippi's *Annunciation* as an overdoor. Made by author using Autodesk Maya. Image of *Annunciation* (see figure 1) © The National Gallery, London." %}![Dynamic digial model of Lippi's Annunciation.]({{site.url}}/assets/img/v08/mcgee/figure3.gif)
 {% endfigure %}
-
-TK TEST TK
-{% figure caption: "Figure 3. Dynamic digital model of Lippi's *Annunciation* as an overdoor. Made by author using Autodesk Maya. Image of *Annunciation* (see figure 1) © The National Gallery, London." %}
-<img src="{{site.url}}/assets/img/v08/mcgee/figure3.gif" 
-     alt="Dynamic digital model of Lippi's Annunciation" 
-     style="display: block; max-width: 100%;">
-{% endfigure %}
-TK TEST TK
-
-TK TEST TK
-{% figure caption: "Figure 3. Dynamic digital model of Lippi's *Annunciation* as an overdoor. Made by author using Autodesk Maya. Image of *Annunciation* (see figure 1) © The National Gallery, London." %}
-<img src="{{site.url}}/assets/img/v08/mcgee/figure3.gif">
-{% endfigure %}
-TK TEST TK
 
 ### Looking Up and Moving Forwards: The Model in Action
 
