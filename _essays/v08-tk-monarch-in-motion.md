@@ -255,6 +255,8 @@ Maekelberg, Sanne. "Mapping through Space and Time. The Itinerary of Charles of 
 
 Paravicini, Werner, Kruse Holger, Ranft Andreas, and Klaus Krüger.'"Ordonnances de l'Hôtel" und "Escroes des gaiges" wege zu einer prosopographischen Erforschung des burgundischen Staats im fünfzehnten Jahrhundert." In *Menschen am Hof der Herzöge Von Burgund: Gesammelte Aufsätze*, 41--63. Thorbecke, 2002.
 
+Rigsarkivet København, Kongehuset Christian 4., Christian 4.segenhændige breve.
+
 Roding, Juliette Germaine. "Christiaan IV van Denemarken (1588-1648): Architectuur En Stedebouw van Een Luthers Vorst." University of Nijmegen, 1991.
 
 Senning, Calvin F. "The Visit of Christian IV to England in 1614." *The Historian* 31, no. 4 (1969): 555--72.
@@ -264,8 +266,6 @@ spaCy. "Industrial-Strength Natural Language Processing." Accessed April 20, 202
 QGIS. "QGIS -- The Leading Open Source Desktop GIS." Accessed April 20, 2022. <https://www.qgis.org/nl/site/>.
 
 ### Notes
-
-Rigsarkivet København, Kongehuset Christian 4., Christian 4.segenhændige breve.
 
 [^1]: "Christian IV's Writing Room,"   <https://www.kongernessamling.dk/en/rosenborg/room/christian-ivs-writing-room/>.
 
