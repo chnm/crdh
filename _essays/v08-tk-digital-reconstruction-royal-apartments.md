@@ -40,7 +40,7 @@ as was formulated by Hanneke Ronnes, is that its application is time
 consuming and "not very straightforward."[^14]
 
 {% figure caption: "Fig. 1: Access diagram made of a partial plan of the Louvre Castle, see fig. 3. In green the location of the royal apartment." %}
-![Access diagram with various rectangles and circles with lines connecting them depicting a digital reconstruction of Lourve Castle]({{site.url}}/assets/img/v08/fraikin/figure1.jpg)
+![Access diagram with various rectangles and circles with lines connecting them depicting a digital reconstruction of Lourve Castle]({{site.url}}/assets/img/v08/fraikin/figure1.png)
 {% endfigure %}
 
 Despite these constraints, in cases where enough information is
