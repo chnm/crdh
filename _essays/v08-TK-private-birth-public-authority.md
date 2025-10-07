@@ -73,55 +73,7 @@ relevant form of diagnosis in eighteenth-century midwifery. Uroscopy was already
 
 Topic modeling can be a wonderful tool to explore discourse changes across time, as the project *Mining the Dispatch* has proved.[^22] A simple experiment with this control corpus from crucial periods for midwifery literature already indicates some subtle but significant shifts. Tools like MALLET can operate independently of the corpus' language, which lends itself perfectly to exploring Wiesner's notion that developments in the public/private divide are crucial to understanding the professionalization of midwifery and the establishment of obstetrics. Nevertheless, language still imposes challenges for a study with larger corpora. OCR problems deriving particularly from German *Fraktur* sources are at the center of most of these issues. This experiment has already identified some useful patterns that are usually caught as topics --information that can be used to fix such issues on a larger scale. The consistency of misreading of certain letters can be used to refine future OCR scans. The particularities of German historical materials also require a customized list of stopwords. The list developed and used here will be available at GitHub to be used and expanded for future experimentation with German *Fraktur* sources. Moreover, page headings must be taken into account within the corpus, as they can skew results. Those are simple hurdles to overcome, and using topic modeling tools to follow patterns in discourse change in midwifery literature can be invaluable for understanding women's birthing practices and their professionalization, privatization, and even marginalization across the centuries.
 
-### Endnotes
-
-[^1]: Green, “The Sources of Eucharius Rösslin’s ‘Rosegarden for Pregnant Women and Midwives’ (1513)", 167–92.
-
-[^2]: Kruse, *Verborgene Heilkünste*, 9.
-
-[^3]: Amberg, *Hebammenordnungen in deutschen Städten um 1500* , 3.
-
-[^4]: One of the most popular midwifery manual in seventeenth-century was the translation of the midwifery writings of Louise Bourgeois, who became the French royal midwife in 1601.
-
-[^5]: Midwife examinations already existed in the sixteenth century, but it is in the eighteenth century that consistent official efforts were put in place to demand licenses for the practice of midwifery.
-
-[^6]: Wiesner, "The midwives of south Germany and the public/private dichotomy" , 77.
-
-[^7]: For more information on the Google Books digitization and OCR initiatives, see Jones, "Google Books as a General Research Collection," 77--89.
-
-[^8]: *Fraktur* prints are notorious for the type of errors produced in the OCR process. See Uwe Springmann and et al., "Ground Truth for Training OCR Engines on Historical Documents in German Fraktur and Early Modern Latin," *JLCL* 33, no. 1 (2018): 1--19 and Mika Koistinen "How to Improve Optical Character Recognition of Historical Finnish Newspapers Using Open Source Tesseract OCR Engine -- Final Notes on Development and Evaluation" in Vetulani, Paroubek, and Kubis, eds., *Human Language Technology*, 17--30.
-
-[^9]: Green,"The Sources of Eucharius Rösslin's 'Rosegarden for Pregnant Women and Midwives' (1513)," 167--92.
-
-[^10]: Lahtinen,Korpiola, eds,*Dying Prepared in Medieval and Early Modern Northern Europe,* p. 156.
-
-[^11]: Beyond *Der schwangeren Frauen und Hebammen Rosengarten*, the selected texts were *Frawen Rosengarten. Von vilfaltigen sorglichen Zufällen und gebrechen der Mütter und Kinder* (1545) by Walther Hermann Ryff, *Tröstlicher Bericht für schwangere Frauen* (1563) by Johann Hugo, *Ein Trostbüchlein für die Schwangern vnd Geberenden Weiber* (1564) by Thomas Günther, *Ehestandts Artzney* (1565), by Rößlin's son, *Hebammenbüchlin* (1572), by Adam Lonitzer, and the ordinances *Ordnung einer Erbarn Raths der statt Regenspurg die Hebammen betreffende* (1550), printed by Hans Khol, *Reformation, oder Ordnung für die Hebammen: Allen guten Policeyen dienstlich* (1573), by Adam Lonitzer.
-
-[^12]: The selected texts were *Hebammen-Schul Oder gründlicher Unterricht* (1715) by Johann Georg Sommer, *Kurtze, jedoch hinlängliche und gründliche Anweisung christlicher Hebammen* (1735) by Barbara Widenmann, *Neues Hebammen-Licht* (1740) by Hendrik van Deventer, *Erklärte Anatomie für Hebammen: samt derselben Nutzanwendung zur Praxis* (1752) by Georg Friedrich Gutermann, *Hebammen-Catechismus: hauptsächlich zum Gebrauch für Wundärzte und Hebammen auf dem Lande* (1778) by Leonhard Jakob Katzenberger, *Selbstbelehrung für Hebammen* (1797) by Johann Heinrich Jördens, and the ordinances *Verneuerte und vermehrte Brandenburgische Hebammen-Ordnung* (1743), published by Christoph Messerer, and *Ordnung für die Hebammen in München* (1791).
-
-[^13]: You can see the standard German stopword list here: <https://github.com/mimno/Mallet/blob/master/stoplists/de.txt>
-
-[^14]: You can see the Fraktur stopword list here: <https://github.com/nkkafer/FrakturStopwords/blob/main/stopwords_fraktur.txt>
-
-[^15]: Hobby, *The Birth of Mankind*, 2. 
-
-[^16]: Baldassarri, *Plants in 16th and 17th Century*, 6.
-
-[^17]: Der schwangeren Frauen und Hebammen Rosengarten, p. E.
-
-[^18]: Wesiner, "the midwives of South Germany", 83. 
-
-[^19]: Stolberg, "the decline of Uroscopy in Early Modern Learned Medicine (1500-1650)", 313-36.
-
-[^20]: Verwaal, *Bodily Fluids, Chemistry and Medicine in Eighteenth-Century Boerhaave School*, 92.
-
-[^21]: Wesiner, "The Midwives of South Germany", 83. 
-
-[^22]: "Mining the Dispatch," <https://dsl.richmond.edu/dispatch>, accessed on December 13, 2021.
-
 ### Bibliography
-
-# Bibliography
 
 #### Primary Sources
 
@@ -176,3 +128,49 @@ Springmann, Uwe, and et al. "Ground Truth for Training OCR Engines on Historical
 Vetulani, Zygmunt, Patrick Paroubek, and Marek Kubis, eds. *Human Language Technology. Challenges for Computer Science and Linguistics: 8th Language and Technology Conference, LTC 2017, Poznań, Poland, November 17–19, 2017, Revised Selected Papers*. Vol. 12598. Lecture Notes in Computer Science. Cham: Springer International Publishing, 2020.  <https://doi.org/10.1007/978-3-030-66527-2>.
 
 Wiesner, Merry E. "The midwives of south Germany and the public/private dichotomy." In *The Art of Midwifery: Early Modern Midwives in Europe*, edited by Hilary Marland, 77–94. London; New York: Routledge, 1993.
+
+### Endnotes
+
+[^1]: Green, “The Sources of Eucharius Rösslin’s ‘Rosegarden for Pregnant Women and Midwives’ (1513)", 167–92.
+
+[^2]: Kruse, *Verborgene Heilkünste*, 9.
+
+[^3]: Amberg, *Hebammenordnungen in deutschen Städten um 1500* , 3.
+
+[^4]: One of the most popular midwifery manual in seventeenth-century was the translation of the midwifery writings of Louise Bourgeois, who became the French royal midwife in 1601.
+
+[^5]: Midwife examinations already existed in the sixteenth century, but it is in the eighteenth century that consistent official efforts were put in place to demand licenses for the practice of midwifery.
+
+[^6]: Wiesner, "The midwives of south Germany and the public/private dichotomy" , 77.
+
+[^7]: For more information on the Google Books digitization and OCR initiatives, see Jones, "Google Books as a General Research Collection," 77--89.
+
+[^8]: *Fraktur* prints are notorious for the type of errors produced in the OCR process. See Uwe Springmann and et al., "Ground Truth for Training OCR Engines on Historical Documents in German Fraktur and Early Modern Latin," *JLCL* 33, no. 1 (2018): 1--19 and Mika Koistinen "How to Improve Optical Character Recognition of Historical Finnish Newspapers Using Open Source Tesseract OCR Engine -- Final Notes on Development and Evaluation" in Vetulani, Paroubek, and Kubis, eds., *Human Language Technology*, 17--30.
+
+[^9]: Green,"The Sources of Eucharius Rösslin's 'Rosegarden for Pregnant Women and Midwives' (1513)," 167--92.
+
+[^10]: Lahtinen,Korpiola, eds,*Dying Prepared in Medieval and Early Modern Northern Europe,* p. 156.
+
+[^11]: Beyond *Der schwangeren Frauen und Hebammen Rosengarten*, the selected texts were *Frawen Rosengarten. Von vilfaltigen sorglichen Zufällen und gebrechen der Mütter und Kinder* (1545) by Walther Hermann Ryff, *Tröstlicher Bericht für schwangere Frauen* (1563) by Johann Hugo, *Ein Trostbüchlein für die Schwangern vnd Geberenden Weiber* (1564) by Thomas Günther, *Ehestandts Artzney* (1565), by Rößlin's son, *Hebammenbüchlin* (1572), by Adam Lonitzer, and the ordinances *Ordnung einer Erbarn Raths der statt Regenspurg die Hebammen betreffende* (1550), printed by Hans Khol, *Reformation, oder Ordnung für die Hebammen: Allen guten Policeyen dienstlich* (1573), by Adam Lonitzer.
+
+[^12]: The selected texts were *Hebammen-Schul Oder gründlicher Unterricht* (1715) by Johann Georg Sommer, *Kurtze, jedoch hinlängliche und gründliche Anweisung christlicher Hebammen* (1735) by Barbara Widenmann, *Neues Hebammen-Licht* (1740) by Hendrik van Deventer, *Erklärte Anatomie für Hebammen: samt derselben Nutzanwendung zur Praxis* (1752) by Georg Friedrich Gutermann, *Hebammen-Catechismus: hauptsächlich zum Gebrauch für Wundärzte und Hebammen auf dem Lande* (1778) by Leonhard Jakob Katzenberger, *Selbstbelehrung für Hebammen* (1797) by Johann Heinrich Jördens, and the ordinances *Verneuerte und vermehrte Brandenburgische Hebammen-Ordnung* (1743), published by Christoph Messerer, and *Ordnung für die Hebammen in München* (1791).
+
+[^13]: You can see the standard German stopword list here: <https://github.com/mimno/Mallet/blob/master/stoplists/de.txt>
+
+[^14]: You can see the Fraktur stopword list here: <https://github.com/nkkafer/FrakturStopwords/blob/main/stopwords_fraktur.txt>
+
+[^15]: Hobby, *The Birth of Mankind*, 2. 
+
+[^16]: Baldassarri, *Plants in 16th and 17th Century*, 6.
+
+[^17]: Der schwangeren Frauen und Hebammen Rosengarten, p. E.
+
+[^18]: Wesiner, "the midwives of South Germany", 83. 
+
+[^19]: Stolberg, "the decline of Uroscopy in Early Modern Learned Medicine (1500-1650)", 313-36.
+
+[^20]: Verwaal, *Bodily Fluids, Chemistry and Medicine in Eighteenth-Century Boerhaave School*, 92.
+
+[^21]: Wesiner, "The Midwives of South Germany", 83. 
+
+[^22]: "Mining the Dispatch," <https://dsl.richmond.edu/dispatch>, accessed on December 13, 2021.
