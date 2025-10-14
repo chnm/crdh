@@ -9,7 +9,7 @@ authors:
   first: Sanne
   email: "sma@teol.ku.dk"
   affiliation: "Center for Privacy Studies"
-  orcid: https://orcid.org/0000-0002-5369-0960
+  orcid: 0000-0002-5369-0960
   url: "https://silvaperez.github.io/"
 abstract: |
     This paper explores the mobility, correspondence, and architectural legacy of Christian IV of Denmark (1577–1648) through the application of digital humanities methodologies. Drawing on a corpus of 865 digitized and transcribed letters, we employ Named Entity Recognition, reconciliation with the World Historical Gazetteer, and Geographic Information Systems (GIS) to map both the king’s itinerary and the spatial imaginary embedded in his writings. By visualizing metadata such as dates and places of sending, we reconstruct Christian IV’s movements across his extensive territories and highlight shifting focal points during key historical moments, including the Thirty Years’ War. Further analysis of place references within the letters reveals the king’s engagement with his building projects, uncovering details of design decisions and instructions for architectural interventions. This dual focus on geography and content demonstrates how correspondence can illuminate the intersection of personal agency, political necessity, and architectural ambition. More broadly, the study showcases how digital approaches can enrich the historical study of early modern epistolary practices, while also addressing the challenges of applying modern natural language processing tools to early modern multilingual sources.
