@@ -9,7 +9,7 @@ authors:
   first: Miara
   email: "miara.fraikin@kuleuven.be"
   affiliation: "KU Leuven"
-  orcid: https://orcid.org/0000-0001-7960-7443
+  orcid: 0000-0001-7960-7443
   url: "TK"
 abstract: |
     Although the early modern French royal court was known for its relative accessibility to the monarch and his spaces, this accessibility has often been misinterpreted as a limited or even nonexistent privacy. King Henri III (1551-1589), in particular, envisioned a monarchy heightened by distance and sought to regulate such distance through court ordinances. This article examines Henri III's 1585 court ordinance and applies network theory and access diagrams to reconstruct the spatiality of privacy within the French royal apartment. In addition to the usefulness of the applied method, the article demonstrates how Henri negotiated a balance between his personal need for privacy and the court’s expectation of access.
