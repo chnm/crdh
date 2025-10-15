@@ -1,5 +1,5 @@
 ---
-title: Annotating "Privacy" for Semi-Supervised Event Extraction in Historical Newspapers
+title: Annotating "Privacy" to Train Semi-Supervised Event Extraction Models for Historical Newspapers
 doi: "https://doi.org/10.31835/crdh.2025.TK"
 volume-number: 8
 year: 2025
@@ -97,18 +97,18 @@ There were three pressing challenges that our research team had to face as we ad
 -   OCR errors in the plain texts provided by libraries and archives
 
 The first challenge, namely, dealing with the scarcity of Danish
-language primary source material, seems to be the most difficult problem to tackle since it is a matter of what has survived in the archives. We are working to mitigate this problem by training a different model based on the ColPali vision langauge model to aid in searching and retrieving the ads within the larger context of a full newspaper issue.[^NEW FOOTNOTE] This strategy could serve as an alternative to searching for the ads manually, and if successful, could help us save time compiling the datasets.
+language primary source material, seems to be the most difficult problem to tackle since it is a matter of what has survived in the archives. We are working to mitigate this problem by training a different model based on the ColPali vision langauge model to aid in searching and retrieving the ads within the larger context of a full newspaper issue.[^12] This strategy could serve as an alternative to searching for the ads manually, and if successful, could help us save time compiling the datasets.
 
 The second challenge, which is the need to refine the annotation
 attributes, seems to us quite straight-forward. With the experience we acquired annotating the pilot project, we learned which strategies work most effectively, and which are least effective. In future experiments, new attribute labels targeted more directly at our research questions can be devised.
 
 Finally, we have the challenge of OCR errors. This is a pervasive
-problem that many historians have encountered when trying to do text mining or natural language processing with historical texts.[^12] There seems to be two immediate ways of addressing problems of this kind: one is to try to fix the errors in post-processing (using RegEx, for example), and the second is to do the text recognition anew using more recent technology. For example, using HTR with Transkribus, or purpose-train Tesseract OCR based for our own historical prints. For the moment, our team decided not to try post-processing correction. Instead, we are experimenting with Transkribus and Tesseract OCR to produce our own versions of the corpus in plain text and comparing which of them will deliver the most cost-effective results for the purpose of our project. An alternative solution to the problem of transcription errors resulting from OCR is to bypass the OCR process altogether, by resorting to multimodal models capable of dealing directly with images of texts. As mentioned above, our team is currently working on this strategy using ColPali.
+problem that many historians have encountered when trying to do text mining or natural language processing with historical texts.[^13] There seems to be two immediate ways of addressing problems of this kind: one is to try to fix the errors in post-processing (using RegEx, for example), and the second is to do the text recognition anew using more recent technology. For example, using HTR with Transkribus, or purpose-train Tesseract OCR based for our own historical prints. For the moment, our team decided not to try post-processing correction. Instead, we are experimenting with Transkribus and Tesseract OCR to produce our own versions of the corpus in plain text and comparing which of them will deliver the most cost-effective results for the purpose of our project. An alternative solution to the problem of transcription errors resulting from OCR is to bypass the OCR process altogether, by resorting to multimodal models capable of dealing directly with images of texts. As mentioned above, our team is currently working on this strategy using ColPali.
 
 ### Preliminary Historical Findings
-We worked from the assumption that race and racism emerged, and continue to emerge, as a discursive historical process of social construction.[^13] Thus, in this pilot project, our team examined language used to convey notions of privacy for enslaved people in the colonial period to see what strategies were available for them to obtain privacy. We chose to build a trans-imperial dataset.[^14] By trans-imperial, we mean that discourses about racial perceptions seeped through empires, colonies, languages, and domains of human action, without regard for imposed geopolitical borders. Thus, we worked with historical material from different colonial empires on both sides of the Atlantic. We operationalized our research questions into an NLP task of question-answering using textual data comprised of newspaper ads in French, English, and Dutch about enslaved people who escaped captivity. Though we intended to include Danish in the dataset, it was not possible due to the lack of relevant documents collected in this language. 
+We worked from the assumption that race and racism emerged, and continue to emerge, as a discursive historical process of social construction.[^14] Thus, in this pilot project, our team examined language used to convey notions of privacy for enslaved people in the colonial period to see what strategies were available for them to obtain privacy. We chose to build a trans-imperial dataset.[^15] By trans-imperial, we mean that discourses about racial perceptions seeped through empires, colonies, languages, and domains of human action, without regard for imposed geopolitical borders. Thus, we worked with historical material from different colonial empires on both sides of the Atlantic. We operationalized our research questions into an NLP task of question-answering using textual data comprised of newspaper ads in French, English, and Dutch about enslaved people who escaped captivity. Though we intended to include Danish in the dataset, it was not possible due to the lack of relevant documents collected in this language. 
 
-We were interested in the way that language used to convey notions of privacy related to language used to convey racial perceptions, and how these linguistic expressions manifested over time and space. These research interest required us to consider a large quantity of written material, therefore, our project was organized as a collaboration between historians of the early modern period and computer scientists who specialize in natural language processing.[^15] By employing a collaborative intelligence approach, we sought to harness the best insights from humans and from machines to achieve a level of analysis that each side alone would not necessarily be able to do.[^16] 
+We were interested in the way that language used to convey notions of privacy related to language used to convey racial perceptions, and how these linguistic expressions manifested over time and space. These research interest required us to consider a large quantity of written material, therefore, our project was organized as a collaboration between historians of the early modern period and computer scientists who specialize in natural language processing.[^16] By employing a collaborative intelligence approach, we sought to harness the best insights from humans and from machines to achieve a level of analysis that each side alone would not necessarily be able to do.[^17] 
 
 Our process of annotating textual data to evaluate the NLP model led us to some preliminary historical insights about what enslaved people managed to do to obtain privacy. First, the act of running away from the enslaver’s domain is the first step towards privacy. By running away, the enslaved person was putting physical distance between them and their enslaver, which allowed for more control over access to their bodies. Secondly, during the act of escaping, enslaved people had to think about how to guarantee some basic privacy needs, such as warm clothes and blankets for body protection, especially in the case of mothers running away with small children or babies. Thirdly, clothes also provided privacy in the sense of serving as disguise, which enabled to enslaved person running away to remain anonymous or avoid being recognized by their enslavers or those who had been alerted about the escape. These preliminary insights were useful during the annotation phase as we worked to create our model evaluation datasets, but they will also help our team formulate other arguments once our data analysis is completed, allowing us to combine micro and macro analyses in our trans-imperial historical setting. 
 
@@ -117,43 +117,38 @@ Research for this article received funding from the Sapere Aude grant from the I
 
 ### Bibliography
 
-Baker, Paul. *Sociolinguistics and Corpus Linguistics*, Edinburgh
-Sociolinguistics. Edinburgh University Press, 2010.
+Altman, Irwin. *The Environment and Social Behavior: Privacy, Personal Space, Territory, Crowding.* Brooks/Cole Publishing Company, 1975.
 
-Bassi, Ernesto. *An Aqueous Territory: Sailor Geographies and New
-Granada's Transimperial Greater Caribbean World.* Duke University Press,
-2017.
+Baker, Paul. *Sociolinguistics and Corpus Linguistics*, Edinburgh Sociolinguistics. Edinburgh University Press, 2010.
 
-Jurafsky Daniel and James H. Martin. "Question Answering." In *Speech and Language Processing (Draft): An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition*, 3rd (draft), 2020, 464--91,
-https://web.stanford.edu/\~jurafsky/slp3/ed3book.pdf.
+Bassi, Ernesto. *An Aqueous Territory: Sailor Geographies and NewvGranada's Transimperial Greater Caribbean World.* Duke University Press, 2017.
 
-Kaplan, Frederic and Isabella di Lenardo. "Big Data of the Past."
-*Frontiers in Digital Humanities* 4 (2017): 3--4,
-https://www.frontiersin.org/article/10.3389/fdigh.2017.00012.
+Faysse, Manuel, Hugues Sibille, Tony Wu, Bilel Omrani, Gautier Viaud, Céline Hudelot, and Pierre Colombo. "ColPali: Efficient Document Retrieval with Vision Language Models." arXiv, February 28, 2025. <https://doi.org/10.48550/arXiv.2407.01449>.
+
+Jurafsky Daniel and James H. Martin. "Question Answering." In *Speech and Language Processing (Draft): An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition*, 3rd (draft), 2020, 464--91, <https://web.stanford.edu/\~jurafsky/slp3/ed3book.pdf>.
+
+Kaplan, Frederic and Isabella di Lenardo. "Big Data of the Past." *Frontiers in Digital Humanities* 4 (2017): 3--4, <https://www.frontiersin.org/article/10.3389/fdigh.2017.00012>.
 
 Le Glaunec, Jean-Pierre and Léon Robichaud. "Le Marronnage Dans Le Monde Atlantique, 1760-1848." Database, March 9, 2019,
-http://www.marronnage.info/fr/corpus.php.
+<http://www.marronnage.info/fr/corpus.php>.
 
 Newman, Simon. *Freedom Seekers: Escaping from Slavery in Restoration London.* University of London, 2022,
-https://doi.org/10.14296/202202.9781912702947.
+<https://doi.org/10.14296/202202.9781912702947>.
 
 Newman, Simon P. et al. "Runaway Slaves in Britain: Bondage, Freedom and Race in the Eighteenth Century." Database.
-https://www.runaways.gla.ac.uk.
+<https://www.runaways.gla.ac.uk>.
 
-Oberbichler, Sarah. et al., "Integrated Interdisciplinary Workflows for Research on Historical Newspapers: Perspectives from Humanities Scholars, Computer Scientists, and Librarians." *Journal of the Association for Information Science and Technology* 73, no. 2 (February 2022): 231--32, https://doi.org/10.1002/asi.24565.
+Oberbichler, Sarah. et al., "Integrated Interdisciplinary Workflows for Research on Historical Newspapers: Perspectives from Humanities Scholars, Computer Scientists, and Librarians." *Journal of the Association for Information Science and Technology* 73, no. 2 (February 2022): 231--32, <https://doi.org/10.1002/asi.24565>.
 
-Perez, Natália Silva. "Privacy and Social Spaces." *TSEG/ Low Countries Journal of Social and Economic History* 18, no. 3 (December 2021),https://tseg.nl/article/view/11040; Margulis, Stephen T. "Privacy as a Social Issue and Behavioral Concept," *Journal of Social Issues* 59, no. 2 (2003): 243--61, https://doi.org/10.1111/1540-4560.00063; Altman,Irwin. *The Environment and Social Behavior: Privacy, Personal Space, Territory, Crowding.* Brooks/Cole Publishing Company, 1975.
+Perez, Natália Silva. "Privacy and Social Spaces." *TSEG/ Low Countries Journal of Social and Economic History* 18, no. 3 (December 2021),https://tseg.nl/article/view/11040; Margulis, Stephen T. "Privacy as a Social Issue and Behavioral Concept," *Journal of Social Issues* 59, no. 2 (2003): 243--61, <https://doi.org/10.1111/1540-4560.00063>
 
-"Runaway Slaves in Britain Database Codebook." Database.
-https://www.runaways.gla.ac.uk/database/user_guide/Runaway%20Slaves%20in%2018th%20C%20Britain%20-%20Codebook.pdf.
+"Runaway Slaves in Britain Database Codebook." Database. <https://www.runaways.gla.ac.uk/database/user_guide/Runaway%20Slaves%20in%2018th%20C%20Britain%20-%20Codebook.pdf>.
 
-Wilson, James H. ad Paul R. Daugherty. "Collaborative Intelligence:
-Humans and AI Are Joining Forces." *Harvard Business Review*, August 2018, https://hbr.org/2018/07/collaborative-intelligence-humans-and-ai-are-joining-forces.
+Wilson, James H. ad Paul R. Daugherty. "Collaborative Intelligence: Humans and AI Are Joining Forces." *Harvard Business Review*, August 2018, <https://hbr.org/2018/07/collaborative-intelligence-humans-and-ai-are-joining-forces>.
 
-Yassine. *Awesome Semi-Supervised Learning*. 2022,
-https://github.com/yassouali/awesome-semi-supervised-learning.
+Yassine. *Awesome Semi-Supervised Learning*. 2022, <https://github.com/yassouali/awesome-semi-supervised-learning>.
 
-"What Is Question Answering? - Hugging Face," accessed May 20, 2022, https://huggingface.co/tasks/question-answering.
+"What Is Question Answering? - Hugging Face," accessed May 20, 2022, <https://huggingface.co/tasks/question-answering>.
 
 ### Notes
 
@@ -179,12 +174,14 @@ https://github.com/yassouali/awesome-semi-supervised-learning.
 
 [^11]:The newspaper titles of the ads included in our experiment are: *Affiches américaines; Gazette officielle de la Guadeloupe; Le Moniteur de la Louisiane; Le Télégraphe; The Louisiana Gazette; Le Courrier de la Louisiane; L\'Ami des Lois; Charleston Courier; City Gazette; The Royal Gazette; The Diary and Kingston Daily Advertiser; The Saint Jago Gazette;* and *The Jamaica Courant.*
 
-[^12]: Oberbichler et al., "Integrated Interdisciplinary Workflows."
+[^12]: Faysse, Manuel, Hugues Sibille, Tony Wu, Bilel Omrani, Gautier Viaud, Céline Hudelot, and Pierre Colombo. “ColPali: Efficient Document Retrieval with Vision Language Models.” arXiv, February 28, 2025. <doi:10.48550/arXiv.2407.01449>.
 
-[^13]: Baker, *Sociolinguistics and Corpus Linguistics.*
+[^13]: Oberbichler et al., "Integrated Interdisciplinary Workflows."
 
-[^14]: Bassi, *An Aqueous Territory.*
+[^14]: Baker, *Sociolinguistics and Corpus Linguistics.*
 
-[^15]: Kaplan and di Lenardo. "Big Data of the Past," 3--4.
+[^15]: Bassi, *An Aqueous Territory.*
 
-[^16]: Wilson and Daugherty, "Collaborative Intelligence."
+[^16]: Kaplan and di Lenardo. "Big Data of the Past," 3--4.
+
+[^17]: Wilson and Daugherty, "Collaborative Intelligence."
