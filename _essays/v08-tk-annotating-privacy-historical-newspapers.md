@@ -8,13 +8,13 @@ authors:
 - last: da Silva Perez
   first: Natália
   email: "dasilvaperez@eshcc.eur.nl"
-  affiliation: "Erasmus University Rotterdam"
+  affiliation: "Erasmus University Rotterdam; University of Copenhagen"
   orcid: 0000-0003-3723-5682
   url: ""
 - last: Borenstein
   first: Nadav
   email: "nb@di.ku.dk"
-  affiliation: "CopeNLU at University of Coppenhagen"
+  affiliation: "CopeNLU at University of Copenhagen"
   orcid: 
   url: "https://nadav.dk/"
 abstract: |
@@ -154,7 +154,7 @@ Yassine. *Awesome Semi-Supervised Learning*. 2022, <https://github.com/yassouali
 
 [^1]: Yassine, Awesome Semi-Supervised Learning, 2022, <https://github.com/yassouali/awesome-semi-supervised-learning>.
 
-[^2]: Perez, "Privacy and Social Spaces;" Margulis, "Privacy as a Social Issue;" Altman, *The Environment and Social Behavior*.
+[^2]: da Silva Perez, "Privacy and Social Spaces;" Margulis, "Privacy as a Social Issue;" Altman, *The Environment and Social Behavior*.
 
 [^3]: Newman, *Freedom Seekers.*.
 
