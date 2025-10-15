@@ -15,7 +15,6 @@ authors:
   first: Nadav
   email: "nb@di.ku.dk"
   affiliation: "CopeNLU at University of Copenhagen"
-  orcid: 
   url: "https://nadav.dk/"
 abstract: |
     This article presents a pilot study at the intersection of history and computer science, focused on annotating “privacy” as a historical concept in runaway slave advertisements from the 18th and 19th centuries. We developed a semi-supervised natural language processing (NLP) framework for event extraction, combining limited expert-annotated data with larger unannotated corpora. Building on existing datasets and producing new multilingual annotations in English, French, Dutch, and Danish, we operationalized a working definition of privacy as the ability to regulate access to oneself or one’s belongings. Through this lens, we explored how enslaved people improvised strategies of privacy during escape, such as using clothing, blankets, or disguises to secure protection and anonymity. Our collaborative approach between historians and computer scientists addressed challenges including dataset scarcity, OCR errors, and the refinement of annotation categories. Preliminary findings suggest that acts of escape not only asserted claims to freedom but also constituted claims to privacy, highlighting the intertwined nature of autonomy, racial discourse, and material strategies across trans-imperial contexts. This work demonstrates both the methodological potential of semi-supervised NLP for historical inquiry and the value of framing privacy as a category of analysis in the study of freedom seekers.
