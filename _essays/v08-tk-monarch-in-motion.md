@@ -177,7 +177,7 @@ While other kings and nobles often used scribes for their correspondence, it was
 Through a mapping of this information, we can see that Christian IV
 travelled through much of the seventeenth-century territory of Denmark, which included Schleswig-Holstein (current northern Germany), southern Sweden, and Norway (figure 3).
 
-{% figure caption: "Figure 3: A map indicating the location from where the letters were written. This shows the mobility of Christian IV throughout the Danish territory."%}![TK]({{site.url}}/assets/img/v08/maekelberg/figure2.png)
+{% figure caption: "Figure 3: A map indicating the location from where the letters were written. This shows the mobility of Christian IV throughout the Danish territory."%}![TK]({{site.url}}/assets/img/v08/maekelberg/figure3.png)
 {% endfigure %}
 
 This first map, however, does not show how many letters were written from a certain location. By visualizing the weight, i.e., the number of letters written from a certain location, we can correlate the itinerary of Christian IV with the network of residences that served him in his peregrinations.[^12] This allows us to filter out most- and least-visited residences, and link these with the functions and responsibilities of the Danish king
