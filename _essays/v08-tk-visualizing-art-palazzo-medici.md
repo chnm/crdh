@@ -45,6 +45,10 @@ The model is a simple cuboid structure, a necessarily "blank" interior space giv
 {% figure caption: "Figure 3. Dynamic digital model of Lippi's *Annunciation* as an overdoor. Made by author using Autodesk Maya. Image of *Annunciation* (see figure 1) © The National Gallery, London." %}![Dynamic digial model of Lippi's Annunciation.]({{site.url}}/assets/img/v08/mcgee/figure3.gif)
 {% endfigure %}
 
+
+{% figure caption: "Figure 3. Dynamic digital model of Lippi's *Annunciation* as an overdoor. Made by author using Autodesk Maya. Image of *Annunciation* (see figure 1) © The National Gallery, London." %}![Dynamic digial model of Lippi's Annunciation.]({{site.url}}/assets/img/v08/mcgee/figure3a.gif)
+{% endfigure %}
+
 ### Looking Up and Moving Forwards: The Model in Action
 
 By using this model as the vehicle through which Lippi's *Annunciation* is analysed, the relationship between the embodied act of viewing and the visual properties of the painting itself can be better conceptualised. In many cases, the act of looking up and walking forwards would accentuate qualities of the artwork already legible when it was decontextualised; in others, it seems that these viewing conditions might actually have created effects otherwise not discerned. In general terms, the sense of spatial recession would have been intensified by the relatively low position and forward motion of the viewer (and, of course, this viewing angle became rapidly sharper as the spectator got nearer to the threshold).[^21] The viewer's position would also have rendered more prominent the exceptionally low-flying dove in the painting, and have offset the impression of its "plummeting," to use Leo Steinberg's description.[^22]
