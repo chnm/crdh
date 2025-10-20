@@ -42,10 +42,6 @@ The creation of a basic 3D model, using the computer graphics application Autode
 
 The model is a simple cuboid structure, a necessarily "blank" interior space given current uncertainty about the identity and location of the room in question.[^19] Placing the doorway on the short wall proposes it as a connector between two rooms of an apartment suite, two spaces to be traversed in succession. The dimensions of the aperture (198 x 93 cm) and the basic design of the doorframe are based on that of the fifteenth-century doorway leading from the vestibule to the chapel on the *piano nobile* of the Palazzo Medici.[^20] Thus Lippi's overdoor, at 153 cm wide, easily spans the threshold. While some *sovrapporte* were simply propped atop the door's architrave, it is thought that Lippi's panel was actually embedded into the moulding of the door---hence the architectural frame that surrounds it in this model. To simulate the fourth, temporal dimension of the mobile act of viewing, a camera is set up within the model, at roughly eye-height (156 cm), which can be manually guided towards the threshold in an approximate rendering of the approach of a historical resident or visitor.
 
-{% figure caption: "Figure 3. Dynamic digital model of Lippi's *Annunciation* as an overdoor. Made by author using Autodesk Maya. Image of *Annunciation* (see figure 1) © The National Gallery, London." %}![Dynamic digial model of Lippi's Annunciation.]({{site.url}}/assets/img/v08/mcgee/figure3.gif)
-{% endfigure %}
-
-
 {% figure caption: "Figure 3. Dynamic digital model of Lippi's *Annunciation* as an overdoor. Made by author using Autodesk Maya. Image of *Annunciation* (see figure 1) © The National Gallery, London." %}![Dynamic digial model of Lippi's Annunciation.]({{site.url}}/assets/img/v08/mcgee/figure3a.gif)
 {% endfigure %}
 
