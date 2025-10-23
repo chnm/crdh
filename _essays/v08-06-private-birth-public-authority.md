@@ -1,9 +1,9 @@
 ---
 title: "Private Birth, Public Authority: Topic Changes from the Sixteenth to the Eighteenth Century in German Midwifery Books"
-doi: "https://doi.org/10.31835/crdh.2025.06"
+doi: "https://doi.org/10.31835/crdh.2024.TK"
 volume-number: 8
 year: 2025
-date: 2025-10-30
+date: 2025-01-14
 authors:
 - last: Käfer
   first: Natacha Klein
