@@ -1,9 +1,9 @@
 ---
 title: Annotating "Privacy" to Train Semi-Supervised Event Extraction Models for Historical Newspapers
-doi: "https://doi.org/10.31835/crdh.2025.05"
+doi: "https://doi.org/10.31835/crdh.2025.TK"
 volume-number: 8
 year: 2025
-date: 2025-10-30
+date: 2025-08-28
 authors:
 - last: da Silva Perez
   first: Natália
@@ -75,8 +75,8 @@ For evaluation, historians in our team manually annotated ads that were not used
 For Dutch, Felicia Fricke manually retrieved fifty ads in the newspaper *De Curaçaosche Courant* and annotated them according to the same criteria above. Since the plain text version of these came from Delpher (the National Library of the Netherland's digital repository), where they were produced using OCR, the texts contain errors (see figures 1a and 1b). 
 
 {% figure caption: "Figures 1a and 1b: The first image is a detail of De Couraçaosche Courant from 18 October 1834 showing an ad about an enslaved woman who escaped. The second image shows the transcription provided by Delpher containing OCR errors." %}
-![scan of a printed runaway slave ad in a newspaper from the 19th centruy. art depicting a person holding a bag and there are various names, dates, names, and titles]({{site.url}}/assets/img/v08/perez/figure1a.png)
-![image of plain text on a white page]({{site.url}}/assets/img/v08/perez/figure1b.png)
+![TK]({{site.url}}/assets/img/v08/perez/figure1a.png)
+![TK]({{site.url}}/assets/img/v08/perez/figure1b.png)
 {% endfigure %}
 
 Fricke purposefully left the OCR errors in the material she annotated for Borenstein so that he could evaluate how the model would perform in real life conditions, where OCR errors are common.
