@@ -1,15 +1,16 @@
 ---
 title: "Louis XIV's taste as a private matter: A Preliminary Outline of the <em>Appartement du Roi's</em> Iconography"
-doi: "https://doi.org/10.31835/crdh.2025.07"
+doi: "https://doi.org/10.31835/crdh.2025.TK"
 volume-number: 8
 year: 2025
-date: 2025-10-30
+date: 2025-01-14
 authors:
 - last: Gigone
   first: Fabio
   email: gigone@arch.ethz.ch
   affiliation: "Chair for the History and Theory of Architecture, ETH Zürich"
   orcid: 0000-0001-9286-6335
+  url: "TK"
 abstract: |
   The paper explores Louis XIV’s iconographic preferences, arguing that the selection of paintings within his broader <em>Cabinet des Tableaux</em> collection, as well as their arrangement in the <em>Appartement du Roi</em>, reveal a significant aspect of the French king’s private life. The research treats the Sun king’s extensive painting collection —931 works identified from inventories dated between 1671 and 1715— as a homogeneous source, focusing primarily on the iconographic content rather than their artistic value. The spatial context of the <em>Appartement du Roi</em>, is crucial as it housed the <em>Cabinet des Tableaux</em>, where paintings were displayed according to the king’s will. The analysis of the combination between iconography, placement, and movement of paintings within rooms of differing degree of access, allows for a nuanced reading of taste, and, therefore, privacy. The research employs a digital humanities methodology, compiling a detailed spreadsheet of the collection’s attributes, including provenance, production dates, artist nationality, size, and iconography coded through the Iconclass system —a comprehensive iconographic classification tool. By integrating digital analysis with architectural and iconographic study, this paper demonstrates that Louis XIV’s private taste was most conspicuously expressed through a curated biblical iconography within the intimacy of the <em>Appartement du Roi</em>, marking a critical intersection of privacy, power, and personal preference in the art patronage and collecting of the Sun King.
 preview: "/assets/img/v08/gigone/preview.jpeg"
