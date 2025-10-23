@@ -1,9 +1,9 @@
 ---
 title: "A Monarch in Motion: Mapping the King's Private Correspondence"
-doi: "https://doi.org/10.31835/crdh.2025.03"
+doi: "https://doi.org/10.31835/crdh.2025.TK"
 volume-number: 8
 year: 2025
-date: 2025-10-30
+date: 2025-08-28
 authors:
 - last: Maekelberg
   first: Sanne
@@ -19,7 +19,7 @@ preview: "/assets/img/v08/maekelberg/preview.png"
 
 Christian IV's writing room is still more or less preserved in Rosenborg castle, Copenhagen (figure 1).[^1] While this wonderfully sets the scene for the seventeenth-century epistolary practices, the number of letters written from this location is only a small part of the very extensive correspondence maintained by the Danish king. 
 
-{% figure caption: "Figure 1: Christian IV`s writing room on the ground floor of one of the towers of Rosenborg Castle © Photograph by Marie Thérèse Hébert & Jean Robert Thibault, 25 May 2016. Licensed under CC BY-SA 2.0. Via Wikimedia Commons"%}![photograph of an arnate desk with many carvings and a chair infront of it]({{site.url}}/assets/img/v08/maekelberg/figure1.png)
+{% figure caption: "Figure 1: Christian IV`s writing room on the ground floor of one of the towers of Rosenborg Castle © Photograph by Marie Thérèse Hébert & Jean Robert Thibault, 25 May 2016. Licensed under CC BY-SA 2.0. Via Wikimedia Commons"%}![TK]({{site.url}}/assets/img/v08/maekelberg/figure1.png)
 {% endfigure %}
 
 Christian IV of Denmark (1577--1648, r.1588--1648) was indeed an avid writer, putting his thoughts on paper in journals, diaries, and letters.[^2] As King of Denmark, he lived an itinerant life, moving through his territories on a regular basis. He left a significant stamp on the built heritage throughout the Danish territory, including parts of current Germany, Norway, and southern Sweden as well as more remote territories like the Faroe Islands and Greenland.[^3] This territory was so vast that it seems unlikely that Christian IV visited all the places under his authority. Despite his prominent role in Danish history and built heritage, research on the Danish monarch has remained relatively obscure, partly because of language issues.[^4]
@@ -36,7 +36,7 @@ To perform a distant reading of Christian IV's correspondence we collected the l
 
 The attached metadata allows for a mapping of the place of sending of the letters, using QGIS, a free and open-source Geographical Information System (GIS).[^9] Contrary to his contemporaries, Christian IV wrote most of the letters himself, signing each one with a date and place of sending (figure 2). 
 
-{% figure caption: "Figure 2: a letter written by Christian IV and signed with D'ronningborre Slott den 4 Maÿ Anno D(omi)ni 1610 Christian'. © Rigsarkivet København, Kongehuset Christian 4., Christian 4.s egenhændige breve."%}![photograph of a hnadwritten docuemtn with text sprawling msot of the page]({{site.url}}/assets/img/v08/maekelberg/figure2.png)
+{% figure caption: "Figure 2: a letter written by Christian IV and signed with D'ronningborre Slott den 4 Maÿ Anno D(omi)ni 1610 Christian'. © Rigsarkivet København, Kongehuset Christian 4., Christian 4.s egenhændige breve."%}![TK]({{site.url}}/assets/img/v08/maekelberg/figure2.png)
 {% endfigure %}
 
 While other kings and nobles often used scribes for their correspondence, it was customary for Christian IV to sign letters personally, often adding date and location to the signature.[^10] Since all the letters in the corpus were handwritten and signed by Christian IV, this allows us to place the Danish king at a certain location at a certain point in time, based on his signature. The resulting attribute table (see table 1) shows 568 entries that have both geographical and temporal data attached to them. This analysis is thus based on a subset of the digitized collection. That inevitably means that there are important lacunae in our data, for example the visits to England -- that Christian IV undertook in 1606 and 1616 -- are not represented here.[^11]
@@ -177,24 +177,24 @@ While other kings and nobles often used scribes for their correspondence, it was
 Through a mapping of this information, we can see that Christian IV
 travelled through much of the seventeenth-century territory of Denmark, which included Schleswig-Holstein (current northern Germany), southern Sweden, and Norway (figure 3).
 
-{% figure caption: "Figure 3: A map indicating the location from where the letters were written. This shows the mobility of Christian IV throughout the Danish territory."%}![digital map of europe shwoing brown dots indicating locations for letters]({{site.url}}/assets/img/v08/maekelberg/figure3.png)
+{% figure caption: "Figure 3: A map indicating the location from where the letters were written. This shows the mobility of Christian IV throughout the Danish territory."%}![TK]({{site.url}}/assets/img/v08/maekelberg/figure3.png)
 {% endfigure %}
 
 This first map, however, does not show how many letters were written from a certain location. By visualizing the weight, i.e., the number of letters written from a certain location, we can correlate the itinerary of Christian IV with the network of residences that served him in his peregrinations.[^12] This allows us to filter out most- and least-visited residences, and link these with the functions and responsibilities of the Danish king
 and events during his lifetime. In this visualization a bigger dot means that more letters were sent from a certain location and that Christian IV spent a relatively larger amount of time there. The map is thus a representation of the focal points in his itinerary (figure 4). We can clearly distinguish the capital city Copenhagen and Frederiksborg, one of his largest construction projects. However, other locations---further away from the Danish capital---are also included, for example Glückstadt and Wolfenbüttel.
 
-{% figure caption: "Figure 4: The same locations with the size of the dots adjusted to represent the number of letters written from a certain location. A bigger dot means that more letters were sent from a specific location and that Christian IV spent a significant amount of time here, making these sites important in his itinerary."%}![a digital map of europe showing orange dots indicating location that are also labeled with european cities. the dots are of various sizes to indicate density]({{site.url}}/assets/img/v08/maekelberg/figure4.png)
+{% figure caption: "Figure 4: The same locations with the size of the dots adjusted to represent the number of letters written from a certain location. A bigger dot means that more letters were sent from a specific location and that Christian IV spent a significant amount of time here, making these sites important in his itinerary."%}![TK]({{site.url}}/assets/img/v08/maekelberg/figure4.png)
 {% endfigure %}
 
 With the aim of reconstructing the network of residences of Christian IV of Denmark in mind, we want to use this visualization to reveal patterns or evolutions in time of the king's use of his residences. By splitting up the dataset into relative periods of time, we can see some interesting transformations (figure 5). With the limited dataset we have very few letters from before 1626, which clearly shows in the earliest maps. There is no discernable focal point, and Christian's mobility spread out over Denmark and the German lands. After Denmark joined the Thirty Year's War, however, we see both an increase in letters and a spreading of Christian's presence towards the south. He spent considerable amounts of time in Wolfenbüttel and Rothenburg. From 1630 onwards, the Danish involvement in the Thirty Year's War ceased, and Christian focused his presence on the Danish lands, with focal points in Jutland as well as Sealand. During the final years of his life, he mostly stayed for long consecutive periods of time in Frederiksborg and Copenhagen (presumably Rosenborg).
 
 {% figure caption: "Figure 5: Visualization of the correspondence split up into relative periods of time. A bigger dot means that more letters were sent from this location during the indicated period."%}
-![a digital map of europe showing orange dots indicating location that are also labeled with european cities. the dots are of various sizes to indicate density]({{site.url}}/assets/img/v08/maekelberg/figure5a.png)
-![a digital map of europe showing orange dots indicating location that are also labeled with european cities. the dots are of various sizes to indicate density]({{site.url}}/assets/img/v08/maekelberg/figure5b.png)
-![a digital map of europe showing orange dots indicating location that are also labeled with european cities. the dots are of various sizes to indicate density]({{site.url}}/assets/img/v08/maekelberg/figure5c.png)
-![a digital map of europe showing orange dots indicating location that are also labeled with european cities. the dots are of various sizes to indicate density]({{site.url}}/assets/img/v08/maekelberg/figure5d.png)
-![a digital map of europe showing orange dots indicating location that are also labeled with european cities. the dots are of various sizes to indicate density]({{site.url}}/assets/img/v08/maekelberg/figure5e.png)
-![aa digital map of europe showing orange dots indicating location that are also labeled with european cities. the dots are of various sizes to indicate density]({{site.url}}/assets/img/v08/maekelberg/figure5f.png)
+![alt]({{site.url}}/assets/img/v08/maekelberg/figure5a.png)
+![alt]({{site.url}}/assets/img/v08/maekelberg/figure5b.png)
+![alt]({{site.url}}/assets/img/v08/maekelberg/figure5c.png)
+![alt]({{site.url}}/assets/img/v08/maekelberg/figure5d.png)
+![alt]({{site.url}}/assets/img/v08/maekelberg/figure5e.png)
+![alt]({{site.url}}/assets/img/v08/maekelberg/figure5f.png)
 {% endfigure %}
 
 The digital analysis of Christian IV’s handwritten letters and their associated geographical and temporal data offers a unique window into the Danish king’s travels. Through the visual representation of letter frequencies, we uncover the significance of critical locations in his life, shedding light on the evolving priorities and commitments over time.
@@ -204,7 +204,7 @@ The digital analysis of Christian IV’s handwritten letters and their associate
 
 We can now place Christian IV of Denmark in space and time through the analysis of the place of sending of his letters. We are, however, also interested in what Christian IV has to say about these locations and his building projects within the text of his letters. In order to read through this large collection of correspondence, we will first build a gazetteer based on the corpus. A gazetteer is a dictionary of historical place names that can include information and certain characteristics of that location. By using Natural language processing (NLP) we get access to a wide range of possibilities to analyze linguistic attributes of a text corpus. NLP allows users to convert data into usable insights, by determining whether a word is a verb or a noun, and even whether it is a location, geographical entry, or a person through Named Entity Recognition. We will use the NLP library spaCy to detect the place names mentioned in the corpus of correspondence.[^13] Because of the different layers of distortion caused by language (mixing Danish and German, as well as the inconsistent early modern spelling), we decided to use two pretrained models provided by spaCy: both the German and Danish models trained on newspaper articles. The resulting tab-separated value file is run through the World Historical Gazetteer (WHG), where we can "reconciliate" with Wikidata. This process of reconciliation links the place names in our own gazetteer to places that are included in the WHG and a unique identifier in Wikidata. After the automatic reconciliation process is complete, you are given the option to manually match the ambiguous place names. The resulting dataset, including the geographical coordinates, can be downloaded from the WHG and together with the places of sending of the corpus of correspondence, this becomes the gazetteer that we will use for the further analysis. We again used QGIS to map out the locations included in our gazetteer. Our visualization now covers a noticeably larger area of Europe, going as far as Spain and England and covering the German lands to a greater extend. 
 
-{% figure caption: "Figure 6: A map of the locations mentioned in the body text of the letters of Christian IV. A larger area of Europe is now covered, including England and Spain"%}![a larger digital map covering more area of europe showing orange dots indicating location that are also labeled with european cities. the dots are of various sizes to indicate density]({{site.url}}/assets/img/v08/maekelberg/figure6.png)
+{% figure caption: "Figure 6: A map of the locations mentioned in the body text of the letters of Christian IV. A larger area of Europe is now covered, including England and Spain"%}![TK]({{site.url}}/assets/img/v08/maekelberg/figure6.png)
 {% endfigure %}
 
 As in our first map visualization, we can add weight to the locations by counting the number of times they are mentioned within the corpus of correspondence and adjust the size of the dots accordingly (figure 6). The center of gravity is still in Denmark, especially on the island of Sealand, and a number of locations in Schleswig-Holstein. However, looking at the table, we now see that Rosenborg, for example, becomes quite important, with thirty-one mentions within the corpus of the letters. In our first analysis, Rosenborg was completely absent, which seems abnormal since this was one of Christian's building projects. This might have been because Christian signed his letters with "Københav" when he was at the castle in Rosenborg, or because the letters that are part of the online collection were allocated 'Copenhagen' as location metadata, while the actual place of sending was Rosenborg. Indeed, on closer inspection of the original texts, there are forty-eight letters written and signed from "Rossenborg" This more detailed analysis of the content of the letters draws our attention to inaccuracies in the metadata, which can be corrected through an iterative process.
@@ -213,7 +213,7 @@ As in our first map visualization, we can add weight to the locations by countin
 
 The collection of correspondence of Christian IV gives a privileged view on his life and reconstructed personal life stories. The digital methodology allows us to reconstruct Christian IV's itinerary and investigate whether his peregrinations were determined by personal agency or political necessity. The localization of the sites of his building projects shows that he did still very much live an itinerant lifestyle, compared to other royal families in Europe, and that he even put in considerable time, money, and effort into expanding his residential and urban networks (figure 7).[^14] 
 
-{% figure caption: "Figure 7: Some of the most important building sites of Christian IV"%}![a digital map of europe showing maroon dots indicating locations]({{site.url}}/assets/img/v08/maekelberg/figure7.png)
+{% figure caption: "Figure 7: Some of the most important building sites of Christian IV"%}![TK]({{site.url}}/assets/img/v08/maekelberg/figure7.png)
 {% endfigure %}
 
 Satellite residences appear in the vicinity of Copenhagen, but also on the edge of the Danish territory, settlements are established to house the king and his travelling household.[^13] The living circumstances and possibilities to live a more withdrawn life were highly contingent on location, since there was such a large diversity of locations in the network supporting Christian IV. Along the way he stayed in cloisters,
