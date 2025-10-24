@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.crossref.org/schema/5.4.0 https://www.crossref.org/schemas/crossref5.4.0.xsd"
+	xmlns="http://www.crossref.org/schema/5.4.0" xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1"
+	xmlns:fr="http://www.crossref.org/fundref.xsd" version="5.4.0">
+<head>
+  <doi_batch_id>oimq85skvw4nukb9jd9f</doi_batch_id>
+  <timestamp>20251023000000001</timestamp>
+  <depositor>
+    <depositor_name>rrch:rrch</depositor_name>
+    <email_address>chnm@gmu.edu</email_address>
+  </depositor>
+  <registrant>Roy Rosenzweig Center for History and New Media</registrant>
+</head>
+
+<body>
+	<journal>
+		<journal_metadata>
+			<full_title>Current Research in Digital History</full_title>
+			<abbrev_title>CRDH</abbrev_title>
+			<issn media_type="electronic">26375923</issn>
+			<doi_data>
+				<doi>10.31835/crdh</doi>
+				<resource>http://crdh.rrchnm.org/</resource>
+			</doi_data>
+		</journal_metadata>
+		<journal_issue>
+			<publication_date media_type="online">
+				<year>2025</year>
+			</publication_date>
+			<journal_volume>
+				<volume>8</volume>
+			</journal_volume>
+			<doi_data>
+				<doi>10.31835/crdh.2025</doi>
+				<resource>http://crdh.rrchnm.org/volume/2025/</resource>
+			</doi_data>
+		</journal_issue>
+		<journal_article publication_type="full_text">
+			<titles>
+				<title>The Republican Party’s Other Right: A Computational History of the Old Right’s Noninterventionism and their Decline within the GOP, 1934-1992</title>
+			</titles>
+			<contributors>
+				<person_name sequence="first" contributor_role="author">
+					<given_name>Brandan</given_name>
+					<surname>Buck</surname>
+					<ORCID>https://orcid.org/0009-0006-7741-9071</ORCID>
+				</person_name>
+	    <person_name sequence="additional" contributor_role="editor">
+	      <given_name>Zoe</given_name>
+	      <surname>LeBlanc</surname>
+	      <ORCID>https://orcid.org/0000-0003-2012-8805</ORCID>
+	    </person_name>
+			</contributors>
+			<jats:abstract xml:lang="en">
+			<jats:p>When did American “isolationism,” more appropriately known as noninterventionism, become politically untenable in the middle years of the 20th century? It is a historical question that is being revisited in light of modern political turmoil and a lingering foreign policy hangover from the Global War on Terror. This article examines the persistence and eventual decline of Old Right noninterventionism within the GOP during the early Cold War, challenging narratives of its rapid marginalization in the 1950s. Using computational analysis of over 3,000 congressional roll call votes on military and diplomatic policy legislation, this study tracks voting patterns across parties, regions, chambers, and ideological wings. Results reveal that the remnants of the Old Right, particularly in the House, continued to maintain their opposition to key aspects of Cold War policy, particularly on foreign assistance and multilateral security agreements. This prolonged opposition suggests that a Republican shift toward an interventionist orthodoxy was not inevitable nor solely determined by events abroad, but rather evolved from internal party dynamics. The findings of this article challenge conventional histories of the domestic politics of U.S. foreign policy and offer insights into the contingencies of American foreign policy thinking in Congress, and by extension, the electorate.</jats:p>
+			</jats:abstract>
+			<publication_date media_type="online">
+	    	<month>09</month>
+				<year>2025</year>
+			</publication_date>
+			<doi_data>
+				<doi>10.31835/crdh.2025.01</doi>
+				<resource>https://crdh.rrchnm.org/essays/v07-republican-partys-other-right/</resource>
+			</doi_data>
+		</journal_article>
+	</journal>
+</body>
+</doi_batch>
