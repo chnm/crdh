@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.crossref.org/schema/5.4.0 https://www.crossref.org/schemas/crossref5.4.0.xsd"
+	xmlns="http://www.crossref.org/schema/5.4.0" xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1"
+	xmlns:fr="http://www.crossref.org/fundref.xsd" version="5.4.0">
+<head>
+  <doi_batch_id>d6algxtoq1ilfy1pickc</doi_batch_id>
+  <timestamp>20251023000000006</timestamp>
+  <depositor>
+    <depositor_name>rrch:rrch</depositor_name>
+    <email_address>chnm@gmu.edu</email_address>
+  </depositor>
+  <registrant>Roy Rosenzweig Center for History and New Media</registrant>
+</head>
+
+<body>
+	<journal>
+		<journal_metadata>
+			<full_title>Current Research in Digital History</full_title>
+			<abbrev_title>CRDH</abbrev_title>
+			<issn media_type="electronic">26375923</issn>
+			<doi_data>
+				<doi>10.31835/crdh</doi>
+				<resource>http://crdh.rrchnm.org/</resource>
+			</doi_data>
+		</journal_metadata>
+		<journal_issue>
+			<publication_date media_type="online">
+				<year>2025</year>
+			</publication_date>
+			<journal_volume>
+				<volume>8</volume>
+			</journal_volume>
+			<doi_data>
+				<doi>10.31835/crdh.2025</doi>
+				<resource>http://crdh.rrchnm.org/volume/2025/</resource>
+			</doi_data>
+		</journal_issue>
+		<journal_article publication_type="full_text">
+			<titles>
+				<title>Private Birth, Public Authority: Topic Changes from the Sixteenth to the Eighteenth Century in German Midwifery Books</title>
+			</titles>
+			<contributors>
+				<person_name sequence="first" contributor_role="author">
+					<given_name>Natacha Klein</given_name>
+					<surname>Käfer</surname>
+					<ORCID>https://orcid.org/0000-0002-6766-9943</ORCID>
+				</person_name>
+		    <person_name sequence="additional" contributor_role="editor">
+		      <given_name>Lincoln</given_name>
+		      <surname>Mullen</surname>
+		      <ORCID>https://orcid.org/0000-0001-5103-6917</ORCID>
+		    </person_name>
+			</contributors>
+			<jats:abstract xml:lang="en">
+			<jats:p>This article examines the benefits and pitfalls of using topic modeling to analyze discursive changes in sixteenth- and eighteenth-century German midwifery books. These periods were marked by transformations in the perspectives of midwives’ knowledge and practices, providing important insight into how midwifery was discussed as a field between private practice and public legitimization. By highlighting topic changes in controlled corpora of midwifery writings from the sixteenth and eighteenth centuries, the article provides an overview of elements historians must pay attention to for future endeavors on larger-scale studies and points out how specific topics hint at transformations in German midwifery as professionalization and medical oversight tried to establish tighter control over pregnancy management and delivery techniques.</jats:p>
+			</jats:abstract>
+			<publication_date media_type="online">
+	    	<month>08</month>
+				<year>2025</year>
+			</publication_date>
+			<doi_data>
+				<doi>10.31835/crdh.2025.06</doi>
+				<resource>https://crdh.rrchnm.org/essays/v08-06-private-birth-public-authority/</resource>
+			</doi_data>
+		</journal_article>
+	</journal>
+</body>
+</doi_batch>
