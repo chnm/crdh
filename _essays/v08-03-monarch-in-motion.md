@@ -1,6 +1,6 @@
 ---
 title: "A Monarch in Motion: Mapping the King's Private Correspondence"
-doi: "https://doi.org/10.31835/crdh.2025.TK"
+doi: "https://doi.org/10.31835/crdh.2025.03"
 volume-number: 8
 year: 2025
 date: 2025-08-28
