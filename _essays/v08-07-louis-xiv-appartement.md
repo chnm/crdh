@@ -1,6 +1,6 @@
 ---
 title: "Louis XIV's taste as a private matter: A Preliminary Outline of the <em>Appartement du Roi's</em> Iconography"
-doi: "https://doi.org/10.31835/crdh.2025.TK"
+doi: "https://doi.org/10.31835/crdh.2025.07"
 volume-number: 8
 year: 2025
 date: 2025-01-14
