@@ -1,6 +1,6 @@
 ---
 title: "Visualising Art on the Threshold in the Palazzo Medici, Florence"
-doi: "https://doi.org/10.31835/crdh.2025.TK"
+doi: "https://doi.org/10.31835/crdh.2025.02"
 volume-number: 8
 year: 2025
 date: 2025-08-28
