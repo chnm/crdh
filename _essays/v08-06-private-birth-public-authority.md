@@ -1,6 +1,6 @@
 ---
 title: "Private Birth, Public Authority: Topic Changes from the Sixteenth to the Eighteenth Century in German Midwifery Books"
-doi: "https://doi.org/10.31835/crdh.2024.TK"
+doi: "https://doi.org/10.31835/crdh.2025.06"
 volume-number: 8
 year: 2025
 date: 2025-01-14
