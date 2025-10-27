@@ -10,7 +10,6 @@ authors:
   email: "miara.fraikin@kuleuven.be"
   affiliation: "KU Leuven"
   orcid: 0000-0001-7960-7443
-  url: "TK"
 abstract: |
     Although the early modern French royal court was known for its relative accessibility to the monarch and his spaces, this accessibility has often been misinterpreted as a limited or even nonexistent privacy. King Henri III (1551-1589), in particular, envisioned a monarchy heightened by distance and sought to regulate such distance through court ordinances. This article examines Henri III's 1585 court ordinance and applies network theory and access diagrams to reconstruct the spatiality of privacy within the French royal apartment. In addition to the usefulness of the applied method, the article demonstrates how Henri negotiated a balance between his personal need for privacy and the court’s expectation of access.
 
@@ -364,7 +363,7 @@ With the addition of the presence of (types of) courtiers in the spaces of the r
 This number can be calculated separately or combined for the different temporal statements, thus representing the degree of accessibility based on the courtiers' presence over the entire day (Table 3). By changing the node size to match the in-degree, this degree of accessibility can also be visualized (fig. 6). From the representation of the entire day, it becomes clear that the *chambre d'audience* followed by the *chambre royalle* and *chambre d'Estat* were the most used---and therefore probably most accessible---spaces in the King's apartment.
 
 {% figure caption: "Fig. 6: Network of courtiers’ accessibility to the royal apartments. Nodes are scaled based on the weighted in-degree count." %}
-![TK]({{site.url}}/assets/img/v08/fraikin/figure6.png)
+![orange circle diagram saying Chambre d'Estat, Chambre d'Audience, Chambre royalle and various connecting grey lines between them]({{site.url}}/assets/img/v08/fraikin/figure6.png)
 {% endfigure %}
 
 {% figure caption: "Table 3: Degree of Accessibility calculated with the weighted in-degree count of separate rooms during the entire day." %}
@@ -423,7 +422,7 @@ The King's *antichambre* seems less accessible for courtiers, but one needs to b
 By combining the data of both the courtiers' movements and those of the King in one network (Fig. 7), it is possible to make an abstract reconstruction of the spatiality of privacy at the court of Henri III. From the combined data concerning the entire day, it is clear that while, based on the courtiers' movements, the *chambre d'Estat*, *chambre d'audience,* and *chambre royalle* know a high degree of accessibility---and could therefore be called a particularly public space of the royal apartment---the King on the contrary barely uses these spaces himself. Instead, he spends most of his time in his cabinet and the apartment of the Queen Mother. In turn, these spaces know a minimal degree of accessibility.
 
 {% figure caption: "Fig. 7: Network combining the king's and courtiers' movements used to reconstruct the spatiality of privacy. Nodes are scaled based on weighted in-degree count. Blue lines indicate the king’s whereabouts." %}
-![TK]({{site.url}}/assets/img/v08/fraikin/figure7.png)
+![orange circle diagram saying Chambre d'Estat, Chambre d'Audience, Chambre royalle and various connecting grey lines between them]({{site.url}}/assets/img/v08/fraikin/figure7.png)
 {% endfigure %}
 
 From this network, it is possible to better understand the spatiality of privacy in the royal apartment. The network visualizes how a high number of courtiers had access to the *antichambre*, *chambre d'Estat*, *chambre d'audience* and *chambre royalle*. While a high degree of accessibility can be witnessed for four cases, their accessibility does gradually decrease according to the "deepness" of the space in question.However, the significant difference in accessibility between the
@@ -447,7 +446,7 @@ When Henri left his apartment to go to Mass until he retired for the night in hi
 (time slice 10, Fig. 8)*.*
 
 {% figure caption: "Fig. 8: Time Slices of network." %}
-![TK]({{site.url}}/assets/img/v08/fraikin/figure8.png)
+![orange circle diagram saying Chambre d'Estat, Chambre d'Audience, Chambre royalle and various connecting grey lines between them broken up intwo 6 separate images to show different time slices of the network]({{site.url}}/assets/img/v08/fraikin/figure8.png)
 {% endfigure %}
 
 The comparison of these time slices demonstrates the effect of
