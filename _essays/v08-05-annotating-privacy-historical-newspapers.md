@@ -1,6 +1,6 @@
 ---
 title: Annotating "Privacy" to Train Semi-Supervised Event Extraction Models for Historical Newspapers
-doi: "https://doi.org/10.31835/crdh.2025.TK"
+doi: "https://doi.org/10.31835/crdh.2025.05"
 volume-number: 8
 year: 2025
 date: 2025-08-28
