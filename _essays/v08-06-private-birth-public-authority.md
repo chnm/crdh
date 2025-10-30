@@ -3,7 +3,7 @@ title: "Private Birth, Public Authority: Topic Changes from the Sixteenth to the
 doi: "https://doi.org/10.31835/crdh.2025.06"
 volume-number: 8
 year: 2025
-date: 2025-01-14
+date: 2025-10-30
 authors:
 - last: Käfer
   first: Natacha Klein
