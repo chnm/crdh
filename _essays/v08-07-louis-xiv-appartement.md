@@ -3,7 +3,7 @@ title: "Louis XIV's taste as a private matter: A Preliminary Outline of the <em>
 doi: "https://doi.org/10.31835/crdh.2025.07"
 volume-number: 8
 year: 2025
-date: 2025-01-14
+date: 2025-10-30
 authors:
 - last: Gigone
   first: Fabio
