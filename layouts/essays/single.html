@@ -1,0 +1,92 @@
+{{ define "main" }}
+<main class="grid-x">
+
+    <article class="essay large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 cell">
+
+        <header class="essay-header">
+            <span class="author">
+                {{ $authorCount := len .Params.authors }}
+                {{ range $index, $author := .Params.authors }}
+                {{ $authorIndex := add $index 1 }}
+                {{ if eq $authorCount 1 }}
+                <a href="{{ $author.url }}">{{ $author.first }} {{ $author.last }}</a>
+                <a href="https://orcid.org/{{ $author.orcid }}"><img class="orcid-logo" alt="ORCID ID"
+                        src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>
+                {{ else if eq $authorCount 2 }}
+                <a href="{{ $author.url }}">{{ $author.first }} {{ $author.last }}</a>
+                <a href="https://orcid.org/{{ $author.orcid }}"><img class="orcid-logo" alt="ORCID ID"
+                        src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>
+                {{ if eq $authorIndex 1 }} and
+                {{ end }}
+                {{ else }}
+                {{ $authorIndexTwo := add $authorIndex 1 }}
+                <a href="{{ $author.url }}">{{ $author.first }}
+                    {{ $author.last }}</a>
+                <a href="https://orcid.org/{{ $author.orcid }}"><img class="orcid-logo" alt="ORCID ID"
+                        src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>
+                {{ if eq $authorIndex $authorCount }}{{ else if eq $authorIndexTwo $authorCount }},
+                and {{ else }},{{ end }}
+                {{ end }}
+                {{ end }}
+            </span>
+            <h2>
+                {{ .Title | safeHTML }}
+                {{ with .Params.subtitle }}
+                <br><small>{{ . | safeHTML }}</small>
+                {{ end }}
+            </h2>
+            <span class="meta">
+                Volume: {{ .Params.volume_number }} ({{ .Params.year }})<br>
+                Published: <time
+                    datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time><br>
+                DOI: <a href="{{ .Params.doi }}">{{ .Params.doi }}</a>
+            </span>
+        </header>
+
+        <section class="abstract callout">
+            <h3>Abstract</h3>
+            <div class="abstract-contents">
+                {{ .Params.abstract | markdownify }}
+            </div>
+        </section>
+        {{ .Content }}
+        {{ with .Params.appendix }}
+        <hr>
+        {{ if ge (len .) 2 }}
+        <h3 id="appendix">Appendices</h3>
+        {{ else }}
+        <h3 id="appendix">Appendix</h3>
+        {{ end }}
+        <ul>
+            {{ range . }}
+            {{ if .file }}
+            <li><a href="{{ $.Site.Params.appendices }}/{{ .file }}" download>{{ .name }}</a></li>
+            {{ else }}
+            <li><a href="{{ .url }}">{{ .name }}</a></li>
+            {{ end }}
+            {{ end }}
+        </ul>
+        {{ end }}
+        <hr>
+        {{ if gt (len .Params.authors) 1 }}
+        <h3 id="author">Authors</h3>
+        {{ else }}
+        <h3 id="author">Author</h3>
+        {{ end }}
+        <p>
+            {{ range $index, $author := .Params.authors }}
+            {{ $authorName := printf "%s %s" $author.first $author.last }}
+            {{ if $author.url }}
+            <a href="{{ $author.url }}">{{ $authorName }}</a>,
+            {{ else }}
+            {{ $authorName }},
+            {{ end }}
+            {{ $author.affiliation }}, <a href="mailto:{{ $author.email }}">{{ $author.email }}</a>, <a
+                href="http://orcid.org/{{ $author.orcid }}"><img src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"
+                    style="width:16px; height: 16px;" alt="ORC ID logo"
+                    class="orcid">{{ $author.orcid }}</a>{{ if ne (add $index 1) (len $.Params.authors) }};{{ end }}
+            {{ end }}
+        </p>
+    </article>
+</main>
+{{ end }}

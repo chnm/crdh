@@ -1,0 +1,35 @@
+#article-list hr + h2 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+#article-list hr {
+  width: 95%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.essay .author,
+.essay .published,
+.essay .doi {
+  display: block;
+}
+
+.essay .author {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.essay-header .author {
+  font-size: 28px;
+}
+
+.orcid-logo {
+  width: 16px !important;
+  height: 16px !important;
+  margin-top: 0rem !important;
+  margin-left: -6px !important;
+  margin-right: -8px !important;
+  vertical-align: top !important;
+}

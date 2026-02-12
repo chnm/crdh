@@ -1,0 +1,76 @@
+{{ define "main" }}
+<div class="grid-container">
+    <div class="grid-x">
+        <div class="large-9 columns large-order-1 medium-order-2" id="article-list">
+            {{ $essays := where .Site.RegularPages "Section" "essays" }}
+            {{ $essaysByYear := $essays.GroupByDate "2006" }}
+            {{ $yearGroups := slice }}
+            {{ range $essaysByYear }}
+                {{ $yearGroups = $yearGroups | append . }}
+            {{ end }}
+
+            {{ range sort $yearGroups "Key" "desc" }}
+            {{ $year := int .Key }}
+            {{ $volumeNumber := sub $year 2017 }}
+            <h2>Volume {{ $volumeNumber }} ({{ $year }})</h2>
+            {{ range $index, $essay := .Pages.Reverse }}
+            {{ $essayIndex := printf "%d-%d" $year $index }}
+            <div class="essay clearfix media-object stack-for-small">
+                <div class="media-object-section">
+                    <div class="thumbnail">
+                        <a href="{{ .RelPermalink }}">
+                            <img src="{{ .Params.preview }}" alt="Preview image for {{ .Title | plainify }}">
+                        </a>
+                    </div>
+                </div>
+                <div class="media-object-section">
+                    {{ if .Params.subtitle }}
+                    <h3><a href="{{ .RelPermalink }}">{{ .Title | safeHTML }}: {{ .Params.subtitle | safeHTML }}</a></h3>
+                    {{ else }}
+                    <h3><a href="{{ .RelPermalink }}">{{ .Title | safeHTML }}</a></h3>
+                    {{ end }}
+                    <span class="author">
+                        {{ $authorCount := len .Params.authors }}
+                        {{ range $index, $author := .Params.authors }}
+                        {{ $authorIndex := add $index 1 }}
+                        {{ if eq $authorCount 1 }}
+                        {{ $author.first }} {{ $author.last }}
+                        {{ else if eq $authorCount 2 }}
+                        {{ $author.first }} {{ $author.last }}{{ if eq $authorIndex 1 }} and {{ end }}
+                        {{ else }}
+                        {{ $authorIndexTwo := add $authorIndex 1 }}
+                        {{ $author.first }}
+                        {{ $author.last }}{{ if eq $authorIndex $authorCount }}{{ else if eq $authorIndexTwo $authorCount }},
+                        and {{ else }},{{ end }}
+                        {{ end }}
+                        {{ end }}
+                    </span>
+                    <span class="published">Published: <time
+                            datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time></span>
+                    <span class="doi">DOI: <a href="{{ .Params.doi }}">{{ .Params.doi }}</a></span>
+                    {{ with .Params.abstract }}
+                    <button class="button secondary small" type="button"
+                        data-toggle="abstract-{{ $essayIndex }}">Abstract</button>
+                    <div class="abstract" id="abstract-{{ $essayIndex }}" data-toggler data-animate="fade-in fade-out">
+                        {{ . | markdownify }}</div>
+                    {{ end }}
+                </div>
+            </div>
+            <hr>
+            {{ end }}
+            {{ end }}
+        </div>
+        <aside class="large-3 large-offset-0 columns large-order-2 medium-order-1" id="volume-list">
+            <h4>About CRDH</h4>
+            <p>
+                <em>Current Research in Digital History</em>
+                is an open-access, peer-reviewed publication of the <a href="https://rrchnm.org">Roy Rosenzweig
+                Center for History and New
+                Media</a>. It publishes scholarship in digital history that offers discipline-specific arguments and
+                interpretations. Articles are published on a rolling basis as they are received and peer reviewed.
+                Follow the <a href="{{ .Site.BaseURL }}/articles.xml">articles feed</a> to be notified of new articles.
+            </p>
+        </aside>
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html class="no-js" lang="{{ .Site.LanguageCode }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ .Site.Params.description }}" />
+    <meta name="google-site-verification" content="{{ .Site.Params.google_verification }}">
+    {{ if eq .Type "essays" }}
+    <!-- Metadata for Google Scholar -->
+    {{ if .Params.subtitle }}
+    <meta name="citation_title" content="{{ .Title | plainify }}: {{ .Params.subtitle | plainify }}">
+    {{ else }}
+    <meta name="citation_title" content="{{ .Title | plainify }}">
+    {{ end }}
+    {{ range .Params.authors }}
+    <meta name="citation_author" content="{{ .last }}, {{ .first }}">
+    {{ end }}
+    <meta name="citation_publication_date" content="{{ .Params.year }}">
+    <meta name="citation_online_date" content="{{ .Date.Format "2006-01-02" }}">
+    <meta name="citation_journal_title" content="{{ .Site.Params.journal_title }}">
+    <meta name="citation_journal_abbrev" content="{{ .Site.Params.journal_abbrev }}">
+    <meta name="citation_issn" content="{{ .Site.Params.issn }}">
+    <meta name="citation_volume" content="{{ .Params.volume_number }}">
+    <meta name="citation_abstract" content="{{ .Params.abstract | plainify | htmlEscape }}">
+    <meta name="citation_doi" content="{{ .Params.doi }}">
+    {{ end }}
+    <title>{{ if .Title }}{{ .Title | plainify }} &ndash; {{ end }}{{ .Site.Title }}</title>
+    <link rel="shortcut icon" href="{{ .Site.BaseURL }}/assets/img/favicon.ico">
+    {{ $styles := resources.Get "scss/app.scss" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/css/custom.css">
+    <link rel="stylesheet" href="https://rrchnm.org/donate/donate-style.css">
+
+    <link type="application/atom+xml" rel="alternate" href="{{ .Site.BaseURL }}/articles.xml"
+        title="{{ .Site.Title }} - Articles Feed" />
+
+    {{ if eq hugo.Environment "production" }}
+    {{ if .Site.Params.enableMatomo }}
+    <!-- Matomo -->
+    <script>
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="https://stats.rrchnm.org/";
+            _paq.push(['setTrackerUrl', u+'matomo.php']);
+            _paq.push(['setSiteId', '36']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <!-- End Matomo Code -->
+    {{ end }}
+    {{ else }}
+    <!-- No Matomo in development -->
+    {{ end }}
+</head>
+
+<body>

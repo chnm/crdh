@@ -1,0 +1,3 @@
+baseURL: "https://dev.crdh.rrchnm.org"
+params:
+  environment: "development"
