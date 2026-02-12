@@ -73,8 +73,9 @@ menus:
       weight: 1
 
 # Permalink configuration to preserve existing Jekyll URLs
+# Use filename instead of title to maintain original paths like essays/v08-07-louis-xiv-appartement/
 permalinks:
-  essays: "/blog/:year/:slug/"
+  essays: "/essays/:filename/"
 
 # Asset processing with Hugo Pipes
 build:
