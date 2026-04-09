@@ -1,7 +1,5 @@
 ---
 title: Conference
-layout: page
-permalink: /conference/
 ---
 
 <br>

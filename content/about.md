@@ -1,9 +1,8 @@
 ---
 title: About
-layout: page
-permalink: /about/
 ---
 <br>
+
 *Current Research in Digital History* is an open-access, peer-reviewed publication of the [Roy Rosenzweig Center for History and New Media](https://rrchnm.org/) at [George Mason University](https://www2.gmu.edu/). Its primary aim is to encourage and publish scholarship in digital history that offers discipline-specific arguments and interpretations, rather than simply showcase digital projects. By featuring short essays, it also seeks to provide an opportunity to make arguments on the basis of ongoing research in larger projects.
 
 The platform for *Current Research in Digital History* offers the
@@ -79,4 +78,4 @@ Fairfax, VA 22030
 
 ### Origins
 
-*CRDH* began as a conference hosted by RRCHNM. For reference, you can see the [programs]({{site.url}}/conference-history/) and program committees from the conferences that were held.
+*CRDH* began as a conference hosted by RRCHNM. For reference, you can see the [programs](/conference-history/) and program committees from the conferences that were held.
