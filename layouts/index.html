@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="grid-container">
+<main id="main-content" class="grid-container">
     <div class="grid-x">
         <div class="large-9 columns large-order-1 medium-order-2" id="article-list">
             {{ $essays := where .Site.RegularPages "Section" "essays" }}
@@ -50,8 +50,12 @@
                     <span class="doi">DOI: <a href="{{ .Params.doi }}">{{ .Params.doi }}</a></span>
                     {{ with .Params.abstract }}
                     <button class="button secondary small" type="button"
+                        aria-expanded="false"
+                        aria-controls="abstract-{{ $essayIndex }}"
                         data-toggle="abstract-{{ $essayIndex }}">Abstract</button>
-                    <div class="abstract" id="abstract-{{ $essayIndex }}" data-toggler data-animate="fade-in fade-out">
+                    <div class="abstract" id="abstract-{{ $essayIndex }}" data-toggler data-animate="fade-in fade-out"
+                        aria-hidden="true" role="region"
+                        aria-label="Abstract for {{ $essay.Title | plainify }}">
                         {{ . | markdownify }}</div>
                     {{ end }}
                 </div>
@@ -72,5 +76,5 @@
             </p>
         </aside>
     </div>
-</div>
+</main>
 {{ end }}

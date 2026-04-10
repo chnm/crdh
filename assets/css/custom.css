@@ -33,3 +33,122 @@
   margin-right: -8px !important;
   vertical-align: top !important;
 }
+
+/* Site title styled as p on non-home pages (WCAG 1.3.1 heading hierarchy) */
+.site-title {
+  font-family: "majesti_bannerbold", serif;
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: 2.1rem;
+  margin-bottom: 0;
+  background-color: transparent;
+  display: block;
+}
+
+.site-title a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Ensure visited links maintain their context color */
+a:visited {
+  color: #c50000;
+}
+
+h1 a:visited, h2 a:visited {
+  color: #fff;
+}
+
+.site-title a:visited,
+body > header h1 a:visited {
+  color: #000;
+}
+
+.menu a:visited {
+  color: #1750a5;
+}
+
+/* WCAG AA: Skip link - hidden until focused via keyboard */
+.skip-link {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  padding: 0;
+  margin: -1px;
+  border: 0;
+}
+
+.skip-link:focus {
+  clip: auto;
+  clip-path: none;
+  height: auto;
+  width: auto;
+  overflow: visible;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  text-decoration: underline;
+  margin: 0;
+  white-space: normal;
+}
+
+/* WCAG AA: Visible focus indicators (keyboard only) */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
+[tabindex]:focus {
+  outline: 3px solid #1750a5;
+  outline-offset: 2px;
+}
+
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #1750a5;
+  outline-offset: 2px;
+}
+
+/* WCAG AA: Visually hidden utility for screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Essay page heading fix: h1 replaces h2 for essay titles */
+.essay-header h1.essay-title {
+  font-size: 4em;
+}
+
+.essay-header h1.essay-title small {
+  color: #000;
+  background-color: #fff;
+  line-height: 100%;
+  display: block;
+  margin-top: 1rem;
+}

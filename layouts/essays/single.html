@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main class="grid-x">
+<main id="main-content" class="grid-x">
 
     <article class="essay large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 cell">
 
@@ -9,32 +9,32 @@
                 {{ range $index, $author := .Params.authors }}
                 {{ $authorIndex := add $index 1 }}
                 {{ if eq $authorCount 1 }}
-                <a href="{{ $author.url }}">{{ $author.first }} {{ $author.last }}</a>
-                <a href="https://orcid.org/{{ $author.orcid }}"><img class="orcid-logo" alt="ORCID ID"
-                        src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>
+                {{ if $author.url }}<a href="{{ $author.url }}">{{ $author.first }} {{ $author.last }}</a>{{ else }}{{ $author.first }} {{ $author.last }}{{ end }}
+                {{ with $author.orcid }}<a href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt=""
+                        src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>{{ end }}
                 {{ else if eq $authorCount 2 }}
-                <a href="{{ $author.url }}">{{ $author.first }} {{ $author.last }}</a>
-                <a href="https://orcid.org/{{ $author.orcid }}"><img class="orcid-logo" alt="ORCID ID"
-                        src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>
+                {{ if $author.url }}<a href="{{ $author.url }}">{{ $author.first }} {{ $author.last }}</a>{{ else }}{{ $author.first }} {{ $author.last }}{{ end }}
+                {{ with $author.orcid }}<a href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt=""
+                        src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>{{ end }}
                 {{ if eq $authorIndex 1 }} and
                 {{ end }}
                 {{ else }}
                 {{ $authorIndexTwo := add $authorIndex 1 }}
-                <a href="{{ $author.url }}">{{ $author.first }}
-                    {{ $author.last }}</a>
-                <a href="https://orcid.org/{{ $author.orcid }}"><img class="orcid-logo" alt="ORCID ID"
-                        src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>
+                {{ if $author.url }}<a href="{{ $author.url }}">{{ $author.first }}
+                    {{ $author.last }}</a>{{ else }}{{ $author.first }} {{ $author.last }}{{ end }}
+                {{ with $author.orcid }}<a href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt=""
+                        src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>{{ end }}
                 {{ if eq $authorIndex $authorCount }}{{ else if eq $authorIndexTwo $authorCount }},
                 and {{ else }},{{ end }}
                 {{ end }}
                 {{ end }}
             </span>
-            <h2>
+            <h1 class="essay-title">
                 {{ .Title | safeHTML }}
                 {{ with .Params.subtitle }}
                 <br><small>{{ . | safeHTML }}</small>
                 {{ end }}
-            </h2>
+            </h1>
             <span class="meta">
                 Volume: {{ .Params.volume_number }} ({{ .Params.year }})<br>
                 Published: <time
@@ -43,8 +43,8 @@
             </span>
         </header>
 
-        <section class="abstract callout">
-            <h3>Abstract</h3>
+        <section class="abstract callout" aria-label="Abstract">
+            <h2>Abstract</h2>
             <div class="abstract-contents">
                 {{ .Params.abstract | markdownify }}
             </div>
@@ -53,9 +53,9 @@
         {{ with .Params.appendix }}
         <hr>
         {{ if ge (len .) 2 }}
-        <h3 id="appendix">Appendices</h3>
+        <h2 id="appendix">Appendices</h2>
         {{ else }}
-        <h3 id="appendix">Appendix</h3>
+        <h2 id="appendix">Appendix</h2>
         {{ end }}
         <ul>
             {{ range . }}
@@ -69,9 +69,9 @@
         {{ end }}
         <hr>
         {{ if gt (len .Params.authors) 1 }}
-        <h3 id="author">Authors</h3>
+        <h2 id="author">Authors</h2>
         {{ else }}
-        <h3 id="author">Author</h3>
+        <h2 id="author">Author</h2>
         {{ end }}
         <p>
             {{ range $index, $author := .Params.authors }}
@@ -82,8 +82,8 @@
             {{ $authorName }},
             {{ end }}
             {{ $author.affiliation }}, <a href="mailto:{{ $author.email }}">{{ $author.email }}</a>, <a
-                href="http://orcid.org/{{ $author.orcid }}"><img src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"
-                    style="width:16px; height: 16px;" alt="ORC ID logo"
+                href="https://orcid.org/{{ $author.orcid }}" aria-label="ORCID profile for {{ $authorName }}"><img src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"
+                    style="width:16px; height: 16px;" alt=""
                     class="orcid">{{ $author.orcid }}</a>{{ if ne (add $index 1) (len $.Params.authors) }};{{ end }}
             {{ end }}
         </p>

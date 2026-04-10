@@ -30,7 +30,7 @@
     <link rel="shortcut icon" href="{{ .Site.BaseURL }}/assets/img/favicon.ico">
     {{ $styles := resources.Get "scss/app.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/css/custom.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
     <link rel="stylesheet" href="https://rrchnm.org/donate/donate-style.css">
 
     <link type="application/atom+xml" rel="alternate" href="{{ .Site.BaseURL }}/articles.xml"
