@@ -3,7 +3,8 @@ title: "Unexpected Origins: Mapping Assisted Female Immigrants to New South Wale
 doi: "hTK"
 volume_number: 9
 year: 2026
-date: 2026-04-TK
+date: 2026-04-30
+draft: true
 authors:
 - last: Connor
   first: Kimberley
