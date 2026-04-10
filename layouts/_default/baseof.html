@@ -3,14 +3,14 @@
 <a class="skip-link" href="#main-content">Skip to main content</a>
 
 <header class="grid-x align-right" role="banner">
-  <div class="auto cell">
+  <div class="small-12 medium-auto cell">
       {{ if .IsHome }}
       <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
       {{ else }}
       <p class="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></p>
       {{ end }}
   </div>
-  <div class="small-4 cell">
+  <div class="small-12 medium-4 cell">
       {{ partial "nav-menu.html" . }}
   </div>
 </header>
