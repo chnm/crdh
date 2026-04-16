@@ -1,64 +1,52 @@
-# Use Alpine Linux as base image for smaller size
-FROM alpine:3.23 AS build-stage
+# syntax=docker/dockerfile:1.7
+
+FROM stagex/pallet-nodejs AS build-stage
+
+COPY --from=stagex/user-hugo-extended /usr/bin/hugo /usr/local/bin/hugo
 
 ARG hugobuildargs
 ENV HUGO_BUILD_ARGS=$hugobuildargs
 
-# Set Hugo version - update this to the latest version
-ENV HUGO_VERSION=0.154.5
-ENV HUGO_BINARY=hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
-
-# Install Hugo and dependencies + Node.js for SCSS compilation
-RUN apk add --no-cache \
-    wget \
-    ca-certificates \
-    gcompat \
-    libstdc++ \
-    nodejs \
-    npm && \
-    ARCH=$(uname -m) && \
-    case ${ARCH} in \
-        x86_64) HUGO_ARCH="Linux-64bit" ;; \
-        aarch64) HUGO_ARCH="Linux-ARM64" ;; \
-        armv7l) HUGO_ARCH="Linux-ARM" ;; \
-        *) echo "Unsupported architecture: ${ARCH}" && exit 1 ;; \
-    esac && \
-    HUGO_BINARY=hugo_extended_${HUGO_VERSION}_${HUGO_ARCH}.tar.gz && \
-    wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} && \
-    tar xzf ${HUGO_BINARY} && \
-    mv hugo /usr/local/bin/hugo && \
-    rm ${HUGO_BINARY} && \
-    apk del wget
-
-RUN hugo version
-
-# Set working directory
 WORKDIR /app
+COPY . .
 
-# Copy all project files first
-ADD . .
+# Legacy devDependencies (node-sass/gulp) aren't used for the Hugo build;
+# --ignore-scripts skips their postinstall compilation.
+RUN npm ci --ignore-scripts
 
-# Install npm dependencies AFTER copying all files
-# We need foundation-sites (in devDeps) for SCSS source files
-# Use --ignore-scripts to skip node-sass/gulp build steps (Hugo compiles SCSS)
-# This ensures node_modules is in /app where Hugo's SCSS compiler can find it
-RUN npm install --ignore-scripts
-
-# Hugo's Dart Sass doesn't resolve node_modules imports like Node Sass does
-# Copy Foundation SCSS from node_modules into assets where Hugo can find it
-# Need to copy the entire scss directory including _vendor subdirectory
+# Hugo's Dart Sass doesn't resolve node_modules imports, so stage
+# Foundation SCSS sources where Hugo's asset pipeline can find them.
 RUN mkdir -p assets/vendor && \
     cp -r node_modules/foundation-sites assets/vendor/ && \
     cp -r node_modules/motion-ui assets/vendor/
 
-# Build the site with Hugo
 RUN hugo ${HUGO_BUILD_ARGS}
 
-FROM nginx:1.23-alpine
+FROM stagex/user-caddy
 
-COPY --from=build-stage /app/public/ /usr/share/nginx/html
+COPY --from=stagex/core-musl / /
+COPY --from=build-stage /app/public /srv
 
-# Create symlink from /img to /assets/img for backward compatibility with markdown image paths
-RUN ln -s /usr/share/nginx/html/assets/img /usr/share/nginx/html/img
+COPY <<'EOF' /etc/caddy/Caddyfile
+{
+	auto_https off
+	admin off
+}
 
+:80 {
+	root * /srv
+	encode gzip zstd
 
+	# Backward compatibility: /img/* serves from /assets/img/*
+	rewrite /img/* /assets{uri}
+
+	file_server
+}
+EOF
+
+ENV XDG_CONFIG_HOME=/tmp/caddy-config \
+    XDG_DATA_HOME=/tmp/caddy-data
+
+EXPOSE 80
+ENTRYPOINT ["/usr/bin/caddy"]
+CMD ["run", "--config", "/etc/caddy/Caddyfile", "--adapter", "caddyfile"]
