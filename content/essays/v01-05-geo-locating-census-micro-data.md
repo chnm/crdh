@@ -3,7 +3,8 @@ title: "Geo-Locating Census Micro-Data"
 subtitle: "Segregation, Clustering, and Residential Behaviours of Migrant Communities in London, 1881–1911"
 doi: "https://doi.org/10.31835/crdh.2018.05"
 volume_number: 1
-year: 2018
+year: "2018"
+volume: "2018"
 date: 2018-08-27
 authors:
 - last: Perry

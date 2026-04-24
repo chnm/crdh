@@ -2,7 +2,8 @@
 title: "Unexpected Origins: Mapping Assisted Female Immigrants to New South Wales"
 doi: "TK"
 volume_number: 9
-year: 2026
+year: "2026"
+volume: "2026"
 date: 2026-04-30
 draft: true
 authors:

@@ -2,7 +2,8 @@
 title: "Visualizing Generational Change in Early Modern Law Dissertations"
 doi: "https://doi.org/10.31835/crdh.2022.01"
 volume_number: 5
-year: 2022
+year: "2022"
+volume: "2022"
 date: 2022-05-02
 authors:
 - last: Scholz

@@ -3,7 +3,8 @@ title: "Across the Color Line"
 subtitle: "Using Text Networks to Examine Black and White US Soldiers’ Views on Race and Segregation during World War II"
 doi: "https://doi.org/10.31835/crdh.2023.01"
 volume_number: 6
-year: 2023
+year: "2023"
+volume: "2023"
 date: 2023-05-17
 authors:
 - last: Gitre

@@ -3,7 +3,8 @@ title: "Black Placemaking in Texas"
 subtitle: "Sonic and Social Histories of Newton and Jasper County Freedom Colonies"
 doi: "https://doi.org/10.31835/crdh.2019.06"
 volume_number: 2
-year: 2019
+year: "2019"
+volume: "2019"
 date: 2019-08-23
 authors:
 - last: Roberts

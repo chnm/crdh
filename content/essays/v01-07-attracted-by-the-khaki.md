@@ -3,7 +3,8 @@ title: "“Attracted by the Khaki”"
 subtitle: "War Camps and Wayward Girls in Virginia, 1918–1920"
 doi: "https://doi.org/10.31835/crdh.2018.07"
 volume_number: 1
-year: 2018
+year: "2018"
+volume: "2018"
 date: 2018-08-27
 authors:
 - last: Bush

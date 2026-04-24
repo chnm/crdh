@@ -3,7 +3,8 @@ title: "Glitching History"
 subtitle: "Using Image Deformance to Rethink Agency and Authenticity in the 1960s American Folk Music Revival"
 doi: "https://doi.org/10.31835/crdh.2018.08"
 volume_number: 1
-year: 2018
+year: "2018"
+volume: "2018"
 date: 2018-08-27
 authors:
 - last: Kramer

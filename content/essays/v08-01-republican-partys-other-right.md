@@ -2,7 +2,8 @@
 title: "The Republican Party’s Other Right: A Computational History of the Old Right’s Noninterventionism and their Decline within the GOP, 1934-1992"
 doi: "https://doi.org/10.31835/crdh.2025.01"
 volume_number: 8
-year: 2025
+year: "2025"
+volume: "2025"
 date: 2025-09-04
 primary-editor: Zoe LeBlanc
 authors:

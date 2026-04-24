@@ -2,7 +2,8 @@
 title: "A Digital Reconstruction of Privacy in the Royal Apartments? Network Theory and the 1585 court ordinance of Henri III of France"
 doi: "https://doi.org/10.31835/crdh.2025.04"
 volume_number: 8
-year: 2025
+year: "2025"
+volume: "2025"
 date: 2025-10-30
 authors:
 - last: Fraikin

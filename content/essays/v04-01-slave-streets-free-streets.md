@@ -3,7 +3,8 @@ title: "Slave Streets, Free Streets"
 subtitle: "Visualizing the Landscape of Early Baltimore"
 doi: "https://doi.org/10.31835/crdh.2021.01"
 volume_number: 4
-year: 2021
+year: "2021"
+volume: "2021"
 date: 2021-10-13
 authors:
 - last: Rubin

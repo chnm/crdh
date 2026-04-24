@@ -39,10 +39,11 @@ markup:
     style: "monokai"
     lineNos: true
 
-# Taxonomies for volume-based organization
+# Taxonomies for volume-based organization.
+# `volume` frontmatter (e.g. volume: "2025") renders term pages at /volume/2025/.
+# The CRDH journal publishes one volume per year, so the taxonomy term is the year string.
 taxonomies:
-  volume: "volumes"
-  year: "years"
+  volume: "volume"
 
 # Custom parameters matching Jekyll site.* variables
 params:

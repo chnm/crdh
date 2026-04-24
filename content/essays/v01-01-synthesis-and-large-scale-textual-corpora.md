@@ -4,7 +4,8 @@ subtitle: "A Nested Topic Model of Britain’s Debates over Landed Property in t
 Nineteenth Century"
 doi: "https://doi.org/10.31835/crdh.2018.01"
 volume_number: 1
-year: 2018
+year: "2018"
+volume: "2018"
 date: 2018-08-27
 authors:
 - last: Guldi

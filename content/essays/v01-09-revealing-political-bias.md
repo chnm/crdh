@@ -3,7 +3,8 @@ title: "Revealing Political Bias"
 subtitle: "A Macroanalysis of 8,480 Herblock Cartoons"
 doi: "https://doi.org/10.31835/crdh.2018.09"
 volume_number: 1
-year: 2018
+year: "2018"
+volume: "2018"
 date: 2018-08-27
 authors:
 - last: Appleford
