@@ -1,6 +1,6 @@
 ---
 title: "Unexpected Origins: Mapping Assisted Female Immigrants to New South Wales"
-doi: "TK"
+doi: "https://doi.org/10.31835/crdh.2026.01"
 volume_number: 9
 year: "2026"
 volume: "2026"
