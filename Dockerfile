@@ -4,7 +4,7 @@ FROM stagex/pallet-nodejs AS build-stage
 
 COPY --from=stagex/user-hugo-extended /usr/bin/hugo /usr/local/bin/hugo
 
-ARG hugobuildargs
+ARG hugobuildargs="--buildDrafts --buildFuture"
 ENV HUGO_BUILD_ARGS=$hugobuildargs
 
 WORKDIR /app

@@ -3,7 +3,7 @@ title: "A Digital Reconstruction of Privacy in the Royal Apartments? Network The
 doi: "https://doi.org/10.31835/crdh.2025.04"
 volume_number: 8
 year: 2025
-date: 2025-08-28
+date: 2025-10-30
 authors:
 - last: Fraikin
   first: Miara

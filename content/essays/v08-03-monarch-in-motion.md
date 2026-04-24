@@ -3,7 +3,7 @@ title: "A Monarch in Motion: Mapping the King's Private Correspondence"
 doi: "https://doi.org/10.31835/crdh.2025.03"
 volume_number: 8
 year: 2025
-date: 2025-08-28
+date: 2025-10-30
 authors:
 - last: Maekelberg
   first: Sanne

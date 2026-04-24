@@ -13,7 +13,7 @@
             {{ $year := int .Key }}
             {{ $volumeNumber := sub $year 2017 }}
             <h2>Volume {{ $volumeNumber }} ({{ $year }})</h2>
-            {{ range $index, $essay := .Pages.Reverse }}
+            {{ range $index, $essay := sort .Pages "File.LogicalName" "desc" }}
             {{ $essayIndex := printf "%d-%d" $year $index }}
             <div class="essay clearfix media-object stack-for-small">
                 <div class="media-object-section">

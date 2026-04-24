@@ -8,7 +8,7 @@
             {{ range $essaysByYear.Reverse }}
             {{ $volumeNumber := sub .Key 2017 }}
             <h2>Volume {{ $volumeNumber }} ({{ .Key }}) </h2>
-            {{ range .Pages.Reverse }}
+            {{ range sort .Pages "File.LogicalName" "desc" }}
             {{ $essayIndex := printf "%s-%d" $.Key (add .Scratch.Get "index" 1) }}
             <div class="essay clearfix media-object stack-for-small">
                 <div class="media-object-section">

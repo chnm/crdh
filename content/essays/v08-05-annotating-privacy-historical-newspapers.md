@@ -3,7 +3,7 @@ title: Annotating "Privacy" to Train Semi-Supervised Event Extraction Models for
 doi: "https://doi.org/10.31835/crdh.2025.05"
 volume_number: 8
 year: 2025
-date: 2025-08-28
+date: 2025-10-30
 authors:
 - last: da Silva Perez
   first: Natália
