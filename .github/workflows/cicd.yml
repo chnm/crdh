@@ -15,6 +15,7 @@ jobs:
       container-registry: "ghcr.io"
       container-image-name: "crdh-website"
       hugo-context-root: "."
+      hugo-content-path: "/srv"
       hugo-devl-url: "https://dev.crdh.rrchnm.org"
       hugo-prod-url: "https://crdh.rrchnm.org"
 
