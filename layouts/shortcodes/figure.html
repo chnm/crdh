@@ -1,0 +1,7 @@
+{{ $caption := .Get "caption" }}
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+  {{ .Inner | .Page.RenderString }}
+  {{ with $caption }}
+    <figcaption>{{ . | markdownify }}</figcaption>
+  {{ end }}
+</figure>

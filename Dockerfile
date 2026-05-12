@@ -1,17 +1,52 @@
-FROM ruby:3.1.2 AS build-stage
+# syntax=docker/dockerfile:1.7
 
-ARG environment
-ARG configfile
-ENV ENVIRONMENT=$environment
-ENV CONFIG_FILE=$configfile
+FROM stagex/pallet-nodejs AS build-stage
+
+COPY --from=stagex/user-hugo-extended /usr/bin/hugo /usr/local/bin/hugo
+
+ARG hugobuildargs="--buildDrafts --buildFuture"
+ENV HUGO_BUILD_ARGS=$hugobuildargs
 
 WORKDIR /app
-ADD . .
+COPY . .
 
-RUN gem install bundler
-RUN bundle install
-RUN JEKYLL_ENV=${ENVIRONMENT} bundle exec jekyll build --destination ./_site --config _config.yml,${CONFIG_FILE}
+# Legacy devDependencies (node-sass/gulp) aren't used for the Hugo build;
+# --ignore-scripts skips their postinstall compilation.
+RUN npm ci --ignore-scripts
 
-FROM nginx:1.23-alpine
+# Hugo's Dart Sass doesn't resolve node_modules imports, so stage
+# Foundation SCSS sources where Hugo's asset pipeline can find them.
+RUN mkdir -p assets/vendor && \
+    cp -r node_modules/foundation-sites assets/vendor/ && \
+    cp -r node_modules/motion-ui assets/vendor/
 
-COPY --from=build-stage /app/_site/ /usr/share/nginx/html
+RUN hugo ${HUGO_BUILD_ARGS}
+
+FROM stagex/user-caddy
+
+COPY --from=stagex/core-musl / /
+COPY --from=build-stage /app/public /srv
+
+COPY <<'EOF' /etc/caddy/Caddyfile
+{
+	auto_https off
+	admin off
+}
+
+:80 {
+	root * /srv
+	encode gzip zstd
+
+	# Backward compatibility: /img/* serves from /assets/img/*
+	rewrite /img/* /assets{uri}
+
+	file_server
+}
+EOF
+
+ENV XDG_CONFIG_HOME=/tmp/caddy-config \
+    XDG_DATA_HOME=/tmp/caddy-data
+
+EXPOSE 80
+ENTRYPOINT ["/usr/bin/caddy"]
+CMD ["run", "--config", "/etc/caddy/Caddyfile", "--adapter", "caddyfile"]

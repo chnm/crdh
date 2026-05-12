@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1" xmlns:fr="http://www.crossref.org/fundref.xsd" xsi:schemaLocation="http://www.crossref.org/schema/5.4.0 https://www.crossref.org/schemas/crossref5.4.0.xsd" version="5.4.0">
+  <head>
+    <doi_batch_id>77c14e5509502e213ffc</doi_batch_id>
+    <timestamp>20260424122509916</timestamp>
+    <depositor>
+      <depositor_name>rrch:rrch</depositor_name>
+      <email_address>chnm@gmu.edu</email_address>
+    </depositor>
+    <registrant>Roy Rosenzweig Center for History and New Media</registrant>
+  </head>
+  <body>
+    <journal>
+      <journal_metadata>
+        <full_title>Current Research in Digital History</full_title>
+        <abbrev_title>CRDH</abbrev_title>
+        <issn media_type="electronic">26375923</issn>
+        <doi_data>
+          <doi>10.31835/crdh</doi>
+          <resource>http://crdh.rrchnm.org/</resource>
+        </doi_data>
+      </journal_metadata>
+      <journal_issue>
+        <publication_date media_type="online">
+          <year>2026</year>
+        </publication_date>
+        <journal_volume>
+          <volume>9</volume>
+        </journal_volume>
+        <doi_data>
+          <doi>10.31835/crdh.2026</doi>
+          <resource>http://crdh.rrchnm.org/volume/2026/</resource>
+        </doi_data>
+      </journal_issue>
+      <journal_article publication_type="full_text">
+        <titles>
+          <title>Unexpected Origins: Mapping Assisted Female Immigrants to New South Wales</title>
+        </titles>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Kimberly G.</given_name>
+            <surname>Connor</surname>
+            <ORCID>https://orcid.org/0000-0003-3803-2764</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="editor">
+            <given_name>Stephen</given_name>
+            <surname>Robertson</surname>
+            <ORCID>https://orcid.org/0000-0002-3591-2494</ORCID>
+          </person_name>
+        </contributors>
+        <jats:abstract xml:lang="en">
+          <jats:p>During the transition from convict societies to free settler colonies, the Australian colonies encouraged immigration by young, unmarried, working-class women to fill labor shortages and to marry into the community. The tens of thousands of women and girls who arrived under these schemes over the course of the nineteenth century fundamentally changed colonial society. New digital tools for compiling, analyzing, and visualizing data on these women permit closer examination of the characteristics of the group, and of individual outliers. Using historical shipping records, this article delves into the places of origin for 3,768 women and children who arrived on subsidized passages in Sydney between 1848 and 1887. Digital maps confirm the overwhelming predominance of immigrants from the United Kingdom and Ireland. The visualizations also highlight a minority of immigrants from other parts of the world, uncovering new patterns of colonial connections, multi-stage journeys, and return migration which complicate the narrative of female assisted migration.</jats:p>
+        </jats:abstract>
+        <publication_date media_type="online">
+          <month>04</month>
+          <year>2026</year>
+        </publication_date>
+        <doi_data>
+          <doi>10.31835/crdh.2026.01</doi>
+          <resource>http://crdh.rrchnm.org/essays/v09-unexpected-origins</resource>
+        </doi_data>
+      </journal_article>
+    </journal>
+  </body>
+</doi_batch>

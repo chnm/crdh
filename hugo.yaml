@@ -1,0 +1,83 @@
+baseURL: "https://crdh.rrchnm.org"
+languageCode: "en"
+title: "Current Research in Digital History"
+description: "Hosted by the Roy Rosenzweig Center for History and New Media, Current Research in Digital History is an open-access, peer-reviewed, online publication. Its primary aim is to encourage and publish scholarship in digital history that offers discipline-specific arguments and interpretations."
+
+# Hugo-specific settings
+enableGitInfo: false
+summaryLength: 30
+enableRobotsTXT: true
+
+# Pagination settings
+pagination:
+  pagerSize: 50
+
+# Define custom media types first
+mediaTypes:
+  application/atom+xml:
+    suffixes:
+      - xml
+
+# Then reference them in output formats
+outputFormats:
+  RSS:
+    mediaType: application/atom+xml
+    baseName: articles
+    isPlainText: false
+
+# Output configuration
+outputs:
+  home: ["HTML", "RSS"]
+  section: ["HTML"]
+
+# Markup configuration for scholarly content
+markup:
+  goldmark:
+    renderer:
+      unsafe: true  # Allow HTML in markdown (for scholarly annotations)
+  highlight:
+    style: "monokai"
+    lineNos: true
+
+# Taxonomies for volume-based organization.
+# `volume` frontmatter (e.g. volume: "2025") renders term pages at /volume/2025/.
+# The CRDH journal publishes one volume per year, so the taxonomy term is the year string.
+taxonomies:
+  volume: "volume"
+
+# Custom parameters matching Jekyll site.* variables
+params:
+  description: "Hosted by the Roy Rosenzweig Center for History and New Media, Current Research in Digital History is an open-access, peer-reviewed, online publication. Its primary aim is to encourage and publish scholarship in digital history that offers discipline-specific arguments and interpretations."
+  appendices: "http://crdh.rrchnm.org/appendices"
+  current_volume: "2020"
+  current_number: "3"
+  issn: "2637-5923"
+  journal_title: "Current Research in Digital History"
+  journal_abbrev: "CRDH"
+  google_verification: ""
+
+# Menu configuration from nav-main.yml and nav-footer.yml
+menus:
+  main:
+    - identifier: "submissions"
+      name: "Submitting to CRDH"
+      url: "/submissions/"
+      weight: 1
+    - identifier: "about"
+      name: "About the Journal"
+      url: "/about/"
+      weight: 2
+  footer:
+    - identifier: "legal"
+      name: "Legal"
+      url: "#"
+      weight: 1
+
+# Permalink configuration to preserve existing Jekyll URLs
+# Use filename instead of title to maintain original paths like essays/v08-07-louis-xiv-appartement/
+permalinks:
+  essays: "/essays/:contentbasename/"
+
+# Asset processing with Hugo Pipes
+build:
+  writeStats: true

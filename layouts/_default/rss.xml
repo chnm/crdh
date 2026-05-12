@@ -1,0 +1,31 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title type="text" xml:lang="en">{{ .Site.Title }} - Articles</title>
+	<link type="application/atom+xml" href="{{ .Site.BaseURL }}/articles.xml" rel="self" />
+	<link type="text/html" href="{{ .Site.BaseURL }}" rel="alternate" />
+	<updated>{{ now.Format "2006-01-02T15:04:05Z07:00" }}</updated>
+	<id>{{ .Site.BaseURL }}/articles.xml</id>
+	<author>
+		<name>Roy Rosenzweig Center for History and New Media</name>
+	</author>
+	<rights>Creative Commons BY-NC-ND</rights>
+
+	{{ $essays := where .Site.RegularPages "Type" "essays" }}
+	{{ range $essays }}
+	<entry>
+		<title>{{ .Title }}{{ with .Params.subtitle }}: {{ . }}{{ end }}</title>
+		<link href="{{ .Permalink }}" rel="alternate" />
+		<updated>{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</updated>
+		<published>{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</published>
+		<id>{{ .Permalink }}</id>
+		<summary>{{ .Params.abstract | plainify | htmlEscape }}</summary>
+		<content src="{{ .Permalink }}" type="text/html" />
+		{{ range .Params.authors }}
+		<author>
+			<name>{{ .first }} {{ .last }}</name>
+			<email>{{ .email }}</email>
+		</author>
+		{{ end }}
+	</entry>
+	{{ end }}
+</feed>

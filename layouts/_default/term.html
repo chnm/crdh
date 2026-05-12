@@ -1,0 +1,70 @@
+{{ define "main" }}
+{{ $year := int .Title }}
+{{ $volumeNumber := sub $year 2017 }}
+<main id="main-content" class="grid-container">
+    <div class="grid-x">
+        <div class="large-9 columns large-order-1 medium-order-2" id="article-list">
+            <h2>Volume {{ $volumeNumber }} ({{ $year }})</h2>
+            {{ range $index, $essay := sort .Pages "File.LogicalName" "desc" }}
+            {{ $essayIndex := printf "%d-%d" $year $index }}
+            <div class="essay clearfix media-object stack-for-small">
+                <div class="media-object-section">
+                    <div class="thumbnail">
+                        <a href="{{ .RelPermalink }}">
+                            <img src="{{ .Params.preview }}" alt="Preview image for {{ .Title | plainify }}">
+                        </a>
+                    </div>
+                </div>
+                <div class="media-object-section">
+                    {{ if .Params.subtitle }}
+                    <h3><a href="{{ .RelPermalink }}">{{ .Title | safeHTML }}: {{ .Params.subtitle | safeHTML }}</a></h3>
+                    {{ else }}
+                    <h3><a href="{{ .RelPermalink }}">{{ .Title | safeHTML }}</a></h3>
+                    {{ end }}
+                    <span class="author">
+                        {{ $authorCount := len .Params.authors }}
+                        {{ range $index, $author := .Params.authors }}
+                        {{ $authorIndex := add $index 1 }}
+                        {{ if eq $authorCount 1 }}
+                        {{ $author.first }} {{ $author.last }}
+                        {{ else if eq $authorCount 2 }}
+                        {{ $author.first }} {{ $author.last }}{{ if eq $authorIndex 1 }} and {{ end }}
+                        {{ else }}
+                        {{ $authorIndexTwo := add $authorIndex 1 }}
+                        {{ $author.first }}
+                        {{ $author.last }}{{ if eq $authorIndex $authorCount }}{{ else if eq $authorIndexTwo $authorCount }},
+                        and {{ else }},{{ end }}
+                        {{ end }}
+                        {{ end }}
+                    </span>
+                    <span class="published">Published: <time
+                            datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time></span>
+                    <span class="doi">DOI: <a href="{{ .Params.doi }}">{{ .Params.doi }}</a></span>
+                    {{ with .Params.abstract }}
+                    <button class="button secondary small" type="button"
+                        aria-expanded="false"
+                        aria-controls="abstract-{{ $essayIndex }}"
+                        data-toggle="abstract-{{ $essayIndex }}">Abstract</button>
+                    <div class="abstract" id="abstract-{{ $essayIndex }}" data-toggler data-animate="fade-in fade-out"
+                        aria-hidden="true" role="region"
+                        aria-label="Abstract for {{ $essay.Title | plainify }}">
+                        {{ . | markdownify }}</div>
+                    {{ end }}
+                </div>
+            </div>
+            <hr>
+            {{ end }}
+        </div>
+        <aside class="large-3 large-offset-0 columns large-order-2 medium-order-1" id="volume-list">
+            <h4>All Volumes</h4>
+            <ul>
+            {{ range $term, $taxonomy := .Site.Taxonomies.volume }}
+                {{ $termYear := int $term }}
+                {{ $termVolume := sub $termYear 2017 }}
+                <li><a href="/volume/{{ $term }}/">Volume {{ $termVolume }} ({{ $term }})</a></li>
+            {{ end }}
+            </ul>
+        </aside>
+    </div>
+</main>
+{{ end }}

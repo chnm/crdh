@@ -1,0 +1,38 @@
+{{ partial "head.html" . }}
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header class="grid-x align-right" role="banner">
+  <div class="small-12 medium-auto cell">
+      {{ if .IsHome }}
+      <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+      {{ else }}
+      <p class="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></p>
+      {{ end }}
+  </div>
+  <div class="small-12 medium-4 cell">
+      {{ partial "nav-menu.html" . }}
+  </div>
+</header>
+
+<hr>
+
+{{ block "main" . }}
+  <!-- Content goes here -->
+{{ end }}
+
+<hr>
+
+<footer class="grid-x align-justify" role="contentinfo">
+    <div class="cell large-6">
+        <a href="https://rrchnm.org"><img src="{{ .Site.BaseURL }}/assets/img/rrchnm-logo.png" alt="Roy Rosenzweig Center for History and New Media"></a>
+        <a href="https://gmu.edu"><img src="{{ .Site.BaseURL }}/assets/img/gmu-logo.jpg" alt="George Mason University"></a>
+        <p>This publication is licensed <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-NC-ND</a>.</p>
+    </div>
+    <div class="cell large-6">
+        <p><em>Current Research in Digital History</em> is published by <a href="https://rrchnm.org">RRCHNM</a> at <a href="https://gmu.edu">George Mason University</a>.</p>
+        <p>ISSN 2637-5923</p>
+    </div>
+</footer>
+
+{{ partial "foot.html" . }}

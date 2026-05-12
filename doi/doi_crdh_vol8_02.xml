@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.crossref.org/schema/5.4.0 https://www.crossref.org/schemas/crossref5.4.0.xsd"
+	xmlns="http://www.crossref.org/schema/5.4.0" xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1"
+	xmlns:fr="http://www.crossref.org/fundref.xsd" version="5.4.0">
+<head>
+  <doi_batch_id>jv94990ldpmkibamke9t</doi_batch_id>
+  <timestamp>20251023000000002</timestamp>
+  <depositor>
+    <depositor_name>rrch:rrch</depositor_name>
+    <email_address>chnm@gmu.edu</email_address>
+  </depositor>
+  <registrant>Roy Rosenzweig Center for History and New Media</registrant>
+</head>
+
+<body>
+	<journal>
+		<journal_metadata>
+			<full_title>Current Research in Digital History</full_title>
+			<abbrev_title>CRDH</abbrev_title>
+			<issn media_type="electronic">26375923</issn>
+			<doi_data>
+				<doi>10.31835/crdh</doi>
+				<resource>http://crdh.rrchnm.org/</resource>
+			</doi_data>
+		</journal_metadata>
+		<journal_issue>
+			<publication_date media_type="online">
+				<year>2025</year>
+			</publication_date>
+			<journal_volume>
+				<volume>8</volume>
+			</journal_volume>
+			<doi_data>
+				<doi>10.31835/crdh.2025</doi>
+				<resource>http://crdh.rrchnm.org/volume/2025/</resource>
+			</doi_data>
+		</journal_issue>
+		<journal_article publication_type="full_text">
+			<titles>
+				<title>Visualising Art on the Threshold in the Palazzo Medici, Florence</title>
+			</titles>
+			<contributors>
+				<person_name sequence="first" contributor_role="author">
+					<given_name>Anna</given_name>
+					<surname>McGee</surname>
+					<ORCID>https://orcid.org/0000-0003-1141-8958</ORCID>
+				</person_name>
+		    <person_name sequence="additional" contributor_role="editor">
+		      <given_name>Lincoln</given_name>
+		      <surname>Mullen</surname>
+		      <ORCID>https://orcid.org/0000-0001-5103-6917</ORCID>
+		    </person_name>
+			</contributors>
+			<jats:abstract xml:lang="en">
+			<jats:p>This paper explores the visual and kinaesthetic experience of traversing the domestic interior in fifteenth-century Florence, and the selective permeability of its physical and conceptual thresholds. The exploration is framed by an analysis of the composition and original architectural context of Filippo Lippi's c.1450 *Annunciation* painting (now in the National Gallery, London), which was probably installed above one of the doorways on the piano nobile of the Palazzo Medici. Not only was the painting's subject matter iconographically suitable to a liminal positioning, but the artist also made compositional choices specific to the rich domestic environment for which it was intended: the painted space of the Virgin's private domain and the real space of the Palazzo Medic were visually and symbolically symbiotic. The paper concludes by considering the potential use of animated 3D digital models, as scholarly as well as public-facing tools, to activate the relationship between artwork, threshold and viewer-in-motion in the early modern home.</jats:p>
+			</jats:abstract>
+			<publication_date media_type="online">
+	    	<month>08</month>
+				<year>2025</year>
+			</publication_date>
+			<doi_data>
+				<doi>10.31835/crdh.2025.02</doi>
+				<resource>https://crdh.rrchnm.org/essays/v08-02-visualizing-art-palazzo-medici/</resource>
+			</doi_data>
+		</journal_article>
+	</journal>
+</body>
+</doi_batch>
