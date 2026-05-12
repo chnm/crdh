@@ -4,8 +4,8 @@ doi: "https://doi.org/10.31835/crdh.2026.01"
 volume_number: 9
 year: "2026"
 volume: "2026"
-date: 2026-04-30
-draft: true
+date: 2026-05-12
+draft: false
 authors:
 - last: Connor
   first: Kimberley G.
