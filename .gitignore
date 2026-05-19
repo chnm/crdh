@@ -46,11 +46,14 @@ assets/vendor/
 
 # Composer
 composer.lock
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 # Misc
 *.code-workspace
 vendor
 .bundle
 .jekyll-cache
+
+# Hugo
+public/
+resources/
+.hugo_build.lock
