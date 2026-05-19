@@ -1,8 +1,10 @@
 {{ define "main" }}
-<main id="main-content">
-<article>
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-</article>
+<main id="main-content" class="flex-1">
+    <div class="mx-auto max-w-site px-6 lg:px-10 py-12 lg:py-16">
+        <article class="max-w-3xl mx-auto prose prose-lg prose-stone">
+            <h1>{{ .Title }}</h1>
+            {{ .Content }}
+        </article>
+    </div>
 </main>
 {{ end }}

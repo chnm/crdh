@@ -1,80 +1,233 @@
 {{ define "main" }}
-<main id="main-content" class="grid-container">
-    <div class="grid-x">
-        <div class="large-9 columns large-order-1 medium-order-2" id="article-list">
-            {{ $essays := where .Site.RegularPages "Section" "essays" }}
-            {{ $essaysByYear := $essays.GroupByDate "2006" }}
-            {{ $yearGroups := slice }}
-            {{ range $essaysByYear }}
-                {{ $yearGroups = $yearGroups | append . }}
-            {{ end }}
+{{ $allEssays := where .Site.RegularPages "Section" "essays" }}
+{{ $withPreviews := where $allEssays ".Params.preview" "!=" nil }}
 
-            {{ range sort $yearGroups "Key" "desc" }}
-            {{ $year := int .Key }}
-            {{ $volumeNumber := sub $year 2017 }}
-            <h2>Volume {{ $volumeNumber }} ({{ $year }})</h2>
-            {{ range $index, $essay := sort .Pages "File.LogicalName" "desc" }}
-            {{ $essayIndex := printf "%d-%d" $year $index }}
-            <div class="essay clearfix media-object stack-for-small">
-                <div class="media-object-section">
-                    <div class="thumbnail">
-                        <a href="{{ .RelPermalink }}">
-                            <img src="{{ .Params.preview }}" alt="Preview image for {{ .Title | plainify }}">
-                        </a>
-                    </div>
-                </div>
-                <div class="media-object-section">
-                    {{ if .Params.subtitle }}
-                    <h3><a href="{{ .RelPermalink }}">{{ .Title | safeHTML }}: {{ .Params.subtitle | safeHTML }}</a></h3>
-                    {{ else }}
-                    <h3><a href="{{ .RelPermalink }}">{{ .Title | safeHTML }}</a></h3>
-                    {{ end }}
-                    <span class="author">
-                        {{ $authorCount := len .Params.authors }}
-                        {{ range $index, $author := .Params.authors }}
-                        {{ $authorIndex := add $index 1 }}
-                        {{ if eq $authorCount 1 }}
-                        {{ $author.first }} {{ $author.last }}
-                        {{ else if eq $authorCount 2 }}
-                        {{ $author.first }} {{ $author.last }}{{ if eq $authorIndex 1 }} and {{ end }}
-                        {{ else }}
-                        {{ $authorIndexTwo := add $authorIndex 1 }}
-                        {{ $author.first }}
-                        {{ $author.last }}{{ if eq $authorIndex $authorCount }}{{ else if eq $authorIndexTwo $authorCount }},
-                        and {{ else }},{{ end }}
-                        {{ end }}
-                        {{ end }}
-                    </span>
-                    <span class="published">Published: <time
-                            datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time></span>
-                    <span class="doi">DOI: <a href="{{ .Params.doi }}">{{ .Params.doi }}</a></span>
-                    {{ with .Params.abstract }}
-                    <button class="button secondary small" type="button"
-                        aria-expanded="false"
-                        aria-controls="abstract-{{ $essayIndex }}"
-                        data-toggle="abstract-{{ $essayIndex }}">Abstract</button>
-                    <div class="abstract" id="abstract-{{ $essayIndex }}" data-toggler data-animate="fade-in fade-out"
-                        aria-hidden="true" role="region"
-                        aria-label="Abstract for {{ $essay.Title | plainify }}">
-                        {{ . | markdownify }}</div>
-                    {{ end }}
+<main id="main-content" class="flex-1"
+    x-data="{
+        modal: { show: false, title: '', subtitle: '', authors: '', meta: '', abstract: '', url: '' },
+        openAbstract(el) {
+            this.modal.title = el.dataset.title;
+            this.modal.subtitle = el.dataset.subtitle || '';
+            this.modal.authors = el.dataset.authors;
+            this.modal.meta = el.dataset.meta;
+            this.modal.abstract = el.dataset.abstract;
+            this.modal.url = el.dataset.url;
+            this.modal.show = true;
+            this.$nextTick(() => this.$refs.modalDialog.showModal());
+        },
+        closeModal() {
+            this.$refs.modalDialog.close();
+            this.modal.show = false;
+        }
+    }"
+>
+
+    {{/* Abstract modal */}}
+    <dialog
+        x-ref="modalDialog"
+        @click.self="closeModal()"
+        @keydown.escape.window="closeModal()"
+        class="abstract-modal"
+    >
+        <div class="p-6 sm:p-8">
+            <div class="flex items-start justify-between gap-4 mb-4">
+                <h3 x-text="modal.title" class="text-lg lg:text-xl font-serif text-stone-900 leading-snug"></h3>
+                <button @click="closeModal()" class="shrink-0 p-1 text-stone-500 hover:text-stone-700 transition-colors" aria-label="Close">
+                    <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <template x-if="modal.subtitle">
+                <p class="text-sm text-stone-800 mb-4 font-serif italic" x-text="modal.subtitle"></p>
+            </template>
+            <p class="text-sm font-semibold text-stone-700 mb-1" x-text="modal.authors"></p>
+            <p class="text-xs text-stone-800 mb-4" x-text="modal.meta"></p>
+            <div class="border-t border-stone-200 pt-4">
+                <h4 class="label text-stone-800 mb-2">Abstract</h4>
+                <div class="text-sm text-stone-700 leading-relaxed prose prose-sm" x-html="modal.abstract"></div>
+            </div>
+            <div class="mt-6 flex items-center gap-3">
+                <a :href="modal.url" class="btn text-xs">Read Full Article</a>
+                <button @click="closeModal()" class="btn-secondary text-xs">Close</button>
+            </div>
+        </div>
+    </dialog>
+
+    {{/* Hero with random essay image background (randomized per page load) */}}
+    <section
+        class="relative bg-stone-900 overflow-hidden"
+        x-data="{ images: [{{ range $withPreviews }}{{ .Params.preview | jsonify }},{{ end }}], src: '' }"
+        x-init="src = images[Math.floor(Math.random() * images.length)]"
+    >
+        <img
+            :src="src"
+            alt=""
+            aria-hidden="true"
+            class="absolute inset-0 w-full h-full object-cover opacity-30 transition-opacity duration-500"
+            :class="src ? 'opacity-30' : 'opacity-0'"
+        >
+        <div class="absolute inset-0 bg-gradient-to-r from-stone-900 via-stone-900/85 to-stone-900/70"></div>
+        <div class="relative z-10 mx-auto max-w-site px-6 lg:px-10 py-10 lg:py-14">
+            <div class="max-w-2xl">
+                <h2 class="text-2xl lg:text-3xl text-white leading-snug mb-4">
+                    Scholarship in digital history that offers discipline-specific arguments and interpretations.
+                </h2>
+                <p class="text-sm lg:text-base text-white leading-relaxed mb-6">
+                    <em>Current Research in Digital History</em> is an open-access, peer-reviewed publication of the
+                    <a href="https://rrchnm.org" class="text-stone-200 hover:text-white underline">Roy Rosenzweig Center for History and New Media</a>.
+                    Articles are published on a rolling basis as they are received and peer reviewed.
+                </p>
+                <div class="flex flex-wrap items-center gap-4">
+                    <a href="/submissions/" class="btn text-xs">Submit an Article</a>
+                    <a href="{{ .Site.BaseURL }}/articles.xml" class="inline-flex items-center gap-1.5 text-xs font-semibold text-stone-300 hover:text-white transition-colors">
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+                        Subscribe to Feed
+                    </a>
                 </div>
             </div>
-            <hr>
-            {{ end }}
-            {{ end }}
         </div>
-        <aside class="large-3 large-offset-0 columns large-order-2 medium-order-1" id="volume-list">
-            <h4>About CRDH</h4>
-            <p>
-                <em>Current Research in Digital History</em>
-                is an open-access, peer-reviewed publication of the <a href="https://rrchnm.org">Roy Rosenzweig
-                Center for History and New
-                Media</a>. It publishes scholarship in digital history that offers discipline-specific arguments and
-                interpretations. Articles are published on a rolling basis as they are received and peer reviewed.
-                Follow the <a href="{{ .Site.BaseURL }}/articles.xml">articles feed</a> to be notified of new articles.
-            </p>
-        </aside>
+    </section>
+
+    <div class="mx-auto max-w-site px-6 lg:px-10 py-12 lg:py-16">
+
+        {{/* Group essays by year */}}
+        {{ $essaysByYear := $allEssays.GroupByDate "2006" }}
+        {{ $yearGroups := slice }}
+        {{ range $essaysByYear }}
+            {{ $yearGroups = $yearGroups | append . }}
+        {{ end }}
+        {{ $sorted := sort $yearGroups "Key" "desc" }}
+
+        {{/* Current volume — table of contents style */}}
+        {{ with index $sorted 0 }}
+        {{ $year := int .Key }}
+        {{ $volumeNumber := sub $year 2017 }}
+        <section class="mb-16">
+            <div class="flex items-baseline justify-between mb-6">
+                <h2 class="text-2xl lg:text-3xl">Volume {{ $volumeNumber }} ({{ $year }})</h2>
+                <span class="label text-red-brand">Current Volume</span>
+            </div>
+
+            <div class="border-t border-stone-200">
+            {{ range $index, $essay := sort .Pages "File.LogicalName" "desc" }}
+            {{ $authorNames := slice }}
+            {{ range .Params.authors }}{{ $authorNames = $authorNames | append (printf "%s %s" .first .last) }}{{ end }}
+            {{ $authorStr := delimit $authorNames ", " }}
+            {{ $num := add $index 1 }}
+            <article class="flex gap-5 py-6 border-b border-stone-100 group">
+                <span class="shrink-0 text-2xl lg:text-3xl font-serif w-8 text-right leading-tight" aria-hidden="true">{{ $num }}</span>
+                <div class="flex-1 min-w-0">
+                    <h3 class="text-lg lg:text-xl mb-1 leading-snug">
+                        <a href="{{ .RelPermalink }}" class="text-stone-900 group-hover:text-red-brand no-underline transition-colors">
+                            {{ .Title | safeHTML }}{{ with .Params.subtitle }}: <span class="text-stone-800">{{ . | safeHTML }}</span>{{ end }}
+                        </a>
+                    </h3>
+                    <p class="text-sm font-semibold text-stone-700 mb-1">{{ $authorStr }}</p>
+                    <p class="text-xs text-stone-800 mb-2">
+                        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+                        &middot; DOI: <a href="{{ .Params.doi }}" class="text-stone-800 hover:text-red-brand underline">{{ .Params.doi }}</a>
+                    </p>
+                    {{ with .Params.abstract }}
+                    <p class="text-sm text-stone-800 leading-relaxed line-clamp-2 mb-2">{{ . | markdownify | plainify | truncate 200 }}</p>
+                    <button
+                        class="text-red-brand hover:text-red-dark text-xs font-semibold cursor-pointer bg-transparent border-none p-0 font-sans"
+                        @click="openAbstract($el)"
+                        data-title="{{ $essay.Title | plainify | htmlEscape }}"
+                        data-subtitle="{{ with $essay.Params.subtitle }}{{ . | plainify | htmlEscape }}{{ end }}"
+                        data-authors="{{ $authorStr | htmlEscape }}"
+                        data-meta="Volume {{ $essay.Params.volume_number }} ({{ $essay.Params.year }}) · Published {{ $essay.Date.Format "2 January 2006" }}"
+                        data-abstract="{{ . | markdownify | htmlEscape }}"
+                        data-url="{{ $essay.RelPermalink }}"
+                    >Read abstract &rarr;</button>
+                    {{ end }}
+                </div>
+            </article>
+            {{ end }}
+            </div>
+        </section>
+        {{ end }}
+
+        {{/* Past volumes — compact list with volume nav sidebar */}}
+        {{ if gt (len $sorted) 1 }}
+        {{ $pastVolumes := after 1 $sorted }}
+        <section>
+            <h2 class="text-2xl lg:text-3xl mb-8 pb-3 border-b border-stone-200">Past Volumes</h2>
+
+            <div class="flex flex-col lg:flex-row gap-10 lg:gap-14">
+            <div class="lg:w-2/3">
+            {{ range $pastVolumes }}
+            {{ $year := int .Key }}
+            {{ $volumeNumber := sub $year 2017 }}
+            <div class="mb-10" id="volume-{{ $year }}">
+                <div class="flex items-baseline justify-between mb-4">
+                    <h3 class="text-xl">Volume {{ $volumeNumber }} ({{ $year }})</h3>
+                </div>
+
+                <div class="space-y-4">
+                {{ range $index, $essay := sort .Pages "File.LogicalName" "desc" }}
+                {{ $authorNames := slice }}
+                {{ range .Params.authors }}{{ $authorNames = $authorNames | append (printf "%s %s" .first .last) }}{{ end }}
+                {{ $authorStr := delimit $authorNames ", " }}
+                <article class="flex items-start gap-4">
+                    {{ with .Params.preview }}
+                    <a href="{{ $essay.RelPermalink }}" class="shrink-0 hidden sm:block">
+                        <img src="{{ . }}" alt="Preview image for {{ $essay.Title | plainify }}" class="w-20 h-14 object-cover rounded bg-stone-100" loading="lazy">
+                    </a>
+                    {{ end }}
+                    <div class="flex-1 min-w-0">
+                        <h4 class="text-base mb-0.5 leading-snug">
+                            <a href="{{ .RelPermalink }}" class="text-stone-900 hover:text-red-brand no-underline">
+                                {{ .Title | safeHTML }}{{ with .Params.subtitle }}: {{ . | safeHTML }}{{ end }}
+                            </a>
+                        </h4>
+                        <p class="text-xs text-stone-800">
+                            {{ $authorStr }}
+                            &middot; <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2006" }}</time>
+                            {{ with .Params.abstract }}
+                            &middot;
+                            <button
+                                class="text-red-brand hover:text-red-dark underline text-xs cursor-pointer bg-transparent border-none p-0 font-sans"
+                                @click="openAbstract($el)"
+                                data-title="{{ $essay.Title | plainify | htmlEscape }}"
+                                data-subtitle="{{ with $essay.Params.subtitle }}{{ . | plainify | htmlEscape }}{{ end }}"
+                                data-authors="{{ $authorStr | htmlEscape }}"
+                                data-meta="Volume {{ $essay.Params.volume_number }} ({{ $essay.Params.year }}) · Published {{ $essay.Date.Format "2 January 2006" }}"
+                                data-abstract="{{ . | markdownify | htmlEscape }}"
+                                data-url="{{ $essay.RelPermalink }}"
+                            >Abstract</button>
+                            {{ end }}
+                        </p>
+                    </div>
+                </article>
+                {{ end }}
+                </div>
+            </div>
+            {{ end }}
+            </div>
+
+            {{/* Volume quick-jump sidebar */}}
+            <aside class="lg:w-1/3">
+                <nav class="lg:sticky lg:top-8 bg-stone-50 border border-stone-200 rounded-lg p-5" aria-label="Volume navigation">
+                    <h4 class="label text-stone-800 mb-3">Jump to Volume</h4>
+                    <ul class="space-y-1.5 text-sm list-none p-0 m-0">
+                    {{ range $pastVolumes }}
+                        {{ $y := int .Key }}
+                        {{ $v := sub $y 2017 }}
+                        <li>
+                            <a href="#volume-{{ $y }}" class="flex items-center justify-between text-stone-700 hover:text-red-brand no-underline transition-colors py-1 px-2 rounded hover:bg-stone-100">
+                                <span>Volume {{ $v }}</span>
+                                <span class="text-xs text-stone-800">{{ $y }}</span>
+                            </a>
+                        </li>
+                    {{ end }}
+                    </ul>
+                </nav>
+            </aside>
+            </div>
+        </section>
+        {{ end }}
+
     </div>
 </main>
 {{ end }}

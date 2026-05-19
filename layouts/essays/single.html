@@ -1,92 +1,266 @@
 {{ define "main" }}
-<main id="main-content" class="grid-x">
+{{ $showToc := true }}
+{{ if isset .Params "toc" }}
+  {{ $showToc = .Params.toc }}
+{{ end }}
 
-    <article class="essay large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 cell">
+<main id="main-content" class="flex-1"
+    x-data="{
+        fontSize: parseInt(localStorage.getItem('crdh-font-size') || '18'),
+        lightbox: { show: false, imgSrc: '', imgAlt: '', caption: '' },
+        setFontSize(size) {
+            this.fontSize = size;
+            localStorage.setItem('crdh-font-size', size);
+        },
+        openLightbox(id) {
+            const fig = document.getElementById(id);
+            if (!fig) return;
+            const img = fig.querySelector('img');
+            const cap = fig.querySelector('figcaption');
+            this.lightbox.imgSrc = img ? img.src : '';
+            this.lightbox.imgAlt = img ? img.alt : '';
+            this.lightbox.caption = cap ? cap.innerHTML : '';
+            this.lightbox.show = true;
+            this.$nextTick(() => this.$refs.lightboxDialog.showModal());
+        },
+        closeLightbox() {
+            this.$refs.lightboxDialog.close();
+            this.lightbox.show = false;
+        }
+    }"
+    @open-lightbox.window="openLightbox($event.detail.id)"
+>
 
-        <header class="essay-header">
-            <span class="author">
+    {{/* Lightbox dialog */}}
+    <dialog
+        x-ref="lightboxDialog"
+        @click.self="closeLightbox()"
+        @keydown.escape.window="if (lightbox.show) closeLightbox()"
+        class="lightbox-modal"
+    >
+        <div class="relative">
+            <button
+                @click="closeLightbox()"
+                class="absolute top-3 right-3 z-10 bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-colors"
+                aria-label="Close"
+            >
+                <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            <img
+                :src="lightbox.imgSrc"
+                :alt="lightbox.imgAlt"
+                class="max-h-[85vh] max-w-full mx-auto block"
+            >
+            <div
+                x-show="lightbox.caption"
+                x-html="lightbox.caption"
+                class="px-6 py-4 text-sm text-stone-700 leading-relaxed border-t border-stone-200 bg-white"
+            ></div>
+        </div>
+    </dialog>
+
+    {{/* Essay header — centered */}}
+    <div class="mx-auto max-w-3xl px-6 lg:px-10 pt-12 lg:pt-16">
+        <header class="mb-10 text-center">
+            <p class="text-sm font-semibold text-stone-700 mb-4 leading-relaxed">
                 {{ $authorCount := len .Params.authors }}
                 {{ range $index, $author := .Params.authors }}
                 {{ $authorIndex := add $index 1 }}
                 {{ if eq $authorCount 1 }}
-                {{ if $author.url }}<a href="{{ $author.url }}">{{ $author.first }} {{ $author.last }}</a>{{ else }}{{ $author.first }} {{ $author.last }}{{ end }}
-                {{ with $author.orcid }}<a href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt=""
-                        src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>{{ end }}
+                {{ if $author.url }}<a href="{{ $author.url }}" class="text-stone-700 hover:text-red-brand underline">{{ $author.first }} {{ $author.last }}</a>{{ else }}{{ $author.first }} {{ $author.last }}{{ end }}
+                {{ with $author.orcid }}<a href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt="" src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>{{ end }}
                 {{ else if eq $authorCount 2 }}
-                {{ if $author.url }}<a href="{{ $author.url }}">{{ $author.first }} {{ $author.last }}</a>{{ else }}{{ $author.first }} {{ $author.last }}{{ end }}
-                {{ with $author.orcid }}<a href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt=""
-                        src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>{{ end }}
-                {{ if eq $authorIndex 1 }} and
-                {{ end }}
+                {{ if $author.url }}<a href="{{ $author.url }}" class="text-stone-700 hover:text-red-brand underline">{{ $author.first }} {{ $author.last }}</a>{{ else }}{{ $author.first }} {{ $author.last }}{{ end }}
+                {{ with $author.orcid }}<a href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt="" src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>{{ end }}
+                {{ if eq $authorIndex 1 }} and {{ end }}
                 {{ else }}
                 {{ $authorIndexTwo := add $authorIndex 1 }}
-                {{ if $author.url }}<a href="{{ $author.url }}">{{ $author.first }}
-                    {{ $author.last }}</a>{{ else }}{{ $author.first }} {{ $author.last }}{{ end }}
-                {{ with $author.orcid }}<a href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt=""
-                        src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>{{ end }}
-                {{ if eq $authorIndex $authorCount }}{{ else if eq $authorIndexTwo $authorCount }},
-                and {{ else }},{{ end }}
+                {{ if $author.url }}<a href="{{ $author.url }}" class="text-stone-700 hover:text-red-brand underline">{{ $author.first }} {{ $author.last }}</a>{{ else }}{{ $author.first }} {{ $author.last }}{{ end }}
+                {{ with $author.orcid }}<a href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt="" src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>{{ end }}
+                {{ if eq $authorIndex $authorCount }}{{ else if eq $authorIndexTwo $authorCount }}, and {{ else }},{{ end }}
                 {{ end }}
                 {{ end }}
-            </span>
-            <h1 class="essay-title">
+            </p>
+
+            <h1 class="text-3xl lg:text-4xl xl:text-5xl leading-tight mb-4">
                 {{ .Title | safeHTML }}
                 {{ with .Params.subtitle }}
-                <br><small>{{ . | safeHTML }}</small>
+                <br><span class="text-xl lg:text-2xl xl:text-3xl text-stone-500 font-normal">{{ . | safeHTML }}</span>
                 {{ end }}
             </h1>
-            <span class="meta">
-                Volume: {{ .Params.volume_number }} ({{ .Params.year }})<br>
-                Published: <time
-                    datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time><br>
-                DOI: <a href="{{ .Params.doi }}">{{ .Params.doi }}</a>
-            </span>
-        </header>
 
-        <section class="abstract callout" aria-label="Abstract">
+            <div class="text-sm text-stone-500 space-x-2">
+                <span>Volume {{ .Params.volume_number }} ({{ .Params.year }})</span>
+                <span aria-hidden="true">&middot;</span>
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+                <span aria-hidden="true">&middot;</span>
+                <span>DOI: <a href="{{ .Params.doi }}" class="text-stone-500 hover:text-red-brand underline">{{ .Params.doi }}</a></span>
+            </div>
+
+            {{/* Font size picker */}}
+            <div class="mt-6 flex items-center justify-center gap-2">
+                <span class="text-xs text-stone-500 mr-1">Text size</span>
+                <button
+                    @click="setFontSize(16)"
+                    :class="fontSize === 16 ? 'bg-stone-200 text-stone-900' : 'text-stone-500 hover:text-stone-700'"
+                    class="w-7 h-7 flex items-center justify-center rounded transition-colors text-xs font-serif"
+                    aria-label="Small text"
+                >A</button>
+                <button
+                    @click="setFontSize(18)"
+                    :class="fontSize === 18 ? 'bg-stone-200 text-stone-900' : 'text-stone-500 hover:text-stone-700'"
+                    class="w-7 h-7 flex items-center justify-center rounded transition-colors text-sm font-serif"
+                    aria-label="Medium text"
+                >A</button>
+                <button
+                    @click="setFontSize(20)"
+                    :class="fontSize === 20 ? 'bg-stone-200 text-stone-900' : 'text-stone-500 hover:text-stone-700'"
+                    class="w-7 h-7 flex items-center justify-center rounded transition-colors text-base font-serif"
+                    aria-label="Large text"
+                >A</button>
+                <button
+                    @click="setFontSize(22)"
+                    :class="fontSize === 22 ? 'bg-stone-200 text-stone-900' : 'text-stone-500 hover:text-stone-700'"
+                    class="w-7 h-7 flex items-center justify-center rounded transition-colors text-lg font-serif"
+                    aria-label="Extra large text"
+                >A</button>
+            </div>
+        </header>
+    </div>
+
+    {{/* Abstract — centered */}}
+    <div class="mx-auto max-w-3xl px-6 lg:px-10">
+        <section class="abstract-callout" aria-label="Abstract">
             <h2>Abstract</h2>
-            <div class="abstract-contents">
+            <div class="text-sm text-stone-700 leading-relaxed prose prose-sm">
                 {{ .Params.abstract | markdownify }}
             </div>
         </section>
-        {{ .Content }}
-        {{ with .Params.appendix }}
-        <hr>
-        {{ if ge (len .) 2 }}
-        <h2 id="appendix">Appendices</h2>
-        {{ else }}
-        <h2 id="appendix">Appendix</h2>
-        {{ end }}
-        <ul>
-            {{ range . }}
-            {{ if .file }}
-            <li><a href="{{ $.Site.Params.appendices }}/{{ .file }}" download>{{ .name }}</a></li>
-            {{ else }}
-            <li><a href="{{ .url }}">{{ .name }}</a></li>
+    </div>
+
+    {{/* Mobile TOC (collapsible, shown below lg) */}}
+    {{ if $showToc }}
+    <div class="lg:hidden mx-auto max-w-3xl px-6 mt-6" x-data="{ tocOpen: false }">
+        <button
+            @click="tocOpen = !tocOpen"
+            class="btn-secondary text-xs w-full flex items-center justify-between"
+            :aria-expanded="tocOpen"
+        >
+            <span>Table of Contents</span>
+            <svg class="w-4 h-4 transition-transform" :class="tocOpen && 'rotate-180'" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+        </button>
+        <div x-show="tocOpen" x-cloak x-collapse class="mt-2 bg-stone-50 border border-stone-200 rounded-md p-4">
+            <div class="toc text-sm">
+                {{ .TableOfContents }}
+            </div>
+        </div>
+    </div>
+    {{ end }}
+
+    {{/* Two-column layout: TOC sidebar | Content */}}
+    <div class="mx-auto max-w-site px-6 lg:px-10 mt-10 pb-16">
+        <div class="flex flex-col lg:flex-row gap-10">
+
+            {{/* Left sidebar: TOC */}}
+            {{ if $showToc }}
+            <aside class="hidden lg:block lg:w-48 xl:w-56 shrink-0" id="toc-gutter">
+                <nav class="sticky top-8" aria-label="Table of contents" id="toc-nav">
+                    <h4 class="label text-stone-500 mb-3">Contents</h4>
+                    <div id="toc-list" class="toc">
+                        {{ .TableOfContents }}
+                    </div>
+                </nav>
+            </aside>
             {{ end }}
-            {{ end }}
-        </ul>
-        {{ end }}
-        <hr>
-        {{ if gt (len .Params.authors) 1 }}
-        <h2 id="author">Authors</h2>
-        {{ else }}
-        <h2 id="author">Author</h2>
-        {{ end }}
-        <p>
-            {{ range $index, $author := .Params.authors }}
-            {{ $authorName := printf "%s %s" $author.first $author.last }}
-            {{ if $author.url }}
-            <a href="{{ $author.url }}">{{ $authorName }}</a>,
-            {{ else }}
-            {{ $authorName }},
-            {{ end }}
-            {{ $author.affiliation }}, <a href="mailto:{{ $author.email }}">{{ $author.email }}</a>, <a
-                href="https://orcid.org/{{ $author.orcid }}" aria-label="ORCID profile for {{ $authorName }}"><img src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"
-                    style="width:16px; height: 16px;" alt=""
-                    class="orcid">{{ $author.orcid }}</a>{{ if ne (add $index 1) (len $.Params.authors) }};{{ end }}
-            {{ end }}
-        </p>
-    </article>
+
+            {{/* Main content */}}
+            <article class="flex-1 min-w-0 max-w-3xl">
+                <div
+                    class="prose prose-stone max-w-none"
+                    id="essay-content"
+                    :style="'font-size: ' + fontSize + 'px; line-height: 1.8'"
+                >
+                    {{ .Content }}
+                </div>
+
+                {{/* Appendix */}}
+                {{ with .Params.appendix }}
+                <hr class="my-10 border-stone-200">
+                {{ if ge (len .) 2 }}
+                <h2 class="text-xl mb-4" id="appendix">Appendices</h2>
+                {{ else }}
+                <h2 class="text-xl mb-4" id="appendix">Appendix</h2>
+                {{ end }}
+                <ul class="list-disc pl-5 space-y-1 text-stone-700">
+                    {{ range . }}
+                    {{ if .file }}
+                    <li><a href="{{ $.Site.Params.appendices }}/{{ .file }}" download class="text-red-brand hover:text-red-dark underline">{{ .name }}</a></li>
+                    {{ else }}
+                    <li><a href="{{ .url }}" class="text-red-brand hover:text-red-dark underline">{{ .name }}</a></li>
+                    {{ end }}
+                    {{ end }}
+                </ul>
+                {{ end }}
+
+                {{/* Author bio(s) */}}
+                <hr class="my-10 border-stone-200">
+                {{ if gt (len .Params.authors) 1 }}
+                <h2 class="text-xl mb-4" id="author">Authors</h2>
+                {{ else }}
+                <h2 class="text-xl mb-4" id="author">Author</h2>
+                {{ end }}
+                <div class="space-y-4">
+                    {{ range $index, $author := .Params.authors }}
+                    {{ $authorName := printf "%s %s" $author.first $author.last }}
+                    <p class="text-stone-700 text-sm leading-relaxed">
+                        {{ if $author.url }}
+                        <a href="{{ $author.url }}" class="font-semibold text-red-brand hover:text-red-dark underline">{{ $authorName }}</a>,
+                        {{ else }}
+                        <span class="font-semibold">{{ $authorName }}</span>,
+                        {{ end }}
+                        {{ $author.affiliation }}{{ with $author.email }}, <a href="mailto:{{ . }}" class="text-red-brand hover:text-red-dark underline">{{ . }}</a>{{ end }}{{ with $author.orcid }}, <a href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $authorName }}" class="inline-flex items-center gap-1 text-red-brand hover:text-red-dark underline"><img src="{{ $.Site.BaseURL }}/assets/img/orcid.svg" class="inline w-4 h-4" alt="">{{ . }}</a>{{ end }}
+                    </p>
+                    {{ end }}
+                </div>
+            </article>
+
+        </div>
+    </div>
 </main>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const tocNav = document.getElementById('toc-nav');
+    if (!tocNav) return;
+
+    const tocLinks = tocNav.querySelectorAll('a');
+    const headings = [];
+
+    tocLinks.forEach(link => {
+        const id = link.getAttribute('href')?.replace('#', '');
+        if (id) {
+            const heading = document.getElementById(id);
+            if (heading) headings.push({ el: heading, link: link });
+        }
+    });
+
+    if (headings.length === 0) return;
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                tocLinks.forEach(l => l.classList.remove('toc-active'));
+                const match = headings.find(h => h.el === entry.target);
+                if (match) match.link.classList.add('toc-active');
+            }
+        });
+    }, { rootMargin: '0px 0px -70% 0px', threshold: 0 });
+
+    headings.forEach(h => observer.observe(h.el));
+});
+</script>
 {{ end }}

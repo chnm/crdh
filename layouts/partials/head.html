@@ -27,11 +27,16 @@
     <meta name="citation_doi" content="{{ .Params.doi }}">
     {{ end }}
     <title>{{ if .Title }}{{ .Title | plainify }} &ndash; {{ end }}{{ .Site.Title }}</title>
-    <link rel="shortcut icon" href="{{ .Site.BaseURL }}/assets/img/favicon.ico">
-    {{ $styles := resources.Get "scss/app.scss" | toCSS | minify | fingerprint }}
+    <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+
+    {{/* Tailwind CSS via PostCSS */}}
+    {{ $styles := resources.Get "css/main.css" | postCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
-    <link rel="stylesheet" href="/assets/css/custom.css">
-    <link rel="stylesheet" href="https://rrchnm.org/donate/donate-style.css">
+
+    {{/* IBM Plex fonts from Google Fonts */}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 
     <link type="application/atom+xml" rel="alternate" href="{{ .Site.BaseURL }}/articles.xml"
         title="{{ .Site.Title }} - Articles Feed" />
@@ -41,7 +46,6 @@
     <!-- Matomo -->
     <script>
         var _paq = window._paq = window._paq || [];
-        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
         (function() {
@@ -54,9 +58,7 @@
     </script>
     <!-- End Matomo Code -->
     {{ end }}
-    {{ else }}
-    <!-- No Matomo in development -->
     {{ end }}
 </head>
 
-<body>
+<body class="flex flex-col min-h-screen">
