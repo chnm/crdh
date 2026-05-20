@@ -10,16 +10,7 @@ ENV HUGO_BUILD_ARGS=$hugobuildargs
 WORKDIR /app
 COPY . .
 
-# Legacy devDependencies (node-sass/gulp) aren't used for the Hugo build;
-# --ignore-scripts skips their postinstall compilation.
-RUN npm ci --ignore-scripts
-
-# Hugo's Dart Sass doesn't resolve node_modules imports, so stage
-# Foundation SCSS sources where Hugo's asset pipeline can find them.
-RUN mkdir -p assets/vendor && \
-    cp -r node_modules/foundation-sites assets/vendor/ && \
-    cp -r node_modules/motion-ui assets/vendor/
-
+RUN npm ci
 RUN hugo ${HUGO_BUILD_ARGS}
 
 FROM stagex/user-caddy
