@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==========================================================================
+   CRDH — Tailwind design synced with RRCHNM
+   ========================================================================== */
+
+[x-cloak] {
+  display: none !important;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-stone-700 antialiased;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif text-stone-900 font-normal;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+
+  /* Visible focus indicators for keyboard navigation */
+  a:focus-visible,
+  button:focus-visible,
+  [role="tab"]:focus-visible {
+    @apply outline-2 outline-offset-2 outline-red-brand rounded-sm;
+  }
+}
+
+@layer components {
+
+  /* Shared label style — used for metadata, dates, volume info */
+  .label {
+    @apply font-sans text-xs font-semibold uppercase tracking-widest;
+  }
+
+  /* Prose overrides for long-form essay content */
+  .prose a {
+    @apply text-red-brand hover:text-red-dark underline decoration-red-brand/30 hover:decoration-red-brand;
+  }
+
+  .prose img {
+    @apply rounded-lg;
+  }
+
+  /* Figures in essays */
+  .prose figure {
+    @apply my-10 text-center;
+  }
+
+  .prose figure img {
+    @apply mx-auto max-h-[90vh] w-auto;
+  }
+
+  .prose figcaption {
+    @apply border-t-2 border-stone-200 pt-3 mt-4 text-sm text-stone-500 text-left;
+  }
+
+  /* Blockquotes */
+  .prose blockquote {
+    @apply border-l-4 border-red-brand text-stone-900 pl-6;
+  }
+
+  /* Abstract callout on essay pages */
+  .abstract-callout {
+    @apply bg-stone-50 border border-stone-200 rounded-md px-6 py-5 my-8;
+  }
+
+  .abstract-callout h2 {
+    @apply text-lg mb-3;
+  }
+
+  /* Buttons */
+  .btn {
+    @apply inline-block bg-red-brand hover:bg-red-dark text-white text-sm font-semibold px-5 py-2.5 rounded-md transition-colors cursor-pointer border-none font-sans;
+  }
+
+  .btn-secondary {
+    @apply inline-block bg-stone-100 hover:bg-stone-200 text-stone-700 text-sm font-semibold px-4 py-2 rounded-md transition-colors cursor-pointer border-none font-sans;
+  }
+
+  /* Skip link */
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:fixed focus:top-0 focus:left-0 focus:z-50 focus:bg-stone-900 focus:text-white focus:px-4 focus:py-2 focus:text-sm focus:underline;
+  }
+
+  /* ORCID icon inline */
+  .orcid-logo {
+    @apply inline-block w-4 h-4 align-text-top -ml-0.5 -mr-1;
+  }
+
+  /* Lightbox modal for figures */
+  .lightbox-modal {
+    @apply border-none rounded-lg p-0 max-w-5xl w-[calc(100%-2rem)] overflow-hidden bg-white;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+  }
+
+  .lightbox-modal::backdrop {
+    background: rgba(0, 0, 0, 0.75);
+  }
+
+  /* Observable Plot containers */
+  .observable-plot .plot-container {
+    @apply my-2;
+  }
+
+  .observable-plot .plot-container svg {
+    @apply max-w-full h-auto;
+  }
+
+  /* Footnotes */
+  .prose .footnotes {
+    @apply text-sm text-stone-500;
+  }
+
+  .prose .footnotes a {
+    overflow-wrap: break-word;
+    word-break: break-all;
+  }
+
+  /* Zoom-in cursor hint on clickable figures */
+  .fig-zoom img {
+    cursor: zoom-in;
+  }
+
+  /* Abstract modal */
+  .abstract-modal {
+    @apply border-none rounded-lg p-0 max-w-2xl w-[calc(100%-2rem)] max-h-[calc(100vh-5rem)] overflow-y-auto;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+  }
+
+  .abstract-modal::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  /* Table of contents */
+  .toc ul {
+    @apply list-none p-0 m-0 space-y-0.5;
+  }
+
+  .toc ul ul {
+    @apply pl-3 mt-0.5;
+  }
+
+  .toc a {
+    @apply block py-1 px-2 -ml-2 text-stone-800 hover:text-red-brand no-underline rounded transition-colors leading-snug;
+    font-size: 0.7rem;
+  }
+
+  .toc a.toc-active {
+    @apply text-red-brand bg-red-brand/5 font-semibold;
+  }
+
+}

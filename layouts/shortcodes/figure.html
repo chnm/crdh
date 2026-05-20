@@ -1,6 +1,9 @@
 {{ $caption := .Get "caption" }}
-<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
-  {{ .Inner | .Page.RenderString }}
+{{ $id := printf "fig-%d" .Ordinal }}
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }} id="{{ $id }}">
+  <div class="fig-zoom" @click="$dispatch('open-lightbox', { id: '{{ $id }}' })">
+    {{ .Inner | .Page.RenderString }}
+  </div>
   {{ with $caption }}
     <figcaption>{{ . | markdownify }}</figcaption>
   {{ end }}

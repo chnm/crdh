@@ -1,70 +1,87 @@
 {{ define "main" }}
 {{ $year := int .Title }}
 {{ $volumeNumber := sub $year 2017 }}
-<main id="main-content" class="grid-container">
-    <div class="grid-x">
-        <div class="large-9 columns large-order-1 medium-order-2" id="article-list">
-            <h2>Volume {{ $volumeNumber }} ({{ $year }})</h2>
-            {{ range $index, $essay := sort .Pages "File.LogicalName" "desc" }}
-            {{ $essayIndex := printf "%d-%d" $year $index }}
-            <div class="essay clearfix media-object stack-for-small">
-                <div class="media-object-section">
-                    <div class="thumbnail">
-                        <a href="{{ .RelPermalink }}">
-                            <img src="{{ .Params.preview }}" alt="Preview image for {{ .Title | plainify }}">
-                        </a>
+<main id="main-content" class="flex-1">
+    <div class="mx-auto max-w-site px-6 lg:px-10 py-12 lg:py-16">
+        <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+            {{/* Main column */}}
+            <div class="lg:w-2/3">
+                <section>
+                    <h2 class="text-2xl lg:text-3xl mb-6 pb-3 border-b border-stone-200">Volume {{ $volumeNumber }} ({{ $year }})</h2>
+
+                    <div class="space-y-8">
+                    {{ range $index, $essay := sort .Pages "File.LogicalName" "desc" }}
+                    {{ $essayIndex := printf "%d-%d" $year $index }}
+                    <article class="flex flex-col sm:flex-row gap-5">
+                        {{ with .Params.preview }}
+                        <div class="shrink-0 sm:w-36">
+                            <a href="{{ $essay.RelPermalink }}" class="block">
+                                <img src="{{ . }}" alt="Preview image for {{ $essay.Title | plainify }}" class="w-full rounded-md bg-stone-100" loading="lazy">
+                            </a>
+                        </div>
+                        {{ end }}
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-lg lg:text-xl mb-1">
+                                <a href="{{ .RelPermalink }}" class="text-stone-900 hover:text-red-brand no-underline">
+                                    {{ .Title | safeHTML }}{{ with .Params.subtitle }}: {{ . | safeHTML }}{{ end }}
+                                </a>
+                            </h3>
+                            <p class="text-sm font-semibold text-stone-700 mb-1">
+                                {{ $authorCount := len .Params.authors }}
+                                {{ range $i, $author := .Params.authors }}
+                                {{ $author.first }} {{ $author.last }}{{ if eq $authorCount 1 }}{{ else if eq (add $i 2) $authorCount }} and {{ else if ne (add $i 1) $authorCount }}, {{ end }}
+                                {{ end }}
+                            </p>
+                            <p class="text-xs text-stone-500 mb-2">
+                                Published: <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+                                &middot; DOI: <a href="{{ .Params.doi }}" class="text-stone-500 hover:text-red-brand underline">{{ .Params.doi }}</a>
+                            </p>
+                            {{ with .Params.abstract }}
+                            <div x-data="{ open: false }">
+                                <button
+                                    @click="open = !open"
+                                    :aria-expanded="open"
+                                    aria-controls="abstract-{{ $essayIndex }}"
+                                    class="btn-secondary text-xs px-3 py-1.5"
+                                >Abstract</button>
+                                <div
+                                    x-show="open"
+                                    x-cloak
+                                    x-collapse
+                                    id="abstract-{{ $essayIndex }}"
+                                    role="region"
+                                    aria-label="Abstract for {{ $essay.Title | plainify }}"
+                                    class="mt-3 text-sm text-stone-700 leading-relaxed prose prose-sm"
+                                >
+                                    {{ . | markdownify }}
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </article>
+                    {{ end }}
+                    </div>
+                </section>
+            </div>
+
+            {{/* Sidebar */}}
+            <aside class="lg:w-1/3">
+                <div class="lg:sticky lg:top-8">
+                    <div class="bg-stone-50 border border-stone-200 rounded-lg p-6">
+                        <h4 class="label text-stone-500 mb-3">All Volumes</h4>
+                        <ul class="space-y-2 text-sm list-none p-0 m-0">
+                        {{ range $term, $taxonomy := .Site.Taxonomies.volume }}
+                            {{ $termYear := int $term }}
+                            {{ $termVolume := sub $termYear 2017 }}
+                            <li><a href="/volume/{{ $term }}/" class="text-red-brand hover:text-red-dark underline">Volume {{ $termVolume }} ({{ $term }})</a></li>
+                        {{ end }}
+                        </ul>
                     </div>
                 </div>
-                <div class="media-object-section">
-                    {{ if .Params.subtitle }}
-                    <h3><a href="{{ .RelPermalink }}">{{ .Title | safeHTML }}: {{ .Params.subtitle | safeHTML }}</a></h3>
-                    {{ else }}
-                    <h3><a href="{{ .RelPermalink }}">{{ .Title | safeHTML }}</a></h3>
-                    {{ end }}
-                    <span class="author">
-                        {{ $authorCount := len .Params.authors }}
-                        {{ range $index, $author := .Params.authors }}
-                        {{ $authorIndex := add $index 1 }}
-                        {{ if eq $authorCount 1 }}
-                        {{ $author.first }} {{ $author.last }}
-                        {{ else if eq $authorCount 2 }}
-                        {{ $author.first }} {{ $author.last }}{{ if eq $authorIndex 1 }} and {{ end }}
-                        {{ else }}
-                        {{ $authorIndexTwo := add $authorIndex 1 }}
-                        {{ $author.first }}
-                        {{ $author.last }}{{ if eq $authorIndex $authorCount }}{{ else if eq $authorIndexTwo $authorCount }},
-                        and {{ else }},{{ end }}
-                        {{ end }}
-                        {{ end }}
-                    </span>
-                    <span class="published">Published: <time
-                            datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time></span>
-                    <span class="doi">DOI: <a href="{{ .Params.doi }}">{{ .Params.doi }}</a></span>
-                    {{ with .Params.abstract }}
-                    <button class="button secondary small" type="button"
-                        aria-expanded="false"
-                        aria-controls="abstract-{{ $essayIndex }}"
-                        data-toggle="abstract-{{ $essayIndex }}">Abstract</button>
-                    <div class="abstract" id="abstract-{{ $essayIndex }}" data-toggler data-animate="fade-in fade-out"
-                        aria-hidden="true" role="region"
-                        aria-label="Abstract for {{ $essay.Title | plainify }}">
-                        {{ . | markdownify }}</div>
-                    {{ end }}
-                </div>
-            </div>
-            <hr>
-            {{ end }}
+            </aside>
+
         </div>
-        <aside class="large-3 large-offset-0 columns large-order-2 medium-order-1" id="volume-list">
-            <h4>All Volumes</h4>
-            <ul>
-            {{ range $term, $taxonomy := .Site.Taxonomies.volume }}
-                {{ $termYear := int $term }}
-                {{ $termVolume := sub $termYear 2017 }}
-                <li><a href="/volume/{{ $term }}/">Volume {{ $termVolume }} ({{ $term }})</a></li>
-            {{ end }}
-            </ul>
-        </aside>
     </div>
 </main>
 {{ end }}

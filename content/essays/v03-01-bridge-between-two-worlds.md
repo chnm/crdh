@@ -123,7 +123,7 @@ visualizes the economic effects of Jim Crow and racial segregation.
 ![Map of the United States, showing counties colored with red, orange, blue, and green, to indicate their grouping.](/img/v03/busch/figure2.jpg)
 
 | Category | <span style="color:red">Group #1</span> | <span style="color:orange">Group #2</span> | <span style="color:blue">Group #3</span> | <span style="color:green">Group #4</span> |
-|:---|:---:|:---:|:---:|
+|:---|:---:|:---:|:---:|:---:|
 | Average % of Population Below the Poverty Line | 16.42% | 29.88% | 49.78% | 58.78% |
 | Average % of Population Defined as “Non-White” | 4.29% | 5.12% | 7.58% | 47.57% |
 | Average Median Family Income of Population | $5836.10 | $4306.94 | $2874.92 | $2744.58 |
@@ -152,7 +152,7 @@ helped to develop these roots which are now in the communities."[^10]
 ![Map of the United States, showing counties colored with red, orange, blue, and green, to indicate their grouping. The connections between SNCC Projects, SNCC Friends Chapters, and the national headquarters in Atlanta, are superimposed on top. ](/img/v03/busch/figure3.jpg)
 
 | Category | <span style="color:red">Group #1</span> | <span style="color:orange">Group #2</span> | <span style="color:blue">Group #3</span> | <span style="color:green">Group #4</span> |
-|:---|:---:|:---:|:---:|
+|:---|:---:|:---:|:---:|:---:|
 | Number of Projects | 1 | 5 | 0 | 4 |
 | Number of Chapters | 19 | 0 | 0 | 0 |
 
