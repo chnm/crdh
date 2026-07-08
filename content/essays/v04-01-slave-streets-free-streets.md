@@ -186,7 +186,7 @@ advertisement in the *Advertiser* for months in 1819-1820 (figure 6).
 > JAMES BISCOE 186 ½ Market st.[^7]
 
 {{< figure caption="Figure 6. An advertisement placed for the fugitive Harry Moshier, _American Commercial and Daily Advertiser_, December 1, 1820." >}}
-![](/img/v04/rubin/figure6.png)
+![Newspaper advertisement headed "100 Dollars Reward," offering a reward for the return of "Negro Harry," who called himself Harry Moshier, a blacksmith described as about 27 years old, 5 feet 6 or 7 inches tall, with a description of his build and appearance, signed by James Biscoe, 186½ Market St.](/img/v04/rubin/figure6.png)
 {{< /figure >}}
 
 This brief document gives us a sense of the world in which Moshier lived

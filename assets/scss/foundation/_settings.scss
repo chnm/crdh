@@ -68,6 +68,21 @@ $foundation-palette: (
   alert: #cc4b37,
 );
 
+// Foundation's typography module defaults $anchor-color to $primary-color
+// (#ff0000), which is only ~4:1 against white and fails WCAG AA (4.5:1) for
+// normal text. Override it here, before Foundation's typography settings
+// load, with a darker red that keeps the original hue but clears 4.5:1
+// (~4.63:1 against white). $anchor-color-hover derives from this via
+// Foundation's default scale-color(-14%), landing around #CA0000 (~5.98:1).
+$anchor-color: #EB0000;
+
+// Foundation's button component defaults $button-background to $primary-color
+// (#ff0000) with white text, which is only ~4:1 against white and fails WCAG
+// AA (4.5:1) for normal text (e.g. the "Back to homepage" button on 404.md).
+// Reuse the same accessible red as $anchor-color above so buttons and links
+// share one on-brand red that clears 4.5:1.
+$button-background: $anchor-color;
+
 $body-font-family: "glacial_indifferenceregular", sans-serif;
 $header-font-family: "majesti_bannerbold", serif;
 $header-font-family-italic: "majesti_bannerbold_italic", serif;

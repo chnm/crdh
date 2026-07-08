@@ -113,7 +113,7 @@ the year to expand their institutions and reaped the resulting benefits
 after the war ended.
 
 <figure>
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTl2T-yY3A5q2gBRrsTdEdXeI_Uv0Q41T5YvZGZFaRuaEyRYI7OeZIg9B2B2P5AmHAvHtTSokg0aARi/pubchart?oid=1402910081&amp;format=interactive" width="900" height="533" frameborder="0" scrolling="no" seamless=""></iframe>
+<iframe title="Chart: Total Admittance by Year" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTl2T-yY3A5q2gBRrsTdEdXeI_Uv0Q41T5YvZGZFaRuaEyRYI7OeZIg9B2B2P5AmHAvHtTSokg0aARi/pubchart?oid=1402910081&amp;format=interactive" width="900" height="533" frameborder="0" scrolling="no" seamless=""></iframe>
 <figcaption>Figure 1. Total Admittance by Year. Admittance totals by year signal a significant shift beginning in 1919. After 1919, admittance rates tripled for Bon Air (blue) and doubled for Peake's Turnout (red). This shift created a new baseline admittance rate that held steady throughout the 1920s and 1930s.</figcaption>
 </figure>
 
@@ -192,7 +192,7 @@ shows a surprising volume of girls originated from the mountains and
 other rural areas of Virginia.[^21]
 
 <figure>
-<iframe src="https://erinbush19.carto.com/builder/13473ba1-1bd9-4780-85b1-fcff71be8a4b/embed" width="100%" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe title="Map: Wartime Admittance by sentencing location" src="https://erinbush19.carto.com/builder/13473ba1-1bd9-4780-85b1-fcff71be8a4b/embed" width="100%" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 <figcaption>Figure 2. Wartime Admittance. Wartime admittance logs indicate that despite efforts to address war-related delinquency, war camp cities sentenced less than one-third (12 of 42 total) of all girls incarcerated during 1918. Instead, 52 percent (22) of reprobates originated in Richmond. The remaining girls originated in the western mountains along the Blue Ridge. Total admittance is scaled by volume and is represented by green points; gray points represent the seven war camp cities. Click on all points for more information.</figcaption>
 </figure>
 
@@ -211,7 +211,7 @@ came from locales along the Blue Ridge Mountains, far from the war
 camps.[^23]
 
 <figure>
-<iframe src="https://erinbush19.carto.com/builder/7d85db88-744a-414b-9d6e-3737256b619c/embed" width="100%" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe title="Map: Post-War Admittance by sentencing location" src="https://erinbush19.carto.com/builder/7d85db88-744a-414b-9d6e-3737256b619c/embed" width="100%" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 <figcaption>Figure 3. Post-War Admittance. After the war, commitments from Norfolk and Petersburg, both war camp cities, increased. Richmond's influence decreased from 52 percent (22 of 42 total) during the war to only 31 percent (57 of 182 total) after. Rural cities and towns in the western mountain areas and to the southwest of Petersburg committed more than one-third (61) of the delinquent girls admitted in 1919 and 1920. Total admittance is scaled by volume and is represented by green points; gray points represent the seven war camp cities. Click on all points for more information.</figcaption>
 </figure>
 

@@ -24,14 +24,14 @@ preview: "/assets/img/v02/roane/preview.png"
 ---
 
 <figure>
-<iframe width="560" height="600" src="https://www.youtube.com/embed/yB8kOyZFPLY" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="Video: Tornado Destruction, Essex County, VA, February 18, 2016 (clip 1)" width="560" height="600" src="https://www.youtube.com/embed/yB8kOyZFPLY" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figcaption>Figure 1. Tornado Destruction, Essex County, VA, February 18,
 2016. (Huewayne Watson)
 </figcaption>
 </figure>
 
 <figure>
-<iframe width="560" height="600" src="https://www.youtube.com/embed/OSJUqBSaImQ" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="Video: Tornado Destruction, Essex County, VA, February 18, 2016 (clip 2)" width="560" height="600" src="https://www.youtube.com/embed/OSJUqBSaImQ" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figcaption> Figure 2. Tornado Destruction, Essex County, VA, February 18, 2016. (Huewayne Watson)
 </figcaption>
 </figure>
@@ -66,7 +66,7 @@ terrified by the prospects of these violent storms. Virginians,
 especially those in vulnerable rural communities, have already had to define a new normal based on the likelihood of destructive weather because of the changing climate.
 
 <figure>
-<iframe width="560" height="600" src="https://www.youtube.com/embed/TakYXaL6djk" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="Video: Storm Damage, Middlesex County, VA, October 12, 2018" width="560" height="600" src="https://www.youtube.com/embed/TakYXaL6djk" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figcaption>Figure 3. Storm Damage, Middlesex County, VA, October 12, 2018.
 (Sherita Mahone)
 </figcaption>

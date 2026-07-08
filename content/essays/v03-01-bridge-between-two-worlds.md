@@ -122,8 +122,8 @@ visualizes the economic effects of Jim Crow and racial segregation.
 {{< figure caption="Figure 2. This map visualizes the racial and economic character of the United States at the county level. The chart provides a breakdown of each color-coded group by Race, Poverty Rate, Median Family Income, and Per Capita Income. When analyzing the map, it's important to keep in mind that the 'nonwhite' identity marker of the 1960 Census Data included Black, Asian, and Indigenous populations. This marker obscures some of the results, especially in Texas, where the Latinx communities were often counted as 'white' in the 1960 census. Nonetheless, the map offers a geographical snapshot of the economic gap between Northern and Southern communities in early 1960, especially along racial lines. The most important figure in terms of economic character is per capita income. Per 1960 Census Categories, the Poverty Threshold for individuals was \$1,490." >}}
 ![Map of the United States, showing counties colored with red, orange, blue, and green, to indicate their grouping.](/img/v03/busch/figure2.jpg)
 
-| Category | <span style="color:red">Group #1</span> | <span style="color:orange">Group #2</span> | <span style="color:blue">Group #3</span> | <span style="color:green">Group #4</span> |
-|:---|:---:|:---:|:---:|
+| Category | <span style="color:#e60000">Group #1</span> | <span style="color:#b35900">Group #2</span> | <span style="color:blue">Group #3</span> | <span style="color:green">Group #4</span> |
+|:---|:---:|:---:|:---:|:---:|
 | Average % of Population Below the Poverty Line | 16.42% | 29.88% | 49.78% | 58.78% |
 | Average % of Population Defined as “Non-White” | 4.29% | 5.12% | 7.58% | 47.57% |
 | Average Median Family Income of Population | $5836.10 | $4306.94 | $2874.92 | $2744.58 |
@@ -151,8 +151,8 @@ helped to develop these roots which are now in the communities."[^10]
 {{< figure caption="Figure 3. This map visualizes how SNCC's network served as a bridge between two economic and social worlds. The chart provides a picture of the social-economic differences between county locations of SNCC Friends Chapters and Projects. The breakdown reveals some nuances that require further spatial analysis and archival work. SNCC Projects in the South, for instance, were also located in Southern counties that, by some measures, had a strong economic profile and large white population. This begs the question: Why would SNCC locate some projects in predominately white, well-off Southern counties? This breakdown suggests that SNCC's national model functioned at a micro-level in the South, with wealthy white activists like Anne and Carl Braden playing a key role in developing fundraising and organizing among white liberal southerners. But tract-level census data might reveal that these projects were in fact located in areas that were predominantly Black. In addition, both SNCC projects and Friends Chapters were noticeably absent in Group 3, a grouping category that shared the economic characteristics of many SNCC projects, but not the racial makeup. The Project locations listed above, however, do not include those from the 1964-1965 Freedom Summers, when SNCC fieldworkers and Freedom Summer volunteers started 'White Folks Projects' in Biloxi, Mississippi and Ozark, Arkansas, two areas that fell within the Group 3 category." >}}
 ![Map of the United States, showing counties colored with red, orange, blue, and green, to indicate their grouping. The connections between SNCC Projects, SNCC Friends Chapters, and the national headquarters in Atlanta, are superimposed on top. ](/img/v03/busch/figure3.jpg)
 
-| Category | <span style="color:red">Group #1</span> | <span style="color:orange">Group #2</span> | <span style="color:blue">Group #3</span> | <span style="color:green">Group #4</span> |
-|:---|:---:|:---:|:---:|
+| Category | <span style="color:#e60000">Group #1</span> | <span style="color:#b35900">Group #2</span> | <span style="color:blue">Group #3</span> | <span style="color:green">Group #4</span> |
+|:---|:---:|:---:|:---:|:---:|
 | Number of Projects | 1 | 5 | 0 | 4 |
 | Number of Chapters | 19 | 0 | 0 | 0 |
 

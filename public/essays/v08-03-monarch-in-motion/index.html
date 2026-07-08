@@ -1,0 +1,480 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+        
+    
+    
+    <meta name="description" content="This paper explores the mobility, correspondence, and architectural legacy of Christian IV of Denmark (1577–1648) through the application of digital humanities …" />
+    <meta name="google-site-verification" content="">
+    
+    
+    
+    <meta name="citation_title" content="A Monarch in Motion: Mapping the King&#39;s Private Correspondence">
+    
+    
+    <meta name="citation_author" content="Maekelberg, Sanne">
+    
+    <meta name="citation_publication_date" content="2025">
+    <meta name="citation_online_date" content="2025-10-30">
+    <meta name="citation_journal_title" content="Current Research in Digital History">
+    <meta name="citation_journal_abbrev" content="CRDH">
+    <meta name="citation_issn" content="2637-5923">
+    <meta name="citation_volume" content="8">
+    <meta name="citation_abstract" content="This paper explores the mobility, correspondence, and architectural legacy of Christian IV of Denmark (1577–1648) through the application of digital humanities methodologies. Drawing on a corpus of 865 digitized and transcribed letters, we employ Named Entity Recognition, reconciliation with the World Historical Gazetteer, and Geographic Information Systems (GIS) to map both the king’s itinerary and the spatial imaginary embedded in his writings. By visualizing metadata such as dates and places of sending, we reconstruct Christian IV’s movements across his extensive territories and highlight shifting focal points during key historical moments, including the Thirty Years’ War. Further analysis of place references within the letters reveals the king’s engagement with his building projects, uncovering details of design decisions and instructions for architectural interventions. This dual focus on geography and content demonstrates how correspondence can illuminate the intersection of personal agency, political necessity, and architectural ambition. More broadly, the study showcases how digital approaches can enrich the historical study of early modern epistolary practices, while also addressing the challenges of applying modern natural language processing tools to early modern multilingual sources.
+">
+    <meta name="citation_doi" content="https://doi.org/10.31835/crdh.2025.03">
+    
+    <title>A Monarch in Motion: Mapping the King&#39;s Private Correspondence &ndash; Current Research in Digital History</title>
+    <link rel="shortcut icon" href="http://localhost:1313//assets/img/favicon.ico">
+    
+    <link rel="stylesheet" href="/scss/app.min.97e514f3d882d2496d84fe94c4ce8e1fc7c910843b748ea37d7836736833bb6c.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+    <link rel="stylesheet" href="https://rrchnm.org/donate/donate-style.css">
+
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:1313//articles.xml"
+        title="Current Research in Digital History - Articles Feed" />
+
+    
+    
+    
+</head>
+
+<body>
+
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header class="grid-x align-right" role="banner">
+  <div class="small-12 medium-auto cell">
+      
+      <p class="site-title"><a href="http://localhost:1313/">Current Research in Digital History</a></p>
+      
+  </div>
+  <div class="small-12 medium-4 cell">
+      <nav aria-label="Main navigation">
+  <ul class="menu vertical medium-horizontal align-right">
+    
+      <li><a href="/submissions/">Submitting to CRDH</a></li>
+    
+      <li><a href="/about/">About the Journal</a></li>
+    
+  </ul>
+</nav>
+
+  </div>
+</header>
+
+<hr>
+
+
+<main id="main-content" class="grid-x">
+
+    <article class="essay large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 cell">
+
+        <header class="essay-header">
+            <span class="author">
+                
+                
+                
+                
+                <a href="https://silvaperez.github.io/">Sanne Maekelberg</a>
+                <a class="orcid-link" href="https://orcid.org/0000-0002-5369-0960" aria-label="ORCID profile for Sanne Maekelberg"><img class="orcid-logo" alt="ORCID iD icon"
+                        src="http://localhost:1313//assets/img/orcid.svg"></a>
+                
+                
+            </span>
+            <h1 class="essay-title">
+                A Monarch in Motion: Mapping the King's Private Correspondence
+                
+            </h1>
+            <span class="meta">
+                Volume: 8 (2025)<br>
+                Published: <time
+                    datetime="2025-10-30">30 October 2025</time><br>
+                DOI: <a href="https://doi.org/10.31835/crdh.2025.03">https://doi.org/10.31835/crdh.2025.03</a>
+            </span>
+        </header>
+
+        <section class="abstract callout" aria-label="Abstract">
+            <h2>Abstract</h2>
+            <div class="abstract-contents">
+                This paper explores the mobility, correspondence, and architectural legacy of Christian IV of Denmark (1577–1648) through the application of digital humanities methodologies. Drawing on a corpus of 865 digitized and transcribed letters, we employ Named Entity Recognition, reconciliation with the World Historical Gazetteer, and Geographic Information Systems (GIS) to map both the king’s itinerary and the spatial imaginary embedded in his writings. By visualizing metadata such as dates and places of sending, we reconstruct Christian IV’s movements across his extensive territories and highlight shifting focal points during key historical moments, including the Thirty Years’ War. Further analysis of place references within the letters reveals the king’s engagement with his building projects, uncovering details of design decisions and instructions for architectural interventions. This dual focus on geography and content demonstrates how correspondence can illuminate the intersection of personal agency, political necessity, and architectural ambition. More broadly, the study showcases how digital approaches can enrich the historical study of early modern epistolary practices, while also addressing the challenges of applying modern natural language processing tools to early modern multilingual sources.
+            </div>
+        </section>
+        <p>Christian IV&rsquo;s writing room is still more or less preserved in Rosenborg castle, Copenhagen (figure 1).<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> While this wonderfully sets the scene for the seventeenth-century epistolary practices, the number of letters written from this location is only a small part of the very extensive correspondence maintained by the Danish king.</p>
+
+<figure>
+  <img src="/img/v08/maekelberg/figure1.png" alt="photograph of an arnate desk with many carvings and a chair infront of it">
+  
+    <figcaption>Figure 1: Christian IV`s writing room on the ground floor of one of the towers of Rosenborg Castle © Photograph by Marie Thérèse Hébert &amp; Jean Robert Thibault, 25 May 2016. Licensed under CC BY-SA 2.0. Via Wikimedia Commons</figcaption>
+  
+</figure>
+
+<p>Christian IV of Denmark (1577&ndash;1648, r.1588&ndash;1648) was indeed an avid writer, putting his thoughts on paper in journals, diaries, and letters.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> As King of Denmark, he lived an itinerant life, moving through his territories on a regular basis. He left a significant stamp on the built heritage throughout the Danish territory, including parts of current Germany, Norway, and southern Sweden as well as more remote territories like the Faroe Islands and Greenland.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> This territory was so vast that it seems unlikely that Christian IV visited all the places under his authority. Despite his prominent role in Danish history and built heritage, research on the Danish monarch has remained relatively obscure, partly because of language issues.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<p>Digital tools help to surmount the difficulty of foreign languages. Christian IV was the author of a large body of correspondence, totaling over 3000 still preserved letters.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> In recent years, increasing efforts have been made to digitize and transcribe extensive collections of archival documents, including correspondence, making them available online and thus accessible for data-driven analysis on large corpora.<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> In this paper we will establish a methodology to deal with large bodies of correspondence, focusing on geographic information and the data that can be extracted from these writings. We will apply this methodology to a sample of Christian IV&rsquo;s extensive correspondence, using Named Entity Recognition and Linking combined with a Geographic Information System to look at the mobility of the Danish king and his writings considering different locations, including his many building projects. Through this analysis we will attempt to unearth personal preferences and patterns in his mobility.</p>
+<h3 id="the-corpus">The Corpus</h3>
+<p>The corpus consists out of 865 letters, handwritten by Christian IV that are transcribed and published online.<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> This online collection of letters is only part of the large body of correspondence produced by the Danish king. More letters are available in the seven volumes published by Bricka and Fridericia in the nineteenth century, not considering letters that might have been lost over time. Our analysis is based on the digitized collection, so conclusions must be taken carefully. The aim is to illustrate the digital methodology for which the partial collection is sufficient.</p>
+<p>To perform a distant reading of Christian IV&rsquo;s correspondence we collected the letters as separate txt files from their online environment.<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> The transcription was done by Bricka and Fridericia in the nineteenth century, and there is metadata including the receiver, place, and date of sending, attached to each letter (when known). The letters are written mostly in German, but letters in Danish as well as Latin are also included in the corpus. Taking a closer look at the corpus, we see that the transcription is generally of good quality, but it remains truthful to the original handwritten letters. The inconsistent German spelling of the seventeenth century is thus something we will need to take into account. The time frame ranges over the entire lifetime of Christian IV, with a focal point on his later life, especially from 1625 onwards. Recipients vary from royal confidants and ambassadors, like Corfitz Ulfeldt or Christen Friis, to his second wife, Kirsten Munk.</p>
+<h3 id="mapping-the-royal-itinerary">Mapping the Royal Itinerary</h3>
+<p>The attached metadata allows for a mapping of the place of sending of the letters, using QGIS, a free and open-source Geographical Information System (GIS).<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> Contrary to his contemporaries, Christian IV wrote most of the letters himself, signing each one with a date and place of sending (figure 2).</p>
+
+<figure>
+  <img src="/img/v08/maekelberg/figure2.png" alt="photograph of a hnadwritten docuemtn with text sprawling msot of the page">
+  
+    <figcaption>Figure 2: a letter written by Christian IV and signed with D&rsquo;ronningborre Slott den 4 Maÿ Anno D(omi)ni 1610 Christian&rsquo;. © Rigsarkivet København, Kongehuset Christian 4., Christian 4.s egenhændige breve.</figcaption>
+  
+</figure>
+
+<p>While other kings and nobles often used scribes for their correspondence, it was customary for Christian IV to sign letters personally, often adding date and location to the signature.<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> Since all the letters in the corpus were handwritten and signed by Christian IV, this allows us to place the Danish king at a certain location at a certain point in time, based on his signature. The resulting attribute table (see table 1) shows 568 entries that have both geographical and temporal data attached to them. This analysis is thus based on a subset of the digitized collection. That inevitably means that there are important lacunae in our data, for example the visits to England &ndash; that Christian IV undertook in 1606 and 1616 &ndash; are not represented here.<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></p>
+
+<figure>
+  <table>
+  <thead>
+    <tr>
+      <th scope="col">Entry</th>
+      <th scope="col">Sender</th>
+      <th scope="col">Recipient</th>
+      <th scope="col">Place</th>
+      <th scope="col">Latitude</th>
+      <th scope="col">Longitude</th>
+      <th scope="col">Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>67</td>
+      <td>Christian 4.</td>
+      <td>Kirsten Munk</td>
+      <td>Haderslev</td>
+      <td>55,250000</td>
+      <td>9,500000</td>
+      <td>1615-08-24</td>
+    </tr>
+    <tr>
+      <td>68</td>
+      <td>Christian 4.</td>
+      <td>Kirsten Munk</td>
+      <td>Wolfenbüttel</td>
+      <td>52,162222</td>
+      <td>10,536944</td>
+      <td>1615-09-01</td>
+    </tr>
+    <tr>
+      <td>69</td>
+      <td>Christian 4.</td>
+      <td>Elisabeth af Braunschweig-Wolfenbüttel</td>
+      <td>Celle</td>
+      <td>52,625556</td>
+      <td>10,082500</td>
+      <td>1615-11-03</td>
+    </tr>
+    <tr>
+      <td>70</td>
+      <td>Christian 4.</td>
+      <td>Kirsten Munk</td>
+      <td>København</td>
+      <td>55,676111</td>
+      <td>12,568889</td>
+      <td>1615-12-14</td>
+    </tr>
+    <tr>
+      <td>71</td>
+      <td>Christian 4.</td>
+      <td>Kirsten Munk</td>
+      <td>Frederiksborg</td>
+      <td>55,935000</td>
+      <td>12,300833</td>
+      <td>1615-12-27</td>
+    </tr>
+    <tr>
+      <td>72</td>
+      <td>Christian 4.</td>
+      <td>Ellen Marsvin</td>
+      <td>Kronborg</td>
+      <td>56,038611</td>
+      <td>12,621944</td>
+      <td>1615-07-10</td>
+    </tr>
+    <tr>
+      <td>73</td>
+      <td>Christian 4.</td>
+      <td>Sivert Pogwisch and Joachimvon Mitzlaff</td>
+      <td>Rotenburg</td>
+      <td>49,377222</td>
+      <td>10,178889</td>
+      <td>1615-12-01</td>
+    </tr>
+    <tr>
+      <td>79</td>
+      <td>Christian 4.</td>
+      <td>Johan Sigismund af Brandenburg</td>
+      <td>Kronborg</td>
+      <td>56,038611</td>
+      <td>12,621944</td>
+      <td>1617-09-07</td>
+    </tr>
+    <tr>
+      <td>85</td>
+      <td>Christian 4.</td>
+      <td>Ellen Marsvin</td>
+      <td>København</td>
+      <td>55,676111</td>
+      <td>12,568889</td>
+      <td>1618-08-15</td>
+    </tr>
+    <tr>
+      <td>90</td>
+      <td>Christian 4.</td>
+      <td>Johan Frederik af Slesvig-Holsten-Gottorp</td>
+      <td>Glückstadt</td>
+      <td>53,788889</td>
+      <td>9,425833</td>
+      <td>1619-09-25</td>
+    </tr>
+    <tr>
+      <td>94</td>
+      <td>Christian 4.</td>
+      <td>Unknown</td>
+      <td>Frederiksborg</td>
+      <td>55,935000</td>
+      <td>12,300833</td>
+      <td>1621-08-31</td>
+    </tr>
+    <tr>
+      <td>95</td>
+      <td>Christian 4.</td>
+      <td>Unknown</td>
+      <td>Frederiksborg</td>
+      <td>55,935000</td>
+      <td>12,300833</td>
+      <td>1621-09-24</td>
+    </tr>
+    <tr>
+      <td>98</td>
+      <td>Christian 4.</td>
+      <td>Unknown</td>
+      <td>København</td>
+      <td>55,676111</td>
+      <td>12,568889</td>
+      <td>1622-02-25</td>
+    </tr>
+    <tr>
+      <td>109</td>
+      <td>Christian 4.</td>
+      <td>Hans Lauritsen and NielsKnudsen</td>
+      <td>Nyborg</td>
+      <td>55,309722</td>
+      <td>10,791667</td>
+      <td>1623-07-01</td>
+    </tr>
+  </tbody>
+</table>
+
+  
+    <figcaption>Table 1: Part of the attribute table showing the metadata available for the correspondence of Christian IV.</figcaption>
+  
+</figure>
+
+<p>Through a mapping of this information, we can see that Christian IV
+travelled through much of the seventeenth-century territory of Denmark, which included Schleswig-Holstein (current northern Germany), southern Sweden, and Norway (figure 3).</p>
+
+<figure>
+  <img src="/img/v08/maekelberg/figure3.png" alt="digital map of europe shwoing brown dots indicating locations for letters">
+  
+    <figcaption>Figure 3: A map indicating the location from where the letters were written. This shows the mobility of Christian IV throughout the Danish territory.</figcaption>
+  
+</figure>
+
+<p>This first map, however, does not show how many letters were written from a certain location. By visualizing the weight, i.e., the number of letters written from a certain location, we can correlate the itinerary of Christian IV with the network of residences that served him in his peregrinations.<sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> This allows us to filter out most- and least-visited residences, and link these with the functions and responsibilities of the Danish king
+and events during his lifetime. In this visualization a bigger dot means that more letters were sent from a certain location and that Christian IV spent a relatively larger amount of time there. The map is thus a representation of the focal points in his itinerary (figure 4). We can clearly distinguish the capital city Copenhagen and Frederiksborg, one of his largest construction projects. However, other locations&mdash;further away from the Danish capital&mdash;are also included, for example Glückstadt and Wolfenbüttel.</p>
+
+<figure>
+  <img src="/img/v08/maekelberg/figure4.png" alt="a digital map of europe showing orange dots indicating location that are also labeled with european cities. the dots are of various sizes to indicate density">
+  
+    <figcaption>Figure 4: The same locations with the size of the dots adjusted to represent the number of letters written from a certain location. A bigger dot means that more letters were sent from a specific location and that Christian IV spent a significant amount of time here, making these sites important in his itinerary.</figcaption>
+  
+</figure>
+
+<p>With the aim of reconstructing the network of residences of Christian IV of Denmark in mind, we want to use this visualization to reveal patterns or evolutions in time of the king&rsquo;s use of his residences. By splitting up the dataset into relative periods of time, we can see some interesting transformations (figure 5). With the limited dataset we have very few letters from before 1626, which clearly shows in the earliest maps. There is no discernable focal point, and Christian&rsquo;s mobility spread out over Denmark and the German lands. After Denmark joined the Thirty Year&rsquo;s War, however, we see both an increase in letters and a spreading of Christian&rsquo;s presence towards the south. He spent considerable amounts of time in Wolfenbüttel and Rothenburg. From 1630 onwards, the Danish involvement in the Thirty Year&rsquo;s War ceased, and Christian focused his presence on the Danish lands, with focal points in Jutland as well as Sealand. During the final years of his life, he mostly stayed for long consecutive periods of time in Frederiksborg and Copenhagen (presumably Rosenborg).</p>
+
+<figure>
+  <img src="/img/v08/maekelberg/figure5a.png" alt="a digital map of europe showing orange dots indicating location that are also labeled with european cities. the dots are of various sizes to indicate density">
+<img src="/img/v08/maekelberg/figure5b.png" alt="a digital map of europe showing orange dots indicating location that are also labeled with european cities. the dots are of various sizes to indicate density">
+<img src="/img/v08/maekelberg/figure5c.png" alt="a digital map of europe showing orange dots indicating location that are also labeled with european cities. the dots are of various sizes to indicate density">
+<img src="/img/v08/maekelberg/figure5d.png" alt="a digital map of europe showing orange dots indicating location that are also labeled with european cities. the dots are of various sizes to indicate density">
+<img src="/img/v08/maekelberg/figure5e.png" alt="a digital map of europe showing orange dots indicating location that are also labeled with european cities. the dots are of various sizes to indicate density">
+<img src="/img/v08/maekelberg/figure5f.png" alt="aa digital map of europe showing orange dots indicating location that are also labeled with european cities. the dots are of various sizes to indicate density">
+  
+    <figcaption>Figure 5: Visualization of the correspondence split up into relative periods of time. A bigger dot means that more letters were sent from this location during the indicated period.</figcaption>
+  
+</figure>
+
+<p>The digital analysis of Christian IV’s handwritten letters and their associated geographical and temporal data offers a unique window into the Danish king’s travels. Through the visual representation of letter frequencies, we uncover the significance of critical locations in his life, shedding light on the evolving priorities and commitments over time.</p>
+<h3 id="a-distant-reading-of-locations">A Distant Reading of Locations</h3>
+<p>We can now place Christian IV of Denmark in space and time through the analysis of the place of sending of his letters. We are, however, also interested in what Christian IV has to say about these locations and his building projects within the text of his letters. In order to read through this large collection of correspondence, we will first build a gazetteer based on the corpus. A gazetteer is a dictionary of historical place names that can include information and certain characteristics of that location. By using Natural language processing (NLP) we get access to a wide range of possibilities to analyze linguistic attributes of a text corpus. NLP allows users to convert data into usable insights, by determining whether a word is a verb or a noun, and even whether it is a location, geographical entry, or a person through Named Entity Recognition. We will use the NLP library spaCy to detect the place names mentioned in the corpus of correspondence.<sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> Because of the different layers of distortion caused by language (mixing Danish and German, as well as the inconsistent early modern spelling), we decided to use two pretrained models provided by spaCy: both the German and Danish models trained on newspaper articles. The resulting tab-separated value file is run through the World Historical Gazetteer (WHG), where we can &ldquo;reconciliate&rdquo; with Wikidata. This process of reconciliation links the place names in our own gazetteer to places that are included in the WHG and a unique identifier in Wikidata. After the automatic reconciliation process is complete, you are given the option to manually match the ambiguous place names. The resulting dataset, including the geographical coordinates, can be downloaded from the WHG and together with the places of sending of the corpus of correspondence, this becomes the gazetteer that we will use for the further analysis. We again used QGIS to map out the locations included in our gazetteer. Our visualization now covers a noticeably larger area of Europe, going as far as Spain and England and covering the German lands to a greater extend.</p>
+
+<figure>
+  <img src="/img/v08/maekelberg/figure6.png" alt="a larger digital map covering more area of europe showing orange dots indicating location that are also labeled with european cities. the dots are of various sizes to indicate density">
+  
+    <figcaption>Figure 6: A map of the locations mentioned in the body text of the letters of Christian IV. A larger area of Europe is now covered, including England and Spain</figcaption>
+  
+</figure>
+
+<p>As in our first map visualization, we can add weight to the locations by counting the number of times they are mentioned within the corpus of correspondence and adjust the size of the dots accordingly (figure 6). The center of gravity is still in Denmark, especially on the island of Sealand, and a number of locations in Schleswig-Holstein. However, looking at the table, we now see that Rosenborg, for example, becomes quite important, with thirty-one mentions within the corpus of the letters. In our first analysis, Rosenborg was completely absent, which seems abnormal since this was one of Christian&rsquo;s building projects. This might have been because Christian signed his letters with &ldquo;Københav&rdquo; when he was at the castle in Rosenborg, or because the letters that are part of the online collection were allocated &lsquo;Copenhagen&rsquo; as location metadata, while the actual place of sending was Rosenborg. Indeed, on closer inspection of the original texts, there are forty-eight letters written and signed from &ldquo;Rossenborg&rdquo; This more detailed analysis of the content of the letters draws our attention to inaccuracies in the metadata, which can be corrected through an iterative process.</p>
+<h3 id="the-building-projects">The Building projects</h3>
+<p>The collection of correspondence of Christian IV gives a privileged view on his life and reconstructed personal life stories. The digital methodology allows us to reconstruct Christian IV&rsquo;s itinerary and investigate whether his peregrinations were determined by personal agency or political necessity. The localization of the sites of his building projects shows that he did still very much live an itinerant lifestyle, compared to other royal families in Europe, and that he even put in considerable time, money, and effort into expanding his residential and urban networks (figure 7).<sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup></p>
+
+<figure>
+  <img src="/img/v08/maekelberg/figure7.png" alt="a digital map of europe showing maroon dots indicating locations">
+  
+    <figcaption>Figure 7: Some of the most important building sites of Christian IV</figcaption>
+  
+</figure>
+
+<p>Satellite residences appear in the vicinity of Copenhagen, but also on the edge of the Danish territory, settlements are established to house the king and his travelling household.<sup id="fnref1:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> The living circumstances and possibilities to live a more withdrawn life were highly contingent on location, since there was such a large diversity of locations in the network supporting Christian IV. Along the way he stayed in cloisters,
+busy court cities, and large domains with extensive gardens, parks, and forests. More in-depth research on these individual locations would allow us to add additional metadata to the geographic points, for example, on the size of the apartment, the extent of the domain, and the possible hosts. Putting this information as readable metadata attached to the geographic locations, we could analyze, filter, and visualize even more aspects of the itinerant lifestyle of Christian IV.</p>
+<p>However, we can also use our previously built gazetteer to filter out information about the different locations.
+SpaCy also allows us to analyze the context in which the locations occur by looking at the words close to certain gazetteer entries. Through this analysis, often referred to as concordance matching, we can learn what words appear frequently in relation to certain locations. This abstract analysis then allows us to dive deeper into certain word combinations, which is how we know – for example - that the king’s room at Rosenborg needed to be heated before his arrival.</p>
+<p>The different building projects were an important topic within the corpus of Christian IV&rsquo;s letters, and sometimes they even included instructions for architectural interventions, as was the case for a letter addressed to the Danish diplomat Friederich Günther (1581&ndash;1655). It contained instructions on how to alter the residences at Segeberg and Wandsbeck, specifically that in Segeberg the connection (i.e., the corridor and staircase) between the king&rsquo;s stube and the room for his chamberlain should be closed up.<sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup> Diving deeper into the actual text of the letters based on the locations gives us a glimpse of the lives lived within the walls of the royal residences at different locations.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>The digital tools used remain tailored to modern research questions and vocabularies, making the adaptation to early modern source material challenging. The free open-source library for natural language processing (spaCy) provided pre-trained models in a wide range of languages, including Danish and German. However, the model was trained on written web text making it less accurate for analysis on early modern source material. Thanks to the high-quality transcription we did manage to obtain 688 hits for the Named Entity Recognition (locations, geographical entities, and persons). Nevertheless, training a model on seventeenth-century Danish sources might give more and better (more accurate) results. For example, &ldquo;Oldenburg&rdquo; kept popping up as a location, which within the context of Christian IV&rsquo;s correspondence refers to the House of Oldenburg, the dynasty of which Christian IV was a part. It does not give information about Christian IV&rsquo;s presence in Oldenborg. Similarly, references to England and Spain could be part of a name, rather than a reference to the location. In addition, the references to these territories are represented by points located in Londen and Madrid respectively, while a polygon covering the entire territory would be more appropriate.</p>
+<p>While network analysis is generally accepted as a methodology to deal with epistolary practices, I believe this methodology focused on geographical locations can also be generalized and applied to other collections of correspondence. The analysis was now limited to the 865 letters that have been digitized on the <em>Danmarks Breve</em> website. The corpus can be enlarged if the other letters written by Christian IV and published in the nineteenth century become included in the online environment.<sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> A larger corpus would allow more detailed analysis and could also include research on other phenomena, such as seasonal migration.</p>
+<h3 id="bibliography">Bibliography</h3>
+<p>Bricka, C. F., and J. A. Fridericia, eds. <em>Kong Christian den Fjerdes Egenhændige Breve</em>. Forlagt af Universitetsboghandler, 1889-91.</p>
+<p>Daybell, James, and Kim McLean-Fiander, eds. <em>Women&rsquo;s Early Modern Letters Online (WEMLO)</em>. Accessed March 27, 2022. <a href="http://emlo-portal.bodleian.ox.ac.uk/collections/?page_id=2595" aria-label="Link to emlo-portal.bodleian.ox.ac.uk">http://emlo-portal.bodleian.ox.ac.uk/collections/?page_id=2595</a>
+.</p>
+<p>Grunewald, Susan, and Andrew Jaco. &ldquo;Finding Places with the World Historical Gazeteer.&rdquo; Programming Historian 11, 2022. <a href="https://doi.org/10.46430/phen0096" aria-label="DOI 10.46430/phen0096">https://doi.org/10.46430/phen0096</a>
+.</p>
+<p>Hotson, Howard, and Miranda Lewis, eds. <em>Early Modern Letters Online (EMLO).</em> Accessed March 27, 2022.* *<a href="http://emlo.bodleian.ox.ac.uk" aria-label="Link to emlo.bodleian.ox.ac.uk">http://emlo.bodleian.ox.ac.uk</a>
+.</p>
+<p>Det Kongelige Bibliotek. &ldquo;Danmarks Breve.&rdquo; Accessed April 20, 2022. <a href="https://danmarksbreve.kb.dk/" aria-label="Link to danmarksbreve.kb.dk">https://danmarksbreve.kb.dk/</a>
+.</p>
+<p>Digitale Undersøgelser af Dansk Sprog (DUDS) - University of Copenhagen. &ldquo;Christian IV&rsquo;s breve (1615-1642).&rdquo; Accessed April 20, 2022.
+<a href="https://duds.nordisk.ku.dk/tekstresurser/dsst/teksterne/christian-ivs-breve/" aria-label="Link to duds.nordisk.ku.dk">https://duds.nordisk.ku.dk/tekstresurser/dsst/teksterne/christian-ivs-breve/</a>
+.</p>
+<p>Kongernes Samling Rosenborg. &ldquo;Christian IV&rsquo;s Writing Room.&rdquo; Accessed April 20, 2022. <a href="https://www.kongernessamling.dk/en/rosenborg/room/christian-ivs-writing-room/" aria-label="Link to kongernessamling.dk">https://www.kongernessamling.dk/en/rosenborg/room/christian-ivs-writing-room/</a>
+.</p>
+<p>Kragelund, Patrick. <em>A Stage for A King. The Travels of Christian IV of Denmark and the Building of Frederiksborg Castle</em>. Museum Tusculanum Press, 2019.</p>
+<p>Lockhart, Paul Douglas. <em>Denmark, 1513&ndash;1660: The Rise and Decline of a Renaissance Monarchy</em>. <em>Denmark, 1513&ndash;1660</em>. Oxford University Press, 2007.</p>
+<p>Maekelberg, Sanne. &ldquo;Mapping through Space and Time. The Itinerary of Charles of Croÿ (1560‐ 1612).&rdquo; In <em>Mapping Historical Landscapes in Transformation: Methods, Applications, Challenges</em>, ed. Thomas Coomans, Bieke Cattoor, and Krista De Jonge, 259&ndash;76. Leuven University Press, 2019.</p>
+<p>Paravicini, Werner, Kruse Holger, Ranft Andreas, and Klaus Krüger.&rsquo;&ldquo;Ordonnances de l&rsquo;Hôtel&rdquo; und &ldquo;Escroes des gaiges&rdquo; wege zu einer prosopographischen Erforschung des burgundischen Staats im fünfzehnten Jahrhundert.&quot; In <em>Menschen am Hof der Herzöge Von Burgund: Gesammelte Aufsätze</em>, 41&ndash;63. Thorbecke, 2002.</p>
+<p>Rigsarkivet København, Kongehuset Christian 4., Christian 4.segenhændige breve.</p>
+<p>Roding, Juliette Germaine. &ldquo;Christiaan IV van Denemarken (1588-1648): Architectuur En Stedebouw van Een Luthers Vorst.&rdquo; University of Nijmegen, 1991.</p>
+<p>Senning, Calvin F. &ldquo;The Visit of Christian IV to England in 1614.&rdquo; <em>The Historian</em> 31, no. 4 (1969): 555&ndash;72.</p>
+<p>spaCy. &ldquo;Industrial-Strength Natural Language Processing.&rdquo; Accessed April 20, 2022. <a href="https://perma.cc/E7L8-Y8YH" aria-label="Link to perma.cc">https://perma.cc/E7L8-Y8YH</a>
+.</p>
+<p>QGIS. &ldquo;QGIS &ndash; The Leading Open Source Desktop GIS.&rdquo; Accessed April 20, 2022. <a href="https://www.qgis.org/nl/site/" aria-label="Link to qgis.org">https://www.qgis.org/nl/site/</a>
+.</p>
+<h3 id="notes">Notes</h3>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>&ldquo;Christian IV&rsquo;s Writing Room,&rdquo;   <a href="https://www.kongernessamling.dk/en/rosenborg/room/christian-ivs-writing-room/" aria-label="Link to kongernessamling.dk">https://www.kongernessamling.dk/en/rosenborg/room/christian-ivs-writing-room/</a>
+.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink" aria-label="Back to footnote 1 in the text"><span aria-hidden="true">&#8617;&#xfe0e;</span></a></p>
+</li>
+<li id="fn:2">
+<p>Lockhart, <em>Denmark, 1513-1660</em>, 127.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink" aria-label="Back to footnote 2 in the text"><span aria-hidden="true">&#8617;&#xfe0e;</span></a></p>
+</li>
+<li id="fn:3">
+<p>&ldquo;Christian IV,&rdquo; <a href="https://kongeligeslotte.dk/en/explore-history/christian-IV.html" aria-label="Link to kongeligeslotte.dk">https://kongeligeslotte.dk/en/explore-history/christian-IV.html</a>
+&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink" aria-label="Back to footnote 3 in the text"><span aria-hidden="true">&#8617;&#xfe0e;</span></a></p>
+</li>
+<li id="fn:4">
+<p>Christian IV is considered &lsquo;Rex Triumphans&rsquo;, the most famous Danish king throughout history, most of the literature on Christian IV is in Danish: Stein, <em>Christian den Fjerdes Billedverden</em>; Heiberg, <em>Christian 4</em>. – en europæisk statsmand; Scocozza, <em>Christian IV</em>. Some notable exceptions: Heiberg (ed.), <em>Christian IV and Europe</em>; Andersen et. Al (eds.), <em>Reframing the Danish Renaissance; Lockhart, Denmark in the Thirty Years’ War</em>, 1618–1648.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink" aria-label="Back to footnote 4 in the text"><span aria-hidden="true">&#8617;&#xfe0e;</span></a></p>
+</li>
+<li id="fn:5">
+<p>The original letters are currently kept in the Danish State Archives in Copenhagen: Rigsarkivet, Kongehuset Christian 4.,Christian 4.s egenhændige breve. They were published in seven volumes in the nineteenth century: Bricka and Fridericia,<em>Egenhændige Breve</em>.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink" aria-label="Back to footnote 5 in the text"><span aria-hidden="true">&#8617;&#xfe0e;</span></a></p>
+</li>
+<li id="fn:6">
+<p>For example: Howard Hotson and Miranda Lewis, eds., <em>Early Modern Letters Online (EMLO)</em>,<a href="https://emlo.bodleian.ox.ac.uk" aria-label="Link to emlo.bodleian.ox.ac.uk">https://emlo.bodleian.ox.ac.uk</a>
+, accessed 27 March 2022 and James Daybell and Kim McLean-Fiander, eds., <em>Women&rsquo;s Early Modern Letters Online (WEMLO)</em>, <a href="https://emlo-portal.bodleian.ox.ac.uk/collections/?page_id=2595" aria-label="Link to emlo-portal.bodleian.ox.ac.uk">https://emlo-portal.bodleian.ox.ac.uk/collections/?page_id=2595</a>
+, accessed 27 March 2022.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink" aria-label="Back to footnote 6 in the text"><span aria-hidden="true">&#8617;&#xfe0e;</span></a></p>
+</li>
+<li id="fn:7">
+<p>Danmarks Breve, <a href="https://danmarksbreve.kb.dk/?f%5Bsender_ssim%5D%5B%5D=Christian&#43;4.&amp;q=Christian&#43;4.&amp;search_field=Alle&#43;felter" aria-label="Link to danmarksbreve.kb.dk">https://danmarksbreve.kb.dk/?f%5Bsender_ssim%5D%5B%5D=Christian+4.&q=Christian+4.&search_field=Alle+felter</a>
+.A smaller sample is also available through the DigitaleUndersøgelser af Dansk Sprog (DUDS) of the University of Copenhagen:<a href="https://duds.nordisk.ku.dk/tekstresurser/dsst/teksterne/christian-ivs-breve/" aria-label="Link to duds.nordisk.ku.dk">https://duds.nordisk.ku.dk/tekstresurser/dsst/teksterne/christian-ivs-breve/</a>
+.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink" aria-label="Back to footnote 7 in the text"><span aria-hidden="true">&#8617;&#xfe0e;</span></a></p>
+</li>
+<li id="fn:8">
+<p>With thanks to Alexander Bugge Stage and the Royal Danish Library.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink" aria-label="Back to footnote 8 in the text"><span aria-hidden="true">&#8617;&#xfe0e;</span></a></p>
+</li>
+<li id="fn:9">
+<p>&ldquo;QGIS&rdquo;, <a href="https://www.qgis.org/nl/site/" aria-label="Link to qgis.org">https://www.qgis.org/nl/site/</a>
+.&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink" aria-label="Back to footnote 9 in the text"><span aria-hidden="true">&#8617;&#xfe0e;</span></a></p>
+</li>
+<li id="fn:10">
+<p>For example, this was also the case for Charles of Croÿ, see: Maekelberg, &ldquo;Mapping through Space and Time,&rdquo; 259-276.&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink" aria-label="Back to footnote 10 in the text"><span aria-hidden="true">&#8617;&#xfe0e;</span></a></p>
+</li>
+<li id="fn:11">
+<p>Senning, &ldquo;The Visit of Christian IV,&rdquo; 555&ndash;72; Kragelund, <em>A Stage for A King.</em>&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink" aria-label="Back to footnote 11 in the text"><span aria-hidden="true">&#8617;&#xfe0e;</span></a></p>
+</li>
+<li id="fn:12">
+<p>According to Paravicini and Kruse, length and frequency of stay are paramount in defining which residence is &lsquo;important&rsquo; and which is not: Paravicini, et al., &lsquo;&ldquo;Ordonnances de l&rsquo;Hôtel&rdquo; und &ldquo;Escroesdes gaiges,&rdquo;&rsquo; 41&ndash;63.&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink" aria-label="Back to footnote 12 in the text"><span aria-hidden="true">&#8617;&#xfe0e;</span></a></p>
+</li>
+<li id="fn:13">
+<p>See <a href="https://perma.cc/E7L8-Y8YH" aria-label="Link to perma.cc">https://perma.cc/E7L8-Y8YH</a>
+ for documentation on the SpaCy library. Susan Grunewald and Andrew Janco have written a tutorial on how to use NLP and Python to distil place names from a corpus:<a href="https://programminghistorian.org/en/lessons/finding-places-world-historical-gazetteer#4-building-a-gazetteer" aria-label="Link to programminghistorian.org">https://programminghistorian.org/en/lessons/finding-places-world-historical-gazetteer#4-building-a-gazetteer</a>
+.&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink" aria-label="Back to footnote 13 in the text"><span aria-hidden="true">&#8617;&#xfe0e;</span></a>&#160;<a href="#fnref1:13" class="footnote-backref" role="doc-backlink" aria-label="Back to footnote 13 in the text"><span aria-hidden="true">&#8617;&#xfe0e;</span></a></p>
+</li>
+<li id="fn:14">
+<p>For example, by that time the King of Spain, Philip III, had established a fixed summer and winter residence.&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink" aria-label="Back to footnote 14 in the text"><span aria-hidden="true">&#8617;&#xfe0e;</span></a></p>
+</li>
+<li id="fn:15">
+<p><span lang="de">&ldquo;Auss demselbigen Obersten Lossomenthe Soll Ein ganck ihn den Runden torm gemacht werden, also dass ihn dem dii Slaffkammer seyn kan. Dess graffuen kammer soll zu dem kammer Iuncker Oder kammerdiner gebra[u]chet werden, vndt der ganck von meiner Stuben dahrein gehen, vndt dii treppe, Dii Itzo dahrzu hinauffen gehet, soll weckgebrochen oder zugemauret werden,&quot;</span> <a href="https://danmarksbreve.kb.dk/catalog/%2Fletter_books%2F002207661%2F002207661_007-L0022076610070094#kbOSD-0=page:1" aria-label="Link to danmarksbreve.kb.dk">https://danmarksbreve.kb.dk/catalog/%2Fletter_books%2F002207661%2F002207661_007-L0022076610070094#kbOSD-0=page:1</a>
+.&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink" aria-label="Back to footnote 15 in the text"><span aria-hidden="true">&#8617;&#xfe0e;</span></a></p>
+</li>
+<li id="fn:16">
+<p>Another option would be to scan the books and run them through Optical Character Recognition (OCR), but that would include a long manual process of cleaning noisy text. The volume with letters from the period 1632-1635 is available on Google Books, which could serve as a test case for this approach.<a href="https://books.google.dk/books?id=D3YBAAAAQAAJ&amp;printsec=frontcover&amp;hl=nl&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false" aria-label="Link to books.google.dk">https://books.google.dk/books?id=D3YBAAAAQAAJ&printsec=frontcover&hl=nl&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false</a>
+&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink" aria-label="Back to footnote 16 in the text"><span aria-hidden="true">&#8617;&#xfe0e;</span></a></p>
+</li>
+</ol>
+</div>
+
+        
+        <hr>
+        
+        <h2 id="author">Author</h2>
+        
+        <p>
+            
+            
+            
+            <a href="https://silvaperez.github.io/">Sanne Maekelberg</a>,
+            
+            Center for Privacy Studies, <a href="mailto:sma@teol.ku.dk">sma@teol.ku.dk</a>, <a
+                href="https://orcid.org/0000-0002-5369-0960" aria-label="ORCID profile for Sanne Maekelberg, 0000-0002-5369-0960"><img src="http://localhost:1313//assets/img/orcid.svg"
+                    style="width:16px; height: 16px;" alt="ORCID iD icon"
+                    class="orcid">0000-0002-5369-0960</a>
+            
+        </p>
+    </article>
+</main>
+
+
+<hr>
+
+<footer class="grid-x align-justify" role="contentinfo">
+    <div class="cell large-6">
+        <a href="https://rrchnm.org"><img src="http://localhost:1313//assets/img/rrchnm-logo.png" alt="Roy Rosenzweig Center for History and New Media logo"></a>
+        <a href="https://gmu.edu"><img src="http://localhost:1313//assets/img/gmu-logo-updated.png" alt="George Mason University logo"></a>
+        <p>This publication is licensed <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-NC-ND</a>.</p>
+    </div>
+    <div class="cell large-6">
+        <p><em>Current Research in Digital History</em> is published by <a href="https://rrchnm.org">RRCHNM</a> at <a href="https://gmu.edu">George Mason University</a>.</p>
+        <p>ISSN 2637-5923 | <a href="https://rrchnm.org/accessibility/" target="_blank" rel="noopener">Accessibility<span class="sr-only"> (opens in a new tab)</span></a></p>
+    </div>
+</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/assets/js/all.js"></script>
+    <script src="https://rrchnm.org/donate/donate-positioning.js"></script>
+  </body>
+</html>
+

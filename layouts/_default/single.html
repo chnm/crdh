@@ -2,7 +2,7 @@
 <main id="main-content">
 <article>
   <h1>{{ .Title }}</h1>
-  {{ .Content }}
+  {{ partial "footnote-backrefs.html" .Content }}
 </article>
 </main>
 {{ end }}

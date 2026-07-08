@@ -8,7 +8,7 @@ title: "Submissions"
 
 **To submit an article, please [fill out this form](https://airtable.com/appPjezqfhB2wMOl9/pagOStrUZozOWsFiP/form).**
 
-### Submission Guidelines
+## Submission Guidelines
 All articles to be considered for publication in *CRDH* should follow the guidelines below.
 
 **Content**: 
@@ -32,7 +32,7 @@ We use the Chicago Manual of Style shortened notes and bibliography format. In a
 
 <br>
 
-### Accepted Submission Guidelines
+## Accepted Submission Guidelines
 These guidelines are for articles which have been accepted for publication and are going through the process of being published in *CRDH*. 
 
 **File Type**:

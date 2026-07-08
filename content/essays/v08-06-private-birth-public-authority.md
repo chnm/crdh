@@ -34,7 +34,7 @@ To extract topics from this corpus, I used the MALLET toolkit. The initial attem
 
 ### Sixteenth-century topics
 {{< figure caption="Figure 1." >}}
-![alt](/img/v08/kafer/figure1.png)
+![Screenshot of MALLET topic-modeling output for the sixteenth-century corpus: a numbered list of 20 topics, each with a weight percentage and its top German keywords.](/img/v08/kafer/figure1.png)
 {{< /figure >}}
 
 The topics of the sixteenth-century corpus reveal patterns of problems with the OCR. The letter 'z' is consistently substituted by the letter g', as in the words for remedy *(Arznei*) appears as *argney*, and root (*Wurzel*) shows up as *wurgel*. Some of the topics are also beginnings or endings of words that have been separated in the pages of the book (like *ges* or *nen*). As such, depending on the corpus and the goal of a particular study, such separated endings could be added to a custom stopword list.
@@ -46,13 +46,13 @@ Body (*leib*), uterus *(bärmütter* -- appearing as *beermåtter*), navel *(nab
 
 ### Eighteenth-century topics
 {{< figure caption="Figure 2." >}}
-![alt](/img/v08/kafer/figure2.png)
+![Screenshot of MALLET topic-modeling output for the eighteenth-century corpus: a numbered list of 20 topics, each with a weight percentage and its top German keywords.](/img/v08/kafer/figure2.png)
 {{< /figure >}}
 
 There are a lot of parallels between the topics from the sixteenth-century and the eighteenth-century corpora. *Frau/frauen*, *kind/kinder*, *mutter*, *schwangern,* as expected, continue to feature as key topics. Birth (*geburt*) appears also with further specifications, such as time of birth (*geburtszeit*) and afterbirth (*nachgeburt*). We can notice the linguistic change of uterus from *Bärmütter* to *Gebärmütter*, as it is known in modern German.
 
 {{< figure caption="Figure 3." >}}
-![alt](/img/v08/kafer/figure3.png)
+![Pie chart with 20 colored, numbered slices showing the proportional weight of each topic in a single eighteenth-century text, "Hebammen-Schul Oder gründlicher Unterricht."](/img/v08/kafer/figure3.png)
 {{< /figure >}}
 
 There are a lot of parallels between the topics from the sixteenth-century and the eighteenth-century corpora. Frau/frauen, kind/kinder, mutter, schwangern, as expected, continue to feature as key topics. We can notice the linguistic change of uterus from Bärmütter to Gebärmütter, as it is known in modern German.
@@ -62,7 +62,7 @@ One of the main turns on the topics can be found in group 1 (see figure 2). Grou
 In fact, when locating those clusters, they point mostly towards the selected eighteenth-century ordinances. Although *Klasse* can be related to education, the term has multiple meanings. In this case, looking closer at the corpus, the ‘class’ does not refer to the learning environment, but it is a division of the different ‘classes’ of pregnant women that the midwives would treat and how much they were allowed to charge each of the groups. As midwifery became more and more professionalized, the monetization of the practice also became more institutionalized.
 
 {{< figure caption="Figure 4: Division of patients into classes in the Ordnung für die Hebammen in München (1971), 4." >}}
-![alt](/img/v08/kafer/figure4.png)
+![Scanned page in German Fraktur type listing three fee schedules (A, B, C), each broken into three patient classes with amounts in florins and kreuzer.](/img/v08/kafer/figure4.png)
 {{< /figure >}}
 
 Another important topic is urine (*urin*). This could indicate that uroscopy was a

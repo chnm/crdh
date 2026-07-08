@@ -1,0 +1,17 @@
+{{- /*
+Goldmark's footnote extension hard-codes the back-reference link text as the
+Unicode character U+21A9 (↩︎), which screen readers announce inconsistently
+("leftwards arrow with hook" on some, nothing meaningful on others). Articles
+here can carry 30-50 footnotes, so dozens of identically-ambiguous links
+appear in sequence, violating WCAG 2.4.4 Link Purpose in Context.
+
+This Hugo version doesn't expose footnote render hooks or backlink config, so
+the fix post-processes the rendered content: give each backref an aria-label
+naming the footnote it returns to, and hide the decorative arrow glyph from
+assistive tech.
+
+Usage: {{ partial "footnote-backrefs.html" .Content }}
+*/ -}}
+{{- $pattern := `(?s)<a href="(#fnref[a-zA-Z0-9]*:([0-9]+))" class="footnote-backref" role="doc-backlink">.*?</a>` -}}
+{{- $replacement := `<a href="$1" class="footnote-backref" role="doc-backlink" aria-label="Back to footnote $2 in the text"><span aria-hidden="true">&#8617;&#xfe0e;</span></a>` -}}
+{{- replaceRE $pattern $replacement . | safeHTML -}}

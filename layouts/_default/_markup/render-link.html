@@ -1,0 +1,19 @@
+{{- /*
+Bibliographies and footnotes across the essays link bare URLs (DOIs, handles,
+archival links) with the URL itself as the visible text, which screen readers
+read character-by-character with no context (WCAG 2.4.4). When the visible
+link text is just the raw URL, add an aria-label naming the resource instead.
+*/ -}}
+{{- $dest := .Destination -}}
+{{- $ariaLabel := "" -}}
+{{- if findRE `^https?://\S+$` .PlainText -}}
+  {{- $u := urls.Parse $dest -}}
+  {{- $host := strings.TrimPrefix "www." $u.Hostname -}}
+  {{- $path := strings.Trim $u.Path "/" -}}
+  {{- if eq $host "doi.org" -}}
+    {{- $ariaLabel = printf "DOI %s" $path -}}
+  {{- else -}}
+    {{- $ariaLabel = printf "Link to %s" $host -}}
+  {{- end -}}
+{{- end -}}
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $ariaLabel }} aria-label="{{ $ariaLabel }}"{{ end }}>{{ .Text | safeHTML }}</a>
