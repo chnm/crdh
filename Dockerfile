@@ -13,7 +13,10 @@ ENV HUGO_BUILD_ARGS=$hugobuildargs
 WORKDIR /app
 
 COPY package.json package-lock.json ./
-RUN npm ci
+# The legacy Gulp dependencies are not used by the Hugo build. In particular,
+# gulp-sass pulls in deprecated node-sass, whose install script requires a
+# native build toolchain that is intentionally absent from this image.
+RUN npm ci --ignore-scripts
 
 COPY . .
 
