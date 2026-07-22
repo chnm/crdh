@@ -2,17 +2,20 @@
 
 FROM stagex/pallet-nodejs AS build-stage
 
-COPY --from=stagex/user-hugo-extended /usr/bin/hugo /usr/local/bin/hugo
+COPY --from=stagex/user-hugo-extended:0.161.1 /usr/bin/hugo /usr/local/bin/hugo
 
-ARG hugobuildargs="--buildDrafts --buildFuture"
+COPY --from=stagex/core-go /usr/lib/go/lib/time/zoneinfo.zip /zoneinfo.zip
+ENV ZONEINFO=/zoneinfo.zip
+
+ARG hugobuildargs
 ENV HUGO_BUILD_ARGS=$hugobuildargs
 
 WORKDIR /app
-COPY . .
 
-# Legacy devDependencies (node-sass/gulp) aren't used for the Hugo build;
-# --ignore-scripts skips their postinstall compilation.
-RUN npm ci --ignore-scripts
+COPY package.json package-lock.json ./
+RUN npm ci
+
+COPY . .
 
 # Hugo's Dart Sass doesn't resolve node_modules imports, so stage
 # Foundation SCSS sources where Hugo's asset pipeline can find them.
