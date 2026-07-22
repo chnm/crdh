@@ -25,13 +25,30 @@
   font-size: 28px;
 }
 
+/* WCAG AA 2.5.8: enlarge the clickable target to 24x24px around the
+   16x16 icon without changing its visual size. */
+.orcid-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin-left: -2px;
+  margin-right: -4px;
+  vertical-align: top;
+}
+
 .orcid-logo {
   width: 16px !important;
   height: 16px !important;
-  margin-top: 0rem !important;
-  margin-left: -6px !important;
-  margin-right: -8px !important;
-  vertical-align: top !important;
+  margin: 0 !important;
+}
+
+/* WCAG AA 2.5.8: main nav links inherit the 18px body line-height, which
+   with the menu's existing 0.7rem padding still clears 24px, but bump
+   line-height itself to 24px so the target size isn't dependent on padding. */
+.menu a {
+  line-height: 24px;
 }
 
 /* Site title styled as p on non-home pages (WCAG 1.3.1 heading hierarchy) */
@@ -61,6 +78,16 @@
 /* Ensure visited links maintain their context color */
 a:visited {
   color: #c50000;
+}
+
+/* a:visited (specificity 0,1,1) otherwise beats .button's white text
+   (specificity 0,1,0), so a visited "Back to homepage" button rendered
+   dark red text on its red background (~1.3:1 contrast, unreadable). Pin
+   visited buttons back to white text; the filled background already
+   signals it's a button, not a text link, so visited-state coloring
+   doesn't apply. */
+a.button:visited {
+  color: #fff;
 }
 
 h1 a:visited, h2 a:visited {

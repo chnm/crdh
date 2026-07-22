@@ -10,11 +10,11 @@
                 {{ $authorIndex := add $index 1 }}
                 {{ if eq $authorCount 1 }}
                 {{ if $author.url }}<a href="{{ $author.url }}">{{ $author.first }} {{ $author.last }}</a>{{ else }}{{ $author.first }} {{ $author.last }}{{ end }}
-                {{ with $author.orcid }}<a href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt=""
+                {{ with $author.orcid }}<a class="orcid-link" href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt="ORCID iD icon"
                         src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>{{ end }}
                 {{ else if eq $authorCount 2 }}
                 {{ if $author.url }}<a href="{{ $author.url }}">{{ $author.first }} {{ $author.last }}</a>{{ else }}{{ $author.first }} {{ $author.last }}{{ end }}
-                {{ with $author.orcid }}<a href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt=""
+                {{ with $author.orcid }}<a class="orcid-link" href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt="ORCID iD icon"
                         src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>{{ end }}
                 {{ if eq $authorIndex 1 }} and
                 {{ end }}
@@ -22,7 +22,7 @@
                 {{ $authorIndexTwo := add $authorIndex 1 }}
                 {{ if $author.url }}<a href="{{ $author.url }}">{{ $author.first }}
                     {{ $author.last }}</a>{{ else }}{{ $author.first }} {{ $author.last }}{{ end }}
-                {{ with $author.orcid }}<a href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt=""
+                {{ with $author.orcid }}<a class="orcid-link" href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt="ORCID iD icon"
                         src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>{{ end }}
                 {{ if eq $authorIndex $authorCount }}{{ else if eq $authorIndexTwo $authorCount }},
                 and {{ else }},{{ end }}
@@ -49,7 +49,7 @@
                 {{ .Params.abstract | markdownify }}
             </div>
         </section>
-        {{ .Content }}
+        {{ partial "footnote-backrefs.html" .Content }}
         {{ with .Params.appendix }}
         <hr>
         {{ if ge (len .) 2 }}
@@ -82,8 +82,8 @@
             {{ $authorName }},
             {{ end }}
             {{ $author.affiliation }}, <a href="mailto:{{ $author.email }}">{{ $author.email }}</a>, <a
-                href="https://orcid.org/{{ $author.orcid }}" aria-label="ORCID profile for {{ $authorName }}"><img src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"
-                    style="width:16px; height: 16px;" alt=""
+                href="https://orcid.org/{{ $author.orcid }}" aria-label="ORCID profile for {{ $authorName }}, {{ $author.orcid }}"><img src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"
+                    style="width:16px; height: 16px;" alt="ORCID iD icon"
                     class="orcid">{{ $author.orcid }}</a>{{ if ne (add $index 1) (len $.Params.authors) }};{{ end }}
             {{ end }}
         </p>

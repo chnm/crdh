@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title type="text" xml:lang="en">Current Research in Digital History - Articles</title>
+	<link type="application/atom+xml" href="http://localhost:1313//articles.xml" rel="self" />
+	<link type="text/html" href="http://localhost:1313/" rel="alternate" />
+	<updated>2026-07-08T12:49:25-04:00</updated>
+	<id>http://localhost:1313//articles.xml</id>
+	<author>
+		<name>Roy Rosenzweig Center for History and New Media</name>
+	</author>
+	<rights>Creative Commons BY-NC-ND</rights>
+
+	
+	
+	<entry>
+		<title>Unexpected Origins: Mapping Assisted Female Immigrants to New South Wales</title>
+		<link href="http://localhost:1313/essays/v09-01-unexpected-origins/" rel="alternate" />
+		<updated>2026-05-12T00:00:00Z</updated>
+		<published>2026-05-12T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v09-01-unexpected-origins/</id>
+		<summary>During the transition from convict societies to free settler colonies, the Australian colonies encouraged immigration by young, unmarried, working-class women to fill labor shortages and to marry into the community. The tens of thousands of women and girls who arrived under these schemes over the course of the nineteenth century fundamentally changed colonial society. New digital tools for compiling, analyzing, and visualizing data on these women permit closer examination of the characteristics of the group, and of individual outliers. Using historical shipping records, this article delves into the places of origin for 3,768 women and children who arrived on subsidized passages in Sydney between 1848 and 1887. Digital maps confirm the overwhelming predominance of immigrants from the United Kingdom and Ireland. The visualizations also highlight a minority of immigrants from other parts of the world, uncovering new patterns of colonial connections, multi-stage journeys, and return migration which complicate the narrative of female assisted migration.
+</summary>
+		<content src="http://localhost:1313/essays/v09-01-unexpected-origins/" type="text/html" />
+		
+		<author>
+			<name>Kimberley G. Connor</name>
+			<email>kgconnor@wm.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>A Digital Reconstruction of Privacy in the Royal Apartments? Network Theory and the 1585 court ordinance of Henri III of France</title>
+		<link href="http://localhost:1313/essays/v08-04-digital-reconstruction-royal-apartments/" rel="alternate" />
+		<updated>2025-10-30T00:00:00Z</updated>
+		<published>2025-10-30T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v08-04-digital-reconstruction-royal-apartments/</id>
+		<summary>Although the early modern French royal court was known for its relative accessibility to the monarch and his spaces, this accessibility has often been misinterpreted as a limited or even nonexistent privacy. King Henri III (1551-1589), in particular, envisioned a monarchy heightened by distance and sought to regulate such distance through court ordinances. This article examines Henri III&amp;#39;s 1585 court ordinance and applies network theory and access diagrams to reconstruct the spatiality of privacy within the French royal apartment. In addition to the usefulness of the applied method, the article demonstrates how Henri negotiated a balance between his personal need for privacy and the court’s expectation of access.
+</summary>
+		<content src="http://localhost:1313/essays/v08-04-digital-reconstruction-royal-apartments/" type="text/html" />
+		
+		<author>
+			<name>Miara Fraikin</name>
+			<email>miara.fraikin@kuleuven.be</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>A Monarch in Motion: Mapping the King&#39;s Private Correspondence</title>
+		<link href="http://localhost:1313/essays/v08-03-monarch-in-motion/" rel="alternate" />
+		<updated>2025-10-30T00:00:00Z</updated>
+		<published>2025-10-30T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v08-03-monarch-in-motion/</id>
+		<summary>This paper explores the mobility, correspondence, and architectural legacy of Christian IV of Denmark (1577–1648) through the application of digital humanities methodologies. Drawing on a corpus of 865 digitized and transcribed letters, we employ Named Entity Recognition, reconciliation with the World Historical Gazetteer, and Geographic Information Systems (GIS) to map both the king’s itinerary and the spatial imaginary embedded in his writings. By visualizing metadata such as dates and places of sending, we reconstruct Christian IV’s movements across his extensive territories and highlight shifting focal points during key historical moments, including the Thirty Years’ War. Further analysis of place references within the letters reveals the king’s engagement with his building projects, uncovering details of design decisions and instructions for architectural interventions. This dual focus on geography and content demonstrates how correspondence can illuminate the intersection of personal agency, political necessity, and architectural ambition. More broadly, the study showcases how digital approaches can enrich the historical study of early modern epistolary practices, while also addressing the challenges of applying modern natural language processing tools to early modern multilingual sources.
+</summary>
+		<content src="http://localhost:1313/essays/v08-03-monarch-in-motion/" type="text/html" />
+		
+		<author>
+			<name>Sanne Maekelberg</name>
+			<email>sma@teol.ku.dk</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Annotating &#34;Privacy&#34; to Train Semi-Supervised Event Extraction Models for Historical Newspapers</title>
+		<link href="http://localhost:1313/essays/v08-05-annotating-privacy-historical-newspapers/" rel="alternate" />
+		<updated>2025-10-30T00:00:00Z</updated>
+		<published>2025-10-30T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v08-05-annotating-privacy-historical-newspapers/</id>
+		<summary>This article presents a pilot study at the intersection of history and computer science, focused on annotating “privacy” as a historical concept in runaway slave advertisements from the 18th and 19th centuries. We developed a semi-supervised natural language processing (NLP) framework for event extraction, combining limited expert-annotated data with larger unannotated corpora. Building on existing datasets and producing new multilingual annotations in English, French, Dutch, and Danish, we operationalized a working definition of privacy as the ability to regulate access to oneself or one’s belongings. Through this lens, we explored how enslaved people improvised strategies of privacy during escape, such as using clothing, blankets, or disguises to secure protection and anonymity. Our collaborative approach between historians and computer scientists addressed challenges including dataset scarcity, OCR errors, and the refinement of annotation categories. Preliminary findings suggest that acts of escape not only asserted claims to freedom but also constituted claims to privacy, highlighting the intertwined nature of autonomy, racial discourse, and material strategies across trans-imperial contexts. This work demonstrates both the methodological potential of semi-supervised NLP for historical inquiry and the value of framing privacy as a category of analysis in the study of freedom seekers.
+</summary>
+		<content src="http://localhost:1313/essays/v08-05-annotating-privacy-historical-newspapers/" type="text/html" />
+		
+		<author>
+			<name>Natália da Silva Perez</name>
+			<email>dasilvaperez@eshcc.eur.nl</email>
+		</author>
+		
+		<author>
+			<name>Nadav Borenstein</name>
+			<email>nb@di.ku.dk</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Louis XIV&#39;s taste as a private matter: A Preliminary Outline of the &lt;em&gt;Appartement du Roi&#39;s&lt;/em&gt; Iconography</title>
+		<link href="http://localhost:1313/essays/v08-07-louis-xiv-appartement/" rel="alternate" />
+		<updated>2025-10-30T00:00:00Z</updated>
+		<published>2025-10-30T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v08-07-louis-xiv-appartement/</id>
+		<summary>The paper explores Louis XIV’s iconographic preferences, arguing that the selection of paintings within his broader Cabinet des Tableaux collection, as well as their arrangement in the Appartement du Roi, reveal a significant aspect of the French king’s private life. The research treats the Sun king’s extensive painting collection —931 works identified from inventories dated between 1671 and 1715— as a homogeneous source, focusing primarily on the iconographic content rather than their artistic value. The spatial context of the Appartement du Roi, is crucial as it housed the Cabinet des Tableaux, where paintings were displayed according to the king’s will. The analysis of the combination between iconography, placement, and movement of paintings within rooms of differing degree of access, allows for a nuanced reading of taste, and, therefore, privacy. The research employs a digital humanities methodology, compiling a detailed spreadsheet of the collection’s attributes, including provenance, production dates, artist nationality, size, and iconography coded through the Iconclass system —a comprehensive iconographic classification tool. By integrating digital analysis with architectural and iconographic study, this paper demonstrates that Louis XIV’s private taste was most conspicuously expressed through a curated biblical iconography within the intimacy of the Appartement du Roi, marking a critical intersection of privacy, power, and personal preference in the art patronage and collecting of the Sun King. </summary>
+		<content src="http://localhost:1313/essays/v08-07-louis-xiv-appartement/" type="text/html" />
+		
+		<author>
+			<name>Fabio Gigone</name>
+			<email>gigone@arch.ethz.ch</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Private Birth, Public Authority: Topic Changes from the Sixteenth to the Eighteenth Century in German Midwifery Books</title>
+		<link href="http://localhost:1313/essays/v08-06-private-birth-public-authority/" rel="alternate" />
+		<updated>2025-10-30T00:00:00Z</updated>
+		<published>2025-10-30T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v08-06-private-birth-public-authority/</id>
+		<summary>&amp;#34;This article examines the benefits and pitfalls of using topic modeling to analyze discursive changes in sixteenth- and eighteenth-century German midwifery books. These periods were marked by transformations in the perspectives of midwives’ knowledge and practices, providing important insight into how midwifery was discussed as a field between private practice and public legitimization. By highlighting topic changes in controlled corpora of midwifery writings from the sixteenth and eighteenth centuries, the article provides an overview of elements historians must pay attention to for future endeavors on larger-scale studies and points out how specific topics hint at transformations in German midwifery as professionalization and medical oversight tried to establish tighter control over pregnancy management and delivery techniques.&amp;#34;
+</summary>
+		<content src="http://localhost:1313/essays/v08-06-private-birth-public-authority/" type="text/html" />
+		
+		<author>
+			<name>Natacha Klein Käfer</name>
+			<email>nkk@teol.ku.dk</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Visualising Art on the Threshold in the Palazzo Medici, Florence</title>
+		<link href="http://localhost:1313/essays/v08-02-visualizing-art-palazzo-medici/" rel="alternate" />
+		<updated>2025-10-30T00:00:00Z</updated>
+		<published>2025-10-30T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v08-02-visualizing-art-palazzo-medici/</id>
+		<summary>&amp;#34;This paper explores the visual and kinaesthetic experience of traversing the domestic interior in fifteenth-century Florence, and the selective permeability of its physical and conceptual thresholds. The exploration is framed by an analysis of the composition and original architectural context of Filippo Lippi&amp;#39;s c.1450 *Annunciation* painting (now in the National Gallery, London), which was probably installed above one of the doorways on the piano nobile of the Palazzo Medici. Not only was the painting&amp;#39;s subject matter iconographically suitable to a liminal positioning, but the artist also made compositional choices specific to the rich domestic environment for which it was intended: the painted space of the Virgin&amp;#39;s private domain and the real space of the Palazzo Medic were visually and symbolically symbiotic. The paper concludes by considering the potential use of animated 3D digital models, as scholarly as well as public-facing tools, to activate the relationship between artwork, threshold and viewer-in-motion in the early modern home.&amp;#34;
+</summary>
+		<content src="http://localhost:1313/essays/v08-02-visualizing-art-palazzo-medici/" type="text/html" />
+		
+		<author>
+			<name>Anna McGee</name>
+			<email>A.Mcgee@exeter.ac.uk</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>The Republican Party’s Other Right: A Computational History of the Old Right’s Noninterventionism and their Decline within the GOP, 1934-1992</title>
+		<link href="http://localhost:1313/essays/v08-01-republican-partys-other-right/" rel="alternate" />
+		<updated>2025-09-04T00:00:00Z</updated>
+		<published>2025-09-04T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v08-01-republican-partys-other-right/</id>
+		<summary>When did American “isolationism,” more appropriately known as noninterventionism, become politically untenable in the middle years of the 20th century? It is a historical question that is being revisited in light of modern political turmoil and a lingering foreign policy hangover from the Global War on Terror. This article examines the persistence and eventual decline of Old Right noninterventionism within the GOP during the early Cold War, challenging narratives of its rapid marginalization in the 1950s. Using computational analysis of over 3,000 congressional roll call votes on military and diplomatic policy legislation, this study tracks voting patterns across parties, regions, chambers, and ideological wings. Results reveal that the remnants of the Old Right, particularly in the House, continued to maintain their opposition to key aspects of Cold War policy, particularly on foreign assistance and multilateral security agreements. This prolonged opposition suggests that a Republican shift toward an interventionist orthodoxy was not inevitable nor solely determined by events abroad, but rather evolved from internal party dynamics. The findings of this article challenge conventional histories of the domestic politics of U.S. foreign policy and offer insights into the contingencies of American foreign policy thinking in Congress, and by extension, the electorate.
+</summary>
+		<content src="http://localhost:1313/essays/v08-01-republican-partys-other-right/" type="text/html" />
+		
+		<author>
+			<name>Brandan P. Buck</name>
+			<email>bbuck@cato.org</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Across the Color Line: Using Text Networks to Examine Black and White US Soldiers’ Views on Race and Segregation during World War II</title>
+		<link href="http://localhost:1313/essays/v06-01-across-the-color-line/" rel="alternate" />
+		<updated>2023-05-17T00:00:00Z</updated>
+		<published>2023-05-17T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v06-01-across-the-color-line/</id>
+		<summary>&amp;#34;Across the Color Line&amp;#34; is part of a larger digital project The American Soldier in World War II. The project has made accessible sixty-five thousand pages of uncensored handwritten commentaries composed by US service members, along with quantitative datasets produced by a novel interdisciplinary US Army research branch. This small organization of leading psychologists and social scientists was tasked with analyzing and reporting on soldier morale, including the rank-and-file effects of segregation and relations between the races. This article showcases initial findings derived from a cross-sectional survey of Black and White soldiers administered in February and March of 1943, only months before race rebellions erupted in Detroit, Los Angeles, Harlem, and elsewhere over the country&amp;#39;s maintenance of Jim Crow while the US and its allies were at war to save democracy. Text correlation networks reveal in striking visual detail the effects of segregation on the experiences, habits, and opinions of both White and Black US citizen-soldiers, individually and collectively. Network-based visualizations are particularly effective at revealing the inverted epistemology of American racial thought and of W.E.B. Du Bois&amp;#39;s popular characterization of Black America&amp;#39;s &amp;#34;double consciousness,&amp;#34; or &amp;#34;twoness.&amp;#34; </summary>
+		<content src="http://localhost:1313/essays/v06-01-across-the-color-line/" type="text/html" />
+		
+		<author>
+			<name>Edward J.K. Gitre</name>
+			<email>egitre@vt.edu</email>
+		</author>
+		
+		<author>
+			<name>Brandon L. Kramer</name>
+			<email>brandonleekramer@gmail.com</email>
+		</author>
+		
+		<author>
+			<name>Chase Dawson</name>
+			<email>cdawson@americanforests.org</email>
+		</author>
+		
+		<author>
+			<name>Gizem Korkmaz</name>
+			<email>gizemkorkmaz@westat.com</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Visualizing Generational Change in Early Modern Law Dissertations</title>
+		<link href="http://localhost:1313/essays/v05-01-visualizing-change-in-law-dissertations/" rel="alternate" />
+		<updated>2022-05-02T00:00:00Z</updated>
+		<published>2022-05-02T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v05-01-visualizing-change-in-law-dissertations/</id>
+		<summary>In the seventeenth century, German jurisprudence saw important thematic and methodological shifts. This article employs a distinctive visualization approach to examine whether these changes can be attributed to specific age cohorts or whether they were adopted across generations. Interrogating the metadata of over 20,000 legal dissertations defended at German universities, it visualizes relative frequencies of title keywords and decomposes them by the dissertation supervisors&amp;#39; age at the time of publication. The increasing use of bilingual titles that combined Latin and the German vernacular can be attributed to younger age cohorts who entered the profession after the end of the Thirty Years&amp;#39; War, nuancing explanations of shifts in early modern academic language as primarily driven by the intention and initiative of eminent individuals. In contrast, the sudden drop in mentions of controversia in the 1610s was a much broader and swifter cross-generational shift, possibly indicating a shared desire to avoid association with the increasingly established genre of confessional polemics. Finally, the late emergence of dissertation titles mentioning territory suggests that one of the most consequential legal-political concepts of the century faced more academic inertia than assumed and adds to our knowledge of the connection between career motives and subject choice. </summary>
+		<content src="http://localhost:1313/essays/v05-01-visualizing-change-in-law-dissertations/" type="text/html" />
+		
+		<author>
+			<name>Luca Scholz</name>
+			<email>luca.scholz@manchester.ac.uk</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Slave Streets, Free Streets: Visualizing the Landscape of Early Baltimore</title>
+		<link href="http://localhost:1313/essays/v04-01-slave-streets-free-streets/" rel="alternate" />
+		<updated>2021-10-13T00:00:00Z</updated>
+		<published>2021-10-13T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v04-01-slave-streets-free-streets/</id>
+		<summary>This article explores some of the possibilities and challenges of reconstructing the physical world of Early Republic Baltimore. Drawing on Visualizing Early Baltimore, a detailed visualization of Baltimore city following the war of 1812, &amp;#34;Slave Streets, Free Streets&amp;#34; asks readers to think about where the city&amp;#39;s free blacks and enslaved workers lived and worked, and how space could be both integrated and segregated. Our research shows that blacks and whites lived in close proximity, but not necessarily in the same kinds of housing or on the same streets. Mapping also shows that the actual buying and selling of individuals, in the absence of a centralized market, took place all over the city, making it literally impossible for residents, both black and white, to avoid. This article illuminates the lives of ordinary people even as it acknowledges the limits of our ability to recreate the past. </summary>
+		<content src="http://localhost:1313/essays/v04-01-slave-streets-free-streets/" type="text/html" />
+		
+		<author>
+			<name>Anne Sarah Rubin</name>
+			<email>arubin@umbc.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>A Bridge Between Two Worlds: The Political and Economic Geography of SNCC&#39;s Friends Network</title>
+		<link href="http://localhost:1313/essays/v03-01-bridge-between-two-worlds/" rel="alternate" />
+		<updated>2020-10-28T00:00:00Z</updated>
+		<published>2020-10-28T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v03-01-bridge-between-two-worlds/</id>
+		<summary>&amp;#34;A Bridge Between Two Worlds&amp;#34; is part of a larger, ongoing digital project titled &amp;#34;The Tree of Protest.&amp;#34; The digital project reconstructs the network infrastructure of the Student Nonviolent Coordinating Committee (SNCC) and student activism in the 1960s. This article offers early findings from a spatial analysis of Friends of SNCC chapters. It combines geographic data on the locations of SNCC Projects and Friends of SNCC Chapters with 1960 census data on poverty levels, the racial characteristics of population, per capita income, and median family income to visualize the political and economic significance of SNCC&amp;#39;s national organizing. The spatial analysis reveals the strategic geography of SNCC&amp;#39;s national fundraising network and suggests new areas of research on student activism in the 1960s.
+</summary>
+		<content src="http://localhost:1313/essays/v03-01-bridge-between-two-worlds/" type="text/html" />
+		
+		<author>
+			<name>David S. Busch</name>
+			<email>dxb583@case.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>A Tale of Three Valleys: Text Mining, Spatial Analysis, and the Contested Geographies of Colorado and New Mexico’s San Luis Valley</title>
+		<link href="http://localhost:1313/essays/v03-06-tale-of-three-valleys/" rel="alternate" />
+		<updated>2020-10-28T00:00:00Z</updated>
+		<published>2020-10-28T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v03-06-tale-of-three-valleys/</id>
+		<summary>During the mid-nineteenth century, Colorado and New Mexico&amp;#39;s San Luis Valley experienced an influx of migrants, land speculators, American soldiers, and capital. Much like in other borderland regions throughout the American West, their arrival was anything but smooth. As these new arrivals settled alongside an existing population of Utes, many attempted to reimagine the region in ways that supported their own economic ambitions. This article traces two regional identities that white Americans created for the San Luis Valley as they migrated to the region in the 1860s and 1870s, both of which ignored claims laid to the region by existing Indigenous and Nuevomexicano populations. The first imagined the valley as an agrarian paradise that land speculator William Gilpin and his partners created to appeal to white settlers. This article employs text mining and spatial analysis to reconstruct the second, an identity that emerged in Colorado newspapers and defined the region as a thoroughfare to mines farther west. Through digital methods, this article links localized attempts to define the San Luis Valley as a region and to lay claim to its resources to those that occurred in the press from afar. In doing so, it demonstrates the efficacy of digital methods for connecting local borderlands histories to broader regional and national narratives.
+</summary>
+		<content src="http://localhost:1313/essays/v03-06-tale-of-three-valleys/" type="text/html" />
+		
+		<author>
+			<name>Jacob Swisher</name>
+			<email>jswisher@nd.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Digitally Mapping Commercial Currents: Maritime Mobility, Vessel Technology, and U.S. Colonization of Puget Sound, 1851–1861</title>
+		<link href="http://localhost:1313/essays/v03-03-mapping-commercial-currents/" rel="alternate" />
+		<updated>2020-10-28T00:00:00Z</updated>
+		<published>2020-10-28T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v03-03-mapping-commercial-currents/</id>
+		<summary>How important was steam power to U.S. colonization of the Pacific Northwest? This article uses data from an archival handwritten ledger covering the Puget Sound Customs District’s first decade (1851–1861) to investigate the use of steam-powered maritime mobility by non-natives during initial American settlement. By tracking individual vessels into and out of Puget Sound, these data make it possible to examine historical vessel traffic at a much finer resolution than is available in published sources. Mapping and visualizing this data shows that settlers relied far more on sailing vessels than on steam-powered ones. Although steam power captured settlers’ imaginations, steam-powered vessels made up a relatively small portion of Puget Sound vessel traffic and served fewer ports over a smaller area than did sailing vessels. While the 1858 Fraser River gold rush significantly altered regional travel patterns, its lasting impact on Puget Sound’s merchant marine was a new flotilla of small, simple sailing vessels that operated largely within the Pacific Northwest’s sheltered waters. Ultimately, this project demonstrates the potential of digitally analyzing raw data from similar records to better understand the maritime dimensions of U.S. territorial expansion.
+</summary>
+		<content src="http://localhost:1313/essays/v03-03-mapping-commercial-currents/" type="text/html" />
+		
+		<author>
+			<name>Sean Fraga</name>
+			<email>sfraga@usc.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>News Diets: Main Courses and Side Dishes</title>
+		<link href="http://localhost:1313/essays/v03-04-news-diets/" rel="alternate" />
+		<updated>2020-10-28T00:00:00Z</updated>
+		<published>2020-10-28T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v03-04-news-diets/</id>
+		<summary>This article uses topic modeling to examine the &amp;#34;news(paper) diets&amp;#34; served up in the papers read by ordinary early-twentieth-century Americans. In the early twentieth century, a large proportion of the still-mostly-rural American population read what were known as &amp;#34;country weeklies,&amp;#34; whose content was dominated by reprinted advertising and news and by local gossip and announcements. &amp;#34;Hard news&amp;#34; content was thus limited, but the practical information and gossip may have meant a closer engagement with the newspaper, and thus also with its news content. Country weeklies are also compared in this article to labor papers (broadly construed). The analysis shows a stark difference between mainstream and labor papers. In hard news topics, stories about strikes rise to the top in labor papers, while being nearly absent in mainstream papers. Labor papers also had far less of the practical information that made the country weekly so crucial to its readership, and none of the local gossip. Thus the labor papers filled an important niche, but one also had to choose to receive them for the news content; unlike the mainstream country weeklies, one did not get labor news as a &amp;#34;side dish&amp;#34; to one&amp;#39;s regular fare of train timetables and crop news.
+</summary>
+		<content src="http://localhost:1313/essays/v03-04-news-diets/" type="text/html" />
+		
+		<author>
+			<name>Vilja Hulden</name>
+			<email>Vilja.Hulden@colorado.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Silent No More: Women as Significant Political Intermediaries in Ottoman Algeria</title>
+		<link href="http://localhost:1313/essays/v03-05-silent-no-more/" rel="alternate" />
+		<updated>2020-10-28T00:00:00Z</updated>
+		<published>2020-10-28T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v03-05-silent-no-more/</id>
+		<summary>Over the course of nearly 300 years, Ottoman and non-Ottoman governors struggled to suppress the recalcitrant clans of the eastern province of Algeria and sustain control. Algerian women proved invaluable partners in these efforts. After the mid-seventeenth century, most Ottoman officials married into a local family as one of the surest ways to establish their legitimacy among the Algerian elite. Through text mining to extract named and unnamed entities and social network visualization to illustrate their relationships, I represent unnamed women’s spectral presence despite their absence in the archival record. These kinship connections and the sub-communities to which they give rise can be meaningfully investigated quantitatively using social network analysis measures, such as betweenness centrality scores. Examining these quantitative measures reveals both named and unnamed women’s positions within the structure of Ottoman-Algerian society. Through an analysis of the individual lives, relationships and the underlying structure that make up the Ottoman-Algerian network in Constantine between 1567 and 1837, I argue that local women were the most significant links in the chain that bound Algeria to the Ottoman Empire.
+</summary>
+		<content src="http://localhost:1313/essays/v03-05-silent-no-more/" type="text/html" />
+		
+		<author>
+			<name>Ashley Sanders</name>
+			<email>asandersgarcia@ucla.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>What’s on History?: Tuning In to Conspiracies, Capitalism, and Masculinity</title>
+		<link href="http://localhost:1313/essays/v03-02-whats-on-history/" rel="alternate" />
+		<updated>2020-10-28T00:00:00Z</updated>
+		<published>2020-10-28T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v03-02-whats-on-history/</id>
+		<summary>This article explores the discursive means by which History (formerly The History Channel) assigns value to and legitimizes certain methodologies, ideas, and identities. Using distant reading and close textual analysis of thirty consecutive days of History&amp;#39;s programming, we argue that the majority of the network&amp;#39;s aired programming is reality television in the guise of historical content. This programming reproduces a narrow conception of masculinity that emphasizes whiteness, manual labor, patriotism, and the mythic frontier situated within a capitalist framework. By entangling this construction of masculinity with a nostalgic, decontextualized, and meritocratic understanding of the American Dream, History caters to an older, predominantly white male demographic and offers programming that aligns with and legitimizes their worldview. Finally, we argue that History supplements its reality television shows with conspiratorial programming that profits off of a problematic orientation to the factual and evidence-based framework that humanistic and scientific inquiry is built upon.
+</summary>
+		<content src="http://localhost:1313/essays/v03-02-whats-on-history/" type="text/html" />
+		
+		<author>
+			<name>Joshua Catalano</name>
+			<email>catala4@clemson.edu</email>
+		</author>
+		
+		<author>
+			<name>Briana Pocratsky</name>
+			<email>bpocrats@gmu.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>“For the Love of People”: Berkeley&#39;s Rainbow Sign and the Secret History of the Black Arts Movement</title>
+		<link href="http://localhost:1313/essays/v02-13-for-the-love-of-people/" rel="alternate" />
+		<updated>2019-08-23T00:00:00Z</updated>
+		<published>2019-08-23T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v02-13-for-the-love-of-people/</id>
+		<summary>With its all-female leadership and its balance of black nationalism, experimental art, and the politics of respectability, the Berkeley cultural center Rainbow Sign suggests some of the hidden complexities of the Black Arts Movement as it translated itself into the 1970s. Reflecting on their digital curation of the Rainbow Sign archive, the authors suggest that, while a computation-driven strain of digital history has broken much new methodological ground, another strain of digital history-oriented to a larger public and interested in dramatizing the complexities of primary sources through the affordances of digital media-can also yield fresh arguments through the pressure it puts on primary sources to speak to one another. We suggest that the work of digital curation is especially suited for dramatizing the often invisible curatorial work performed by black women such as Mary Ann Pollar, the founder of Rainbow Sign.
+</summary>
+		<content src="http://localhost:1313/essays/v02-13-for-the-love-of-people/" type="text/html" />
+		
+		<author>
+			<name>Tessa Rissacher</name>
+			<email>thetessalady87@gmail.com</email>
+		</author>
+		
+		<author>
+			<name>Scott Saul</name>
+			<email>ssaul@berkeley.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>A Committee of the Whole</title>
+		<link href="http://localhost:1313/essays/v02-02-a-committee-of-the-whole/" rel="alternate" />
+		<updated>2019-08-23T00:00:00Z</updated>
+		<published>2019-08-23T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v02-02-a-committee-of-the-whole/</id>
+		<summary>Anti-slavery efforts have long served as the ostensible setting of early struggles for Black freedom and equal rights in the United States, including both the Colored Conventions and the early Black press. Recent collection, digitization, and data curation efforts, however, have made it possible to test that view using social network analysis. Based on this analysis, I show that early Black activist communities cannot be collapsed into the white-led abolitionist circuits. The Colored Conventions and the early Black press operated independently of the anti-slavery societies across six regionally distinct communities. A brief survey of these regional communities points to the wealth of research opportunities among robust, rediscovered, and reassembled archives into areas that speak to enduring questions of rights, resistance, and community-building. These inquiries simultaneously demonstrate the need for careful attention to Black data curation practices, especially with regard to inclusive approaches to scattered archives.
+</summary>
+		<content src="http://localhost:1313/essays/v02-02-a-committee-of-the-whole/" type="text/html" />
+		
+		<author>
+			<name>Jim Casey</name>
+			<email>jccasey@princeton.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Black Placemaking in Texas: Sonic and Social Histories of Newton and Jasper County Freedom Colonies</title>
+		<link href="http://localhost:1313/essays/v02-06-black-placemaking-in-texas/" rel="alternate" />
+		<updated>2019-08-23T00:00:00Z</updated>
+		<published>2019-08-23T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v02-06-black-placemaking-in-texas/</id>
+		<summary>While public awareness of incorporated black historic towns and urban neighborhoods in places like Rosewood, Florida, Tulsa, Oklahoma, and Eatonville, Florida grow, less is known about unincorporated Black settlements in Texas. From 1865 to 1920, African Americans founded at least 557 self-sustaining freedom colonies in Texas. The authors engage the history of Black placemaking through the lens of Texas freedom colonies in Newton and Jasper Counties, areas better known for racial violence than liberation. The paper argues that biases in public history and historic preservation policy toward white settlerism, building integrity, and property ownership inhibit the documentation, recognition, and, consequently, the preservation of freedom colonies and their origin stories. The authors argue that freedom colonies&amp;#39; marginal status necessitates creative approaches to mapping and crafting arguments for these communities&amp;#39; &amp;#34;historic significance&amp;#34; and protection. Authors mapped freedom colonies through collection and analysis of both publically available data and intangible heritage, specifically sonic and social histories in Newton and Jasper County during a pilot study. This initial mapping exercise gave birth to the statewide crowdsourcing and mapping project, The Texas Freedom Colonies Atlas. Housed on multiple digital humanities platforms, the Atlas contains a map of 357 settlements and translates local constructions of historical significance to policymakers and cultural resource managers.
+</summary>
+		<content src="http://localhost:1313/essays/v02-06-black-placemaking-in-texas/" type="text/html" />
+		
+		<author>
+			<name>Andrea Roberts</name>
+			<email>aroberts318@tamu.edu</email>
+		</author>
+		
+		<author>
+			<name>Mohammad Javad Biazar</name>
+			<email>mj.biazar@tamu.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Century of Black Mormons: A Preliminary Interpretation of the Data</title>
+		<link href="http://localhost:1313/essays/v02-03-century-of-black-mormons/" rel="alternate" />
+		<updated>2019-08-23T00:00:00Z</updated>
+		<published>2019-08-23T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v02-03-century-of-black-mormons/</id>
+		<summary>People of black-African descent have been members of the Church of Jesus Christ of Latter-day Saints from its founding in 1830 to the present yet their names and stories have been erased from public perception on the outside and collective Latter-day Saint memory on the inside. Century of Black Mormons is a digital history project designed to recover what was lost, the identities of Black Latter-day Saints during the faith&amp;#39;s first 100 years, from 1830 to 1930. This paper offers an initial interpretation of the data collected thus far. It begins to document what life was like in the pews for Black Mormons and finds that integrated worship services varied across time and space. It demonstrates that kinship networks were important to Black Mormon conversions, and that pioneering black converts presided over multi-generational families of Black Mormons whose legacies stretch into the 21st century. </summary>
+		<content src="http://localhost:1313/essays/v02-03-century-of-black-mormons/" type="text/html" />
+		
+		<author>
+			<name>W. Paul Reeve</name>
+			<email>paul.reeve@utah.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Dance Touring and Embodied Data: Some Approaches to Katherine Dunham’s Movement on the Move</title>
+		<link href="http://localhost:1313/essays/v02-12-dance-touring-and-embodied-data/" rel="alternate" />
+		<updated>2019-08-23T00:00:00Z</updated>
+		<published>2019-08-23T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v02-12-dance-touring-and-embodied-data/</id>
+		<summary>This article represents the first stage of a larger research project that considers the kinds of questions and problems that make the analysis and visualization of data meaningful for the study of dance in a historical context. We pursue this work through the exemplary case study of mid-century African American choreographer Katherine Dunham and the global legacy of her international touring. In this short piece, we focus on a dataset we manually curated to document Dunham’s location nearly every day for the four years between January 1st, 1950 and December 31st, 1953. We use this daily itinerary to consider patterns of her travel and their implications, engaging with dance both as a mode of thinking about archives of moving bodies, and as an object of historical study.
+</summary>
+		<content src="http://localhost:1313/essays/v02-12-dance-touring-and-embodied-data/" type="text/html" />
+		
+		<author>
+			<name>Harmony Bench</name>
+			<email>bench.9@osu.edu</email>
+		</author>
+		
+		<author>
+			<name>Kate Elswit</name>
+			<email>Kate.Elswit@cssd.ac.uk</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Improving Lynching Inventories with Local Newspapers: Racial Terror in Virginia, 1877-1927</title>
+		<link href="http://localhost:1313/essays/v02-04-improving-lynching-inventories/" rel="alternate" />
+		<updated>2019-08-23T00:00:00Z</updated>
+		<published>2019-08-23T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v02-04-improving-lynching-inventories/</id>
+		<summary>Lynching inventories are fundamental tools to measure the extent and trends of lethal mob violence against alleged criminals during the post-Reconstruction era in the United States. The digital history project &amp;#34;Racial Terror: Lynchings in Virginia, 1877-1927&amp;#34; revisits the Beck-Tolnay inventory of Southern lynchings, the most comprehensive and accurate scholarly catalogue of lethal mob violence in the Deep South. Focusing on lynching in Virginia, this project uses local, rather than national, newspapers as its main source of information. Importantly, the use of local sources reveals that white victims of lynching in Virginia have been overcounted in lynching inventories. This is a significant finding because lynching apologists often used white lynching victims to defend lethal mob violence arguing that, rather than a tool of white domination, lynching was a legitimate and non-racialized form of &amp;#34;popular justice&amp;#34; against hideous crimes. This project enhances our understanding of lynching as a form of racialized terrorism and recommends the systematic use of local newspapers and sources to correct existing lynching catalogues. </summary>
+		<content src="http://localhost:1313/essays/v02-04-improving-lynching-inventories/" type="text/html" />
+		
+		<author>
+			<name>Gianluca De Fazio</name>
+			<email>defazigx@jmu.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Labor and Business at Congressional Hearings, 1877–1990: Unequal Power and the Significance of Elections</title>
+		<link href="http://localhost:1313/essays/v02-07-labor-and-business-at-congressional-hearings/" rel="alternate" />
+		<updated>2019-08-23T00:00:00Z</updated>
+		<published>2019-08-23T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v02-07-labor-and-business-at-congressional-hearings/</id>
+		<summary>Testimony before Congressional committees forms an important body of evidence in many scholarly works, but as a subject in its own right, testifying before Congress is relatively little studied. Yet, as the most accessible form of (federal) lobbying, Congressional hearings offer a wide-angle view of attempts to gain the ear of the state, one that in no way excludes the influence of powerful financial interests but also encompasses the presence of representatives of ordinary Americans, such as labor unions. Using metadata on testimony at Congressional hearings, this paper makes a first attempt at combining a historical overview approach with a focus on labor both as a topic and an actor, examining both Congressional attention to work-related matters and labor&amp;#39;s representation at hearings. The birds-eye view presented in the paper underlines a crude yet important point: politics matters, but to make a mark in politics, one needs a base of power. Political alliances and electoral shifts have mattered greatly to labor&amp;#39;s Congressional fortunes both through access to hearings and by potentially shaping the testimony of the many government and party witnesses, but such political alliances are insufficient in themselves unless labor is able to assert power outside of electoral politics.
+</summary>
+		<content src="http://localhost:1313/essays/v02-07-labor-and-business-at-congressional-hearings/" type="text/html" />
+		
+		<author>
+			<name>Vilja Hulden</name>
+			<email>Vilja.Hulden@colorado.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Mapping Black Ecologies</title>
+		<link href="http://localhost:1313/essays/v02-05-mapping-black-ecologies/" rel="alternate" />
+		<updated>2019-08-23T00:00:00Z</updated>
+		<published>2019-08-23T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v02-05-mapping-black-ecologies/</id>
+		<summary>This essay is our first effort in a long-term collective project organized to collect historical and contemporary narratives from Black communities that offer alternative epistemic entry points for historicizing and interrupting mounting ecological crisis. We use the space of this essay to lay the conceptual groundwork for this collaborative effort through our primary concept, Black ecologies. On the one hand, this idea provides a way of historicizing and analyzing the ongoing reality that Black communities in the US South and in the wider African Diaspora are most susceptible to the effects of climate change, including rising sea levels, subsidence, sinking land, as well as the ongoing effects of toxic stewardship. On the other hand, Black ecologies names the corpus of insurgent knowledge produced by these same communities, which we hold to have bearing on how we should historicize the current crisis and how we conceive of futures outside of destruction.
+</summary>
+		<content src="http://localhost:1313/essays/v02-05-mapping-black-ecologies/" type="text/html" />
+		
+		<author>
+			<name>J.T. Roane</name>
+			<email>jtroane@asu.edu</email>
+		</author>
+		
+		<author>
+			<name>Justin Hosbey</name>
+			<email>justin.hosbey@emory.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Networks of Piety and Slavery among Late Eighteenth-Century Rural Maryland Catholics</title>
+		<link href="http://localhost:1313/essays/v02-09-networks-of-piety-and-slavery/" rel="alternate" />
+		<updated>2019-08-23T00:00:00Z</updated>
+		<published>2019-08-23T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v02-09-networks-of-piety-and-slavery/</id>
+		<summary>The first Catholic Bible published in the United States in 1790 contained a subscriber list: names and locations of people, mostly Catholics, who helped finance the publication. An initial map of these 429 names, created for a 2017 exhibition in the University of Notre Dame&amp;#39;s Rare Books and Special Collections, showed clusters of subscribers in Maryland and Pennsylvania. The largest subset identified so far (102 subscribers) was in rural Maryland, and is this paper&amp;#39;s focus. Digital tools helped us visualize networks within this community, including historical connections between slavery and piety. We found that a large majority of Maryland Catholics who purchased Bibles were also slaveholders (more than twice the average rate of slaveholding in the South). The densest subscriber locations also trace a discernable path along the pattern of Jesuit plantations in southern and eastern Maryland, a parallel between piety and slaveholding the map made visible. Digital mapping also pulled into focus connections among rural Catholics, as well as relationships between them and the people they enslaved. Archival records revealed dense kinship, religious, and fraternal relationships among subscribers. Records also uncovered enslaved Marylanders who embraced Catholicism, sued or petitioned for freedom, or fled. Slavery and religion formed connective tissue in post-Revolutionary Maryland.
+</summary>
+		<content src="http://localhost:1313/essays/v02-09-networks-of-piety-and-slavery/" type="text/html" />
+		
+		<author>
+			<name>Rachel Bohlmann</name>
+			<email>rbohlman@nd.edu</email>
+		</author>
+		
+		<author>
+			<name>Suzanna Krivulskaya</name>
+			<email>skrivulskaya@csusm.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Race and Place: Dialect and the Construction of Southern Identity in the Ex-Slave Narratives</title>
+		<link href="http://localhost:1313/essays/v02-14-race-and-place/" rel="alternate" />
+		<updated>2019-08-23T00:00:00Z</updated>
+		<published>2019-08-23T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v02-14-race-and-place/</id>
+		<summary>In the 1930s, the New Deal provided employment for cultural workers through organizations like the Federal Writers&amp;#39; Project (FWP). The federal government sent writers across the country to collect life histories, an emerging genre at the intersection of oral history, ethnography, and literature. Among the most prominent and debated are the Ex-Slave Narratives, a collection of over 2,400 life histories with former enslaved peoples. Rather than focusing on the Ex-Slave Narratives as a source for understanding the antebellum era or American south during Reconstruction, this article explores how the writing style of the narratives shaped the construction of race and southern identity in the late 1930s.
+
+Using text analysis, I show how dialect was not only racialized but also connected to a particular (cultural) geography—the American South. I build off of Catherine Stewart&amp;#39;s argument that Ex-Slave Narratives dialect was racialized and often worked to deny interviewees rights to full citizenship by using this powerful representational, rhetorical strategy to &amp;#34;other&amp;#34; formerly enslaved people and therefore deny their full selfhood in the interviews. At the same time, the FWP&amp;#39;s Southern Life Histories Project—which focused on life histories with laborers in the lowest economic strata residing in the South—marked dialect as a regional feature. Dialect, therefore, also signified that the person speaking was rural, uneducated, and Southern. This came at a time when Southern life was under a microscope; the national debate centered around whether the South was the reason the nation struggled to end the Great Depression and progress. Dialect effectively marked a person as poor, black, and southern, leaving those interviewed in the Ex-Slave Narratives representationally on the margins of US society.
+</summary>
+		<content src="http://localhost:1313/essays/v02-14-race-and-place/" type="text/html" />
+		
+		<author>
+			<name>Lauren Tilton</name>
+			<email>ltilton@richmond.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Royal African Company Networks</title>
+		<link href="http://localhost:1313/essays/v02-10-royal-african-company-networks/" rel="alternate" />
+		<updated>2019-08-23T00:00:00Z</updated>
+		<published>2019-08-23T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v02-10-royal-african-company-networks/</id>
+		<summary>Royal African Company Networks is a pilot project designed to explore the possibilities of using computational text analysis and GIS to investigate the correspondence of the Royal African Company, England’s late seventeenth-century African trade monopoly. Our project maps over 3,000 letters between the company’s main fort, Cape Coast Castle, in modern-day Ghana and the company’s ‘outforts,’ or smaller holdings on the coast. We then combine mapping with computational text analysis to draw out themes in the correspondence. We hope this project demonstrates the potential of bringing an interdisciplinary approach to historical analysis and serves as a stepping-stone for further exploration.
+</summary>
+		<content src="http://localhost:1313/essays/v02-10-royal-african-company-networks/" type="text/html" />
+		
+		<author>
+			<name>Anne Ruderman</name>
+			<email>A.E.Ruderman@lse.ac.uk</email>
+		</author>
+		
+		<author>
+			<name>Mark Heller</name>
+			<email>mark@markheller.org</email>
+		</author>
+		
+		<author>
+			<name>Harry Xue</name>
+			<email>wenzhexue2014@gmail.com</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Topic Modeling and Textual Analysis of American Scientific Journals, 1818–1922</title>
+		<link href="http://localhost:1313/essays/v02-11-topic-modeling-and-textual-analysis/" rel="alternate" />
+		<updated>2019-08-23T00:00:00Z</updated>
+		<published>2019-08-23T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v02-11-topic-modeling-and-textual-analysis/</id>
+		<summary>When performing a distant reading of some of the most prominent American scientific publications in the nineteenth-century U.S., some very clear patterns emerge. LDA topic modeling and textual analysis methods of over one hundred years of the American Journal of Science (AJS), Proceedings of the American Association for the Advancement of Science (PAAAS), and the Journal of the American Chemical Society (JACS) between 1818 and 1922 helps historians to understand how these journals evolved over the nineteenth-century. Overall, there was an increase in discussion of business and professional issues and a shift in the journals that scientists used to discuss these issues. This shift happened during a very specific period, 1870-1890, the very same time that specialized scientific societies, particularly the American Chemical Society, split from the more generalized American Association for the Advancement of Science. Further analyses of these datasets may help to better understand shifts American science in the nineteenth century, and topic modeling methods allow historians of science to better identify this evolution of American science.
+</summary>
+		<content src="http://localhost:1313/essays/v02-11-topic-modeling-and-textual-analysis/" type="text/html" />
+		
+		<author>
+			<name>Shawn Martin</name>
+			<email>Shawn.J.Martin@Dartmouth.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Women and Federal Officeholding in the Late Nineteenth-Century U.S.</title>
+		<link href="http://localhost:1313/essays/v02-08-women-and-federal-officeholding/" rel="alternate" />
+		<updated>2019-08-23T00:00:00Z</updated>
+		<published>2019-08-23T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v02-08-women-and-federal-officeholding/</id>
+		<summary>When and how did American women enter the federal workforce? In order to answer this question I turn to the nineteenth century&amp;#39;s largest government institution, the U.S. Post. During the nineteenth century thousands of women served as postmasters. As is often the case for women&amp;#39;s history, however, an incomplete archival record makes it difficult to know how many were in office and how that number changed over time. This essay compares three separate data sources to distill that pattern. All three data sources show a similar trajectory: beginning in the 1860s and accelerating through the 1870s and 1880s, many more women began serving as postmasters in the federal government. The nature of the nineteenth-century postal system provided women with a number of advantages for women to step into public office. The wave of female postmasters during the late nineteenth century was a crucial wedge for women&amp;#39;s broader entry into the federal government.
+</summary>
+		<content src="http://localhost:1313/essays/v02-08-women-and-federal-officeholding/" type="text/html" />
+		
+		<author>
+			<name>Cameron Blevins</name>
+			<email>c.blevins@northeastern.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>“Attracted by the Khaki”: War Camps and Wayward Girls in Virginia, 1918–1920</title>
+		<link href="http://localhost:1313/essays/v01-07-attracted-by-the-khaki/" rel="alternate" />
+		<updated>2018-08-27T00:00:00Z</updated>
+		<published>2018-08-27T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v01-07-attracted-by-the-khaki/</id>
+		<summary>This article examines the reactions of Virginia’s public welfare reformers to fears about the rise of prostitution and sex delinquency near state military training facilities during World War I. By visualizing data derived from the admissions logs of Virginia’s two segregated female reformatories, this article argues that the war provided the needed rationale to fund the expansion of state institutions and their programs to reform delinquent girls. Additionally, maps of the data show that the social engineering that targeted delinquent girls in Virginia spread beyond both its war camps and its cities into the mountains and other rural areas of the state. Scholars studying the history of female delinquency have argued that the vast majority of girls targeted for behavioral rehabilitation in the early twentieth century were typically poor, urban-dwelling daughters of working-class or immigrant parents. Virginia’s predominantly rural setting complicates our understanding of female delinquency as a problem stemming primarily from the challenges of vast urbanization. The case of Virginia suggests that delinquency studies to date may have been too urban in their focus, failing to see that rural communities were also targeting girls for incarceration and reform.
+</summary>
+		<content src="http://localhost:1313/essays/v01-07-attracted-by-the-khaki/" type="text/html" />
+		
+		<author>
+			<name>Erin N. Bush</name>
+			<email>ebush3@gmu.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>“The Two Diseases Are So Utterly Dissimilar”: Using Digital Humanities Tools to Advance Scholarship in the Global History of Medicine</title>
+		<link href="http://localhost:1313/essays/v01-12-the-two-diseases-are-so-utterly-dissimilar/" rel="alternate" />
+		<updated>2018-08-27T00:00:00Z</updated>
+		<published>2018-08-27T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v01-12-the-two-diseases-are-so-utterly-dissimilar/</id>
+		<summary>The Russian influenza, which first received broad attention in St. Petersburg in November 1889 and spread across Europe and into the Americas over the next two months, occurred at a critical moment in the development of mass journalism, medical knowledge, and information technology. In this context, the question of whether “influenza is the forerunner of cholera” was prompted by a single statement by Russian physician Nikolai Fedorovich Zdekauer, made during a scholarly meeting in St. Petersburg yet quickly disseminated globally through newspapers and medical journals. Tracing the reporting on Zdekauer’s statement reveals how quickly misinformation could be transmitted on a global scale at a time of heightened concern about the threat of widespread disease. Yet these same sources, including newspapers and medical journals, also demonstrate how quickly both the leading authorities in medical science and publications aimed at public audiences questioned these reports and presented authoritative alternatives based on reasoned analysis. Affirming the dissimilarity of influenza and cholera also served to affirm the value of a public sphere which allowed for measured discussion, thoughtful intervention, and the articulation of an emerging scientific consensus about disease etiology.
+</summary>
+		<content src="http://localhost:1313/essays/v01-12-the-two-diseases-are-so-utterly-dissimilar/" type="text/html" />
+		
+		<author>
+			<name>E. Thomas Ewing</name>
+			<email>etewing@vt.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>(Re)Humanizing Data: Digitally Navigating the Bellevue Almshouse</title>
+		<link href="http://localhost:1313/essays/v01-10-re-humanizing-data/" rel="alternate" />
+		<updated>2018-08-27T00:00:00Z</updated>
+		<published>2018-08-27T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v01-10-re-humanizing-data/</id>
+		<summary>Fleeing poverty, disease and violence at home, thousands immigrated to New York City in the 1840s. In an unknown city, with little support, many became destitute. City officials responded by consigning immigrants to the Bellevue Hospital Almshouse. There they were diagnosed as “vagrant,” “destitute” and “recent emigrant” and incarcerated in New York’s nascent public health system. This paper uses computational methods to reconstruct the experiences of incarcerated immigrants. It demonstrates the (often archivally invisible) forces that structured immigrants’ lives. It also argues that, despite the violence they suffered at the hands of New York City, these men and women used the Almshouse to forge communities, demand medical care, and claim social support.
+</summary>
+		<content src="http://localhost:1313/essays/v01-10-re-humanizing-data/" type="text/html" />
+		
+		<author>
+			<name>Anelise Hanson Shrout</name>
+			<email>ashrout@bates.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Digitally Analyzing the Uneven Ground: Language Borrowing Among Indian Treaties</title>
+		<link href="http://localhost:1313/essays/v01-02-digitally-analyzing-the-uneven-ground/" rel="alternate" />
+		<updated>2018-08-27T00:00:00Z</updated>
+		<published>2018-08-27T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v01-02-digitally-analyzing-the-uneven-ground/</id>
+		<summary>Despite a growing body of literature focusing on the importance of Native American treaties and the treaty making process itself, the nearly four hundred separate documents have yet to be analyzed using the methods of digital history. By digitally detecting text reuse, this article recreates the patterns of language borrowing found among treaties and locates these networks within the larger context of settler-colonialism. An examination of these patterns reveals that treaty authors frequently borrowed both content and language from previous documents but only rarely did this borrowing occur over long periods of time or across geographic regions. Most treaties borrowed from their immediate temporal predecessors and geographic neighbors. While borrowing was common, many treaties did not include any borrowed language. This absence of borrowing raises questions concerning indigenous agency and the supposed efficiency and strength of the growing bureaucratic American state. These patterns of language borrowing illustrate the inconsistency of federal Indian policy. The article concludes with two case studies that demonstrate how digitally detecting text reuse can complicate our understanding of the treaty making process.
+</summary>
+		<content src="http://localhost:1313/essays/v01-02-digitally-analyzing-the-uneven-ground/" type="text/html" />
+		
+		<author>
+			<name>Joshua Catalano</name>
+			<email>jcatala3@gmu.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Geo-Locating Census Micro-Data: Segregation, Clustering, and Residential Behaviours of Migrant Communities in London, 1881–1911</title>
+		<link href="http://localhost:1313/essays/v01-05-geo-locating-census-micro-data/" rel="alternate" />
+		<updated>2018-08-27T00:00:00Z</updated>
+		<published>2018-08-27T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v01-05-geo-locating-census-micro-data/</id>
+		<summary>The settlement of foreign-born migrant communities in London has received considerable scholarly attention. Using the recently released Integrated Census Microdata, this article contributes to the literature as it argues that individualised mapping processes can reveal distinct settlement patterns within migrant communities. Furthermore, it is demonstrated that migrants were highly mobile entities and that communities continuously underwent radical transformations. Two areas of East London are used as case studies to highlight the different behaviours exhibited by migrant groups during a period of intense arrival and settlement. These neighbourhoods were selected on account of the availability of geo-spatial and census data. After processing in a Geographic Information System, data is explored and mapped to illustrate the concentration and composition of individual properties. Ultimately, this article presents evidence of tight migrant clustering and the gradual spread of migrants as they eventually settle entire streets. The decennial changes highlight some form of interchange. As migrants left one subsection, they moved to another. Although the literature indicated and suggested strong tendencies of residential clustering, this research has demonstrated the complexities of this point and revealed a number of previously unexplored behaviours.
+</summary>
+		<content src="http://localhost:1313/essays/v01-05-geo-locating-census-micro-data/" type="text/html" />
+		
+		<author>
+			<name>James Perry</name>
+			<email>james.perry@lancaster.ac.uk</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Glitching History: Using Image Deformance to Rethink Agency and Authenticity in the 1960s American Folk Music Revival</title>
+		<link href="http://localhost:1313/essays/v01-08-glitching-history/" rel="alternate" />
+		<updated>2018-08-27T00:00:00Z</updated>
+		<published>2018-08-27T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v01-08-glitching-history/</id>
+		<summary>Tactics of glitching and deformance, which alter existing digital data into new outputs through the manipulation of underlying code, offer untapped possibilities for historical inquiry. A photograph of musicians Mississippi John Hurt, Doc Watson, and Sam Hinton at the 1964 Berkeley Folk Music Festival serves as a case study for discovering how glitching and deformance reveal previously undetected aspects of the historical record: when glitched, the photograph sparks a heightened awareness of how Hurt and Watson, forced to be carriers of a limiting racial and regional authenticity, also found ways to expand their freedom and agency within the constraints of early 1960s consensus liberalism in the United States. While most histories of the folk revival focus on its primarily white, middle-class audiences, if even to critique their actions, the glitched image aids us in accessing the experiences of Hurt and Watson more robustly. In this way, a digital distortion of a photograph paradoxically produces a more accurate interpretation of the history it captures, enabling a compelling intervention in historiographic debates about the folk revival and its post-World War II American context.
+</summary>
+		<content src="http://localhost:1313/essays/v01-08-glitching-history/" type="text/html" />
+		
+		<author>
+			<name>Michael J. Kramer</name>
+			<email>michaelk@middlebury.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Growing Strong: The Institutional Expansion of Knowledge in the Early Republic</title>
+		<link href="http://localhost:1313/essays/v01-13-growing-strong/" rel="alternate" />
+		<updated>2018-08-27T00:00:00Z</updated>
+		<published>2018-08-27T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v01-13-growing-strong/</id>
+		<summary>This essay explores how social network graphs can be utilized to explore the relationships between people in civil societies. This study focuses on the membership data from a sample of learned societies as well as federal employees and U.S. Army officers during the early republic. Using software constructs a visualization which indicates the shared connections between groups. This offers opportunities to explore if memberships in civil societies mirrored political relationships or if civil societies offered a space to cross political boundaries. Network graphs can help us visualize many relationships and, if used with traditional sources, can offer a richer understanding of the past. This article provides early insights into an ongoing project which seeks to test Alexander de Tocqueville famous observation on the importance of civil societies to the expansion of democracy. 
+</summary>
+		<content src="http://localhost:1313/essays/v01-13-growing-strong/" type="text/html" />
+		
+		<author>
+			<name>George D. Oberle III</name>
+			<email>goberle@gmu.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Mapping Mobility: Class and Spatial Mobility in the Wall Street Workforce, 1890–1914</title>
+		<link href="http://localhost:1313/essays/v01-06-mapping-mobility/" rel="alternate" />
+		<updated>2018-08-27T00:00:00Z</updated>
+		<published>2018-08-27T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v01-06-mapping-mobility/</id>
+		<summary>This project melds archival salary data and demographic data to examine the lives of men and women working in a Wall Street investment bank in the early twentieth century. Linking online database records for the 1900 and 1910 U.S. Censuses, it traces workers’ moves over time and the emergence of a gendered landscape in the New York metropolitan area that prefigured trends in other cities. While male employees grew increasingly likely to live in or move to the suburbs, women employees tended to move to or remain in urban neighborhoods. Examining household data reveals that while women did not receive acknowledgement as family “breadwinners” in fact both male and female workers on Wall Street supported other relatives with the ample salaries they received. In addition, the data indicate female white-collar workers were likely to move considerable distances for employment, often accompanied by other family members rather than being solitary “women adrift.” Government records from other online databases reveal the forms of material and social support women workers provided each other as roommates, traveling companions, and recommenders. The findings illustrate the potential of using digital databases to examine middle-class lives and particularly working women’s lives.
+</summary>
+		<content src="http://localhost:1313/essays/v01-06-mapping-mobility/" type="text/html" />
+		
+		<author>
+			<name>Atiba Pertilla</name>
+			<email>pertilla@gscho.net</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Mapping the Media Landscape in Old Regime France: Citation Practices and Social Reading in the Affiches, 1770–1788</title>
+		<link href="http://localhost:1313/essays/v01-11-mapping-the-media-landscape-in-old-regime-france/" rel="alternate" />
+		<updated>2018-08-27T00:00:00Z</updated>
+		<published>2018-08-27T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v01-11-mapping-the-media-landscape-in-old-regime-france/</id>
+		<summary>In the decades preceding the French Revolution, newspapers in France published thousands of letters from their readers. Such letters are a rich source for studying the ways in which readers responded to print. This article explores how the practices that readers and publishers employed to reference print matter helped the reading public conceptualize connections between the text they were reading and the larger media landscape. Editors invited their readers to contribute their opinions, and readers responded to the editors and to one another. They referenced articles in the paper, books, or other publications that had inspired their response. Readers also reacted to a periodical other than the one to which they addressed their letter. Using network analysis, the publications that letter writers responded to were tracked across newspapers. Visualizing citations as a network reveals the relationship between literary or political publications and the provincial general information newspapers known as affiches. Readers consumed such disparate publications together. In fact, readers placed the periodicals in direct dialogue by responding to uncensored and international publications in their letters to the censored affiches. Parisian and international publications were read and discussed in provincial centers, even in the censored Old Regime press. </summary>
+		<content src="http://localhost:1313/essays/v01-11-mapping-the-media-landscape-in-old-regime-france/" type="text/html" />
+		
+		<author>
+			<name>Elizabeth Andrews Bond</name>
+			<email>bond.282@osu.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Mining the ICC: Macroanalysis of the Indian Claims Commission</title>
+		<link href="http://localhost:1313/essays/v01-04-mining-the-icc/" rel="alternate" />
+		<updated>2018-08-27T00:00:00Z</updated>
+		<published>2018-08-27T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v01-04-mining-the-icc/</id>
+		<summary>Conservative white politicians created the Indian Claims Commission (ICC) as part of a movement to terminate Indian tribes in the 1940s. Many indigenous studies scholars see the ill intent and certain unjust outcomes as proof of the ICC’s damage to tribal sovereignty. Using topic modeling to follow discourses in the decisions, this paper argues the Commission should be seen rather as a modest, symbolic step towards meeting federal promises. Topic modeling or macroanalysis allows researchers to read all of the legal decisions distantly. Viewed over time, the decisions categorize the changing relationship between Indian Country and the Federal Government from a policy of terminating tribes’ status to much greater tribal sovereignty. Text mining also highlighted certain types of decisions, driving analysis and allowing exploration of the corpus. The “accounting” topic and related decisions importantly required the Federal government to symbolically recognize their treaty obligations. The decisions mark a legal process and major events in the late 1960s and 1970s affected their changing discourse. The ICC itself subsequently affected the relationship between tribes and government. By directing an “accounting,” the decisions encouraged an additional step in the continuing process of political reconciliation.
+</summary>
+		<content src="http://localhost:1313/essays/v01-04-mining-the-icc/" type="text/html" />
+		
+		<author>
+			<name>Peter Carr Jones</name>
+			<email>pjones15@masonlive.gmu.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Notes on the Future of Virginia: Visualizing a 40-Year Conversation on Race and Slavery in the Correspondence of Jefferson and Short</title>
+		<link href="http://localhost:1313/essays/v01-15-notes-on-the-future-of-virginia/" rel="alternate" />
+		<updated>2018-08-27T00:00:00Z</updated>
+		<published>2018-08-27T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v01-15-notes-on-the-future-of-virginia/</id>
+		<summary>Between 1785, when the first English-language edition of Notes on the State of Virginia was published, and January 1826, less than six months before his death at Monticello, Thomas Jefferson and his Virginia-born friend and “adoptive son,” William Short, engaged in a remarkable conversation about the fate of blacks in Virginia’s post-emancipation future. From their respective posts in Europe and United States, they discussed issues of race, slavery, emancipation, agricultural reform, and alternative labor systems based on European models (villeinage, or serfdom, and metayage, or sharecropping). Both men observed the condition of Europe’s white laboring poor while serving there as diplomats in the 1780s; both recognized the dangers posed by slavery in the Haitian Revolution of the 1790s and Gabriel’s Rebellion of 1800; and both expressed a desire to experiment with new labor systems that could provide a way out of slavery while preserving the agricultural basis of Virginian and American society. Yet they differed pointedly on the racial destiny of African Americans and the best path to a post-emancipation society in Virginia. Short directly challenged Jefferson’s views on black inferiority and questioned his continuing support for the colonization/expatriation/expopulation of blacks as the only viable alternative to slavery. </summary>
+		<content src="http://localhost:1313/essays/v01-15-notes-on-the-future-of-virginia/" type="text/html" />
+		
+		<author>
+			<name>Scot French</name>
+			<email>Scot.French@ucf.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Quantitative and Qualitative Approaches to the Development of Darwin’s Origin of Species</title>
+		<link href="http://localhost:1313/essays/v01-14-quantitative-and-qualitative-approaches-to-the-development-of-darwins-origin-of-species/" rel="alternate" />
+		<updated>2018-08-27T00:00:00Z</updated>
+		<published>2018-08-27T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v01-14-quantitative-and-qualitative-approaches-to-the-development-of-darwins-origin-of-species/</id>
+		<summary>From 1837, when he returned to England aboard the HMS Beagle, to 1860, just after publication of The Origin of Species, Charles Darwin kept detailed notes of each book he read or wanted to read. His notes and manuscripts provide information about decades of individual scientific practice. Previously, we trained topic models on the full texts of each reading, and applied information-theoretic measures to detect that changes in his reading patterns coincided with the boundaries of his three major intellectual projects in the period 1837–1860. In this new work we apply the reading model to five additional documents, four of them by Darwin: the first edition of The Origin of Species, two private essays stating intermediate forms of his theory in 1842 and 1844, a third essay of disputed dating, and Alfred Russel Wallace’s essay, which Darwin received in 1858. We address three historical inquiries, previously treated qualitatively: (1) the mythology of “Darwin’s Delay,” that despite completing an extensive draft in 1844, Darwin waited until 1859 to publish The Origin of Species due to external pressures; (2) the relationship between Darwin and Wallace’s contemporaneous theories, especially in light of their joint presentation; and (3) dating of the “Outline and Draft” which was rediscovered in 1975 and postulated first as an 1839 draft preceding the Sketch of 1842, then as an interstitial draft between the 1842 and 1844 essays. </summary>
+		<content src="http://localhost:1313/essays/v01-14-quantitative-and-qualitative-approaches-to-the-development-of-darwins-origin-of-species/" type="text/html" />
+		
+		<author>
+			<name>Jaimie Murdock</name>
+			<email>jammurdo@indiana.edu</email>
+		</author>
+		
+		<author>
+			<name>Colin Allen</name>
+			<email>colallen@indiana.edu</email>
+		</author>
+		
+		<author>
+			<name>Simon DeDeo</name>
+			<email>sdedeo@andrew.cmu.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Researching Genres in Agricultural Communities: The Role of the Farm Record Book</title>
+		<link href="http://localhost:1313/essays/v01-16-researching-genres-in-agricultural-communities/" rel="alternate" />
+		<updated>2018-08-27T00:00:00Z</updated>
+		<published>2018-08-27T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v01-16-researching-genres-in-agricultural-communities/</id>
+		<summary>In the late nineteenth and early twentieth centuries, agriculture was not keeping pace with other areas of the U.S. economy, prompting the creation of institutions such as land-grant colleges, experiment stations, and the extension service. The modernizing trends underlying these institutions, intended to promote specialized education and standardized practices, arose out of the ideologies of progressivism and represented a response to rapidly changing social dynamics. Political acts directed at farming signaled the increasing role of a federal bureaucracy intent on managing the development of the agricultural sector, and the written communications, or genres, employed in the effort reveal the interactions between institutions and local communities. Farm and 4-H record books—extension service genres—had direct contact with, and effects upon, farming communities, and were thus able to influence farmers and future farmers by establishing progressive ideas of commerce, science, and technology. In this paper we argue that traces of these institutional knowledge transmission efforts can be charted through the promotion of the farm and 4-H record book in newspapers of the time, and that combining genre analysis with a targeted digital search interface can illuminate these traces and enhance other qualitative methods.
+</summary>
+		<content src="http://localhost:1313/essays/v01-16-researching-genres-in-agricultural-communities/" type="text/html" />
+		
+		<author>
+			<name>Marcy L. Galbreath</name>
+			<email>marcy.galbreath@ucf.edu</email>
+		</author>
+		
+		<author>
+			<name>Amy L. Giroux</name>
+			<email>amy.giroux@ucf.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Revealing Political Bias: A Macroanalysis of 8,480 Herblock Cartoons</title>
+		<link href="http://localhost:1313/essays/v01-09-revealing-political-bias/" rel="alternate" />
+		<updated>2018-08-27T00:00:00Z</updated>
+		<published>2018-08-27T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v01-09-revealing-political-bias/</id>
+		<summary>Better known by his nom de plume “Herblock,” Herbert Block was one of the most prominent voices of liberalism in the postwar era. In his role as political cartoonist for the Washington Post, he articulated the values of liberalism to a much broader national audience than was reached by the writings of other liberal writers and played a critical role in shaping public opinion across a wide-range of political and social issues. Yet traditional discussions of Block’s cartoons, in common with analysis of the work of other political cartoonists, rely on a close reading of a sample of hand-selected cartoons that are extrapolated to draw broad conclusions about the nature of his work. In contrast, this paper uses digital methods to analyze Block’s body of work from 1946 to 1976—a corpus of 8,500 political cartoons—in its entirety. Through a series of visualizations, it illuminates longer-scale trends in Block’s output that are otherwise obfuscated by the day-to-day nature of his working schedule and explores how Block’s political ideology was reflected through his cartoons. </summary>
+		<content src="http://localhost:1313/essays/v01-09-revealing-political-bias/" type="text/html" />
+		
+		<author>
+			<name>Simon Appleford</name>
+			<email>simonappleford@creighton.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Sites of Sovereignty: American Indian Earthwork and Burial Site Activism in the Midwest, 1917–1968</title>
+		<link href="http://localhost:1313/essays/v01-03-sites-of-sovereignty/" rel="alternate" />
+		<updated>2018-08-27T00:00:00Z</updated>
+		<published>2018-08-27T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v01-03-sites-of-sovereignty/</id>
+		<summary>This article examines earthwork activism in the Midwest at the turn of the twentieth century. The activism of Emma Big Bear Holt (Ho-Chunk) and the Conley sisters (Wyandot) in the early twentieth century are connected by the history of Indian removal. Earthwork and burial site activists used traditional knowledge, alliance building, family kinship networks, and civic activism. The Midwest is a site of Indian removal and earthwork and burial site activism which revises narratives of Indian removal that textually erased the Ho-Chunk, Miami, and Wyandot. Earthwork and burial site activism bear the marks of indigenous self-determinative action in the past and present. The activists’ history resists narratives of American Indian defeat. Rather it supports the idea that American Indian activism can be found even in the most oppressive periods of federal policy. Furthermore, their story demonstrates that “Indian Removal,” best known as the coerced relocation of the southeastern tribes to Indian Territory, affected many tribes, with devastating effect. Earthwork and burial site activism was self-determinative. The story of Indigenous activism at earthworks in the Midwest is not a simple one. Rather, this is a tale of continuous reform and activism that extends well into the twenty-first century.  
+</summary>
+		<content src="http://localhost:1313/essays/v01-03-sites-of-sovereignty/" type="text/html" />
+		
+		<author>
+			<name>Mary Wise</name>
+			<email>mary-wise@uiowa.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Synthesis and Large-Scale Textual Corpora: A Nested Topic Model of Britain’s Debates over Landed Property in the Nineteenth Century</title>
+		<link href="http://localhost:1313/essays/v01-01-synthesis-and-large-scale-textual-corpora/" rel="alternate" />
+		<updated>2018-08-27T00:00:00Z</updated>
+		<published>2018-08-27T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v01-01-synthesis-and-large-scale-textual-corpora/</id>
+		<summary>Scholars need tools that will allow them to generalize about the fit of themes, events, and rhetorical styles represented in a body of texts. In this article, we introduce the concept of “nested topics,” an approach to topic modeling large-scale textual corpora that highlights implicit ontologies and relationships within the texts themselves. This tool exploits the fact that topic modeling can be used to generalize about topics on an aggregate level as well as a fine-grained level, an approach that has the consequences of revealing overarching themes that appear across all texts as well as more idosyncratic events and rehtorical styles that adhere to only a few documents. The tool’s effectiveness is tested by modeling discussions of property in British parliamentary debates in the nineteenth century. Nested topics help the authors to locate the rhetorical styles engaged in by Irish parliamentarians as they defended tenant rights in the 1880s. </summary>
+		<content src="http://localhost:1313/essays/v01-01-synthesis-and-large-scale-textual-corpora/" type="text/html" />
+		
+		<author>
+			<name>Jo Guldi</name>
+			<email>jguldi@smu.edu</email>
+		</author>
+		
+		<author>
+			<name>Benjamin Williams</name>
+			<email>Benjamin@smu.edu</email>
+		</author>
+		
+	</entry>
+	
+	<entry>
+		<title>Talk-Back Boards and Text Mining: New Digital Approaches in Museum Visitor Studies</title>
+		<link href="http://localhost:1313/essays/v01-17-talk-back-boards-and-text-mining/" rel="alternate" />
+		<updated>2018-08-27T00:00:00Z</updated>
+		<published>2018-08-27T00:00:00Z</published>
+		<id>http://localhost:1313/essays/v01-17-talk-back-boards-and-text-mining/</id>
+		<summary>A simple analog tool–the post-it or sticky note–alongside text mining methodologies can open up new information about museum visitors. Since the late 1970s, museums have sought visitor engagement through talk-back boards, essentially a blank museum space with a printed question and a method of public response within reach. Visitors typically respond with short responses of less than ten words. Digitally exploring talk-back boards provides museums with a new visitor studies approach that provides increased simplicity in implementation, mass data creation, and low cost. The only significant shortcomings are the absence of demographic data collection and that talk-back boards remain an under-researched and method. Talk-back boards offer insight into visitor sensibilities that are often privately held and divorced from the museum setting itself, an insight that compliments the findings of the most common visitor studies methods. This study analyzes results from this approach gathered at two museums: Seminary Ridge Museum in Gettysburg, Pennsylvania, and Women’s Rights National Historical Park in Seneca Falls, New York.
+</summary>
+		<content src="http://localhost:1313/essays/v01-17-talk-back-boards-and-text-mining/" type="text/html" />
+		
+		<author>
+			<name>Josh Howard</name>
+			<email>josh@passelhc.com</email>
+		</author>
+		
+	</entry>
+	
+</feed>

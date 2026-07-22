@@ -4,7 +4,7 @@
 <main id="main-content" class="grid-container">
     <div class="grid-x">
         <div class="large-9 columns large-order-1 medium-order-2" id="article-list">
-            <h2>Volume {{ $volumeNumber }} ({{ $year }})</h2>
+            <h1>Volume {{ $volumeNumber }} ({{ $year }})</h1>
             {{ range $index, $essay := sort .Pages "File.LogicalName" "desc" }}
             {{ $essayIndex := printf "%d-%d" $year $index }}
             <div class="essay clearfix media-object stack-for-small">

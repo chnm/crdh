@@ -5,7 +5,20 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ .Site.Params.description }}" />
+    {{ $description := "" }}
+    {{ if .Params.description }}
+        {{ $description = .Params.description | plainify }}
+    {{ else if .Params.abstract }}
+        {{ $description = .Params.abstract | plainify }}
+    {{ else if .IsHome }}
+        {{ $description = .Site.Params.description }}
+    {{ else if .Summary }}
+        {{ $description = .Summary | plainify }}
+    {{ else }}
+        {{ $description = .Site.Params.description }}
+    {{ end }}
+    {{ $description = $description | replaceRE `\s+` " " | strings.TrimSpace }}
+    <meta name="description" content="{{ $description | truncate 160 }}" />
     <meta name="google-site-verification" content="{{ .Site.Params.google_verification }}">
     {{ if eq .Type "essays" }}
     <!-- Metadata for Google Scholar -->
@@ -26,7 +39,7 @@
     <meta name="citation_abstract" content="{{ .Params.abstract | plainify | htmlEscape }}">
     <meta name="citation_doi" content="{{ .Params.doi }}">
     {{ end }}
-    <title>{{ if .Title }}{{ .Title | plainify }} &ndash; {{ end }}{{ .Site.Title }}</title>
+    <title>{{ if and .Title (ne (.Title | plainify) .Site.Title) }}{{ .Title | plainify }} &ndash; {{ end }}{{ .Site.Title }}</title>
     <link rel="shortcut icon" href="{{ .Site.BaseURL }}/assets/img/favicon.ico">
     {{ $styles := resources.Get "scss/app.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}">

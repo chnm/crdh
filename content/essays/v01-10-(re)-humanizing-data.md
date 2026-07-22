@@ -229,7 +229,7 @@ weeks.[^26] The voices of immigrants are absent.
 </script>
 
 <figure>
-<iframe id="shroutviz" src="/assets/iframe/shrout/disease.html" style="height:725px;"></iframe>
+<iframe id="shroutviz" title="Interactive visualization: pathways through the Bellevue Almshouse" src="/assets/iframe/shrout/disease.html" style="height:725px;"></iframe>
 <figcaption>
 Figure 1. Pathways through the Bellevue Almshouse. Each line represents an inmate who encountered admittors, was diagnosed, and was sent to one of various sites within New York City’s public health system. Color coding the pathways by <a onclick="updateShroutViz('gender');">gender</a>, <a onclick="updateShroutViz('age');">age</a>, <a onclick="updateShroutViz('admittor_1');">first admittor</a>, <a onclick="updateShroutViz('admittor_2');">second admittor</a>, <a onclick="updateShroutViz('disease');">diagnosis</a>, <a onclick="updateShroutViz('site');">public health site</a> and <a onclick="updateShroutViz('institution');">specific institutions</a> reveals some of the hidden logics of the almshouse.
 

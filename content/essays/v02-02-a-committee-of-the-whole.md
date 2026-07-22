@@ -181,7 +181,7 @@ constitute a starting point for future research on multi-modal activism
 and organizing.
 
 <figure>
-<iframe src="http://jim-casey.com/graphs/ccp/acotw-01/" width="100%" height="600" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe title="Network graph of people and relationships in the antebellum Colored Conventions, Black press, BPL Anti-Slavery Collections, and Siebert Underground Railroad data" src="http://jim-casey.com/graphs/ccp/acotw-01/" width="100%" height="600" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 <figcaption>Figure 5. This <a href="http://jim-casey.com/graphs/ccp/acotw-01/">interactive visualization</a> shows all of the people and relationships found in the antebellum Colored Conventions, Black press, BPL Anti-Slavery Collections, and the Siebert Underground Railroad data.
  </figcaption>
 </figure>
