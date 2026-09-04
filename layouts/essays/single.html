@@ -105,24 +105,28 @@
                 <button
                     @click="setFontSize(16)"
                     :class="fontSize === 16 ? 'bg-stone-200 text-stone-900' : 'text-stone-500 hover:text-stone-700'"
+                    :aria-pressed="fontSize === 16"
                     class="w-7 h-7 flex items-center justify-center rounded transition-colors text-xs font-serif"
                     aria-label="Small text"
                 >A</button>
                 <button
                     @click="setFontSize(18)"
                     :class="fontSize === 18 ? 'bg-stone-200 text-stone-900' : 'text-stone-500 hover:text-stone-700'"
+                    :aria-pressed="fontSize === 18"
                     class="w-7 h-7 flex items-center justify-center rounded transition-colors text-sm font-serif"
                     aria-label="Medium text"
                 >A</button>
                 <button
                     @click="setFontSize(20)"
                     :class="fontSize === 20 ? 'bg-stone-200 text-stone-900' : 'text-stone-500 hover:text-stone-700'"
+                    :aria-pressed="fontSize === 20"
                     class="w-7 h-7 flex items-center justify-center rounded transition-colors text-base font-serif"
                     aria-label="Large text"
                 >A</button>
                 <button
                     @click="setFontSize(22)"
                     :class="fontSize === 22 ? 'bg-stone-200 text-stone-900' : 'text-stone-500 hover:text-stone-700'"
+                    :aria-pressed="fontSize === 22"
                     class="w-7 h-7 flex items-center justify-center rounded transition-colors text-lg font-serif"
                     aria-label="Extra large text"
                 >A</button>
@@ -169,7 +173,7 @@
             {{ if $showToc }}
             <aside class="hidden lg:block lg:w-48 xl:w-56 shrink-0" id="toc-gutter">
                 <nav class="sticky top-8" aria-label="Table of contents" id="toc-nav">
-                    <h4 class="label text-stone-500 mb-3">Contents</h4>
+                    <p class="label text-stone-500 mb-3">Contents</p>
                     <div id="toc-list" class="toc">
                         {{ .TableOfContents }}
                     </div>

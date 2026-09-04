@@ -2,7 +2,7 @@
 
 <a class="skip-link" href="#main-content">Skip to main content</a>
 
-<header class="border-b border-stone-200 bg-white" role="banner">
+<header class="border-b border-stone-200 bg-white" role="banner" x-data="{ mobileOpen: false }">
   <div class="mx-auto max-w-site px-6 lg:px-10">
     <div class="flex items-center justify-between h-20">
       {{/* Site title + RRCHNM affiliation */}}
@@ -34,10 +34,11 @@
 
       {{/* Mobile menu button */}}
       <button
-        x-data
-        @click="$dispatch('toggle-mobile-nav')"
+        @click="mobileOpen = !mobileOpen"
+        :aria-expanded="mobileOpen"
+        aria-controls="mobile-menu"
         class="md:hidden p-2 text-stone-600 hover:text-stone-900"
-        aria-label="Open menu"
+        aria-label="Main menu"
       >
         <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -48,11 +49,11 @@
 
   {{/* Mobile nav panel */}}
   <div
-    x-data="{ open: false }"
-    @toggle-mobile-nav.window="open = !open"
-    x-show="open"
+    id="mobile-menu"
+    x-show="mobileOpen"
     x-cloak
-    @click.outside="open = false"
+    @click.outside="mobileOpen = false"
+    @keydown.escape.window="mobileOpen = false"
     class="md:hidden border-t border-stone-200 bg-white shadow-lg"
   >
     <nav class="divide-y divide-stone-100" aria-label="Mobile navigation">
