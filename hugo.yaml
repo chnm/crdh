@@ -1,5 +1,5 @@
 baseURL: "https://crdh.rrchnm.org"
-languageCode: "en"
+locale: "en"
 title: "Current Research in Digital History"
 description: "Hosted by the Roy Rosenzweig Center for History and New Media, Current Research in Digital History is an open-access, peer-reviewed, online publication. Its primary aim is to encourage and publish scholarship in digital history that offers discipline-specific arguments and interpretations."
 

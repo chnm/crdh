@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="{{ .Site.LanguageCode }}">
+<html class="no-js" lang="{{ .Site.Language.Locale }}">
 
 <head>
     <meta charset="utf-8">
@@ -27,7 +27,7 @@
     <meta name="citation_doi" content="{{ .Params.doi }}">
     {{ end }}
     <title>{{ if .Title }}{{ .Title | plainify }} &ndash; {{ end }}{{ .Site.Title }}</title>
-    <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+    <link rel="icon" href="/assets/img/favicon.ico" sizes="16x16">
 
     {{/* Tailwind CSS via PostCSS */}}
     {{ $styles := resources.Get "css/main.css" | postCSS | minify | fingerprint }}
