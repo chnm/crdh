@@ -14,16 +14,16 @@
                     <h2 class="text-2xl lg:text-3xl mb-6 pb-3 border-b border-stone-200">Volume {{ $volumeNumber }} ({{ $year }})</h2>
 
                     <div class="space-y-8">
-                    {{ range $index, $essay := sort .Pages "File.LogicalName" "desc" }}
+                    {{ range $index, $essay := sort .Pages "File.ContentBaseName" "desc" }}
                     {{ $essayIndex := printf "%d-%d" $year $index }}
                     <article class="flex flex-col sm:flex-row gap-5">
-                        {{ with .Params.preview }}
+                        {{ with .Params.preview }}{{ with $essay.Resources.Get . }}
                         <div class="shrink-0 sm:w-36">
                             <a href="{{ $essay.RelPermalink }}" class="block">
-                                <img src="{{ . }}" alt="Preview image for {{ $essay.Title | plainify }}" class="w-full rounded-md bg-stone-100" loading="lazy">
+                                <img src="{{ .RelPermalink }}" alt="Preview image for {{ $essay.Title | plainify }}" class="w-full rounded-md bg-stone-100" loading="lazy">
                             </a>
                         </div>
-                        {{ end }}
+                        {{ end }}{{ end }}
                         <div class="flex-1 min-w-0">
                             <h3 class="text-lg lg:text-xl mb-1">
                                 <a href="{{ .RelPermalink }}" class="text-stone-900 hover:text-red-brand no-underline">

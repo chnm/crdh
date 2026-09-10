@@ -57,7 +57,7 @@
     {{/* Hero with random essay image background (randomized per page load) */}}
     <section
         class="relative bg-stone-900 overflow-hidden"
-        x-data="{ images: [{{ range $withPreviews }}{{ .Params.preview | jsonify }},{{ end }}], src: '' }"
+        x-data="{ images: [{{ range $withPreviews }}{{ with .Resources.Get .Params.preview }}{{ .RelPermalink | jsonify }},{{ end }}{{ end }}], src: '' }"
         x-init="src = images[Math.floor(Math.random() * images.length)]"
     >
         <img
@@ -110,13 +110,18 @@
             </div>
 
             <div class="border-t border-stone-200">
-            {{ range $index, $essay := sort .Pages "File.LogicalName" "desc" }}
+            {{ range $index, $essay := sort .Pages "File.ContentBaseName" "desc" }}
             {{ $authorNames := slice }}
             {{ range .Params.authors }}{{ $authorNames = $authorNames | append (printf "%s %s" .first .last) }}{{ end }}
             {{ $authorStr := delimit $authorNames ", " }}
             {{ $num := add $index 1 }}
             <article class="flex gap-5 py-6 border-b border-stone-100 group">
                 <span class="shrink-0 text-2xl lg:text-3xl font-serif w-8 text-right leading-tight" aria-hidden="true">{{ $num }}</span>
+                {{ with .Params.preview }}{{ with $essay.Resources.Get . }}
+                <a href="{{ $essay.RelPermalink }}" class="shrink-0 hidden sm:block" tabindex="-1" aria-hidden="true">
+                    <img src="{{ .RelPermalink }}" alt="" class="w-36 h-24 lg:w-44 lg:h-28 object-cover rounded bg-stone-100" loading="lazy">
+                </a>
+                {{ end }}{{ end }}
                 <div class="flex-1 min-w-0">
                     <h3 class="text-lg lg:text-xl mb-1 leading-snug">
                         <a href="{{ .RelPermalink }}" class="text-stone-900 group-hover:text-red-brand no-underline transition-colors">
@@ -165,16 +170,16 @@
                 </div>
 
                 <div class="space-y-4">
-                {{ range $index, $essay := sort .Pages "File.LogicalName" "desc" }}
+                {{ range $index, $essay := sort .Pages "File.ContentBaseName" "desc" }}
                 {{ $authorNames := slice }}
                 {{ range .Params.authors }}{{ $authorNames = $authorNames | append (printf "%s %s" .first .last) }}{{ end }}
                 {{ $authorStr := delimit $authorNames ", " }}
                 <article class="flex items-start gap-4">
-                    {{ with .Params.preview }}
+                    {{ with .Params.preview }}{{ with $essay.Resources.Get . }}
                     <a href="{{ $essay.RelPermalink }}" class="shrink-0 hidden sm:block">
-                        <img src="{{ . }}" alt="Preview image for {{ $essay.Title | plainify }}" class="w-20 h-14 object-cover rounded bg-stone-100" loading="lazy">
+                        <img src="{{ .RelPermalink }}" alt="Preview image for {{ $essay.Title | plainify }}" class="w-20 h-14 object-cover rounded bg-stone-100" loading="lazy">
                     </a>
-                    {{ end }}
+                    {{ end }}{{ end }}
                     <div class="flex-1 min-w-0">
                         <h4 class="text-base mb-0.5 leading-snug">
                             <a href="{{ .RelPermalink }}" class="text-stone-900 hover:text-red-brand no-underline">
