@@ -8,7 +8,7 @@
             {{/* Main column */}}
             <div class="lg:w-2/3">
                 <section>
-                    <h2 class="text-2xl lg:text-3xl mb-6 pb-3 border-b border-stone-200">Volume {{ $volumeNumber }} ({{ $year }})</h2>
+                    <h1 class="text-2xl lg:text-3xl mb-6 pb-3 border-b border-stone-200">Volume {{ $volumeNumber }} ({{ $year }})</h1>
 
                     <div class="space-y-8">
                     {{ range $index, $essay := sort .Pages "File.ContentBaseName" "desc" }}

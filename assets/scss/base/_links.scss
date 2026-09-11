@@ -1,3 +1,10 @@
 // --------------------------------------------------
 // Links
 // --------------------------------------------------
+
+// Foundation only styles a, a:hover, and a:focus, leaving a:visited to the
+// browser's default (usually purple). Pin it to the same red as unvisited
+// links so link color stays consistent regardless of browsing history.
+a:visited {
+    color: $anchor-color;
+}

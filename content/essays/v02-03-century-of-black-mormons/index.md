@@ -61,7 +61,7 @@ scholars and laypeople alike on what it meant to be black and Mormon
 during the faith's pioneering century.
 
 <figure>
-<iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1ibEVeY-s9YyVNuy6dF5Wcsgg45McuoHoj3M184e2vh0&amp;font=Default&amp;lang=en&amp;initial_zoom=1" frameborder="0" width="100%" height="500"></iframe>
+<iframe title="Timeline of baptisms in Century of Black Mormons" src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1ibEVeY-s9YyVNuy6dF5Wcsgg45McuoHoj3M184e2vh0&amp;font=Default&amp;lang=en&amp;initial_zoom=1" frameborder="0" width="100%" height="500"></iframe>
 <figcaption>
 Figure 1. The timeline feature at Century of Black Mormons is organized according to date of baptism. So far there are no baptisms recorded during the duration of the U.S. Civil War, an indication of the way in which the war disrupted Latter-day Saint proselyting efforts. Also, after the Church of Jesus Christ of Latter-day Saints abandoned polygamy in 1890 and the federal crackdown in Utah Territory dissipated, its missionary efforts accelerated and conversions of African-Americans resumed at an invigorated pace. Click through the timeline and notice patterns for yourself. Clicking on the name of a person in the timeline will take you to that person's biography, metadata, and documents.
 </figcaption>
@@ -262,7 +262,7 @@ documented a number of pioneering black families whose legacies endured
 for more than a century.
 
 <figure>
-<iframe src="https://uploads.knightlab.com/storymapjs/64d0d2e8cf2ee227b901e504f846f253/cbm-1/index.html" frameborder="0" width="100%" height="600"></iframe>
+<iframe title="Map of baptism locations in Century of Black Mormons" src="https://uploads.knightlab.com/storymapjs/64d0d2e8cf2ee227b901e504f846f253/cbm-1/index.html" frameborder="0" width="100%" height="600"></iframe>
 <figcaption>
 Figure 4. The map feature is organized according to location of baptism. Notice the small international locations of baptism which include South Africa, England, and three sailors baptized on board an LDS immigrant ship. Notice also the pattern of conversions in the United States, with a large cluster in Utah, the majority of whom represent second, third, fourth, and fifth generation Latter-day Saints versus mostly first generation baptisms outside of Utah. 
 </figcaption>

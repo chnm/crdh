@@ -100,6 +100,15 @@
     @apply inline-block w-4 h-4 align-text-top -ml-0.5 -mr-1;
   }
 
+  /* WCAG 2.5.8: 24x24 click target around the 16px ORCID icon. The icon's
+     spacing margins move to the link so the visual layout is unchanged. */
+  .orcid-link {
+    @apply inline-flex items-center justify-center w-6 h-6 align-text-top -ml-0.5 -mr-1;
+  }
+  .orcid-link .orcid-logo {
+    @apply m-0;
+  }
+
   /* Lightbox modal for figures */
   .lightbox-modal {
     @apply border-none rounded-lg p-0 max-w-5xl w-[calc(100%-2rem)] overflow-hidden bg-white;

@@ -4,6 +4,7 @@
         <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
 
             <div class="lg:w-2/3">
+                <h1 class="text-3xl lg:text-4xl mb-10">{{ .Title }}</h1>
                 {{ $essays := where .Site.RegularPages "Section" "essays" }}
                 {{ $essaysByYear := $essays.GroupByParam "year" }}
 

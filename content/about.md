@@ -16,7 +16,7 @@ scholarship:
 -   DOIs and other metadata for all articles
 -   indexing in Google Scholar and other academic databases
 
-### Journal Policies
+## Journal Policies
 
 **Peer Review**:
 Two rounds of peer review gives academic standing to these short works. Submissions are first reviewed by a member of the editorial board. Accepted submissions will be returned with written reviews. After revisions are made in response to these inital reviews, a revised copy of the submission is sent to a second reviewer, who will provide a second written review. Both sets of reviews should be taken into consideration when authors prepare the final version of their article for publication. 
@@ -33,7 +33,7 @@ Authors will receive a publication agreement after their final submission has be
 **Relationship to Other Publications**:
 Submissions should not currently be under consideration by or already published in substantially similar form by another journal or publication. However, *CRDH* does aim to encourage authors to publish early versions of their work in this venue, and then develop them into fuller form for publication later. If you have any questions about whether your article is suitable for *CRDH*, please contact the editors.
 
-### Editors
+## Editors
 
 [Stephen Robertson](http://drstephenrobertson.com/), George Mason University
 
@@ -41,15 +41,16 @@ Submissions should not currently be under consideration by or already published 
 
 [Greta Swain](http://gretaswain.org/), University of North Texas
 
-### Editorial Assistants
+## Editorial Assistants
 
 [Paige Magoto](https://paigemagoto.com), Roy Rosenzweig Center for History and New Media
 
-### Editorial Assistants
+[Annabelle Spencer](http://annabellespencer.org), Roy Rosenzweig Center for History and New Media
 
-[Annabelle Spencer](http://annabellespencer.org), George Mason University
+### Technical Assistant
+Savannah Scott, Roy Rosenzweig Center for History and New Media
 
-### Editorial Board
+## Editorial Board
 
 [Cameron Blevins](http://www.cameronblevins.org), University of Colorado, Denver
 
@@ -67,7 +68,7 @@ Submissions should not currently be under consideration by or already published 
 
 [Anelise Hanson Shrout](http://www.anelisehshrout.com/), Bates College
 
-### Contact Information
+## Contact Information
 
 To contact the editors, please write to Lincoln Mullen <[lmullen@gmu.edu](mailto:lmullen@gmu.edu)> and Stephen Robertson <[srober30@gmu.edu](mailto:srober30@gmu.edu)>.
 
@@ -76,6 +77,6 @@ George Mason University<br>
 4400 University Drive, MSN 1E7<br>
 Fairfax, VA 22030
 
-### Origins
+## Origins
 
 *CRDH* began as a conference hosted by RRCHNM. For reference, you can see the [programs](/conference-history/) and program committees from the conferences that were held.

@@ -104,7 +104,7 @@ the everyday are lived.[^8] As dance scholars, we are also interested in the imp
 of such a scalable analytic for dance history.
 
 <figure>
-<div style="padding:54.22% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/312137293?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:54.22% 0 0 0;position:relative;"><iframe title="Video: Spatialized sequence of Katherine Dunham's 1950-53 tour destinations" src="https://player.vimeo.com/video/312137293?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <figcaption>Figure 1. Spatialized sequence of Dunham's 1950-53 destinations. The timeline is sequential from the basemap upwards, beginning with 1950 closest to the map and ending with the last day of 1953 at the top of the image. Vertical extrusions of dots represent lengths of stay in a given location, while vertical lines connect each stay to a city on the map below. From this video, we can see both the geographical reach of Dunham's travels over these four years, encompassing locations in Europe, North and South America, Africa, and the Caribbean, as well as how cities are connected by Dunham's movement through them. Data: Harmony Bench and Kate Elswit. Visualization: Center for Urban and Regional Analysis (OSU).
 </figcaption>
 </figure>

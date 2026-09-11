@@ -44,6 +44,17 @@ While other kings and nobles often used scribes for their correspondence, it was
 
 {{< figure caption="Table 1: Part of the attribute table showing the metadata available for the correspondence of Christian IV." >}}
 <table>
+  <thead>
+    <tr>
+      <th scope="col">Entry</th>
+      <th scope="col">Sender</th>
+      <th scope="col">Recipient</th>
+      <th scope="col">Place</th>
+      <th scope="col">Latitude</th>
+      <th scope="col">Longitude</th>
+      <th scope="col">Date</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
       <td>67</td>
@@ -298,6 +309,6 @@ QGIS. "QGIS -- The Leading Open Source Desktop GIS." Accessed April 20, 2022. <h
 
 [^15]: Roding, "Christiaan IV van Denemarken (1588-1648)"; Andersen, et al., eds. *Reframing the Danish Renaissance*.
 
-[^16]: "Auss demselbigen Obersten Lossomenthe Soll Ein ganck ihn den Runden torm gemacht werden, also dass ihn dem dii Slaffkammer seyn kan. Dess graffuen kammer soll zu dem kammer Iuncker Oder kammerdiner gebra\[u\]chet werden, vndt der ganck von meiner Stuben dahrein gehen, vndt dii treppe, Dii Itzo dahrzu hinauffen gehet, soll weckgebrochen oder zugemauret werden,"<https://danmarksbreve.kb.dk/catalog/%2Fletter_books%2F002207661%2F002207661_007-L0022076610070094#kbOSD-0=page:1>.
+[^16]: <span lang="de">"Auss demselbigen Obersten Lossomenthe Soll Ein ganck ihn den Runden torm gemacht werden, also dass ihn dem dii Slaffkammer seyn kan. Dess graffuen kammer soll zu dem kammer Iuncker Oder kammerdiner gebra\[u\]chet werden, vndt der ganck von meiner Stuben dahrein gehen, vndt dii treppe, Dii Itzo dahrzu hinauffen gehet, soll weckgebrochen oder zugemauret werden,"</span> <https://danmarksbreve.kb.dk/catalog/%2Fletter_books%2F002207661%2F002207661_007-L0022076610070094#kbOSD-0=page:1>.
 
 [^17]: Another option would be to scan the books and run them through Optical Character Recognition (OCR), but that would include a long manual process of cleaning noisy text. The volume with letters from the period 1632-1635 is available on Google Books, which could serve as a test case for this approach.<https://books.google.dk/books?id=D3YBAAAAQAAJ&printsec=frontcover&hl=nl&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false>

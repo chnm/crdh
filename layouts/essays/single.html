@@ -70,15 +70,15 @@
                 {{ $authorIndex := add $index 1 }}
                 {{ if eq $authorCount 1 }}
                 {{ if $author.url }}<a href="{{ $author.url }}" class="text-stone-700 hover:text-red-brand underline">{{ $author.first }} {{ $author.last }}</a>{{ else }}{{ $author.first }} {{ $author.last }}{{ end }}
-                {{ with $author.orcid }}<a href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt="" src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>{{ end }}
+                {{ with $author.orcid }}<a class="orcid-link" href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt="ORCID iD icon" src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>{{ end }}
                 {{ else if eq $authorCount 2 }}
                 {{ if $author.url }}<a href="{{ $author.url }}" class="text-stone-700 hover:text-red-brand underline">{{ $author.first }} {{ $author.last }}</a>{{ else }}{{ $author.first }} {{ $author.last }}{{ end }}
-                {{ with $author.orcid }}<a href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt="" src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>{{ end }}
+                {{ with $author.orcid }}<a class="orcid-link" href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt="ORCID iD icon" src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>{{ end }}
                 {{ if eq $authorIndex 1 }} and {{ end }}
                 {{ else }}
                 {{ $authorIndexTwo := add $authorIndex 1 }}
                 {{ if $author.url }}<a href="{{ $author.url }}" class="text-stone-700 hover:text-red-brand underline">{{ $author.first }} {{ $author.last }}</a>{{ else }}{{ $author.first }} {{ $author.last }}{{ end }}
-                {{ with $author.orcid }}<a href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt="" src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>{{ end }}
+                {{ with $author.orcid }}<a class="orcid-link" href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $author.first }} {{ $author.last }}"><img class="orcid-logo" alt="ORCID iD icon" src="{{ $.Site.BaseURL }}/assets/img/orcid.svg"></a>{{ end }}
                 {{ if eq $authorIndex $authorCount }}{{ else if eq $authorIndexTwo $authorCount }}, and {{ else }},{{ end }}
                 {{ end }}
                 {{ end }}
@@ -188,7 +188,7 @@
                     id="essay-content"
                     :style="'font-size: ' + fontSize + 'px; line-height: 1.8'"
                 >
-                    {{ .Content }}
+                    {{ partial "footnote-backrefs.html" .Content }}
                 </div>
 
                 {{/* Appendix */}}
@@ -226,7 +226,7 @@
                         {{ else }}
                         <span class="font-semibold">{{ $authorName }}</span>,
                         {{ end }}
-                        {{ $author.affiliation }}{{ with $author.email }}, <a href="mailto:{{ . }}" class="text-red-brand hover:text-red-dark underline">{{ . }}</a>{{ end }}{{ with $author.orcid }}, <a href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $authorName }}" class="inline-flex items-center gap-1 text-red-brand hover:text-red-dark underline"><img src="{{ $.Site.BaseURL }}/assets/img/orcid.svg" class="inline w-4 h-4" alt="">{{ . }}</a>{{ end }}
+                        {{ $author.affiliation }}{{ with $author.email }}, <a href="mailto:{{ . }}" class="text-red-brand hover:text-red-dark underline">{{ . }}</a>{{ end }}{{ with $author.orcid }}, <a href="https://orcid.org/{{ . }}" aria-label="ORCID profile for {{ $authorName }}, {{ . }}" class="inline-flex items-center gap-1 text-red-brand hover:text-red-dark underline"><img src="{{ $.Site.BaseURL }}/assets/img/orcid.svg" class="inline w-4 h-4" alt="ORCID iD icon">{{ . }}</a>{{ end }}
                     </p>
                     {{ end }}
                 </div>
