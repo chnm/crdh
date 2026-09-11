@@ -2,33 +2,41 @@ name: "[crdh] Build, Release, Deploy"
 
 on:
   workflow_dispatch:
+  schedule:
+    # Off the top of the hour: GitHub delays on-the-hour crons the most
+    # (12:18 UTC ≈ 8:18 a.m. EDT nominal; scheduled runs are best-effort).
+    - cron: '18 12 * * 1-5'
   push:
     branches:
       - "main"
       - "preview"
 
 jobs:
-  build-release:
-    uses: chnm/.github/.github/workflows/hugo--build-release.yml@main
+  # Skips the rest of the run on cron days when nothing crossed its
+  # publishDate/expiryDate. Push and workflow_dispatch always pass.
+  pre-flight:
+    uses: chnm/.github/.github/workflows/hugo--pre-flight-check.yml@main
+    permissions:
+      actions: read
+      contents: read
+    with:
+      content-roots: |
+        content/essays
+
+  hugo-build-release-deploy:
+    needs: pre-flight
+    if: needs.pre-flight.outputs.should_build == 'true'
+    uses: chnm/.github/.github/workflows/hugo--build-release-deploy.yml@main
     secrets: inherit
     with:
-      container-registry: "ghcr.io"
-      container-image-name: "crdh-website"
+      runner_labels: '["self-hosted","IncusOS"]'
+
       hugo-context-root: "."
-      hugo-content-path: "/srv"
       hugo-devl-url: "https://dev.crdh.rrchnm.org"
       hugo-prod-url: "https://crdh.rrchnm.org"
 
-      build-artifact-name: "crdh-website"
       release-tag-name-type: "iso"
 
       website-devl-fqdn: "dev.crdh.rrchnm.org"
       website-prod-fqdn: "crdh.rrchnm.org"
 
-  deploy:
-    uses: chnm/.github/.github/workflows/docker--deploy.yml@main
-    needs: [build-release]
-    secrets: inherit
-    with:
-      website-devl-fqdn: "dev.crdh.rrchnm.org"
-      website-prod-fqdn: "crdh.rrchnm.org"

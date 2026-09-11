@@ -1,0 +1,28 @@
+{{- $id := printf "plot-%d" .Ordinal -}}
+{{- $caption := .Get "caption" -}}
+{{- $width := .Get "width" | default "100%" -}}
+{{- $height := .Get "height" | default "auto" -}}
+
+<figure class="observable-plot" id="{{ $id }}">
+  <div class="plot-container" style="width: {{ $width }}; min-height: {{ $height }};">
+    <div class="plot-render" id="{{ $id }}-render"></div>
+  </div>
+  {{ with $caption }}
+  <figcaption>{{ . | markdownify }}</figcaption>
+  {{ end }}
+</figure>
+
+<script type="module">
+import * as Plot from "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm";
+import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+import * as topojson from "https://cdn.jsdelivr.net/npm/topojson-client@3/+esm";
+
+const container = document.getElementById("{{ $id }}-render");
+
+try {
+  {{ .Inner | safeJS }}
+} catch (e) {
+  container.innerHTML = `<p style="color: #9E2220; font-size: 0.875rem;">Plot error: ${e.message}</p>`;
+  console.error("Observable Plot error in #{{ $id }}:", e);
+}
+</script>

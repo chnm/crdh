@@ -2,7 +2,7 @@
 <doi_batch xmlns="http://www.crossref.org/schema/5.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1" xmlns:fr="http://www.crossref.org/fundref.xsd" xsi:schemaLocation="http://www.crossref.org/schema/5.4.0 https://www.crossref.org/schemas/crossref5.4.0.xsd" version="5.4.0">
   <head>
     <doi_batch_id>77c14e5509502e213ffc</doi_batch_id>
-    <timestamp>20260424122509916</timestamp>
+    <timestamp>20260513000000000</timestamp>
     <depositor>
       <depositor_name>rrch:rrch</depositor_name>
       <email_address>chnm@gmu.edu</email_address>
@@ -52,12 +52,12 @@
           <jats:p>During the transition from convict societies to free settler colonies, the Australian colonies encouraged immigration by young, unmarried, working-class women to fill labor shortages and to marry into the community. The tens of thousands of women and girls who arrived under these schemes over the course of the nineteenth century fundamentally changed colonial society. New digital tools for compiling, analyzing, and visualizing data on these women permit closer examination of the characteristics of the group, and of individual outliers. Using historical shipping records, this article delves into the places of origin for 3,768 women and children who arrived on subsidized passages in Sydney between 1848 and 1887. Digital maps confirm the overwhelming predominance of immigrants from the United Kingdom and Ireland. The visualizations also highlight a minority of immigrants from other parts of the world, uncovering new patterns of colonial connections, multi-stage journeys, and return migration which complicate the narrative of female assisted migration.</jats:p>
         </jats:abstract>
         <publication_date media_type="online">
-          <month>04</month>
+          <month>05</month>
           <year>2026</year>
         </publication_date>
         <doi_data>
           <doi>10.31835/crdh.2026.01</doi>
-          <resource>http://crdh.rrchnm.org/essays/v09-unexpected-origins</resource>
+          <resource>http://crdh.rrchnm.org/essays/v09-01-unexpected-origins</resource>
         </doi_data>
       </journal_article>
     </journal>

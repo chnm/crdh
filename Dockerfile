@@ -13,18 +13,9 @@ ENV HUGO_BUILD_ARGS=$hugobuildargs
 WORKDIR /app
 
 COPY package.json package-lock.json ./
-# The legacy Gulp dependencies are not used by the Hugo build. In particular,
-# gulp-sass pulls in deprecated node-sass, whose install script requires a
-# native build toolchain that is intentionally absent from this image.
-RUN npm ci --ignore-scripts
+RUN npm ci
 
 COPY . .
-
-# Hugo's Dart Sass doesn't resolve node_modules imports, so stage
-# Foundation SCSS sources where Hugo's asset pipeline can find them.
-RUN mkdir -p assets/vendor && \
-    cp -r node_modules/foundation-sites assets/vendor/ && \
-    cp -r node_modules/motion-ui assets/vendor/
 
 RUN hugo ${HUGO_BUILD_ARGS}
 

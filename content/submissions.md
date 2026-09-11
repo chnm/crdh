@@ -27,8 +27,9 @@ We use the Chicago Manual of Style shortened notes and bibliography format. In a
 - Our online mode of publication means that we are able to accommodate still images, as well as the dynamic visualizations and narratives that are an increasingly core element of digital scholarship. 
 - Each visualization (chart, graph, table, etc.) should include a descriptive title at the top. Titles are not required for photographs or images of historical documents. 
 - Each figure should have a caption. We encourage authors to include captions of up to three to four sentences for each of their figures. Captions should help the figures to be read on their own without reference to the body of the paper. Captions should tell the readers what trend/pattern/anomaly the readers should be seeing, and what it means. 
+- Each figure should include appropriate alt text for accessibility.
 - Please include call outs in your text that direct readers to look at your figures. (Ex. As the histogram in figure 1 shows…) 
-- Figures and captions (or in the case of dynamic visulizations, a still image along with a link) should be embeded within the text of the article.
+- Figures, alt text, and captions (or in the case of dynamic visulizations, a still image along with a link) should be embeded within the text of the article.
 
 <br>
 
