@@ -12,7 +12,11 @@ assert gat.weak_reason("alt-text", set()) == "missing"
 assert gat.weak_reason("", set()) == "missing"
 assert gat.weak_reason(ok, {ok.lower()}) == "duplicate"
 assert gat.weak_reason("Fells Point in Baltimore", set()) == "short"
-assert gat.weak_reason("Two newtwork graphs of the northeastern clusters", set()) == "typo 'newtwork'"
+assert gat.weak_reason("Two newtwork graphs of the northeastern culsters", set()) == "typo"
+assert gat.fix_typos("Two Newtwork graphs of the culsters") == "Two Network graphs of the clusters"
+assert gat.new_alt({"reason": "typo", "alt": "Newtwork graph"}, "") == "Network graph"
+assert gat.new_alt({"reason": "short", "alt": "Map of Paris"}, "Red dots mark bridges.") == "Map of Paris. Red dots mark bridges."
+assert gat.new_alt({"reason": "missing", "alt": "alt-text"}, "A chart.") == "A chart."
 
 html = '<img src="/x.png" alt="">\n<img\n  :src="s"\n  :alt="a"\n>\n<img src="/y.png" class="c">'
 assert [gat.SRC_RE.search(m.group(0)).group(1) for m in gat.HTML_IMG_RE.finditer(html)] == ["/y.png"]

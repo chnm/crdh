@@ -4,6 +4,9 @@ templates) and generate replacements with Claude Sonnet 5.
 
 Flags Markdown alt that is empty, a placeholder, duplicated across images,
 shorter than MIN_ALT_LEN, or contains a known typo; and <img> tags with no alt.
+Human-written alt is kept: typos are fixed in place, and short or duplicate
+alt gets one generated sentence of extra detail appended. Only missing or
+placeholder alt is generated from scratch.
 
 Usage:
     python utils/generate-alt-text.py                # dry-run: list + suggest
@@ -29,10 +32,23 @@ PLACEHOLDER_RE = re.compile(r"^(\s*|alt|alt[- ]text|image|todo)$", re.I)
 MIN_ALT_LEN = 40
 # ponytail: hand-picked misspellings seen in this corpus; swap for a real
 # spellchecker (aspell/pyspellchecker) if the list keeps growing
-TYPOS = ("newtwork", "culster", "catagor", "indcat", "certian", "moblity", "voitng", "aa digital")
+TYPOS = {
+    "newtwork": "network", "culster": "cluster", "catagor": "categor",
+    "indcat": "indicat", "certian": "certain", "moblity": "mobility",
+    "voitng": "voting", "aa digital": "a digital",
+}
 # <img ...> tags (may span lines) with no alt= and no Alpine :alt= binding
 HTML_IMG_RE = re.compile(r"<img\b(?:(?!alt=)[^>])*>", re.I | re.S)
 SRC_RE = re.compile(r'\bsrc="([^"]+)"')
+
+EXTEND_TEMPLATE = (
+    "Read the image at {image_path}. A human already wrote this alt text for it: "
+    '"{existing}". Write ONE additional sentence adding specific visual detail '
+    "not already stated (labels, place names, values, colors, layout) so a "
+    "screen reader user can tell this figure apart from similar ones. "
+    'Do not repeat or rephrase the existing text. Do not start with "This image". '
+    "Always finish the sentence. Output ONLY the new sentence, no quotes."
+)
 
 PROMPT_TEMPLATE = (
     "Read the image at {image_path} and describe it in one or two concise "
@@ -53,11 +69,15 @@ def weak_reason(alt: str, dupes: set[str]) -> str | None:
         return "duplicate"
     if len(alt.strip()) < MIN_ALT_LEN:
         return "short"
-    low = alt.lower()
-    for t in TYPOS:
-        if t in low:
-            return f"typo '{t}'"
+    if fix_typos(alt) != alt:
+        return "typo"
     return None
+
+
+def fix_typos(alt: str) -> str:
+    for bad, good in TYPOS.items():
+        alt = re.sub(re.escape(bad), lambda m: good.capitalize() if m.group(0)[0].isupper() else good, alt, flags=re.I)
+    return alt
 
 
 def find_missing() -> list[dict]:
@@ -71,7 +91,7 @@ def find_missing() -> list[dict]:
             reason = weak_reason(m.group(1), dupes)
             if reason:
                 ref = m.group(2).split('"')[0].split("'")[0].strip()
-                found.append(_entry(md, m, ref, text, "markdown", reason))
+                found.append(_entry(md, m, ref, text, "markdown", reason, m.group(1).strip()))
     for html in sorted(LAYOUTS_DIR.rglob("*.html")):
         text = html.read_text(encoding="utf-8")
         for m in HTML_IMG_RE.finditer(text):
@@ -80,8 +100,9 @@ def find_missing() -> list[dict]:
     return found
 
 
-def _entry(file, m, ref, text, kind, reason):
+def _entry(file, m, ref, text, kind, reason, alt=""):
     return {
+        "alt": alt,
         "file": file,
         "match": m.group(0),
         "img_ref": ref,
@@ -102,9 +123,12 @@ def resolve_image_path(src_file: Path, img_ref: str) -> Path | None:
     return candidate if candidate.exists() else None
 
 
-def generate_alt_text(image_path: Path, model: str) -> str:
-    """Call claude -p to generate alt text for an image."""
-    prompt = PROMPT_TEMPLATE.format(image_path=image_path)
+def generate_alt_text(image_path: Path, model: str, existing: str = "") -> str:
+    """Call claude -p for fresh alt text, or one extra sentence if alt exists."""
+    if existing:
+        prompt = EXTEND_TEMPLATE.format(image_path=image_path, existing=existing)
+    else:
+        prompt = PROMPT_TEMPLATE.format(image_path=image_path)
     try:
         result = subprocess.run(
             ["claude", "-p", prompt, "--model", model, "--allowedTools", "Read"],
@@ -133,9 +157,17 @@ def clean(text: str) -> str:
     return text
 
 
-def patch(entry: dict, alt_text: str) -> None:
+def new_alt(entry: dict, generated: str) -> str:
+    """Combine human alt and generated text according to the flag reason."""
+    if entry["reason"] == "typo":
+        return fix_typos(entry["alt"])
+    if entry["reason"] in ("short", "duplicate"):
+        return clean(entry["alt"]) + " " + generated
+    return generated
+
+
+def patch(entry: dict, full: str) -> None:
     """Rewrite the matched image with alt text (first occurrence only)."""
-    full = alt_text
     old = entry["match"]
     if entry["type"] == "markdown":
         new = f"![{full}]({entry['img_ref']})"
@@ -166,10 +198,11 @@ def main():
             skipped += 1
             continue
         print(f"  [{e['type']}, {e['reason']}] {rel}:{e['line']} — {e['img_ref']}")
-        alt = generate_alt_text(img, args.model)
-        if not alt:
+        generated = "" if e["reason"] == "typo" else generate_alt_text(img, args.model, e["alt"] if e["reason"] != "missing" else "")
+        if not generated and e["reason"] != "typo":
             skipped += 1
             continue
+        alt = new_alt(e, generated)
         print(f"    → {alt}")
         if args.apply:
             patch(e, alt)

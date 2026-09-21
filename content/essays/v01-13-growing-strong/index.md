@@ -86,7 +86,7 @@ to explore if there was a change from a homogenous information
 environment to a more diverse and specialized republic of letters.[^3]
 
 {{< figure caption="Figure 1. Network graph of selected early American societies and groups, 1811--1850. The size of the circles corresponds to the number of members and the thickness of lines indicate the number of shared members." >}}
-![Network diagram titled "Growing Strong" with color-coded, variably sized nodes for early republic institutions—scientific, agricultural, military, medical, religious, and federal—connected by many overlapping gray lines showing shared ties.](network.png)
+![Network graph showing connections between early American societies and groups in nine different categories](network.png)
 {{< /figure >}}
 
 Using software constructs a visualization where the thickness of the
@@ -194,7 +194,7 @@ learning may not be as interconnected in the early nineteenth century as
 it is in the twentieth.[^8]
 
 {{< figure caption="Figure 2. Shared Group Memberships Between Washington D.C. based Federal Employees and Learned Societies." >}}
-![Horizontal bar chart titled "Shared Group Memberships Between Federal Government Employees," comparing 1816 and 1841 federal employees' shared memberships across scientific and civic societies, with the largest overlap in the "Federal Government D.C." category.](federal-employees.png)
+![A bar graph showing the number of federal employees based in Washington D.C. that were members of certain learned societies.](federal-employees.png)
 {{< /figure >}}
 
 So, although more people were joining societies it remains unclear if

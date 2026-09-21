@@ -158,7 +158,7 @@ This 85-page decision listed the exact ways in which the United States
 would conduct an accounting of the tribe's money.[^18]
 
 {{< figure caption="Figure 2. The 'Acounting' Topic, a key part of Verdeja’s Political Reconciliation framework, peaks around decision 2000 in 1974. This follows the appointment of the Commission’s first indigenous member and increased activism in Indian Country. The United States is entrusted with the care of each tribes’ money and resources. It is literally a “trust” relationship and the bedrock of the Federal-Indian relationship. Thus, accounting represents a significant step in reconciling Federal obligations to Indian Country." >}}
-![A word cloud with terms like "fund," "trust," "treasury," and "proceeds" beside a line chart plotting the "Accounting" topic's weight across ICC decisions in chronological order, showing a rise and peak around decision 2000.](accounting-topic.jpg)
+![A word cloud of terms like "fund," "trust," "treasury," and "proceeds" beside a line graph plotting the "accounting" topic's weight across ICC decisions in chronological order, showing a rise and peak around decision 2000.](accounting-topic.jpg)
 {{< /figure >}}
 
 The highly technical acts of the Indian Claims Commission contrast with
