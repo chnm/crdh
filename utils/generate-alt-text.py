@@ -34,8 +34,6 @@ TYPOS = ("newtwork", "culster", "catagor", "indcat", "certian", "moblity", "voit
 HTML_IMG_RE = re.compile(r"<img\b(?:(?!alt=)[^>])*>", re.I | re.S)
 SRC_RE = re.compile(r'\bsrc="([^"]+)"')
 
-ALT_SUFFIX = " This alt text was written by a generative AI."
-
 PROMPT_TEMPLATE = (
     "Read the image at {image_path} and describe it in one or two concise "
     "sentences for use as alt text on a digital history and humanities website. "
@@ -137,7 +135,7 @@ def clean(text: str) -> str:
 
 def patch(entry: dict, alt_text: str) -> None:
     """Rewrite the matched image with alt text (first occurrence only)."""
-    full = alt_text + ALT_SUFFIX
+    full = alt_text
     old = entry["match"]
     if entry["type"] == "markdown":
         new = f"![{full}]({entry['img_ref']})"
@@ -172,7 +170,7 @@ def main():
         if not alt:
             skipped += 1
             continue
-        print(f"    → {alt}{ALT_SUFFIX}")
+        print(f"    → {alt}")
         if args.apply:
             patch(e, alt)
             print("    ✓ Patched")

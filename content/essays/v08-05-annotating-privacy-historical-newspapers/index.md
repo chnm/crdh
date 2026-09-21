@@ -77,7 +77,7 @@ For Dutch, Felicia Fricke manually retrieved fifty ads in the newspaper *De Cura
 
 {{< figure caption="Figures 1a and 1b: The first image is a detail of De Couraçaosche Courant from 18 October 1834 showing an ad about an enslaved woman who escaped. The second image shows the transcription provided by Delpher containing OCR errors." >}}
 ![scan of a printed runaway slave ad in a newspaper from the 19th centruy. art depicting a person holding a bag and there are various names, dates, names, and titles](figure1a.png)
-![image of plain text on a white page](figure1b.png)
+![Reproduced 1834 runaway-slave notice for "Charlotte" of Curaçao, printed in parallel English and Dutch columns describing her appearance, languages, and a reward for her capture.](figure1b.png)
 {{< /figure >}}
 
 Fricke purposefully left the OCR errors in the material she annotated for Borenstein so that he could evaluate how the model would perform in real life conditions, where OCR errors are common.
