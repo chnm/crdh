@@ -97,6 +97,10 @@
                 <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
                 <span aria-hidden="true">&middot;</span>
                 <span>DOI: <a href="{{ .Params.doi }}" class="text-stone-500 hover:text-red-brand underline">{{ .Params.doi }}</a></span>
+                {{ with index .Params "primary-editor" }}
+                <span aria-hidden="true">&middot;</span>
+                <span>Edited by {{ . }}</span>
+                {{ end }}
             </div>
 
             {{/* Font size picker */}}
