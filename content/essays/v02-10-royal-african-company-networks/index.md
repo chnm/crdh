@@ -104,7 +104,7 @@ though the trade in non-human commodities was more valuable than the trade in pe
 {{< /figure >}}
 
 {{< figure caption="Figure 2. This map illustrates the density of ships “In the Road”---ships stationed one to two miles from shore---for the year 1683. Evident is heavy activity near Sekondi, between Alampo and Amersa, and between Accra and Christiansborg." >}}
-![Map of ships in the road.](figure2.jpg)
+![Map of ships in the road. Red cross-hatched clusters mark 1683 ship locations along the Gold Coast between Cape Apollonia and Mingo, with the densest concentrations near Cape Coast Castle, Anomabu, and Christiansborg.](figure2.jpg)
 {{< /figure >}}
 
 We approached the corpus through three main types of textual analysis:
@@ -260,7 +260,7 @@ exchanged these goods at the same time, but rather individually and
 sequentially.[^19]
 
 {{< figure caption="Figure 13. A co-occurrence analysis, tracking the appearance of pairs of words on a per-letter basis, reveals a lack of predictability among trade goods. The presence of one trade good in a letter does not predict the presence of other trade goods." >}}
-![List of co-occurrence analysis](figure13.jpg)
+![List of co-occurrence analysis. The two-column list is arranged in descending order of frequency, with "bars-iron" at 313 occurrences shown at the top left in dark red text, and three other word pairs highlighted in red scattered throughout the black text, ending with "knives-iron" at 33 occurrences in the bottom right corner.](figure13.jpg)
 {{< /figure >}}
 
 Ultimately we want to ask four different types of questions of the

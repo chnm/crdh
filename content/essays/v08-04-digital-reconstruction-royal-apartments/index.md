@@ -74,7 +74,7 @@ The first step is to create a network of connections between the
 different relevant spaces at the French court in 1585. These connections can be established by following the technique of access diagrams, where the enclosed spaces are represented as nodes, and the passageways between them are represented as edges. Since the method of access analysis usually departs their network from archeological remains or contemporary plans, I in this case, was able to choose to base the network on a contemporary ground plan of the royal apartment. Because Henri III was known to have resided most often in his Paris residence, the choice for Androuet du Cerceau's plan of the royal apartment in the Louvre from 1576 seems sensible (Fig. 3).[^23]
 
 {{< figure caption="Fig. 3: Engraving from Le premier volume des plus excellents Bastiments de France by Jacques I Androuet du Cerceau, showing the plan of the first and second storeys of the west part of the Louvre Palace, 1576." >}}
-![Hand engraved image of the Lourve](figure3.jpg)
+![Hand engraved image of the Lourve. The engraving shows two labeled floor plans side by side, "Le Plan du Bastiment Neuf du Deuxieme Estage" on the left and "du Premier Estage" on the right, framing a central courtyard labeled "La Court" and bearing a round library stamp in the lower right corner.](figure3.jpg)
 {{< /figure >}}
 
 This plan, however, predates the 1585 ordinance. From contemporary
@@ -364,7 +364,7 @@ With the addition of the presence of (types of) courtiers in the spaces of the r
 This number can be calculated separately or combined for the different temporal statements, thus representing the degree of accessibility based on the courtiers' presence over the entire day (Table 3). By changing the node size to match the in-degree, this degree of accessibility can also be visualized (fig. 6). From the representation of the entire day, it becomes clear that the *chambre d'audience* followed by the *chambre royalle* and *chambre d'Estat* were the most used---and therefore probably most accessible---spaces in the King's apartment.
 
 {{< figure caption="Fig. 6: Network of courtiers’ accessibility to the royal apartments. Nodes are scaled based on the weighted in-degree count." >}}
-![orange circle diagram saying Chambre d'Estat, Chambre d'Audience, Chambre royalle and various connecting grey lines between them](figure6.png)
+![orange circle diagram saying Chambre d'Estat, Chambre d'Audience, Chambre royalle and various connecting grey lines between them. The three orange nodes vary in size, with the King's chambre d'Audience drawn largest at the center, while smaller labeled nodes like the Queen Mother's antichambre appear along the network's periphery.](figure6.png)
 {{< /figure >}}
 
 {{< figure caption="Table 3: Degree of Accessibility calculated with the weighted in-degree count of separate rooms during the entire day." >}}
@@ -423,7 +423,7 @@ The King's *antichambre* seems less accessible for courtiers, but one needs to b
 By combining the data of both the courtiers' movements and those of the King in one network (Fig. 7), it is possible to make an abstract reconstruction of the spatiality of privacy at the court of Henri III. From the combined data concerning the entire day, it is clear that while, based on the courtiers' movements, the *chambre d'Estat*, *chambre d'audience,* and *chambre royalle* know a high degree of accessibility---and could therefore be called a particularly public space of the royal apartment---the King on the contrary barely uses these spaces himself. Instead, he spends most of his time in his cabinet and the apartment of the Queen Mother. In turn, these spaces know a minimal degree of accessibility.
 
 {{< figure caption="Fig. 7: Network combining the king's and courtiers' movements used to reconstruct the spatiality of privacy. Nodes are scaled based on weighted in-degree count. Blue lines indicate the king’s whereabouts." >}}
-![orange circle diagram saying Chambre d'Estat, Chambre d'Audience, Chambre royalle and various connecting grey lines between them](figure7.png)
+![orange circle diagram saying Chambre d'Estat, Chambre d'Audience, Chambre royalle and various connecting grey lines between them. The King's chambre d'Audience appears as the largest node with the thickest bundle of connecting lines, indicating it had the highest volume of recorded traffic among the rooms shown.](figure7.png)
 {{< /figure >}}
 
 From this network, it is possible to better understand the spatiality of privacy in the royal apartment. The network visualizes how a high number of courtiers had access to the *antichambre*, *chambre d'Estat*, *chambre d'audience* and *chambre royalle*. While a high degree of accessibility can be witnessed for four cases, their accessibility does gradually decrease according to the "deepness" of the space in question.However, the significant difference in accessibility between the

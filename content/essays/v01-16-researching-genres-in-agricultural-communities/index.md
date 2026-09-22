@@ -144,7 +144,7 @@ accounting by extension service agents, and the narrative section in the
 > records when they compute income tax returns.[^17]
 
 {{< figure caption="Table 1. Number of Times Farm Record Books Mentioned in Annual Reports. Florida Extension Service Annual Reports, 1915–1958." >}}
-![A table showing the number of times farm record books were mentioned in Flordia state reports fomr 1915 until 1958 based on different catagories such as farmers keeping full records, partial records or only assisting with records.](table1.png)
+![A table showing the number of times farm record books were mentioned in Flordia state reports fomr 1915 until 1958 based on different categories such as farmers keeping full records, partial records or only assisting with records.](table1.png)
 {{< /figure >}}
 
 Interpreting the spread of the farm record book from the perspective of

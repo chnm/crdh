@@ -225,7 +225,7 @@ brother-in-law George Lowry (also white) were accused of robbery and
 attempting an outrage on a young white woman.
 
 {{< figure caption="Figure 3. *Daily Dispatch* (Richmond), October 9, 1880, p. 3." >}}
-![Image of newspaper article from the Richmond Daily Dispatch](figure3.png)
+![Image of newspaper article from the Richmond Daily Dispatch. The article reports that George Lowry and David Thomas, described as white men, were arrested in Nelson County on a charge of assaulting a Miss Massie, with lynch law threatened.](figure3.png)
 {{< /figure >}}
 
 After their arrest, a mob seized [Lowry](https://sites.lib.jmu.edu/valynchings/va1880100801/)
@@ -236,7 +236,7 @@ lynched Lowry and spared the young Thomas. A few months later, Thomas
 was tried and sentenced to six years in prison for robbery.
 
 {{< figure caption="Figure 4. *Daily Dispatch* (Richmond), January 7, 1881, p. 2." >}}
-![Image of newspaper article from the Richmond Daily Dispatch](figure4.png)
+![Image of newspaper article from the Richmond Daily Dispatch. The article, signed "FRITZ," describes the grand jury indictment of Stephen T. Dillard and details the trial of sixteen-year-old David Thomas for house-breaking and rape, defended by Captain T. P. Fitzpatrick and prosecuted by Commonwealth's attorney Robert W. Whitehead.](figure4.png)
 {{< /figure >}}
 
 Two white men, [Evan Griffith](https://sites.lib.jmu.edu/valynchings/va1883012201/)

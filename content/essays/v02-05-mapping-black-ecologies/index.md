@@ -109,7 +109,7 @@ international gaze that the world began to become aware of what many in
 the United States knew already.
 
 {{< figure caption="Figure 4. Overall population loss in New Orleans from 2000--2010. The predominantly Black working-class areas of New Orleans East, Lower Ninth Ward, and Seventh Ward were most heavily affected by population loss after Katrina. Note the “sliver by the river,” a natural crest along the Mississippi River that has a greater chance of escaping total inundation when Hurricanes strike greater New Orleans. That area, corresponding with the racial topography of New Orleans, has come to be inhabited primarily by whites." >}}
-![Map of population loss in New Orleans](figure4.png)
+![Map of population loss in New Orleans. Dark maroon shading concentrated in Village de l'Est, Little Woods, and Read Blvd East/West indicates the steepest household losses, ranging from -933 to -1,863, while lighter peach tones across Uptown and the West Bank show comparatively smaller declines near zero.](figure4.png)
 {{< /figure >}}
 
 A willful distortion of reality is required to suggest that Hurricane

@@ -95,7 +95,7 @@ fluid. The maps are *visualizations,* rather than simply
 aspects we highlight and interpret, rather than by only text (figure 3).[^3]
 
 {{< figure caption="Figure 3. Fells Point in Baltimore. Green buildings are associated with free black residents; blue buildings housed enslaved workers; red buildings are associated with fugitive slaves; orange buildings are sites associated with the slave trade." >}}
-![Fells Point in Baltimore](figure3.png)
+![Fells Point in Baltimore. A 3D digital reconstruction highlights roughly a dozen individual rowhouses in bright pink, blue, green, orange, and red against an otherwise uncolored brick streetscape leading down to a harbor lined with docked sailing ships.](figure3.png)
 {{< /figure >}}
 
 Our other main interpretive argument involves documenting experiences on
@@ -208,7 +208,7 @@ Gill was most likely one of two Solomon Gills, both blacksmiths with
 shops in Old Town.[^9]
 
 {{< figure caption="Figure 7. Harry Moshier's neighborhood landscape. The Jones Falls is on the right, and the bridge crossing it is Baltimore Street." >}}
-![Harry Moshier's neighborhood landscape](figure7.png)
+![Harry Moshier's neighborhood landscape. The rendering is a labeled 3D digital reconstruction of circa-1815 Baltimore centered on the white steeple of Christ Episcopal Church, with Still-house Street, Plowman Street, and the Caton-Carroll House marked among the surrounding rowhouses.](figure7.png)
 {{< /figure >}}
 
 But of course there is much we don't know. Was Moshier hired out to
